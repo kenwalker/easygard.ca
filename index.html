@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Amtgard Mobile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css" />
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<!-- Start of first page -->
+<div data-role="page" id="spells-abilities">
+
+	<div data-role="header">
+		<h1>Spells and Abilities</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+			<div data-demo-html="true">
+				<ul data-role="listview" data-filter="true" data-autodividers="true" data-filter-placeholder="Search magic and abilities" data-inset="true">
+					<li><a href="#abeyance">Abeyance</a></li>
+					<li><a href="#">Adaptive Blessing</a></li>
+					<li><a href="#">Adaptive Protection</a></li>
+					<li><a href="#">Contagion</a></li>
+					<li><a href="#">Flame Blade</a></li>
+					<li><a href="#">Icy Blast</a></li>
+				</ul>
+			</div><!--/demo-html -->
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of second page -->
+<div data-role="page" id="abeyance" data-url="abeyance">
+
+	<div data-role="header">
+		<h1>Abeyance Page</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+		<p><a href="#spells-abilities">Back to Spells and Abilities</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
