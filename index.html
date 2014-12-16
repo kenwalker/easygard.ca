@@ -1,54 +1,247 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Amtgard Mobile</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css" />
-	<script src="lib/jquery.min.js"></script>
-	<script src="lib/jquery.mobile-1.4.5.min.js"></script>
-</head>
+   <head>
+      <title>Amtgard Mobile</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css" />
+      <script src="lib/jquery.min.js"></script>
+      <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+   <body>
+      <!-- Start of first page -->
+      <div data-role="page" id="spells-abilities">
+         <div data-role="header" style="overflow:hidden;">
+            <div data-role="navbar">
+               <ul>
+                  <li><a href="#spells-abilities">Spells/Abilities</a></li>
+                  <li><a href="#allClasses">Classes</a></li>
+               </ul>
+            </div>
+            <!-- /navbar -->
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-autodividers="true" data-filter-placeholder="Search magic and abilities" data-inset="true">
+               <li><a href="#abeyance">Abeyance *</a></li>
+               <li><a href="#">Adaptive Blessing</a></li>
+               <li><a href="#">Adaptive Protection</a></li>
+               <li><a href="#">Contagion</a></li>
+               <li><a href="#flameblade">Flame Blade *</a></li>
+               <li><a href="#forcebolt">Force Bolt *</a><li>
+               <li><a href="#">Icy Blast</a></li>
+            </ul>
+         </div>
+         <!-- /content -->
+      </div>
+      <!-- /page -->
+      <!-- Start of abeyance page -->
+      <div data-role="page" id="abeyance" data-url="abeyance">
+         <div data-role="header" style="overflow:hidden;">
+            <div data-role="navbar">
+               <ul>
+                  <li><a href="#spells-abilities">Spells/Abilities</a></li>
+                  <li><a href="#allClasses">Classes</a></li>
+               </ul>
+            </div>
+            <!-- /navbar -->
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+            <h2>Abeyance</h2>
+            <h3>Healer 5</h3>
+            <p>
+               <b>T:</b> Magic Ball<br>
+               <b>S:</b> Subdual<br>
+               <b>I:</b> The strength of aether is mine to evoke x3<br>
+               <b>M:</b> Green Magic Ball<br>
+               <b>E:</b> Target is Stunned for 60 seconds. Ignores armor<br>
+            </p>
+         </div>
+         <!-- /content -->
+      </div>
+      <!-- /page -->
 
-<body>
-<!-- Start of first page -->
-<div data-role="page" id="spells-abilities">
+      <!-- Start of Flame Blade page -->
+      <div data-role="page" id="flameblade" data-url="flameblade">
+         <div data-role="header" style="overflow:hidden;">
+            <div data-role="navbar">
+               <ul>
+                  <li><a href="#spells-abilities">Spells/Abilities</a></li>
+                  <li><a href="#allClasses">Classes</a></li>
+               </ul>
+            </div>
+            <!-- /navbar -->
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+            <h2>Flameblade</h2>
+            <h3>Druid 4</h3>
+            <p>
+               <b>T:</b> Enchantment<br>
+               <b>S:</b> Flame<br>
+               <b>R:</b> Touch<br>
+               <b>I:</b> The element of fire shall infuse your weapons x3<br>
+               <b>M:</b> Red strip and white strip<br>
+               <b>E:</b> Bearers melee weapons are Armor Breaking and Shield Crushing. Bearer and their weapons are Immune to Flame.<br>
+            </p>
+         </div>
+         <!-- /ui-content -->
+      </div>
+      <!-- /page -->
 
-	<div data-role="header">
-		<h1>Spells and Abilities</h1>
-	</div><!-- /header -->
+      <!-- Start of Force Bolt page -->
+      <div data-role="page" id="forcebolt" data-url="forcebolt">
+         <div data-role="header" style="overflow:hidden;">
+            <div data-role="navbar">
+               <ul>
+                  <li><a href="#spells-abilities">Spells/Abilities</a></li>
+                  <li><a href="#allClasses">Classes</a></li>
+               </ul>
+            </div>
+            <!-- /navbar -->
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+          <h2>Force Bolt</h2>
+          <h3>Druid 4, <a href="#wizard">Wizard 1</a></h3>
+            <p>
+               <b>T:</b> Magic Ball<br>
+               <b>S:</b> Sorcery<br>
+               <b>R:</b> Ball<br>
+               <b>I:</b> Forcebolt x3<br>
+               <b>M:</b> Blue Magic Ball<br>
+               <b>E:</b> Force Bolt will have one of the following effects on the object first struck
+                <ol>
+                <li>A weapon hit is destroyed</li>
+                <li>Armor hit with Armor Points remaining is subject to Armor Breaking</li>
+                <li>A player hit receives a Wound to that hit location</li>
+                </ol>
+            </p>
+         </div>
+         <!-- /ui-content -->
+      </div>
+      <!-- /page -->
 
-	<div role="main" class="ui-content">
-			<div data-demo-html="true">
-				<ul data-role="listview" data-filter="true" data-autodividers="true" data-filter-placeholder="Search magic and abilities" data-inset="true">
-					<li><a href="#abeyance">Abeyance</a></li>
-					<li><a href="#">Adaptive Blessing</a></li>
-					<li><a href="#">Adaptive Protection</a></li>
-					<li><a href="#">Contagion</a></li>
-					<li><a href="#">Flame Blade</a></li>
-					<li><a href="#">Icy Blast</a></li>
-				</ul>
-			</div><!--/demo-html -->
-	</div><!-- /content -->
+      <!-- Start of classes page -->
+      <div data-role="page" id="allClasses" data-url="allClasses">
+         <div data-role="header" style="overflow:hidden;">
+            <div data-role="navbar">
+               <ul>
+                  <li><a href="#spells-abilities">Spells/Abilities</a></li>
+                  <li><a href="#allClasses">Classes</a></li>
+               </ul>
+            </div>
+            <!-- /navbar -->
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+               <li data-role="list-divider">Melee</li>
+               <li><a href="#archer">Archer</a></li>
+               <li><a href="#">Assassin</a></li>
+               <li><a href="#">Barbarian</a></li>
+               <li><a href="#">Monk</a></li>
+               <li><a href="#">Scout</a></li>
+               <li><a href="#">Warrior</a></li>
+               <li data-role="list-divider">Spell Caster</li>
+               <li><a href="#">Bard</a></li>
+               <li><a href="#">Druid</a></li>
+               <li><a href="#">Healer</a></li>
+               <li><a href="#wizard">Wizard *</a></li>
+               <li data-role="list-divider">Knights</li>
+               <li><a href="#">Anti-Paladin</a></li>
+               <li><a href="#">Paladin</a></li>
+            </ul>
+         </div>
+         <!-- /content -->
+      </div>
+      <!-- /page -->
 
-	<div data-role="footer">
-		<h4>Page Footer</h4>
-	</div><!-- /footer -->
-</div><!-- /page -->
+      <!-- Start of Wizard page -->
+      <div data-role="page" id="wizard" data-url="wizard">
+         <div data-role="header" style="overflow:hidden;">
+            <div data-role="navbar">
+               <ul>
+                  <li><a href="#spells-abilities">Spells/Abilities</a></li>
+                  <li><a href="#allClasses">Classes</a></li>
+               </ul>
+            </div>
+            <!-- /navbar -->
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+            <h1>Wizard - Spell Caster</h1>
+<p>
+<b>Garb:</b> Yellow sash<br>
+<b>Look The Part:</b> 1 extra point of magic at the Wizards highest level<br>
+<b>Armor:</b> None<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger<br>
+<b>Magic-user:</b> Wizards may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times.<br>
+</p>
+            <h3>1st Level Spells</h3>
+        <table data-role="table" id="table-custom-2" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>Banish</th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Spirit</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="#forcebolt">Force Bolt</a></th>
+             <td>1</td>
+             <td>4</td>
+             <td>3 Balls/Unlmt</td>
+             <td>Magic Ball</td>
+             <td>Sorcery</td>
+             <td>Ball</td>
+           </tr>
+         </tbody>
+       </table>
+        <h3>3rd Level Spells</h3>
+        <table data-role="table" id="table-custom-2" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>Dispel Magic</th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref Chgx3</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>20</td>
+           </tr>
+         </tbody>
+       </table>
+         </div>
+         <!-- /ui-content -->
+      </div>
+      <!-- /page -->
 
-<!-- Start of second page -->
-<div data-role="page" id="abeyance" data-url="abeyance">
-
-	<div data-role="header">
-		<h1>Abeyance Page</h1>
-	</div><!-- /header -->
-
-	<div role="main" class="ui-content">
-		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
-		<p><a href="#spells-abilities">Back to Spells and Abilities</a></p>
-	</div><!-- /content -->
-
-	<div data-role="footer">
-		<h4>Page Footer</h4>
-	</div><!-- /footer -->
-</div><!-- /page -->
-</body>
+   </body>
 </html>
