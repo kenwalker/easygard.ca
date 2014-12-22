@@ -1,0 +1,17 @@
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a" >
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Search Easygard..." data-filter-reveal="true">
+<% if !defined?(loaded) %>
+<li data-filtertext="home page" data-icon="home"><a href="/">Home</a></li>
+<li data-filtertext="introduction overview getting started"><a href="/intro/" data-ajax="false">Introduction</a></li>
+<li data-filtertext="spells abilities caster" data-icon="bullets"><a href="/spells/" data-ajax="false">Spells & Abilities</a></li>
+<li data-filtertext="classes caster melee knight" data-icon="bullets"><a href="/classes/" data-ajax="false">Classes</a></li>
+<li data-filtertext="abeyance healer green spell ball"><a href="/spells-a/#abeyance" data-ajax="false">Abeyance</a></li>
+<li data-filtertext="banish healer wizard spell"><a href="/spells-a/#banish" data-ajax="false">Banish</a></li>
+<li data-filtertext="wizard caster class"><a href="/classes/#wizard" data-ajax="false">Wizard</a></li>
+<li data-filtertext="about contact info author" data-icon="info"><a href="/about/" data-ajax="true">About</a></p>
+<% end %>
+			</ul>
+		</div>
+	</div><!-- /panel -->

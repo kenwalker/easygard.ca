@@ -1,0 +1,111 @@
+<div data-role="page" class="jqm-demos jqm-home" id="allclasses">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel' %>
+
+         <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li data-role="list-divider">Melee</li>
+               <li><a href="#archer">Archer</a></li>
+               <li><a href="#">Assassin</a></li>
+               <li><a href="#">Barbarian</a></li>
+               <li><a href="#">Monk</a></li>
+               <li><a href="#">Scout</a></li>
+               <li><a href="#">Warrior</a></li>
+               <li data-role="list-divider">Spell Caster</li>
+               <li><a href="#">Bard</a></li>
+               <li><a href="#">Druid</a></li>
+               <li><a href="#">Healer</a></li>
+               <li><a href="#wizard">Wizard *</a></li>
+               <li data-role="list-divider">Knights</li>
+               <li><a href="#">Anti-Paladin</a></li>
+               <li><a href="#">Paladin</a></li>
+            </ul>
+         </div>
+         <!-- /content -->
+
+</div><!-- /page -->
+
+      <!-- Start of Wizard page -->
+<div data-role="page" class="jqm-demos jqm-home" id="wizard" data-url="wizard">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Wizard - Spell Caster</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Yellow sash<br>
+<b>Look The Part:</b> 1 extra point of magic at the Wizards highest level<br>
+<b>Armor:</b> None<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger<br>
+<b>Magic-user:</b> Wizards may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times.<br>
+</p>
+            <h3>1st Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells-a/#banish" data-ajax="false">Banish</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Spirit</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th>Force Bolt</th>
+             <td>1</td>
+             <td>4</td>
+             <td>3 Balls/Unlmt</td>
+             <td>Magic Ball</td>
+             <td>Sorcery</td>
+             <td>Ball</td>
+           </tr>
+         </tbody>
+       </table>
+        <h3>3rd Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl3" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>Dispel Magic</th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref Chgx3</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>20</td>
+           </tr>
+         </tbody>
+       </table>
+         </div>
+         </div>
+         <!-- /ui-content -->
+      </div>
+      <!-- /page -->
+
