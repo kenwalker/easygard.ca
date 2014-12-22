@@ -1,9 +1,0 @@
----
-applications:
-- name: EasyGard
-  mem: 64M
-  instances: 1
-  path: .
-  host: EasyGard
-  command: node app.js
-

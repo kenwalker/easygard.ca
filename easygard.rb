@@ -15,6 +15,22 @@ get '/spells/' do
 	erb :spells
 end
 
+get '/armor/' do 
+	erb :armor
+end
+
+get '/combat/' do 
+	erb :combat
+end
+
+get '/weapons/' do 
+	erb :weapons
+end
+
+get '/states/' do 
+	erb :states
+end
+
 get '/spells-a/' do
 	erb :'spells-a'
 end

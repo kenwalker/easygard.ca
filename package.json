@@ -1,7 +1,0 @@
-{
-  "name": "easygard",
-  "main": "app.js",
-  "dependencies": {
-    "express": "~4.0.0"
-  }
-}
