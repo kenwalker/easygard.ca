@@ -19,33 +19,200 @@
             </div>
          </div>
          <!-- /content -->
-
 </div><!-- /page -->
 
-<!-- Start of banish page -->
-<div data-role="page" class="jqm-demos jqm-home" id="banish" data-url="banish">
-
+<!-- Start of adaptiveblessing page -->
+<div data-role="page" class="jqm-demos jqm-home" id="adaptiveblessing" data-url="adaptiveblessing">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
 <%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
 
          <div role="main" class="ui-content">
-            <h3 class="ui-bar ui-bar-a ui-corner-all">Banish</h3>
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Adaptive Blessing</h3>
             <div class="ui-body ui-body-a ui-corner-all">
-               <h3>Healer 1, <a href="/classes/#wizard" data-ajax="false">Wizard</a> 1</h3>
+               <h3>Healer 2, <a href="/classes/#scout" data-ajax="false">Scout</a> 6</h3>
                <p>
-                  <b>T:</b> Verbal<br>
-                  <b>S:</b> Spirit<br>
-                  <b>R:</b> 20'<br>
-                  <b>I:</b> "The Spirits banish thee from this place" x3<br>
-                  <b>E:</b> Target Insubstantial player must return to their respawn location where their Insubstantial State immediately ends<br>
-                  <b>N:</b> A player bearing Undead Minion or Greater Undead Minion who is currently Insubstantial has their Enchantment removed
+                  <b>T:</b> Enchantment<br>
+                  <b>S:</b> Protection<br>
+                  <b>R:</b> Touch<br>
+                  <b>I:</b> "I enchante thee with blessing" x3<br>
+                  <b>M:</b> White Strip<br>
+                  <b>E:</b> Bearer becomes Resistant to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit, may not be worn with any other Enchantments from the Protection School<br>
                </p>
             </div>
          </div>
          <!-- /content -->
-
 </div><!-- /page -->
 
+<!-- Start of adaptiveprotection page -->
+<div data-role="page" class="jqm-demos jqm-home" id="adaptiveprotection" data-url="adaptiveprotection">
 
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Adaptive Protection</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Healer 3</h3>
+               <p>
+                  <b>T:</b> Enchantment<br>
+                  <b>S:</b> Protection<br>
+                  <b>R:</b> Touch<br>
+                  <b>I:</b> "I enchante thee with protection" x3<br>
+                  <b>M:</b> White Strip<br>
+                  <b>E:</b> Bearer becomes Immune to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting.<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of adrenaline page -->
+<div data-role="page" class="jqm-demos jqm-home" id="adrenaline" data-url="adrenaline">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Adrenaline</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Barbarian 3</h3>
+               <p>
+                  <b>T:</b> Verbal<br>
+                  <b>S:</b> Spirit<br>
+                  <b>R:</b> Self<br>
+                  <b>I:</b> "Adrenaline"<br>
+                  <b>E:</b> Player heals a wound<br>
+                  <b>L:</b> May only be used within 30 seconds of killing an enemy in melee combat or causing the activation of any effects which allow the player struck to avoid death such as Undead Minion, Song of Survival, or other similar magic and abilities. May not be used within 10’ of a living enemy<br>
+                  <b>N:</b> May only be used by the player striking the final blow and only once per kill per eligible enemy<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of agoraphobia page -->
+<div data-role="page" class="jqm-demos jqm-home" id="agoraphobia" data-url="agoraphobia">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Agoraphobia</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Bard 5</h3>
+               <p>
+                  <b>T:</b> Verbal<br>
+                  <b>S:</b> Command<br>
+                  <b>R:</b> 20'<br>
+                  <b>I:</b> "I command thee to be alone" x3<br>
+                  <b>E:</b> Target must remain at least 20’ away from all other players unless forced there by another Magic or Ability. Lasts 30 seconds<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of amplification page -->
+<div data-role="page" class="jqm-demos jqm-home" id="amplification" data-url="amplification">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Amplification</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Bard 4</h3>
+               <p>
+                  <b>T:</b> Verbal<br>
+                  <b>S:</b> Sorcery<br>
+                  <b>R:</b> Touch<br>
+                  <b>I:</b> "My power amplifies thine"<br>
+                  <b>E:</b> Target player’s next Verbal magic is affected as per Extension<br>
+                  <b>L:</b> May not be used on the caster<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of ambulant page -->
+<div data-role="page" class="jqm-demos jqm-home" id="ambulant" data-url="ambulant">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Ambulant</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Bard 5, Druid 5, Healer 5, Wizard 5</h3>
+               <p>
+                  <b>T:</b> Meta-Magic<br>
+                  <b>S:</b> Neutral<br>
+                  <b>I:</b> "Ambulant"<br>
+                  <b>E:</b> An incantation may be said while moving. May be cast while moving<br>
+                  <b>L:</b> May not be used on the Charge incantation<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of ancestralarmor page -->
+<div data-role="page" class="jqm-demos jqm-home" id="ancestralarmor" data-url="ancestralarmor">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Ancestral Armor</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Healer 6, Warrior 6</h3>
+               <p>
+                  <b>T:</b> Enchantement<br>
+                  <b>S:</b> Protection<br>
+                  <b>R:</b> Touch<br>
+                  <b>I:</b> "May this armor protect you from all forms of harm.
+May the flames of the fire not burn you.
+May the bolts from the heavens not strike you.
+May the arrows of your enemies not pierce you.
+May this armor protect you from all forms of harm."<br>
+                  <b>M:</b> White Strip<br>
+                  <b>E:</b> The effects of a Magic Ball, projectile, or weapon which just struck armor worn by the player is ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities<br>
+                  <b>L:</b> Phase Arrow and Phase Bolt interact with armor worn by the bearer as though Ancestral Armor was not present<br>
+                  <b>N:</b> Abilities that ignore armor do not trigger Ancestral Armor<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of assassinate page -->
+<div data-role="page" class="jqm-demos jqm-home" id="assassinate" data-url="assassinate">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Assassinate</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Assassin 1</h3>
+               <p>
+                  <b>T:</b> Verbal<br>
+                  <b>S:</b> Death<br>
+                  <b>R:</b> 20'<br>
+                  <b>I:</b> Say the word “Assassinate” immediately upon killing a person<br>
+                  <b>E:</b> The victim is Cursed<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+</div><!-- /page -->

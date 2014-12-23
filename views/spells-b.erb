@@ -1,0 +1,51 @@
+<!-- Start of abeyance page -->
+<div data-role="page" class="jqm-demos jqm-home" id="abeyance" data-url="abeyance">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel' %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Abeyance</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Healer 5</h3>
+               <p>
+                  <b>T:</b> Magic Ball<br>
+                  <b>S:</b> Subdual<br>
+                  <b>I:</b> "The strength of aether is mine to evoke" x3<br>
+                  <b>M:</b> Green Magic Ball<br>
+                  <b>E:</b> Target is Stunned for 60 seconds. Ignores armor<br>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Start of banish page -->
+<div data-role="page" class="jqm-demos jqm-home" id="banish" data-url="banish">
+
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Banish</h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>Healer 1, <a href="/classes/#wizard" data-ajax="false">Wizard</a> 1</h3>
+               <p>
+                  <b>T:</b> Verbal<br>
+                  <b>S:</b> Spirit<br>
+                  <b>R:</b> 20'<br>
+                  <b>I:</b> "The Spirits banish thee from this place" x3<br>
+                  <b>E:</b> Target Insubstantial player must return to their respawn location where their Insubstantial State immediately ends<br>
+                  <b>N:</b> A player bearing Undead Minion or Greater Undead Minion who is currently Insubstantial has their Enchantment removed
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+
+</div><!-- /page -->
+
+
