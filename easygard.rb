@@ -35,6 +35,10 @@ get '/spells-a/' do
 	erb :'spells-a'
 end
 
+get '/spells-b/' do
+	erb :'spells-b'
+end
+
 get '/classes/' do 
 	erb :classes
 end
