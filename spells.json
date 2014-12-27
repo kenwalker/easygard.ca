@@ -1,17 +1,397 @@
 {
+  "abeyance": {
+    "classes": {
+      "Healer": "5"
+    },
+    "e": "Target is Stunned for 60 seconds. Ignores armor",
+    "i": "\"The strength of aether is mine to evoke\" x3",
+    "keywords": "abeyance ball green subdual healer",
+    "m": "Green Magic Ball",
+    "name": "Abeyance",
+    "r": "Ball",
+    "s": "Subdual",
+    "t": "Magic Ball"
+  },
+  "adaptiveblessing": {
+    "name": "Adaptive Blessing",
+    "keywords": "enchantment white healer scout",
+    "classes": {
+      "Healer": "2",
+      "Scout": "6"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with this blessing\" x3",
+    "m": "White Strip",
+    "e": "Bearer becomes Resistant to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit, may not be worn with any other Enchantments from the Protection School"
+  },
+  "adaptiveprotection": {
+    "name": "Adaptive Protection",
+    "keywords": "enchantment white healer",
+    "classes": {
+      "Healer": "3"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with this protection\" x3",
+    "m": "White Strip",
+    "e": "earer becomes Immune to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting"
+  },
+
+  "adrenaline": {
+    "name": "Adrenaline",
+    "keywords": "verbal spirit barbarian",
+    "classes": {
+      "Barbarian": "3"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Self",
+    "i": "\"Adrenaline\"",
+    "e": "Player heals a wound",
+    "l": "May only be used within 30 seconds of killing an enemy in melee combat or causing the activation of any effects which allow the player struck to avoid death such as Undead Minion, Song of Survival, or other similar magic and abilities. May not be used within 10’ of a living enemy",
+    "n": "May only be used by the player striking the final blow and only once per kill per eligible enemy"
+  },
+
+  "agoraphobia": {
+    "name": "Agoraphobia",
+    "keywords": "bard verbal command",
+    "classes": {
+      "Bard": "5"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thee to be alone\" x3",
+    "e": "Target must remain at least 20’ away from all other players unless forced there by another Magic or Ability. Lasts 30 seconds."
+  },
+
+  "amplification": {
+    "name": "Amplification",
+    "keywords": "bard verbal sorcery",
+    "classes": {
+      "Bard": "4"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"My power amplifies thine\"",
+    "e": "Target player’s next Verbal magic is affected as per Extension",
+    "l": "May not be used on the caster"
+  },
+
+  "ambulant": {
+    "name": "Ambulant",
+    "keywords": "bard druid healer wizard meta magic",
+    "classes": {
+      "Bard": "5",
+      "Druid": "5",
+      "Healer": "5",
+      "Wizard": "5"
+    },
+    "t": "Meta-Magic",
+    "s": "Neutral",
+    "i": "\"Ambulant\"",
+    "e": "An incantation may be said while moving. May be cast while moving",
+    "l": "May not be used on the Charge incantation"
+  },
+
+  "ancestralarmor": {
+    "name": "Ancestral Armor",
+    "keywords": "healer warrior enchantment protection",
+    "classes": {
+      "Healer": "6",
+      "Warrior": "6"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "<br>\"May this armor protect you from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect you from all forms of harm\"",
+    "m": "White Strip",
+    "e": "The effects of a Magic Ball, projectile, or weapon which just struck armor worn by the player is ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities",
+    "l": "Phase Arrow and Phase Bolt interact with armor worn by the bearer as though Ancestral Armor was not present",
+    "n": "Abilities that ignore armor do not trigger Ancestral Armor"
+  },
+
+  "assassinate": {
+    "name": "Assassinate",
+    "keywords": "assassin verbal death",
+    "classes": {
+      "Assassin": "1"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "Say the word \"Assassinate\" immediately upon killing a person.",
+    "m": "materials",
+    "e": "The victim is Cursed"
+  },
+
+  "astralintervention": {
+    "name": "Astral Intervention",
+    "keywords": "healer wizard verbal command",
+    "classes": {
+      "Healer": "3",
+      "Wizard": "2"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thee to retreat into the aether\" x 3",
+    "e": "Target player becomes Insubstantial for 30 seconds"
+  },
+
+  "attuned": {
+    "name": "Attuned",
+    "keywords": "druid enchantment sorcery",
+    "classes": {
+      "Druid": "3"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I enchant thee with attune\" x3",
+    "m": "Yellow strip",
+    "e": "May wear an additional Enchantment. Attuned does not count towards the bearer’s Enchantment limit",
+    "l": "This ability may not be used in conjunction with any other similar ability or magic"
+  },
+
+  "avatarofnature": {
+    "name": "Avatar of Nature",
+    "keywords": "druid avatar nature",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "All the casters Enchantments of level 4 and below are now range Self instead of their previous range. Does not apply to Golem"
+  },
+
+  "awe": {
+    "name": "Awe",
+    "keywords": "bard paladin anti verbal command",
+    "classes": {
+      "Anti-Paladin": "1",
+      "Bard": "3",
+      "Paladin": "1"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thee awed\" x3",
+    "e": "Target may not attack or cast magic at the caster. Target must remain at least 20’ away from the caster unless forced there by another Magic or Ability. Lasts 30 seconds",
+    "n": "If the caster attacks or begins casting another magic at the target, this spell’s effect is negated"
+  },
+
   "banish": {
     "name": "Banish",
-
+    "keywords": "banish healer wizard insubstantial spirit",
     "classes": {
-      "healer": "1",
-      "wizard": "1"
+      "Healer": "1",
+      "Wizard": "1"
     },
-
     "t": "Verbal",
     "s": "Spirit",
     "r": "20",
-    "i": "\"The Spirits banish thee from this place x3\"",
+    "i": "\"The Spirits banish thee from this place\" x3",
     "e": "Target Insubstantial player must return to their respawn location where their Insubstantial State immediately ends",
     "n": "A player bearing Undead Minion or Greater Undead Minion who is currently Insubstantial has their Enchantment removed"
+  },
+
+  "barkskin": {
+    "name": "Barkskin",
+    "keywords": "druid enchantment protection",
+    "classes": {
+      "Druid": "1"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with barkskin\" x3",
+    "m": "White strip",
+    "e": "Bearer gains one point of Magic Armor"
+  },
+
+  "battlefieldtriage": {
+    "name": "Battlefield Triage",
+    "keywords": "bard enchantment spirit",
+    "classes": {
+      "Bard": "3"
+    },
+    "t": "Enchantment",
+    "s": "Spirit",
+    "r": "Self or Touch",
+    "m": "4 Yellow strips",
+    "e": "Bearer is Stopped. Bearer may cast Greater Heal by announcing \"<Player> thou art made whole\". Bearer must remove an Enchantment strip after each use of Greater Heal",
+    "n": "Battlefield Triage is removed when the last strip is removed"
+  },
+
+  "battlemage": {
+    "name": "Battlemage",
+    "keywords": "wizard ambulant",
+    "classes": {
+      "Wizard": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Use of Ambulant becomes unlimited",
+    "l": "May not purchase Enchantments or Magic Balls"
+  },
+
+  "bearstrength": {
+    "name": "Spell or Ability name",
+    "keywords": "druid enchantment sorcery",
+    "classes": {
+      "Druid": "3"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I enchant thee with the strength of the bear\" x3",
+    "m": "Red Strip",
+    "e": "Bearer’s melee weapons are Shield Crushing"
+  },
+
+  "berserk": {
+    "name": "Berserk",
+    "keywords": "barbarian enchantment sorcery",
+    "classes": {
+      "Barbarian": "1"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Self",
+    "m": "Red Strip",
+    "e": "All weapons wielded in melee are Armor Breaking"
+  },
+
+  "blessedaura": {
+    "name": "Blessed Aura",
+    "keywords": "healer enchantment protection",
+    "classes": {
+      "Healer": "5"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thy person, arms, and armor\" x3",
+    "m": "White Strip",
+    "e": "Resistant to the next effect which would inflict a Wound, Death, State, or the next effect which would negatively affect them or their equipment. Does not trigger against effects cast by the player"
+  },
+
+  "blessingagainstharm": {
+    "name": "Blessing Against Harm",
+    "keywords": "healer enchantment protection",
+    "classes": {
+      "Healer": "4"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee against all harm\" x3",
+    "m": "White Strip",
+    "e": "Resistant to the next effect which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
+  },
+
+  "blessingagainstwounds": {
+    "name": "Blessing Against Wounds",
+    "keywords": "healer enchantment protection",
+    "classes": {
+      "Healer": "1"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee against wounds\" x3",
+    "m": "White Strip",
+    "e": "Resistant to Wounds. Does not count towards a players Enchantment limit",
+    "l": "May not be worn with any other Enchantments from the Protection School"
+  },
+
+  "blink": {
+    "name": "Blink",
+    "keywords": "assassin verbal sorcery insubstantial",
+    "classes": {
+      "Assassin": "3"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"I vanish from sight\"",
+    "e": "Player becomes Insubstantial and can move to any location within 50’ from their starting point",
+    "l": "Caster may not end State within 10’ of a living enemy"
+  },
+
+  "bloodandthunder": {
+    "name": "Blood and Thunder",
+    "keywords": "barbarian verbal spirit",
+    "classes": {
+      "Barbarian": "1"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Self",
+    "i": "\"Blood and Thunder!\"",
+    "e": "Player gains Blessing Against Wounds",
+    "l": "May only be used within 30 seconds of killing an enemy in melee combat or causing the activation of any effects which allow the player struck to avoid death such as Undead Minion, Song of Survival, or other similar magic and abilities. May not be used within 10’ of a living enemy",
+    "n": "May only be used by the player striking the final blow and only once per kill per eligible enemy. Player must still wear a white strip to denote Blessing Against Wounds"
+  },
+
+  "breakconcentration": {
+    "name": "Break Concentration",
+    "keywords": "bard wizard verbal command suppressed",
+    "classes": {
+      "Bard": "3",
+      "Wizard": "2"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thee suppressed\"",
+    "e": "Target player is suppressed for 10 seconds"
+  },
+
+  "brutalstrike": {
+    "name": "Brutal Strike",
+    "keywords": "anti paladin barbarian verbal death cursed suppressed",
+    "classes": {
+      "Anti-Paladin": "4",
+      "Barbarian": "5"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "Unlimited",
+    "i": "\"And stay down!\"",
+    "e": "Victim is Cursed and Suppressed for 30 seconds",
+    "l": "Must be used immediately upon the caster dealing a Wound to the victim in melee combat"
+  },
+
+  "uniquename": {
+    "name": "Spell or Ability name",
+    "keywords": "some lowercase separated words used to search",
+    "classes": {
+      "Anti-Paladin": "1",
+      "Archer": "1",
+      "Assassin": "1",
+      "Barbarian": "1",
+      "Bard": "1",
+      "Druid": "1",
+      "Healer": "1",
+      "Monk": "1",
+      "Paladin": "1",
+      "Scout": "1",
+      "Warrior": "1",
+      "Wizard": "1"
+    },
+    "t": "type",
+    "s": "school",
+    "r": "range",
+    "i": "incantation",
+    "m": "materials",
+    "e": "effect",
+    "l": "limitations",
+    "n": "notes"
   }
 }

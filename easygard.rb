@@ -1,4 +1,7 @@
 require 'sinatra' 
+require_relative 'spells'
+
+spells = Spells.new()
 
 set :bind, '0.0.0.0'
 set :port, 1337
@@ -31,12 +34,9 @@ get '/states/' do
 	erb :states
 end
 
-get '/spells-a/' do
-	erb :'spells-a'
-end
-
-get '/spells-b/' do
-	erb :'spells-b'
+get '/spells/:letter' do
+	@reducedHash = spells.allSpells().reject {|k,v| k[0] != params[:letter]}
+	erb :"spell-byletter"
 end
 
 get '/classes/' do 

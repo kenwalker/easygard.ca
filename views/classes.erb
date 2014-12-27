@@ -7,7 +7,7 @@
          <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li data-role="list-divider">Melee</li>
-               <li><a href="#archer">Archer</a></li>
+               <li><a href="#Archer">Archer</a></li>
                <li><a href="#">Assassin</a></li>
                <li><a href="#">Barbarian</a></li>
                <li><a href="#">Monk</a></li>
@@ -17,7 +17,7 @@
                <li><a href="#">Bard</a></li>
                <li><a href="#">Druid</a></li>
                <li><a href="#">Healer</a></li>
-               <li><a href="#wizard">Wizard *</a></li>
+               <li><a href="#Wizard">Wizard *</a></li>
                <li data-role="list-divider">Knights</li>
                <li><a href="#">Anti-Paladin</a></li>
                <li><a href="#">Paladin</a></li>
@@ -28,7 +28,7 @@
 </div><!-- /page -->
 
       <!-- Start of Wizard page -->
-<div data-role="page" class="jqm-demos jqm-home" id="wizard" data-url="wizard">
+<div data-role="page" class="jqm-demos jqm-home" id="Wizard" data-url="Wizard">
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
 <%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
@@ -59,7 +59,7 @@
          </thead>
          <tbody>
            <tr>
-             <th><a href="/spells-b/#banish" data-ajax="false">Banish</a></th>
+             <th><a href="/spells/b#banish" data-ajax="false">Banish</a></th>
              <td>1</td>
              <td>-</td>
              <td>1/Life</td>
@@ -94,7 +94,7 @@
          </thead>
          <tbody>
            <tr>
-             <th><a href="/spells-a/#astralintervention" data-ajax="false">Astral Intervention</a></th>
+             <th><a href="/spells/a#astralintervention" data-ajax="false">Astral Intervention</a></th>
              <td>1</td>
              <td>-</td>
              <td>1/Life</td>
@@ -103,7 +103,7 @@
              <td>20</td>
            </tr>
            <tr>
-             <th>Break Concentration</th>
+             <th><a href="/spells/b#breakconcentration" data-ajax="false">Break Concentration</a></th>
              <td>1</td>
              <td>-</td>
              <td>1/Life</td>

@@ -1,0 +1,52 @@
+<% @loaded = 'false' %>
+<% @reducedHash.each do |uniqueName, spellData| %>
+
+<div data-role="page" class="jqm-demos jqm-home" id="<%= uniqueName %>" data-url="<%= uniqueName %>">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all"><%= spellData['name'] %></h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>
+               <% spellData['classes'].each do |aClass, aLevel| %>
+                  <a href="/classes/#<%=aClass%>" data-ajax="false"><%=aClass%></a> <%=aLevel%>
+               <% end %>
+               </h3>
+               <p>
+                  <% if spellData.include?('t') %>
+                  <b>Type:</b> <%= spellData['t'] %><br>
+                  <% end %>
+                  <% if spellData.include?('s') %>
+                  <b>School:</b> <%= spellData['s'] %><br>
+                  <% end %>
+                  <% if spellData.include?('r') %>
+                  <b>Range:</b> <%= spellData['r'] %><br>
+                  <% end %>
+                  <% if spellData.include?('i') %>
+                  <b>Incant:</b> <%= spellData['i'] %><br>
+                  <% end %>
+                  <% if spellData.include?('m') %>
+                  <b>Materials:</b> <%= spellData['m'] %><br>
+                  <% end %>
+                  <% if spellData.include?('e') %>
+                  <b>Effect:</b> <%= spellData['e'] %><br>
+                  <% end %>
+                  <% if spellData.include?('l') %>
+                  <b>Limitations:</b> <%= spellData['l'] %><br>
+                  <% end %>
+                  <% if spellData.include?('n') %>
+                  <b>Notes:</b> <%= spellData['n'] %><br>
+                  <% end %>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+
+</div><!-- /page -->
+<% end %>
+
+
