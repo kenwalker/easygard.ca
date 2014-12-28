@@ -368,6 +368,118 @@
     "l": "Must be used immediately upon the caster dealing a Wound to the victim in melee combat"
   },
 
+  "calllightning": {
+    "name": "Call Lightning",
+    "keywords": "druid verbal flame",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Verbal",
+    "s": "Flame",
+    "r": "20",
+    "i": "\"I call lightning’s flame to strike thee\" x3",
+    "e": "Target player dies"
+  },
+
+  "cancel": {
+    "name": "cancel",
+    "keywords": "bard druid healer wizard",
+    "classes": {
+      "Bard": "1",
+      "Druid": "1",
+      "Healer": "1",
+      "Wizard": "1"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "r": "Touch",
+    "i": "\"My work shall be undone\" x3",
+    "e": "Remove an Enchantment cast by the caster"
+  },
+
+  "circleofprotection": {
+    "name": "Circle of Protection",
+    "keywords": "healer enchantment protection insubstantial",
+    "classes": {
+      "Healer": "4"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"Circle of Protection\" x3",
+    "m": "White Strip",
+    "e": "The caster and up to five willing players in physical contact with the caster become Insubstantial. The caster may end Circle of Protection at any time by ending his Insubstantial State with the standard Incantation. If the caster stops being Insubstantial by any means, the Enchantment ends. Players under the effect of Circle of Protection may use magic and abilities on players under the effect of the same Circle of Protection as though they were not Insubstantial",
+    "n": "Effects which would normally remove the Insubstantial State (Tracking, Release, etc) will remove this Enchantment"
+  },
+
+  "combatcaster": {
+    "name": "Combat Caster",
+    "keywords": "bard",
+    "classes": {
+      "Bard": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Does not require an empty hand to cast Magic"
+  },
+
+  "confidence": {
+    "name": "Confidence",
+    "keywords": "bard verbal sorcery",
+    "classes": {
+      "Bard": "1"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"My power grants thee confidence\"",
+    "e": "Target player may instantly Charge a single Magic or Ability",
+    "l": "May not be used on self. May not be used within 20’ of a living enemy"
+  },
+
+  "contagion": {
+    "name": "Contagion",
+    "keywords": "wizard enchantment death",
+    "classes": {
+      "Wizard": "5"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"May thou bear this plague to all\" x3",
+    "m": "Red Strip",
+    "e": "All melee weapons wielded by player are Wounds Kill. Bearer is Fragile"
+  },
+
+  "corrosivemist": {
+    "name": "Corrosive Mist",
+    "keywords": "druid enchantment death",
+    "classes": {
+      "Druid": "1"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Self or Touch",
+    "i": "\"The mists of corrosion surround thee\" x3",
+    "m": "5 Red Strips",
+    "e": "Bearer is Stopped. Bearer may cast Destroy Armor by announcing \"<Player> the mists of corrosion destroy your <armor location> armor\". Bearer must remove a strip after each use of Destroy Armor",
+    "n": "Corrosive Mist is removed when the last strip is removed"
+  },
+
+  "coupdegrace": {
+    "name": "Coup de Grace",
+    "keywords": "some lowercase separated words used to search",
+    "classes": {
+      "Assassin": "6"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"Death shall come for thee\" x3",
+    "e": "Target player dies",
+    "l": "Target must be Wounded prior to starting the Incantation"
+  },
+
   "uniquename": {
     "name": "Spell or Ability name",
     "keywords": "some lowercase separated words used to search",
