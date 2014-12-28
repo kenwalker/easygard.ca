@@ -462,7 +462,7 @@
     "r": "Self or Touch",
     "i": "\"The mists of corrosion surround thee\" x3",
     "m": "5 Red Strips",
-    "e": "Bearer is Stopped. Bearer may cast Destroy Armor by announcing \"<Player> the mists of corrosion destroy your <armor location> armor\". Bearer must remove a strip after each use of Destroy Armor",
+    "e": "Bearer is Stopped. Bearer may cast Destroy Armor by announcing \"<i>[Player] the mists of corrosion destroy your [armor location] armor</i>\". Bearer must remove a strip after each use of Destroy Armor",
     "n": "Corrosive Mist is removed when the last strip is removed"
   },
 
