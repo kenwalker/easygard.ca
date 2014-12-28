@@ -480,6 +480,100 @@
     "l": "Target must be Wounded prior to starting the Incantation"
   },
 
+  "dervish": {
+    "name": "Dervish",
+    "keywords": "bard",
+    "classes": {
+      "Bard": "1"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Equipment costs are doubled. Each Verbal purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life, 1/Refresh becomes 2/Refresh"
+  },
+
+  "destroyarmor": {
+    "name": "Destroy Armor",
+    "keywords": "wizard verbal death",
+    "classes": {
+      "Wizard": "4"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"Death destroys thy [hit location] armor\" x3",
+    "e": "Armor on target hit location is subjected to Armor Destroying"
+  },
+
+  "destructionarrow": {
+    "name": "Destruction Arrow",
+    "keywords": "arrow archer sorcery",
+    "classes": {
+      "Archer": "1"
+    },
+    "t": "Specialty Arrow",
+    "s": "Sorcery",
+    "i": "\"Destruction Arrow\"",
+    "m": "Arrow with red head cover labeled \"Destruction\"",
+    "e": "This arrow is Armor Destroying and Shield Destroying. Armor Destroying and Shield Destroying are applied after the normal effect of being hit with an arrow is applied"
+  },
+
+  "dimensionalrift": {
+    "name": "Dimensional Rift",
+    "keywords": "wizard verbal sorcery",
+    "classes": {
+      "Wizard": "4"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"The power of the aether consumes thee\" x3",
+    "e": "Target Insubstantial player dies"
+  },
+
+  "discordia": {
+    "name": "Discordia",
+    "keywords": "bard command enchantment",
+    "classes": {
+      "Bard": "5"
+    },
+    "t": "Enchantment",
+    "s": "Command",
+    "r": "Self",
+    "i": "\"My discordant melodies shall stymie my foes\" x3",
+    "m": "Red Strips",
+    "e": "Tie on five enchantment strips. Bearer may cast Break Concentration by announcing \"[Player] thou art suppressed\" and removing an enchantment strip. Enchantment is removed when the last strip is removed"
+  },
+
+  "dispelmagic": {
+    "name": "Dispel Magic",
+    "keywords": "druid healer scout wizard verbal sorcery",
+    "classes": {
+      "Druid": "3",
+      "Healer": "5",
+      "Scout": "3",
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"By my power I dispel that magic\" x3",
+    "e": "All Enchantments on target are removed",
+    "n": "Will work through Protection from Magic, Enlightened Soul, and similar magics and abilities. Will work on players that are Frozen or Insubstantial"
+  },
+
+  "draggedbelow": {
+    "name": "Dragged Below",
+    "keywords": "wizard verbal death",
+    "classes": {
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"Death comes for thee from below\" x3",
+    "e": "Target Stopped player dies"
+  },
+
   "uniquename": {
     "name": "Spell or Ability name",
     "keywords": "some lowercase separated words used to search",
