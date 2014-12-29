@@ -574,6 +574,230 @@
     "e": "Target Stopped player dies"
   },
 
+  "elementalbarrage": {
+    "name": "Elemental Barrage",
+    "keywords": "wizard verbal sorcery ball",
+    "classes": {
+      "Wizard": "6"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"I am filled with the power of magic\"",
+    "e": "Caster may use Magic Balls they are currently carrying by stating the name of the Magic Ball immediately prior to throwing the ball in place of the incantation",
+    "l": "This magic ends if the caster picks up any additional Magic Balls or begins casting any new magic"
+  },
+
+  "empower": {
+    "name": "Empower",
+    "keywords": "bard verbal sorcery",
+    "classes": {
+      "Bard": "2"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I empower thee\"",
+    "e": "Target player regains one use of any per-life Ability or Magic they have expended",
+    "l": "Does not function on Empower, Confidence, Restoration, or similar Magic and Abilities. May not be used on the caster",
+    "n": "Does not allow a player to have more than his maximum uses of a Magic or Ability."
+  },
+
+  "enlightenedsoul": {
+    "name": "Enlightened Soul",
+    "keywords": "healer monk enchantment protection",
+    "classes": {
+      "Healer": "1",
+      "Monk": "1"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"A distant magic has no hold upon thy now enlightened soul\" x3",
+    "m": "White Strip",
+    "e": "layer is unaffected by Verbal magic used at a Range greater than Touch",
+    "l": "Effects beneficial magic as well as harmful magic"
+  },
+
+  "entangle": {
+    "name": "Entangle",
+    "keywords": "druid healer wizard ball subdual stopped",
+    "classes": {
+      "Druid": "1",
+      "Healer": "2",
+      "Wizard": "2"
+    },
+    "t": "Magic Ball",
+    "s": "Subdual",
+    "r": "Ball",
+    "i": "\"The strength of earth is mine to evoke\" x3",
+    "m": "Brown Magic Ball",
+    "e": "Target is Stopped for 60 seconds. Engulfing"
+  },
+
+  "equipmentarmor1point": {
+    "name": "Equipment: Armor, 1 Point",
+    "keywords": "bard",
+    "classes": {
+      "Bard": "2"
+    },
+    "t": "Neutral",
+    "e": "May wear one additional point of armor"
+  },
+
+  "equipmentshieldmedium": {
+    "name": "Equipment: Shield, Medium",
+    "keywords": "bard healer shield medium",
+    "classes": {
+      "Bard": "5",
+      "Healer": "3"
+    },
+    "t": "Neutral",
+    "e": "May use up to a medium shield"
+  },
+
+  "equipmentshieldsmall": {
+    "name": "Equipment: Shield, Small",
+    "keywords": "bard druid healer shield small",
+    "classes": {
+      "Bard": "3",
+      "Druid": "2",
+      "Healer": "1"
+    },
+    "t": "Neutral",
+    "e": "May use up to a small shield"
+  },
+
+  "equipmentweapongreat": {
+    "name": "Equipment: Weapon, Great",
+    "keywords": "druid weapon great",
+    "classes": {
+      "Druid": "5"
+    },
+    "t": "Neutral",
+    "e": "May use any great weapon. May use one such weapon at a time for each instance purchased"
+  },
+
+  "equipmentweaponhinged": {
+    "name": "Equipment: Weapon, Hinged",
+    "keywords": "druid weapon great",
+    "classes": {
+      "Healer": "2"
+    },
+    "t": "Neutral",
+    "e": "May use any hinged weapon. May use one such weapon at a time for each instance purchased"
+  },
+
+  "equipmentweaponlong": {
+    "name": "Equipment: Weapon, Long",
+    "keywords": "bard druid wizard weapon long",
+    "classes": {
+      "Bard": "4",
+      "Druid": "4",
+      "Wizard": "5"
+    },
+    "t": "Neutral",
+    "e": "May use any long weapon. May use one such weapon at a time for each instance purchased"
+  },
+
+  "equipmentweaponshort": {
+    "name": "Equipment: Weapon, Short",
+    "keywords": "bard druid wizard weapon short",
+    "classes": {
+      "Bard": "1",
+      "Druid": "1",
+      "Healer": "1",
+      "Wizard": "1"
+    },
+    "t": "Neutral",
+    "e": "May use any short weapon. May use one such weapon at a time for each instance purchased"
+  },
+
+  "essencegraft": {
+    "name": "Essence Graft",
+    "keywords": "druid enchantment sorcery",
+    "classes": {
+      "Druid": "5"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"Open up and receive my power\" x3",
+    "m": "Yellow Strip",
+    "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer’s Enchantment limit",
+    "l": "Bearer may only wear Enchantments from the caster of Essence Graft. This ability may not be used in conjunction with any other similar ability or magic"
+  },
+
+  "evoker": {
+    "name": "Evoker",
+    "keywords": "wizard",
+    "classes": {
+      "Wizard": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Verbals purchased may only be of range Touch or Self. Elemental Barrage becomes Charge x10",
+    "n": "Elemental Barrage must still be purchased"
+  },
+
+  "evolution": {
+    "name": "Evolution",
+    "keywords": "scout enchantment sorcery",
+    "classes": {
+      "Scout": "4"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Self",
+    "e": "May wear an additional Enchantment. Evolution does not count towards the bearer’s Enchantment limit",
+    "n": "This ability does work in conjunction with Attuned or Essence Graft so long as the other limitations of those Enchantments are followed"
+  },
+
+  "experienced": {
+    "name": "Experienced",
+    "keywords": "bard druid healer wizard experiended",
+    "classes": {
+      "Bard": "1",
+      "Druid": "1",
+      "Healer": "1",
+      "Wizard": "1"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "A single per-life Verbal purchased becomes Charge x5 in addition to the normal frequency OR a single per- refresh Verbal purchased becomes Charge x10 in addition to the normal frequency. This Verbal must be determined before the game begins and cannot be changed",
+    "l": "Verbal must be 4th level or lower"
+  },
+
+  "extendimmunities": {
+    "name": "Extend Immunities",
+    "keywords": "paladin enchantment protection",
+    "classes": {
+      "Paladin": "3"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "Tie strip on target: \"May the blessing of my god protect thee\" x3",
+    "m": "White Strip",
+    "e": "The target player gains either Resistant to Command or Resistant to Death",
+    "l": "Type of Ability must be chosen at the time of casting and may not be changed. The caster may only have one instance of Extend Immunities active at a time"
+  },
+
+  "extension": {
+    "name": "Extension",
+    "keywords": "bard druid healer wizard meta magic",
+    "classes": {
+      "Bard": "3",
+      "Druid": "3",
+      "Healer": "3",
+      "Wizard": "3"
+    },
+    "t": "Meta-Magic",
+    "s": "Neutral",
+    "i": "\"Extension\"",
+    "e": "Verbal becomes 50'. Only works on verbals with a range of 20'"
+  },
+
   "uniquename": {
     "name": "Spell or Ability name",
     "keywords": "some lowercase separated words used to search",
