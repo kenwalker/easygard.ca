@@ -6,8 +6,8 @@ class Spells
   	puts "READ SPELLS"
 	json = File.read('spells.json')
 	@allSpells = JSON.parse(json)
-	@allSpells.each {|spell, value|
-		puts "#{value['name']} incant is #{value['i']}" }
+	percent = @allSpells.length / 161.0 * 100
+	puts "Finished #{@allSpells.length} Spells of 161 (#{percent} complete)"
   end
 
   def allSpells()

@@ -798,6 +798,263 @@
     "e": "Verbal becomes 50'. Only works on verbals with a range of 20'"
   },
 
+  "fightaftereeath": {
+    "name": "Fight After Death",
+    "keywords": "barbarian sorcery",
+    "classes": {
+      "Barbarian": "2"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"Fight after death\" immediately after dying",
+    "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players do not receive further Wounds during Fight After Death. Players melee weapons are Shield Crushing",
+    "l": "Players may not activate Abilities or Magic during Fight After Death. Players may not activate Fight After Death if they died while Suppressed, Stunned, Insubstantial, or Frozen. States on the player (Such as Stopped) persist until Fight After Death has ended and are then removed as per the rules for player death. Players may not achieve game objectives nor carry game items while affected by Fight After Death, though they may still kill other players even if that player is a game objective",
+    "n": "Reeves are encouraged to remove this ability from those who use it in an unsafe manner"
+  },
+
+  "fingerofdeath": {
+    "name": "Finger of Death",
+    "keywords": "wizard verbal death",
+    "classes": {
+      "Wizard": "6"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"I call upon death to smite thee\" x3",
+    "e": "Target player dies"
+  },
+
+  "fireball": {
+    "name": "Fireball",
+    "keywords": "wizard ball flame",
+    "classes": {
+      "Wizard": "4"
+    },
+    "t": "Magic Ball",
+    "s": "Flame",
+    "r": "Ball",
+    "i": "\"The flame of fire is mine to evoke\" x3",
+    "m": "Red Magic Ball",
+    "e": "Fireball will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to Shield Destroying<br>3. Armor hit with Armor Points remaining is subject to Armor Destroying<br>4. A player hit receives a Wounds Kill Wound to that hit location"
+  },
+
+  "flameblade": {
+    "name": "Flame Blade",
+    "keywords": "druid enchantment flame",
+    "classes": {
+      "Druid": "4"
+    },
+    "t": "Enchantment",
+    "s": "Flame",
+    "r": "Touch",
+    "i": "\"The element of fire shall infuse your weapons\" x3",
+    "m": "Red Strip and White Strip",
+    "e": "Bearer’s melee weapons are Armor Breaking and Shield Crushing. Bearer and their weapons are Immune to Flame"
+  },
+
+  "forcebarrier": {
+    "name": "Force Barrier",
+    "keywords": "wizard verbal sorcery",
+    "classes": {
+      "Wizard": "1"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"I shall not be harmed\"",
+    "e": "Player is Frozen for 30 seconds"
+  },
+
+  "forcebolt": {
+    "name": "Force Bolt",
+    "keywords": "druid wizard bolt ball sorcery",
+    "classes": {
+      "Druid": "4",
+      "Wizard": "1"
+    },
+    "t": "Magic Ball",
+    "s": "Sorcery",
+    "r": "Ball",
+    "i": "\"Forcebolt\" x3",
+    "m": "Blue Magic Ball",
+    "e": "Force Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to Armor Breaking<br>3. A player hit receives a Wound to that hit location"
+  },
+
+  "giftofair": {
+    "name": "Gift of Air",
+    "keywords": "druid enchantment protection",
+    "classes": {
+      "Druid": "5"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I grant thee a gift of the air\" x3",
+    "m": "White Strip",
+    "e": "When struck by a melee weapon or projectile the bearer instead announces \"Gift of Air\" and becomes Insubstantial. The bearer treats the triggering event as though it had no effect on them other than triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the Armor Breaking, Armor Destroying, Shield Crushing, or Shield Destroying Special Effects will wound the bearer as normal and do not trigger Gift of Air",
+    "l": "Bearer may not wield weapons or shields",
+    "n": "Bearer may end the Insubstantial state caused by Gift of Air at any time with the standard Incantation"
+  },
+
+  "giftofearth": {
+    "name": "Gift of Earth",
+    "keywords": "druio enchantment protection suppressed",
+    "classes": {
+      "Druid": "2"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I grant thee a gift of the earth\" x3",
+    "m": "White Strip",
+    "e": "Bearer gains two points of magic armor and is affected as per <a href=\"/spells/g#greaterharden\">Greater Harden</a>. Bearer is Suppressed"
+  },
+
+  "giftoffire": {
+    "name": "Gift of Fire",
+    "keywords": "druid enchantment sorcery",
+    "classes": {
+      "Druid": "3"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I grant thee a gift of the fire\" x3",
+    "m": "Red Strip and White Strip",
+    "e": "Bearer is Immune to Flame and gains <a href=\"/spells/h#headweapon\">Heat Weapon</a> 1/Refresh Charge x3"
+  },
+
+  "giftofwater": {
+    "name": "Gift of Water",
+    "keywords": "druid enchantment sorcery",
+    "classes": {
+      "Druid": "4"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I grant thee a gift of the water\" x3",
+    "m": "White Strip and Yellow Strip",
+    "e": "Bearer gains one point of magic armor and <a href=\"/spells/h#heal\">Heal</a> (self- only) unlimited"
+  },
+
+  "golem": {
+    "name": "Golem",
+    "keywords": "druid enchantment sorcery",
+    "classes": {
+      "Druid": "4"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"From earth and clay I form thee\" x3",
+    "m": "White Strip and Red Strip",
+    "e": "Bearer is Immune to Death. Bearer is Cursed. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Non-magical armor worn affected as per Imbue Armor",
+    "l": "A caster may only have a single Golem Enchantment active at a time",
+    "n": "All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn"
+  },
+
+  "graspingtentacles": {
+    "name": "Grasping Tentacles",
+    "keywords": "druid enchantment command",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Enchantment",
+    "s": "Command",
+    "r": "Self",
+    "i": "\"The hands of the earth rise to your bidding\" x3",
+    "m": "5 Red Strips",
+    "e": "Bearer is Stopped. Bearer may cast Hold Person by announcing \"[Player] stop at my command.\" Bearer must remove an Enchantment strip after each use of Hold Person",
+    "n": "Grasping Tentacles is removed when the last strip is removed"
+  },
+
+  "greaterharden": {
+    "name": "Greater Harden",
+    "keywords": "healer enchantment protection",
+    "classes": {
+      "Healer": "3"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with Greater Harden\" x3",
+    "m": "White Strip",
+    "e": "Shields and weapons wielded by the player are affected as per Harden. May only be cast on a player"
+  },
+
+  "greaterheal": {
+    "name": "Greater Heal",
+    "keywords": "healer verbal spirit",
+    "classes": {
+      "Healer": "4"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Touch",
+    "i": "\"By the grace of the divine thou art healed\" x5",
+    "e": "All wounds are healed. Ignores the Cursed State"
+  },
+
+  "greatermend": {
+    "name": "Greater Mend",
+    "keywords": "druid wizard verbal sorcery",
+    "classes": {
+      "Druid": "3",
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"Return this [object name] to its former glory\" x5",
+    "e": "Will repair a destroyed item or restore all armor points in one location"
+  },
+
+  "greaterrelease": {
+    "name": "Greater Release",
+    "keywords": "bard healer verbal sorcery",
+    "classes": {
+      "Bard": "2",
+      "Healer": "2"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"From all thine afflictions thou art released\" x2",
+    "e": "All ongoing effects and States are removed from the target. The caster may choose to leave some States or effects in place",
+    "n": "Greater Release may target Dead players"
+  },
+
+  "greaterresurrect": {
+    "name": "Greater Resurrect",
+    "keywords": "healer verbal spirit",
+    "classes": {
+      "Healer": "5"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Touch",
+    "i": "\"By the grace of the divine thou art resurrected\" x5",
+    "e": "Target Dead player is returned to life. Enchantments on the player are retained. Any wounds on the player are healed. Works regardless of any States on the target"
+  },
+
+  "greaterundeadminion": {
+    "name": "Greater Undead Minion",
+    "keywords": "healer enchantment death",
+    "classes": {
+      "Healer": "5"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "<br>\"Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my greater minion!\"",
+    "m": "Yellow Strip",
+    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is Cursed and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x5 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
+    "l": "<br>1. The Insubstantial State imposed by Greater Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
+  },
+
   "uniquename": {
     "name": "Spell or Ability name",
     "keywords": "some lowercase separated words used to search",
@@ -824,4 +1081,5 @@
     "l": "limitations",
     "n": "notes"
   }
+
 }
