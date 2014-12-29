@@ -909,7 +909,7 @@
     "r": "Touch",
     "i": "\"I grant thee a gift of the earth\" x3",
     "m": "White Strip",
-    "e": "Bearer gains two points of magic armor and is affected as per <a href=\"/spells/g#greaterharden\">Greater Harden</a>. Bearer is Suppressed"
+    "e": "Bearer gains two points of magic armor and is affected as per <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a>. Bearer is Suppressed"
   },
 
   "giftoffire": {
@@ -923,7 +923,7 @@
     "r": "Touch",
     "i": "\"I grant thee a gift of the fire\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer is Immune to Flame and gains <a href=\"/spells/h#headweapon\">Heat Weapon</a> 1/Refresh Charge x3"
+    "e": "Bearer is Immune to Flame and gains <a href=\"/spells/h#headweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
   },
 
   "giftofwater": {
@@ -937,7 +937,7 @@
     "r": "Touch",
     "i": "\"I grant thee a gift of the water\" x3",
     "m": "White Strip and Yellow Strip",
-    "e": "Bearer gains one point of magic armor and <a href=\"/spells/h#heal\">Heal</a> (self- only) unlimited"
+    "e": "Bearer gains one point of magic armor and <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self- only) unlimited"
   },
 
   "golem": {
