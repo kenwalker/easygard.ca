@@ -923,7 +923,7 @@
     "r": "Touch",
     "i": "\"I grant thee a gift of the fire\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer is Immune to Flame and gains <a href=\"/spells/h#headweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
+    "e": "Bearer is Immune to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
   },
 
   "giftofwater": {
@@ -1053,6 +1053,85 @@
     "m": "Yellow Strip",
     "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is Cursed and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x5 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
     "l": "<br>1. The Insubstantial State imposed by Greater Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
+  },
+
+  "harden": {
+    "name": "Harden",
+    "keywords": "healer warrior enchantment protection",
+    "classes": {
+      "Healer": "1",
+      "Warrior": "2"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with Harden\" x3",
+    "m": "White Strip",
+    "e": "Bearers weapons or shield may only be destroyed by Magic Balls/Verbals which destroy objects e.g. Fireball or Pyrotechnics",
+    "l": "Will only affect either the weapons or the shield of the bearer, not both"
+  },
+
+  "heal": {
+    "name": "Heal",
+    "keywords": "druid healer monk paladin scout verbal spirit heal",
+    "classes": {
+      "Druid": "2",
+      "Healer": "1",
+      "Monk": "1",
+      "Paladin": "2",
+      "Scout": "1"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Touch",
+    "i": "<br>Sword Cut, spear stab, mace smash, arrow jab,<br>Let the white light of healing descend on thee<br>Let the white light of healing stop thy spilling blood<br>Let the white light of healing mend thy bones<br>Let the white light of healing close thy wounds<br>Let the white light of healing restore thy vigor<br>The white light of healing hath healed thee",
+    "e": "Target player heals a Wound"
+  },
+
+  "heartoftheswarm": {
+    "name": "Heart of the Swarm",
+    "keywords": "bard druid enchantment spirit",
+    "classes": {
+      "Bard": "5",
+      "Druid": "5"
+    },
+    "t": "Enchantment",
+    "s": "Spirit",
+    "r": "Self",
+    "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
+    "m": "Yellow Strip",
+    "e": "Bearer is Stopped. Any player on the bearer’s team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\"",
+    "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20’ of the bearer"
+  },
+
+  "heatweapon": {
+    "name": "Heat Weapon",
+    "keywords": "druid wizard verbal flame",
+    "classes": {
+      "Druid": "1",
+      "Wizard": "1"
+    },
+    "t": "Verbal",
+    "s": "Flame",
+    "r": "20",
+    "i": "\"I call upon flame to heat that [type of weapon]\" x3",
+    "e": "Target weapon may not be wielded for 30 seconds. Players who are Immune to Flame may continue to wield the weapon"
+  },
+
+  "holdperson": {
+    "name": "Hold Person",
+    "keywords": "assassin healer scout wizard verbal command",
+    "classes": {
+      "Assassin": "4",
+      "Healer": "2",
+      "Scout": "5",
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thee to stop\" x3",
+    "e": "Target player becomes Stopped for 30 seconds"
   },
 
   "uniquename": {
