@@ -1134,6 +1134,261 @@
     "e": "Target player becomes Stopped for 30 seconds"
   },
 
+  "iceball": {
+    "name": "Iceball",
+    "keywords": "druid healer wizard ball subdual",
+    "classes": {
+      "Druid": "2",
+      "Healer": "3",
+      "Wizard": "3"
+    },
+    "t": "Magic Ball",
+    "s": "Subdual",
+    "r": "Ball",
+    "i": "\"The strength of ice is mine to evoke\" x3",
+    "m": "White Magic Ball",
+    "e": "Target player becomes Frozen for 60 seconds. Engulfing"
+  },
+
+  "icyblast": {
+    "name": "Icy Blast",
+    "keywords": "druid wizard verbal sorcery",
+    "classes": {
+      "Druid": "3",
+      "Wizard": "4"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"My power makes thee frozen\" x3",
+    "e": "Target player becomes Frozen for 30 seconds"
+  },
+
+  "imbuearmor": {
+    "name": "Imbue Armor",
+    "keywords": "druid enchantment protection armor white",
+    "classes": {
+      "Druid": "1"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with Imbued Armor\" x3",
+    "m": "White Strip",
+    "e": "All armor worn by the bearer gains +1 up to the bearer’s class maximum",
+    "n": "Does not apply to magic armor. A player may only benefit from one instance of Imbue Armor, or similar magic and abilities that increase Armor Points, at a time"
+  },
+
+  "imbueshield": {
+    "name": "Imbue Shield",
+    "keywords": "healer enchantment protection white shield",
+    "classes": {
+      "Healer": "4"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"This shield shall neither break or bend\" x3",
+    "m": "White Strip",
+    "e": "Shield wielded by the player cannot be destroyed. Engulfing effects hitting the shield are ignored"
+  },
+
+  "imbueweapon": {
+    "name": "Imbue Weapon",
+    "keywords": "druid enchantment death red weapon",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"I enchant thee to slay all foes\" x3",
+    "m": "Red Strip",
+    "e": "Melee weapons wielded by the bearer are Wounds Kill"
+  },
+
+  "innate": {
+    "name": "Innate",
+    "keywords": "bard druid healer wizard meta magic",
+    "classes": {
+      "Bard": "2",
+      "Druid": "2",
+      "Healer": "2",
+      "Wizard": "2"
+    },
+    "t": "Meta-Magic",
+    "s": "Neutral",
+    "i": "\"Innate\"",
+    "e": "May be used to instantly Charge a single magic"
+  },
+
+  "insult": {
+    "name": "Insult",
+    "keywords": "bard warrior verbal command",
+    "classes": {
+      "Bard": "1",
+      "Warrior": "1"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thy attention sirrah\" x3",
+    "m": "materials",
+    "e": "Victim is unable to attack or cast magic at anyone other than the caster for 30 seconds. If the victim of insult is attacked or has magic cast on them by someone other than the caster, the victim of Insult becomes able to choose to attack the offending party as well"
+  },
+
+  "ironskin": {
+    "name": "Ironskin",
+    "keywords": "druid enchantment protection white",
+    "classes": {
+      "Druid": "5"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with Ironskin\" x3",
+    "m": "White Strip",
+    "e": "Bearer is Immune to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+  },
+
+  "legend": {
+    "name": "Legend",
+    "keywords": "bard legend",
+    "classes": {
+      "Bard": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Each Extension purchased gives double the uses. Example: 1/life becomes 2/life. Swift may not be purchased or used"
+  },
+
+  "lightningbolt": {
+    "name": "Lightning Bolt",
+    "keywords": "wizard ball flame stopped",
+    "classes": {
+      "Wizard": "3"
+    },
+    "t": "Magic Ball",
+    "s": "Flame",
+    "r": "Ball",
+    "i": "\"The flame of storms is mine to evoke\" x3",
+    "m": "Yellow Magic Ball",
+    "e": "A player struck is subject to an Engulfing Stopped effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to Armor Breaking<br>3. A player hit receives a Wound in that hit location"
+  },
+
+  "lost": {
+    "name": "lost",
+    "keywords": "bard verbal command insubstantial",
+    "classes": {
+      "Bard": "5"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "20",
+    "i": "\"I command thee to be lost\" x3",
+    "e": "Player becomes Insubstantial and must move directly to their base. Player must end their Insubstantial State as per normal once they reach their base",
+    "n": "If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well"
+  },
+
+  "lycanthropy": {
+    "name": "Lycanthropy",
+    "keywords": "druid enchantment death",
+    "classes": {
+      "Druid": "4"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"Stalked in the forest, too close to hide, I’ll be upon thee by the moonlight side\" x3",
+    "m": "White Strip and Red Strip",
+    "e": "Bearer gains two points of magic armor. Bearer’s melee weapons are Shield Crushing. Bearer is Immune to Command"
+  },
+
+  "magicballblock": {
+    "name": "Magic Ball Block",
+    "keywords": "mondk enchantment protection",
+    "classes": {
+      "Monk": "6"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "e": "layer is allowed to block Magic Balls with their weapons and hands without penalty. Any Magic Ball in motion touched by a weapon wielded or by the hand of the player is nullified",
+    "n": "Engulfing effects from blocked Magic Balls do not activate"
+  },
+
+  "masshealing": {
+    "name": "Mass Healing",
+    "keywords": "healer enchantment spirit",
+    "classes": {
+      "Healer": "6"
+    },
+    "t": "Enchantment",
+    "s": "Spirit",
+    "r": "Self",
+    "i": "\"Let the powers of healing flow through me\" x3",
+    "m": "Five Yellow Strips",
+    "e": "Caster may Heal a player by touching them, stating \"I grant thee healing\". Bearer must remove an Enchantment strip after each use of Heal",
+    "n": "Mass Healing is removed when the last strip is removed"
+  },
+
+  "mend": {
+    "name": "Mend",
+    "keywords": "archer bard druid healer wizard verbal sorcery",
+    "classes": {
+      "Archer": "2",
+      "Bard": "2",
+      "Druid": "1",
+      "Healer": "3",
+      "Wizard": "1"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I make this item whole again\" x5",
+    "e": "Destroyed item is repaired. One point of armor in one location is repaired"
+  },
+
+  "missileblock": {
+    "name": "Missile Block",
+    "keywords": "monk enchantment protection",
+    "classes": {
+      "Monk": "1"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "e": "Player is allowed to block arrows and projectiles with their weapons and hands without penalty. Any arrow or projectile in motion touched by a weapon wielded or by the hand of the player is nullified",
+    "n": "Engulfing effects from blocked arrows and projectiles do not activate"
+  },
+
+  "uniquename": {
+    "name": "Spell or Ability name",
+    "keywords": "some lowercase separated words used to search",
+    "classes": {
+      "Anti-Paladin": "1",
+      "Archer": "1",
+      "Assassin": "1",
+      "Barbarian": "1",
+      "Bard": "1",
+      "Druid": "1",
+      "Healer": "1",
+      "Monk": "1",
+      "Paladin": "1",
+      "Scout": "1",
+      "Warrior": "1",
+      "Wizard": "1"
+    },
+    "t": "type",
+    "s": "school",
+    "r": "range",
+    "i": "incantation",
+    "m": "materials",
+    "e": "effect",
+    "l": "limitations",
+    "n": "notes"
+  },
+
   "uniquename": {
     "name": "Spell or Ability name",
     "keywords": "some lowercase separated words used to search",
