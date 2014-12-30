@@ -1362,31 +1362,200 @@
     "n": "Engulfing effects from blocked arrows and projectiles do not activate"
   },
 
-  "uniquename": {
-    "name": "Spell or Ability name",
-    "keywords": "some lowercase separated words used to search",
+  "naturalizemagic": {
+    "name": "Naturalize Magic",
+    "keywords": "druid enchantment sorcery red dispel",
     "classes": {
-      "Anti-Paladin": "1",
-      "Archer": "1",
-      "Assassin": "1",
-      "Barbarian": "1",
-      "Bard": "1",
-      "Druid": "1",
-      "Healer": "1",
-      "Monk": "1",
-      "Paladin": "1",
-      "Scout": "1",
-      "Warrior": "1",
-      "Wizard": "1"
+      "Druid": "6"
     },
-    "t": "type",
-    "s": "school",
-    "r": "range",
-    "i": "incantation",
-    "m": "materials",
-    "e": "effect",
-    "l": "limitations",
-    "n": "notes"
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"I shall restore the balance\" x3",
+    "m": "Five Red Strips",
+    "e": "Bearer may cast Dispel Magic by announcing \"[Player] thou art dispelled.\" Bearer must remove an Enchantment strip after each use of Dispel Magic and the Enchantment is removed when the last strip is removed"
+  },
+
+  "necromancer": {
+    "name": "Necromancer",
+    "keywords": "healer",
+    "classes": {
+      "Healer": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "All magic purchased in the Death School becomes Charge x3. You may have a combined total of five active Greater Undead Minion and Undead Minion Enchantments",
+    "l": "You may not purchase any Enchantments from the Protection School"
+  },
+
+  "persistent": {
+    "name": "Persistent",
+    "keywords": "healer wizard meta enchantment",
+    "classes": {
+      "Healer": "6",
+      "Wizard": "6"
+    },
+    "t": "Meta-Magic",
+    "s": "Neutral",
+    "i": "\"Persistent\"",
+    "e": "Enchantment returns with the user after respawning until it has been otherwise removed"
+  },
+
+  "phasearrow": {
+    "name": "Phase Arrow",
+    "keywords": "archer arrow sorcery",
+    "classes": {
+      "Archer": "6"
+    },
+    "t": "Specialty Arrow",
+    "s": "Sorcery",
+    "i": "\"Phase Arrow\"",
+    "m": "Arrow with grey cover labeled ‘Phase’",
+    "e": "This arrow does not interact with ongoing Magic or Abilities. Example: This arrow is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Missile Block, or similar Magic or Abilities",
+    "l": "This arrow does not supercede the Frozen, Insubstantial, or Out of Game States"
+  },
+
+  "phasebolt": {
+    "name": "Phase Bolt",
+    "keywords": "wizard ball sorcery grey",
+    "classes": {
+      "Wizard": "5"
+    },
+    "t": "Magic Ball",
+    "s": "Sorcery",
+    "r": "Ball",
+    "i": "\"The power of sorcery is mine to evoke\" x3",
+    "m": "Grey Magic Ball",
+    "e": "This Magic Ball does not interact with other ongoing Magic or Abilities. Example: This Magic Ball is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Magic Ball Block, or similar Magic or Abilities. Will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to Armor Breaking<br>3. A player hit receives a Wound in that hit location",
+    "n": "Does not supercede the Frozen, Insubstantial, or Out of Game States"
+  },
+
+  "phoenixtears": {
+    "name": "Phoenix Tears",
+    "keywords": "healer enchantment spirit white",
+    "classes": {
+      "Healer": "6"
+    },
+    "t": "Enchantment",
+    "s": "Spirit",
+    "r": "Touch",
+    "i": "\"May the tears of the phoenix wash over thee\" x3",
+    "m": "Two White Strips",
+    "e": "Enchanted player does not die as normal. When the player would otherwise die they instead remove a strip and become Frozen for 30 seconds. When the Frozen State is ended the bearer has:<br>1. All Wounds removed<br>2. All States removed that are removed by Death or Respawning<br>3. All ongoing effects with a timer are expired<br>4. All of their equipment is fully repaired<br>5. All enchantments, except those which are Persistent, are removed<br>Additionally Phoenix Tears allows you to wear an extra Enchantment from the Protection School. This extra enchantment is considered Persistent as long as Phoenix Tears is present. The additional Enchantment is not removed once Phoenix Tears is removed",
+    "n": "Phoenix Tears is removed when the last strip is removed"
+  },
+
+  "pinningarrow": {
+    "name": "Pinning Arrow",
+    "keywords": "archer arrow sorcery stopped",
+    "classes": {
+      "Archer": "1"
+    },
+    "t": "Specialty Arrow",
+    "s": "Sorcery",
+    "i": "\"Pinning Arrow\"",
+    "m": "Arrow with yellow head cover labeled ‘Pinning’",
+    "e": "A player struck by this arrow is Stopped for 30 seconds",
+    "n": "Engulfing"
+  },
+
+  "planargrounding": {
+    "name": "Planar Grounding",
+    "keywords": "wizard verbal sorcery insubstantial",
+    "classes": {
+      "Wizard": "2"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"My power closes the aether to you\" x3",
+    "e": "Target player has their Insubstantial State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial",
+    "n": "Planar Grounding causes Enchantments that automatically render their bearer Insubstantial, such as Undead Minion, to fail and be removed if they activate while Planar Grounding is in effect"
+  },
+
+  "poison": {
+    "name": "Poison",
+    "keywords": "anti paladin assassin druid enchantment death",
+    "classes": {
+      "Anti-Paladin": "2",
+      "Assassin": "1",
+      "Druid": "2"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"I coat these weapons with a deadly poison\" x 2",
+    "e": "The next Wound dealt by the bearer in melee is Wounds Kill"
+  },
+
+  "poisonarrow": {
+    "name": "Poison Arrow",
+    "keywords": "archer death arrow poison",
+    "classes": {
+      "Archer": "1"
+    },
+    "t": "Specialty Arrow",
+    "s": "Death",
+    "i": "\"Poison Arrow\"",
+    "m": "Arrow with green head cover labeled ‘Poison’",
+    "e": "This arrow is Wounds Kill"
+  },
+
+  "poisonglands": {
+    "name": "Poison Glands",
+    "keywords": "druid enchantment death",
+    "classes": {
+      "Druid": "5"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"Thou shalt secrete poison from thy venemous glands\" x3",
+    "m": "Red Strip",
+    "e": "Bearer gains self-only <a href=\"/spells/p#poison\" data-ajax=\"false\">Poison</a> (ex) 1/Refresh Charge x3"
+  },
+
+  "protectionfrommagic": {
+    "name": "Protection from Magic",
+    "keywords": "healer wizard enchantment protection white magic",
+    "classes": {
+      "Healer": "6",
+      "Wizard": "6"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with protection from magic\" x3",
+    "m": "White Strip",
+    "e": "Bearer is Immune to magic from any school. Upon death the player is Cursed"
+  },
+
+  "protectionfromprojectiles": {
+    "name": "Protection from Projectiles",
+    "keywords": "healer enchantment protection projectile",
+    "classes": {
+      "Healer": "4"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"I enchant thee with Protection from Projectiles\" x3",
+    "m": "White Strip",
+    "e": "Bearer is unaffected by ammunition, thrown javelins, rocks, and throwing weapons. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player"
+  },
+
+  "pyrotechnics": {
+    "name": "Pyrotechnics",
+    "keywords": "wizard verbal flame",
+    "classes": {
+      "Wizard": "5"
+    },
+    "t": "Verbal",
+    "s": "Flame",
+    "r": "50",
+    "i": "\"I call upon the element of flame to destroy thy belongings\" x3",
+    "e": "All shields and weapons carried or worn by the target player are destroyed",
+    "l": "Only affects shields and weapons carried or worn when the Verbal is completed"
   },
 
   "uniquename": {
