@@ -14,10 +14,10 @@
                <li><a href="#">Scout</a></li>
                <li><a href="#">Warrior</a></li>
                <li data-role="list-divider">Spell Caster</li>
-               <li><a href="#">Bard</a></li>
+               <li><a href="#Bard">Bard</a></li>
                <li><a href="#">Druid</a></li>
                <li><a href="#">Healer</a></li>
-               <li><a href="#Wizard">Wizard *</a></li>
+               <li><a href="#Wizard">Wizard</a></li>
                <li data-role="list-divider">Knights</li>
                <li><a href="#">Anti-Paladin</a></li>
                <li><a href="#">Paladin</a></li>
@@ -26,6 +26,202 @@
          <!-- /content -->
 
 </div><!-- /page -->
+
+<!-- Start of Bard page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Bard" data-url="Bard">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Bard - Spell Caster</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Blue sash<br>
+<b>Look The Part:</b> 1 extra point of magic at the Wizards highest level<br>
+<b>Armor:</b> None<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger<br>
+<b>Magic-user:</b> Bards may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times.<br>
+</p>
+        <h3>1st Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/c#cancel" data-ajax="false">Cancel</a></th>
+             <td>0</td>
+             <td>1</td>
+             <td>Unlimited</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/c#confidence" data-ajax="false">Confidence</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref Chg x5</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#equipmentweaponshort" data-ajax="false">Weapon Short</a></th>
+             <td>2</td>
+             <td>2</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#experienced" data-ajax="false">Experienced</a></th>
+             <td>2</td>
+             <td>2</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#insult" data-ajax="false">Insult</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Command</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/r#release" data-ajax="false">Release</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/s#shove" data-ajax="false">Shove</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/s#songofdetermination" data-ajax="false">Song of Determination</a></th>
+             <td>1</td>
+             <td>1</td>
+             <td>Unlmt</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Self</td>
+           </tr>
+         </tbody>
+       </table>
+
+        <h3>2nd Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl2" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+         </tbody>
+       </table>
+
+        <h3>3rd Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl3" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+         </tbody>
+       </table>
+
+        <h3>4th Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl4" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+         </tbody>
+       </table>
+
+        <h3>5th Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl5" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+         </tbody>
+       </table>
+
+        <h3>6st Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl6" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+      <!-- End of Bard /page -->
 
       <!-- Start of Wizard page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Wizard" data-url="Wizard">
