@@ -382,7 +382,7 @@
   },
 
   "cancel": {
-    "name": "cancel",
+    "name": "Cancel",
     "keywords": "bard druid healer wizard",
     "classes": {
       "Bard": "1",
