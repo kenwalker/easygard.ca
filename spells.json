@@ -1558,31 +1558,711 @@
     "l": "Only affects shields and weapons carried or worn when the Verbal is completed"
   },
 
-  "uniquename": {
-    "name": "Spell or Ability name",
-    "keywords": "some lowercase separated words used to search",
+  "ranger": {
+    "name": "ranger",
+    "keywords": "druid ranger",
     "classes": {
-      "Anti-Paladin": "1",
-      "Archer": "1",
-      "Assassin": "1",
-      "Barbarian": "1",
+      "Druid": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "The cost of all available Equipment is reduced to zero points. May use bows so long as a shield is not carried. The cost of all Enchantments is doubled"
+  },
+
+  "ravage": {
+    "name": "Ravage",
+    "keywords": "wizard verbal death",
+    "classes": {
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"Death shall ravage thy flesh and make thee fragile\" x3",
+    "e": "Target player is Fragile"
+  },
+
+  "regeneration": {
+    "name": "Regeneration",
+    "keywords": "druid enchantment spirit yellow heal",
+    "classes": {
+      "Druid": "3"
+    },
+    "t": "Enchantment",
+    "s": "Spirit",
+    "r": "Touch",
+    "i": "\"I grant thee the power of regeneration\" x3",
+    "m": "Yellow Strip",
+    "e": "Bearer gains unlimited use of <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self-only)",
+    "l": "The Heal granted by Regeneration may not be used within 10’ of a living enemy"
+  },
+
+  "release": {
+    "name": "Release",
+    "keywords": "bard druid healer scout wizard verbal sorcery",
+    "classes": {
       "Bard": "1",
-      "Druid": "1",
+      "Druid": "2",
       "Healer": "1",
-      "Monk": "1",
-      "Paladin": "1",
-      "Scout": "1",
-      "Warrior": "1",
+      "Scout": "2",
+      "Wizard": "2"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"From thy bindings thou art released\" x5",
+    "e": "A single ongoing effect or State is removed from the target. Casters choice",
+    "l": "Cannot remove Cursed"
+  },
+
+  "reload": {
+    "name": "Reload",
+    "keywords": "archer verbal sorcery out of game",
+    "classes": {
+      "Archer": "1"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"I nocked my arrows to my bow, I let them fly, my quiver is low. Now I pause to go reload.\" x3",
+    "e": "Player becomes Out of Game and may move about the field retrieving their arrows",
+    "l": "Must stay at least 10’ away from other players at all times. The player may only remove their Out of Game state in the location they started by stating, \"I return with a full quiver\" x3",
+    "n": "May ask reeve for assistance in retrieving arrows that are within 10’ of other players"
+  },
+
+  "restoration": {
+    "name": "Restoration",
+    "keywords": "bard verbal sorcery",
+    "classes": {
+      "Bard": "4"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I restore thee to thy full potency\"",
+    "e": "Player has all uses of their per-life Magic and Abilities restored",
+    "l": "Does not function on Empower, Confidence, Restoration, or similar Magic and Abilities. May not be used on the caster"
+  },
+
+  "resurrect": {
+    "name": "Resurrect",
+    "keywords": "druid healer monk paladin verbal spirit heal",
+    "classes": {
+      "Druid": "5",
+      "Healer": "3",
+      "Monk": "5",
+      "Paladin": "4"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Touch",
+    "i": "<br>Sword Cut, spear stab, mace smash, arrow jab,<br>Let the white light of healing descend on thee<br>Let the white light of healing stop thy spilling blood<br>Let the white light of healing mend thy bones<br>Let the white light of healing close thy wounds.<br>Let the white light of healing restore thy vigor.<br>The white light of healing hath resurrected thee.",
+    "e": "Target Dead player is returned to life. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed"
+  },
+
+  "sanctuary": {
+    "name": "Sanctuary",
+    "keywords": "monk verbal protection",
+    "classes": {
+      "Monk": "3"
+    },
+    "t": "Verbal",
+    "s": "Protection",
+    "r": "Self",
+    "i": "State \"Sanctuary\" without any weapons in hand",
+    "e": "Player and their equipment is unaffected by hostile actions originating from within 20’. Must Chant \"sanctuary\"",
+    "l": "Player may not carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a non-friendly base",
+    "n": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only end Sanctuary within 20’ of a friendly base. Player is still susceptible to Phase Bolt and Phase Arrow"
+  },
+
+  "scavenge": {
+    "name": "Scavenge",
+    "keywords": "warrior verbal sorcery",
+    "classes": {
+      "Warrior": "1"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"Scavenge\"",
+    "e": "Repair one point of armor in one location, a shield, or a weapon",
+    "l": "May only be used within 30 seconds of killing an enemy in melee combat or causing the activation of any effects which allow the player struck to avoid death such as Undead Minion, Song of Survival, or other similar magic and abilities. May not be used within 10’ of a living enemy",
+    "n": "May only be used by the player striking the final blow and only once per kill per eligible enemy"
+  },
+
+  "severspirit": {
+    "name": "Sever Spirit",
+    "keywords": "healer verbal spirit",
+    "classes": {
+      "Healer": "2"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "20",
+    "i": "\"The spirits lay a curse on thee.\" x3",
+    "e": "May only target dead players. Player is Cursed. Any Enchantments on the player are removed"
+  },
+
+  "shadowstep": {
+    "name": "Shadow Step",
+    "keywords": "assassin scout verbal sorcery insubstantial",
+    "classes": {
+      "Assassin": "1",
+      "Scout": "3"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Self",
+    "i": "\"I step into the shadows\"",
+    "e": "Player becomes Insubstantial"
+  },
+
+  "shakeitoff": {
+    "name": "Shake It Off",
+    "keywords": "warrior verbal spirit",
+    "classes": {
+      "Warrior": "5"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Self",
+    "i": "\"I shall overcome\"",
+    "e": "Shake It Off may be activated at any time the player is alive, even while the player would otherwise be prevented from activating abilities by Stunned, Suppressed, or similar. 10 seconds after activating Shake It Off the player may remove from themselves one State or effect of their choice which was present at the time they activated the ability"
+  },
+
+  "shatter": {
+    "name": "Shatter",
+    "keywords": "wizard verbal sorcery frozen",
+    "classes": {
+      "Wizard": "4"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"My power shatters thy body\" x3",
+    "e": "Target Frozen player dies"
+  },
+
+  "shatterweapon": {
+    "name": "Shatter Weapon",
+    "keywords": "wizard verbal sorcery",
+    "classes": {
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"My power destroys thy [type of weapon]\" x3",
+    "e": "Target weapon is destroyed"
+  },
+
+  "shove": {
+    "name": "Shove",
+    "keywords": "bard healer wizard verbal sorcery stopped",
+    "classes": {
+      "Bard": "1",
+      "Healer": "2",
       "Wizard": "1"
     },
-    "t": "type",
-    "s": "school",
-    "r": "range",
-    "i": "incantation",
-    "m": "materials",
-    "e": "effect",
-    "l": "limitations",
-    "n": "notes"
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"My power shoves thee\" x3",
+    "e": "Target player is moved back 20’. Works on Stopped players"
+  },
+
+  "silvertongue": {
+    "name": "Silver Tongue",
+    "keywords": "bard enchantment sorcery swift yellow",
+    "classes": {
+      "Bard": "6"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Self or Touch",
+    "i": "\"The seething sea ceaseth and thus the seething sea sufficeth us\" x2",
+    "m": "Yellow Strip",
+    "e": "Bearer gains <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 1/refresh Charge x3. Swift may still only be used on eligible magic. Other sources of Swift may not be utilized while Silver Tongue is worn",
+    "n": "Does not use up any purchased instances of Swift"
+  },
+
+  "sleightofmind": {
+    "name": "Sleight of Mind",
+    "keywords": "bard enchantment sorcery",
+    "classes": {
+      "Bard": "4"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"May thy power remain\" x3",
+    "m": "Yellow Strip",
+    "e": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer’s Enchantment Limit"
+  },
+
+  "sniper": {
+    "name": "Sniper",
+    "keywords": "archer sorcery",
+    "classes": {
+      "Archer": "6"
+    },
+    "t": "Neutral",
+    "s": "Sorcery",
+    "e": "Player may physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3",
+    "l": "May not fire normal arrows. Only one type of Specialty￼Arrow may be charged at any given time"
+  },
+
+  "songofbattle": {
+    "name": "Song of Battle",
+    "keywords": "bard enchantment song command",
+    "classes": {
+      "Bard": "2"
+    },
+    "t": "Enchantment",
+    "s": "Command",
+    "r": "Self",
+    "i": "\"I sing of my legendary prowess\"",
+    "m": "No strip required",
+    "e": "Bearer’s weapons are Armor Breaking. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+  },
+
+  "songofdeflection": {
+    "name": "Song of Deflection",
+    "keywords": "bard enchantment protection song deflection",
+    "classes": {
+      "Bard": "4"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing of my nimble acrobatics\"",
+    "m": "No strip required",
+    "e": "Bearer does not receive Wounds from ammunition, thrown javelins, rocks, and throwing weapons. Bearer must Chant \"Song of Deflection\" or sing a song regarding their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+  },
+
+  "songofdetermination": {
+    "name": "Song of Determination",
+    "keywords": "bard enchantment protection song determination",
+    "classes": {
+      "Bard": "1"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing of my unwavering determination\"",
+    "m": "No strip required",
+    "e": "Bearer is Immune to Command. Bearer must Chant \"Song of Determination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
+  },    
+
+  "songoffreedom": {
+    "name": "Song of Freedom",
+    "keywords": "bard enchantment protection song freedom",
+    "classes": {
+      "Bard": "3"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing of my unquenchable wanderlust\"",
+    "m": "No strip required",
+    "e": "Bearer can not receive the States Stopped, Frozen, or Insubstantial unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\" or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+  },
+
+  "songofinterference": {
+    "name": "Song of Interference",
+    "keywords": "bard enchantment protection song interference",
+    "classes": {
+      "Bard": "6"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing a song of dark magic thwarted\"",
+    "m": "No strip required",
+    "e": "As per <a href=\"/spells/e#enlightenedsoul\" data-ajax=\"false\">Enlightened Soul</a>. Bearer must Chant \"Song of Interference\" or sing a song about defeating/resisting the forces of magic. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+  },
+
+  "songofpower": {
+    "name": "Song of Power",
+    "keywords": "bard enchantment protection song power",
+    "classes": {
+      "Bard": "4"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing to inspire my brothers-in-arms\"",
+    "m": "No strip required",
+    "e": "Friendly players within 20’ of the bearer have their Charging Incantation repetitions divided by 2, rounded down. Bearer is Stopped. Bearer must Chant \"Song of Power\" or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+  },  
+
+
+  "songofsurvival": {
+    "name": "Song of Survival",
+    "keywords": "bard enchantment protection song survival",
+    "classes": {
+      "Bard": "5"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing of my numerous close calls\"",
+    "m": "No strip required",
+    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Bearer may choose to return directly to their respawn location immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom",
+    "l": "Once Song of Survival has activated to protect the bearer it may not be cast again on the same life. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+  },
+
+  "songofvisit": {
+    "name": "Song of Visit",
+    "keywords": "bard enchantment protection song visit",
+    "classes": {
+      "Bard": "2"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I sing to entertain friend and foe\" x3",
+    "m": "No strip required",
+    "e": "Bearer cannot be Wounded and is Immune to all schools. Bearer is Stopped. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. Song of Visit ending results in the player becoming insubstantial, and the player must return to base to end their insubstantial state and resume play",
+    "l": "Bearer may not wield weapons, interact with game objects, impede play, or target any player",
+    "n": "This Enchantment can be removed by Dispel Magic and similar Magic and Abilities"
+  },
+
+  "sphereofannihilation": {
+    "name": "Sphere of Annihilation",
+    "keywords": "wizard ball sorcery annihilation",
+    "classes": {
+      "Wizard": "6"
+    },
+    "t": "Magic Ball",
+    "s": "Sorcery",
+    "r": "Ball",
+    "i": "\"The power of void is mine to evoke\" x3",
+    "m": "Black Magic Ball",
+    "e": "Sphere of Annihilation will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to Shield Destroying<br>3. A player hit dies and is Cursed",
+    "n": "Ignores armor. Enchantments which affect equipment, such as Imbue Shield or Harden, do not function against Sphere of Annihilation"
+  },
+
+  "steallifeessence": {
+    "name": "Steal Life Essence",
+    "keywords": "anti paladin healer wizard verbal death charge",
+    "classes": {
+      "Anti-Paladin": "3",
+      "Healer": "5",
+      "Wizard": "5"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"Steal Life\"",
+    "e": "Caster may heal a Wound or instantly Charge an ability",
+    "l": "May only be used on a dead player. That player is Cursed. Does not work on Cursed players"
+  },
+
+  "stoneform": {
+    "name": "Stoneform",
+    "keywords": "druid verbal protection frozen",
+    "classes": {
+      "Druid": "2"
+    },
+    "t": "Verbal",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"I take the form of stone\"",
+    "e": "Caster is Frozen. May end this State at any time by saying \"the earth release me\""
+  },
+
+  "stun": {
+    "name": "Stun",
+    "keywords": "bard healer verbal sorcery stunned",
+    "classes": {
+      "Bard": "6",
+      "Healer": "6"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"By the power of white light I stun thee\" x3",
+    "e": "Target player is Stunned for 30 seconds"
+  },
+
+  "summondead": {
+    "name": "Summon Dead",
+    "keywords": "healer verbal spirit",
+    "classes": {
+      "Healer": "2"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "50",
+    "i": "\"I summon thy corpse\" x5",
+    "e": "Target dead player may choose to go to the caster and then counts as though they had not moved from where they died. May be used on a dead player who has not moved from where they died or who is at their respawn location"
+  },
+
+  "summoner": {
+    "name": "Summoner",
+    "keywords": "druid",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Each Enchantment purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/ life becomes 4/life",
+    "l": "May not purchase Verbals with a range other than Touch or Self. May not purchase equipment beyond 2nd level"
+  },
+
+  "suppressaura": {
+    "name": "Suppress Aura",
+    "keywords": "bard wizard verbal command suppressed",
+    "classes": {
+      "Bard": "4",
+      "Wizard": "4"
+    },
+    "t": "Verbal",
+    "s": "Command",
+    "r": "50",
+    "i": "\"I command thee powerless\" x3",
+    "e": "Target is Suppressed for 30 seconds"
+  },
+
+  "suppressionarrow": {
+    "name": "Suppression Arrow",
+    "keywords": "archer arrow sorcery suppression",
+    "classes": {
+      "Archer": "4"
+    },
+    "t": "Specialty￼Arrow",
+    "s": "Sorcery",
+    "i": "\"Suppression Arrow\"",
+    "m": "Arrow with purple head cover labeled ‘Suppression’",
+    "e": "A player struck by this arrow is Suppressed for 30 seconds",
+    "n": "Engulfing"
+  },
+
+  "suppressionbolt": {
+    "name": "Suppression Bolt",
+    "keywords": "wizard ball subdual suppression",
+    "classes": {
+      "Wizard": "2"
+    },
+    "t": "Magic Ball",
+    "s": "Subdual",
+    "r": "Ball",
+    "i": "\"The strength of suppression is mine to evoke\" x3",
+    "m": "Purple Magic Ball",
+    "e": "Target is Suppressed for 60 seconds. Engulfing"
+  },
+
+  "swift": {
+    "name": "Swift",
+    "keywords": "bard druid healer wizard meta magic",
+    "classes": {
+      "Bard": "4",
+      "Druid": "4",
+      "Healer": "4",
+      "Wizard": "4"
+    },
+    "t": "Meta-Magic",
+    "s": "Neutral",
+    "i": "\"Swift\"",
+    "e": "Magic and abilities require only a single iteration of the incantation. For multi-line Incantations use the last line",
+    "l": "May only be used on Magic and Abilities at a range of Ball, Touch, or Self. May not be used on the Charge incantation"
+  },
+
+  "teleport": {
+    "name": "Teleport",
+    "keywords": "assassin druid healer wizard verbal sorcery insubstantial",
+    "classes": {
+      "Assassin": "5",
+      "Druid": "4",
+      "Healer": "4",
+      "Wizard": "2"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"I travel through the aether\" x5",
+    "e": "Player becomes Insubstantial and moves directly to a location chosen at the time of casting by the caster. Upon arrival, they must immediately end the effect as per Insubstantial",
+    "n": "If the player’s Insubstantial state is removed before they have reached their destination, the effects of Teleport end"
+  },
+
+  "terror": {
+    "name": "Terror",
+    "keywords": "bard verbal death",
+    "classes": {
+      "Bard": "4"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"Death makes thee terrified\" x3",
+    "e": "Target may not attack or cast magic at the caster. Target must remain at least 50’ away from the caster unless forced there by another Magic or Ability. Lasts 30 seconds",
+    "n": "If the caster attacks or begins casting another magic at the target, this spell’s effect is negated"
+  },
+
+  "throw": {
+    "name": "Throw",
+    "keywords": "wizard verbal sorcery",
+    "classes": {
+      "Wizard": "3"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"My power throws thee\" x3",
+    "e": "Target player is moved back 50’. Works on Stopped players"
+  },
+
+  "tracking": {
+    "name": "Tracking",
+    "keywords": "scout verbal sorcery insubstantial",
+    "classes": {
+      "Scout": "1"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "20",
+    "i": "\"Tracking\" x3",
+    "e": "Target Insubstantial player immediately has their Insubstantial effect ended"
+  },
+
+  "trollblood": {
+    "name": "Troll Blood",
+    "keywords": "druid enchantment protection white frozen",
+    "classes": {
+      "Druid": "5"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"The blood of the trolls sustains thee\" x3",
+    "m": "Three White Strips",
+    "e": "Enchanted player does not die as normal. When the player would otherwise die they instead ignore the triggering effect as though it had not occurred, remove a strip, and become Frozen for 30 seconds. The bearer is treated as though they have the effects of <a href=\"/spells/r#regeneration\" data-ajax=\"false\">Regeneration</a> in addition to the above",
+    "n": "Troll Blood is removed when the last strip is removed"
+  },
+
+  "truegrit": {
+    "name": "True Grit",
+    "keywords": "warrior verbal spirit frozen",
+    "classes": {
+      "Warrior": "1"
+    },
+    "t": "Verbal",
+    "s": "Spirit",
+    "r": "Self",
+    "i": "\"The wicked flee when I pursue\" immediately after dying",
+    "e": "Player returns to life with their Wounds healed and is immediately Frozen for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life"
+  },
+
+  "undeadminion": {
+    "name": "Undead Minion",
+    "keywords": "anti paladin healer enchantment death",
+    "classes": {
+      "Anti-Paladin": "6",
+      "Healer": "3"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "<br>Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my minion!",
+    "m": "Yellow Strip",
+    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is Cursed, Fragile, and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x10 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
+    "l": "<br>1. The Insubstantial State imposed by Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
+  },
+
+  "vampirism": {
+    "name": "Vampirism",
+    "keywords": "wizard enchantment death",
+    "classes": {
+      "Wizard": "4"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Touch",
+    "i": "\"Thy hunger can never be sated\" x3",
+    "m": "Yellow Strip and White Strip",
+    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is Immune to Death, and is Cursed. Bearer’s Adrenaline ability will work through their Cursed State"
+  },
+
+  "voidtouched": {
+    "name": "Void Touched",
+    "keywords": "wizard enchantment sorcery",
+    "classes": {
+      "Wizard": "5"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"Embrace the old ones and surrender thyself\" x3",
+    "m": "Red Strip and White Strip",
+    "e": "Melee weapons wielded by bearer are Armor Breaking. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is Immune to magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is Cursed"
+  },
+
+  "wardself": {
+    "name": "Ward Self",
+    "keywords": "wizard enchantment protection",
+    "classes": {
+      "Wizard": "5"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Self",
+    "i": "\"The power of magic defends me\" x3",
+    "m": "White Strip",
+    "e": "Resistant to the next effect which would inflict a Wound, Death, or State. Does not trigger against effects cast by the player"
+  },
+
+  "warder": {
+    "name": "Warder",
+    "keywords": "healer",
+    "classes": {
+      "Healer": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Each Enchantment purchased in the Protection School gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life",
+    "l": "Player may not purchase any magic from the Death, Command, or Subdual Schools"
+  },
+
+  "warlock": {
+    "name": "Warlock",
+    "keywords": "wizard",
+    "classes": {
+      "Wizard": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Each Verbal purchased in the Death and Flame Schools gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life",
+    "l": "Player may not purchase Verbals from any School other than the Death and Flame Schools"
+  },
+
+  "wordofmending": {
+    "name": "Word of Mending",
+    "keywords": "druid wizard verbal sorcery",
+    "classes": {
+      "Druid": "6",
+      "Wizard": "6"
+    },
+    "t": "Verbal",
+    "s": "Sorcery",
+    "r": "Touch",
+    "i": "\"Spedoinkle\"",
+    "e": "All equipment carried by target player is repaired. All armor worn by target player is restored to full value",
+    "l": "May not be cast within 20’ of a living enemy"
+  },
+
+  "wounding": {
+    "name": "Wounding",
+    "keywords": "wizard verbal death",
+    "classes": {
+      "Wizard": "4"
+    },
+    "t": "Verbal",
+    "s": "Death",
+    "r": "20",
+    "i": "\"Death strikes off thy [left/right] [arm/leg]\" x3",
+    "e": "Target hit location on target player is Wounded",
+    "l": "Has no effect on players already Wounded"
   }
 
 }
