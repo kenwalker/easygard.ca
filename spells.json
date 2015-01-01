@@ -175,7 +175,7 @@
     "classes": {
       "Anti-Paladin": "1",
       "Bard": "3",
-      "Paladin": "1"
+      "Paladin": "5"
     },
     "t": "Verbal",
     "s": "Command",
@@ -1532,6 +1532,7 @@
     "keywords": "healer wizard enchantment protection white magic",
     "classes": {
       "Healer": "6",
+      "Paladin": "6",
       "Wizard": "6"
     },
     "t": "Enchantment",

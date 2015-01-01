@@ -114,6 +114,84 @@
   </div>
 <!-- End of Assassin /page -->
 
+<!-- Start of Paladin page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Paladin" data-url="Paladin">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Paladin - Knight</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> White belt and a white phoenix device openly displayed on armor or clothing<br>
+<b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
+<b>Armor:</b> 4 Points<br>
+<b>Shields:</b> Large<br>
+<b>Weapons:</b> All Melee, Javelins<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Uses</abbr></th>
+             <th data-priority="3">Cat</th>
+             <th data-priority="4">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th>Immune to Command</th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th>Immune to Death</th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/h#heal" data-ajax="false">Heal</a></th>
+              <td>1/Ref Chg x5</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/e#extendimmunities" data-ajax="false">Extend Immunities</a></th>
+              <td>1/Ref Chg x5</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th><a href="/spells/a#awe" data-ajax="false">Awe</a></th>
+              <td>1/Life</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/p#protectionfrommagic" data-ajax="false">Protection From Magic (self/touch)</a></th>
+              <td>2/Refresh</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Paladin /page -->
+
 <!-- Start of Healer page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
 <%= erb :'sections/header' %>
@@ -636,7 +714,7 @@
              <td>Touch</td>
            </tr>
            <tr>
-             <th><a href="/spells/p#priest" data-ajax="false">Priest</a></th>
+             <th><a href="/spells/p#preist" data-ajax="false">Priest</a></th>
              <td>1</td>
              <td>1</td>
              <td>-</td>
