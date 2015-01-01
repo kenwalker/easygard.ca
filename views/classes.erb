@@ -286,6 +286,84 @@
   </div>
 <!-- End of Anti-Paladin /page -->
 
+<!-- Start of Warrior page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Warrior" data-url="Warrior">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Warrior - Melee</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Purple Sash<br>
+<b>Look The Part:</b> <a href="/spells/i#insult" data-ajax="false">Insult</a> 1/Life (m)(ambulant)<br>
+<b>Armor:</b> 6 Points<br>
+<b>Shields:</b> Large<br>
+<b>Weapons:</b> All Melee, Javelins<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Uses</abbr></th>
+             <th data-priority="3">Cat</th>
+             <th data-priority="4">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/s#scavenge" data-ajax="false">Scavenge</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/h#harden" data-ajax="false">Harden (self only)</a></th>
+              <td>1/Life</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/t#truegrit" data-ajax="false">True Grit</a></th>
+              <td>2/Ref</td>
+              <td>-</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>4</th>
+              <th><a href="/spells/i#insult" data-ajax="false">Insult</a></th>
+              <td>1/Life</td>
+              <td>Magical</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th><a href="/spells/s#shakeitoff" data-ajax="false">Shake it off</a></th>
+              <td>1/Ref Chg x3</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor (self-only)</a></th>
+              <td>3/Refresh</td>
+              <td>(ex)</td>
+              <td>Swift</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Warrior /page -->
+
 <!-- Start of Healer page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
 <%= erb :'sections/header' %>
