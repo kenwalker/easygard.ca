@@ -463,6 +463,91 @@
   </div>
 <!-- End of Scout /page -->
 
+<!-- Start of Monk page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Monk" data-url="Monk">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Monk - Melee</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Grey Sash<br>
+<b>Look The Part:</b> <a href="/spells/h#heal" data-ajax="false">Heal</a> (self-only) 1/Life (ex)<br>
+<b>Armor:</b> None<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> All Melee<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Uses</abbr></th>
+             <th data-priority="3">Cat</th>
+             <th data-priority="4">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/e#enlightenedsoul" data-ajax="false">Enlightened Soul</a></th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/m#missileblock" data-ajax="false">Missle Block</a></th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th>May use Heavy Thrown</th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/s#sanctuary" data-ajax="false">Sanctuary</a></th>
+              <td>1/Life Chg x5</td>
+              <td>(ex)</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>4</th>
+              <th><a href="/spells/h#heal" data-ajax="false">Heal (self-only)</a></th>
+              <td>1/Life Chg x3</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th><a href="/spells/r#resurrect" data-ajax="false">Resurrect</a></th>
+              <td>1/Refresh Chg x10</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/m#magicballblock" data-ajax="false">Magic Ball Block</a></th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Monk /page -->
+
 <!-- Start of Healer page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
 <%= erb :'sections/header' %>
