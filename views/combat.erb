@@ -1,18 +1,80 @@
-<div data-role="page" class="jqm-demos jqm-home">
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="combat">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
 
 	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Combat</h3>
-                <p>The combat section will cover hit locations among other things...</p>
-            </div>
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="#HitLocations">Hit Locations</a></li>
+               <li><a href="#CombatContact">Combat Contact</a></li>
+               <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
+               <li><a href="#Deaths">Deaths</a></li>
+               <li><a href="#CombatEtiquette">Combat Etiquette</a></li>
+            </ul>
 
 	</div><!-- /footer -->
 
 	</div><!-- /content -->
 
 </div><!-- /page -->
+
+<!-- Hit Locations Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="HitLocations">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Hit Locations</h3>
+    			<p>Players have five locations which may be Wounded: Left Arm, Right Arm, Left Leg, Right Leg, and Torso</p><b>Arm:</b> From just below the outside point of the shoulder to the tips of the fingers. A hand is not Wounded if struck below the wrist while holding a weapon or shield. Treat those strikes as though they had struck the weapon or shield held instead.<br>
+				<b>Leg:</b> From just below the end of the buttocks in the back, the hip socket in the front, and an imaginary line between them on the sides down to and including the foot. A foot on the ground is not Wounded if struck below the ankle.<br>
+				<b>Torso:</b> Everything that isn’t an arm or leg, including the groin, shoulders, and collar bones up to the vertical rise of the neck
+				<p><h3>Notes:</h3>
+				<ol>
+				<li>Players may not be struck in the neck or head. Will not count as a hit and is invalid</li>
+				<li>Players may not block shots with their neck or head. Intentional head blocking can result in being called dead by a reeve</li>
+				<li>A Wounded arm may not wield Active Equipment, carry anything, and must be kept out of combat</li>
+				<li>A Wounded leg must have the knee in contact with the ground. The knee of the Wounded leg may be lifted from the ground briefly to enable movement so long as the unwounded leg has a knee on the ground. If the player cannot place their dead knee in contact with the ground, the foot of the Wounded leg must remain stationary, and may only be used to pivot. The player must immediately notify his/ her opponent(s) of this by stating <i>“posting”</i> in order avoid dropping to his/her knees</li>
+				<li>A Wounded leg may not receive Wounds while the knee is on the ground or during the initial placement of the knee on the ground after receiving a Wound. If “posting”, the previously Wounded leg is capable of receiving an additional Wound</li>
+				</ol></p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Hit Locations /page -->
+
+<!-- Combat Contact Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="CombatContact">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Combat Contact</h3>
+    			<p>A broad range of contact is allowed in combat. The rules below outline what is and is not acceptable. No action is acceptable if it is performed in an unsafe manner. The responsibility for the results of an action always rests squarely on the the actor. Unsafe behavior on the field can result in suspension from play at the discretion of the Champion, Monarch, or Guildmaster of Reeves.
+    			</p><b>Allowed:</b> The following actions are acceptable:<br>
+    			<ol>
+    			<li>Weapon to Weapon contact is allowed
+				<b>Leg:</b> From just below the end of the buttocks in the back, the hip socket in the front, and an imaginary line between them on the sides down to and including the foot. A foot on the ground is not Wounded if struck below the ankle.<br>
+				<b>Torso:</b> Everything that isn’t an arm or leg, including the groin, shoulders, and collar bones up to the vertical rise of the neck.<br>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Combat Contact /page -->
 
