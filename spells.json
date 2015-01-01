@@ -540,7 +540,7 @@
     "s": "Command",
     "r": "Self",
     "i": "\"My discordant melodies shall stymie my foes\" x3",
-    "m": "Red Strips",
+    "m": "5 Red Strips",
     "e": "Tie on five enchantment strips. Bearer may cast Break Concentration by announcing \"[Player] thou art suppressed\" and removing an enchantment strip. Enchantment is removed when the last strip is removed"
   },
 
@@ -1277,7 +1277,7 @@
   },
 
   "lost": {
-    "name": "lost",
+    "name": "Lost",
     "keywords": "bard verbal command insubstantial",
     "classes": {
       "Bard": "5"
