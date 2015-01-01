@@ -641,6 +641,98 @@
   </div>
 <!-- End of Barbarian /page -->
 
+<!-- Start of Archer page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Archer" data-url="Archer">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Archer - Melee</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Orange Sash<br>
+<b>Look The Part:</b> Pick One Ability: <a href="/spells/d#destructionarrow" data-ajax="false">Destruction Arrow</a>, <a href="/spells/p#poisonarrow" data-ajax="false">Poison Arrow</a>, <a href="/spells/p#pinningarrow" data-ajax="false">Pinning Arrow</a>; Unlimited (ex)<br>
+<b>Armor:</b> 2 Points<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger, Short, Bow<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Uses</abbr></th>
+             <th data-priority="3">Cat</th>
+             <th data-priority="4">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/r#reload" data-ajax="false">Reload</a></th>
+              <td>1/Ref Chg x3</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th>Pick two: <br><a href="/spells/d#destructionarrow" data-ajax="false">Destruction Arrow</a><br><a href="/spells/p#pinningarrow" data-ajax="false">Pinning Arrow</a> <br><a href="/spells/p#poisonarrow" data-ajax="false">Poison Arrow</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>One Arrow</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/m#mend" data-ajax="false">Mend</a></th>
+              <td>1/Life</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th>Pick two: <br><a href="/spells/d#destructionarrow" data-ajax="false">Destruction Arrow</a><br><a href="/spells/p#pinningarrow" data-ajax="false">Pinning Arrow</a> <br><a href="/spells/p#poisonarrow" data-ajax="false">Poison Arrow</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>One Arrow</td>
+           </tr>
+           <tr>
+              <th>4</th>
+              <th><a href="/spells/s#suppressionarrow" data-ajax="false">Suppression Arrow</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>One Arrow</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th>Pick two: <br><a href="/spells/d#destructionarrow" data-ajax="false">Destruction Arrow</a><br><a href="/spells/p#pinningarrow" data-ajax="false">Pinning Arrow</a> <br><a href="/spells/p#poisonarrow" data-ajax="false">Poison Arrow</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>One Arrow</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/p#phasearrow" data-ajax="false">Phase Arrow</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>One Arrow</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th>Optional: <a href="/spells/s#sniper" data-ajax="false">Sniper</a></th>
+              <td>-</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Barbarian /page -->
+
 <!-- Start of Healer page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
 <%= erb :'sections/header' %>
