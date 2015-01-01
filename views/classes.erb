@@ -27,6 +27,139 @@
 
 </div><!-- /page -->
 
+<!-- Start of Assassin page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Assassin" data-url="Assassin">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Assassin - Melee</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Black sash<br>
+<b>Look The Part:</b> <a href="/spells/p#poison" data-ajax="false">Poison</a> (self-only) 1/Life (ex)<br>
+<b>Armor:</b> 2 Points<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger, Short, Long, Light Throwing, Heavy Throwing, Bow<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="4">Uses</abbr></th>
+             <th data-priority="5">Cat</th>
+             <th data-priority="6">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/s#shadowstep" data-ajax="false">Shadow Step</a></th>
+              <td>2/Life</td>
+              <td>(ex)</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/a#assassinate" data-ajax="false">Assassinate</a></th>
+              <td>Unlimited</td>
+              <td>(ex)</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/p#poison" data-ajax="false">Poison (self only)</a></th>
+              <td>1/Life Chg x3</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/b#blink" data-ajax="false">Blink</a></th>
+              <td>2/Life</td>
+              <td>(ex)</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>4</th>
+              <th><a href="/spells/h#holdperson" data-ajax="false">Hold Person</a></th>
+              <td>1/Life</td>
+              <td>(magical)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th><a href="/spells/t#teleport" data-ajax="false">Teleport (self only)</a></th>
+              <td>2/Life</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/c#coupdegrace" data-ajax="false">Coup de Grace</a></th>
+              <td>1/Life</td>
+              <td>(magical)</td>
+              <td>-</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Assassin /page -->
+
+<!-- Start of Healer page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Healer - Spell Caster</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Red sash<br>
+<b>Look The Part:</b> 1 extra point of magic at the Healers highest level<br>
+<b>Armor:</b> None<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger<br>
+<b>Magic-user:</b> Healers may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times.<br>
+</p>
+        <h3>1st Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/" data-ajax="false"></a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td></td>
+             <td></td>
+             <td>Touch</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Healer /page -->
+
 <!-- Start of Druid page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Druid" data-url="Druid">
 <%= erb :'sections/header' %>

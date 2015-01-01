@@ -1483,8 +1483,9 @@
     },
     "t": "Enchantment",
     "s": "Death",
+    "m": "Red Strip",
     "r": "Touch",
-    "i": "\"I coat these weapons with a deadly poison\" x 2",
+    "i": "(Assassins and Anti-Paladins must hold weapon in both hands) \"I coat these weapons with a deadly poison\" x 2",
     "e": "The next Wound dealt by the bearer in melee is Wounds Kill"
   },
 
