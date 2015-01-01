@@ -615,7 +615,7 @@
     "r": "Touch",
     "i": "\"A distant magic has no hold upon thy now enlightened soul\" x3",
     "m": "White Strip",
-    "e": "layer is unaffected by Verbal magic used at a Range greater than Touch",
+    "e": "Player is unaffected by Verbal magic used at a Range greater than Touch",
     "l": "Effects beneficial magic as well as harmful magic"
   },
 
@@ -982,7 +982,7 @@
     "r": "Touch",
     "i": "\"I enchant thee with Greater Harden\" x3",
     "m": "White Strip",
-    "e": "Shields and weapons wielded by the player are affected as per Harden. May only be cast on a player"
+    "e": "Shields and weapons wielded by the player are affected as per <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a>. May only be cast on a player"
   },
 
   "greaterheal": {
@@ -1514,6 +1514,17 @@
     "i": "\"Thou shalt secrete poison from thy venemous glands\" x3",
     "m": "Red Strip",
     "e": "Bearer gains self-only <a href=\"/spells/p#poison\" data-ajax=\"false\">Poison</a> (ex) 1/Refresh Charge x3"
+  },
+
+  "priest": {
+    "name": "Priest",
+    "keywords": "healer",
+    "classes": {
+      "Healer": "6"
+    },
+    "t": "Neutral",
+    "s": "Neutral",
+    "e": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. Heal costs zero points"
   },
 
   "protectionfrommagic": {
