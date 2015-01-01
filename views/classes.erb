@@ -8,24 +8,603 @@
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li data-role="list-divider">Melee</li>
                <li><a href="#Archer">Archer</a></li>
-               <li><a href="#">Assassin</a></li>
-               <li><a href="#">Barbarian</a></li>
-               <li><a href="#">Monk</a></li>
-               <li><a href="#">Scout</a></li>
-               <li><a href="#">Warrior</a></li>
+               <li><a href="#Assassin">Assassin</a></li>
+               <li><a href="#Barbarian">Barbarian</a></li>
+               <li><a href="#Monk">Monk</a></li>
+               <li><a href="#Scout">Scout</a></li>
+               <li><a href="#Warrior">Warrior</a></li>
                <li data-role="list-divider">Spell Caster</li>
                <li><a href="#Bard">Bard</a></li>
-               <li><a href="#">Druid</a></li>
-               <li><a href="#">Healer</a></li>
+               <li><a href="#Druid">Druid</a></li>
+               <li><a href="#Healer">Healer</a></li>
                <li><a href="#Wizard">Wizard</a></li>
                <li data-role="list-divider">Knights</li>
-               <li><a href="#">Anti-Paladin</a></li>
-               <li><a href="#">Paladin</a></li>
+               <li><a href="#AntiPaladin">Anti-Paladin</a></li>
+               <li><a href="#Paladin">Paladin</a></li>
             </ul>
          </div>
          <!-- /content -->
 
 </div><!-- /page -->
+
+<!-- Start of Druid page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Druid" data-url="Druid">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Druid - Spell Caster</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Brown sash<br>
+<b>Look The Part:</b> 1 extra point of magic at the Druids highest level<br>
+<b>Armor:</b> None<br>
+<b>Shields:</b> None<br>
+<b>Weapons:</b> Dagger<br>
+<b>Magic-user:</b> Druids may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times.<br>
+</p>
+        <h3>1st Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/b#barkskin" data-ajax="false">Barkskin</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/c#cancel" data-ajax="false">Cancel</a></th>
+             <td>0</td>
+             <td>1</td>
+             <td>Unlimited</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/c#corrosivemist" data-ajax="false">Corrosive Mist</a></th>
+             <td>1</td>
+             <td>1</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Death</td>
+             <td>Self/Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#entangle" data-ajax="false">Entangle</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>2 Balls/Unlmt</td>
+             <td>Ball</td>
+             <td>Subdual</td>
+             <td>Ball</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#equipmentweaponshort" data-ajax="false">Weapon Short</a></th>
+             <td>2</td>
+             <td>2</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#experienced" data-ajax="false">Experienced</a></th>
+             <td>2</td>
+             <td>2</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/h#heatweapon" data-ajax="false">Heat Weapon</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life Chg x3</td>
+             <td>Verbal</td>
+             <td>Flame</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#imbuearmor" data-ajax="false">Imbue Armor</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/m#mend" data-ajax="false">Mend</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+         </tbody>
+       </table>
+
+        <h3>2nd Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl2" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/e#equipmentshieldsmall" data-ajax="false">Shield Small</a></th>
+             <td>4</td>
+             <td>1</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#giftofearth" data-ajax="false">Gift of Earth</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/h#heal" data-ajax="false">Heal</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Spirit</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#iceball" data-ajax="false">Iceball</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>2 Balls/Unlmt</td>
+             <td>Ball</td>
+             <td>Subdual</td>
+             <td>Ball</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#innate" data-ajax="false">Innate</a></th>
+             <td>1</td>
+             <td>4</td>
+             <td>1/Ref</td>
+             <td>Meta-Magic</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/p#poison" data-ajax="false">Poison</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Enchantment</td>
+             <td>Death</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/r#release" data-ajax="false">Release</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/s#stoneform" data-ajax="false">Stoneform</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref Chg x3</td>
+             <td>Verbal</td>
+             <td>Protection</td>
+             <td>Self</td>
+           </tr>
+         </tbody>
+       </table>
+        <h3>3rd Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl3" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/a#attuned" data-ajax="false">Attuned</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/b#bearstrength" data-ajax="false">Bear Strength</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/d#dispelmagic" data-ajax="false">Dispel Magic</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#extension" data-ajax="false">Extension</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Life</td>
+             <td>Meta-Magic</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#giftoffire" data-ajax="false">Gift of Fire</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Flame</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#greatermend" data-ajax="false">Greater Mend</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#icyblast" data-ajax="false">Icy Blast</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/r#regeneration" data-ajax="false">Regeneration</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Spirit</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/s#stoneskin" data-ajax="false">Stoneskin</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+         </tbody>
+       </table>
+        <h3>4th Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl4" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/e#equipmentweaponlong" data-ajax="false">Weapon Long</a></th>
+             <td>4</td>
+             <td>1</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/f#flameblade" data-ajax="false">Flame Blade</a></th>
+             <td>2</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Flame</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/f#forcebolt" data-ajax="false">Force Bolt</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>2 Balls/Unlmt</td>
+             <td>Ball</td>
+             <td>Sorcery</td>
+             <td>Ball</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#giftofwater" data-ajax="false">Gift of Water</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#golem" data-ajax="false">Golem</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/l#lycanthropy" data-ajax="false">Lycanthropy</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Death</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/s#swift" data-ajax="false">Swift</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Life</td>
+             <td>Meta-Magic</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/t#teleport" data-ajax="false">Teleport</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Life</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+         </tbody>
+       </table>
+        <h3>5th Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl5" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/a#ambulant" data-ajax="false">Ambulant</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Life</td>
+             <td>Meta-Magic</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#equipmentweapongreat" data-ajax="false">Weapon Great</a></th>
+             <td>5</td>
+             <td>1</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/e#essencegraft" data-ajax="false">Essence Graft</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#giftofair" data-ajax="false">Gift of Air</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/h#heartoftheswarm" data-ajax="false">Heart of the Swarm</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Spirit</td>
+             <td>Self</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#ironskin" data-ajax="false">Ironskin</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/p#poisonglands" data-ajax="false">Poison Glands</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Death</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/r#resurrect" data-ajax="false">Resurrect</a></th>
+             <td>2</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Verbal</td>
+             <td>Spirit</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/t#trollblood" data-ajax="false">Troll Blood</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Protection</td>
+             <td>Touch</td>
+           </tr>
+         </tbody>
+       </table>
+        <h3>6th Level Spells</h3>
+        <table data-role="table" id="table-custom-lvl6" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Cost</th>
+             <th data-priority="3">Max</th>
+             <th data-priority="4">Freq</abbr></th>
+             <th data-priority="5">Type</th>
+             <th data-priority="6">School</th>
+             <th data-priority="7">Range</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th><a href="/spells/a#avatarofnature" data-ajax="false">Avatar of Nature</a></th>
+             <td>1</td>
+             <td>1</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/c#calllightning" data-ajax="false">Call Lightning</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Verbal</td>
+             <td>Flame</td>
+             <td>20</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/g#graspingtentacles" data-ajax="false">Grasping Tentacles</a></th>
+             <td>1</td>
+             <td>1</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Command</td>
+             <td>Self</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/i#imbueweapon" data-ajax="false">Imbue Weapon</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Death</td>
+             <td>Touch</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/n#naturalizemagic" data-ajax="false">Naturalize Magic</a></th>
+             <td>1</td>
+             <td>2</td>
+             <td>1/Ref</td>
+             <td>Enchantment</td>
+             <td>Sorcery</td>
+             <td>Self</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/r#ranger" data-ajax="false">Ranger</a></th>
+             <td>2</td>
+             <td>1</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/s#summoner" data-ajax="false">Summoner</a></th>
+             <td>2</td>
+             <td>1</td>
+             <td>-</td>
+             <td>Neutral</td>
+             <td>Neutral</td>
+             <td>-</td>
+           </tr>
+           <tr>
+             <th><a href="/spells/w#wordofmending" data-ajax="false">Word of Mending</a></th>
+             <td>1</td>
+             <td>-</td>
+             <td>1/Ref</td>
+             <td>Verbal</td>
+             <td>Sorcery</td>
+             <td>Touch</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Druid /page -->
 
 <!-- Start of Bard page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Bard" data-url="Bard">
@@ -38,7 +617,7 @@
    <div class="ui-body ui-body-a ui-corner-all">
 <p>
 <b>Garb:</b> Blue sash<br>
-<b>Look The Part:</b> 1 extra point of magic at the Wizards highest level<br>
+<b>Look The Part:</b> 1 extra point of magic at the Bards highest level<br>
 <b>Armor:</b> None<br>
 <b>Shields:</b> None<br>
 <b>Weapons:</b> Dagger<br>

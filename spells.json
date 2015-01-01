@@ -241,7 +241,7 @@
   },
 
   "bearstrength": {
-    "name": "Spell or Ability name",
+    "name": "Bear Strength",
     "keywords": "druid enchantment sorcery",
     "classes": {
       "Druid": "3"
@@ -1306,7 +1306,7 @@
 
   "magicballblock": {
     "name": "Magic Ball Block",
-    "keywords": "mondk enchantment protection",
+    "keywords": "monk enchantment protection",
     "classes": {
       "Monk": "6"
     },
@@ -1559,7 +1559,7 @@
   },
 
   "ranger": {
-    "name": "ranger",
+    "name": "Ranger",
     "keywords": "druid ranger",
     "classes": {
       "Druid": "6"
@@ -1970,6 +1970,19 @@
     "r": "Self",
     "i": "\"I take the form of stone\"",
     "e": "Caster is Frozen. May end this State at any time by saying \"the earth release me\""
+  },
+
+  "stoneskin": {
+    "name": "Stoneskin",
+    "keywords": "druid verbal protection frozen",
+    "classes": {
+      "Druid": "3"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Touch",
+    "i": "\"May nature protect thee from all forms of attack\" x3",
+    "e": "Bearer gains 2 points of Magic armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
   },
 
   "stun": {
