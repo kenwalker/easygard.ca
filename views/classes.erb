@@ -1,8 +1,10 @@
+<% @loaded = 'false' %>
 <div data-role="page" class="jqm-demos jqm-home" id="allclasses">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
 
          <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
@@ -31,7 +33,7 @@
 <div data-role="page" class="jqm-demos jqm-home" id="Assassin" data-url="Assassin">
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
    <h3 class="ui-bar ui-bar-a ui-corner-all">Assassin - Melee</h3>
@@ -116,7 +118,7 @@
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
    <h3 class="ui-bar ui-bar-a ui-corner-all">Healer - Spell Caster</h3>
@@ -164,7 +166,7 @@
 <div data-role="page" class="jqm-demos jqm-home" id="Druid" data-url="Druid">
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
    <h3 class="ui-bar ui-bar-a ui-corner-all">Druid - Spell Caster</h3>
@@ -743,7 +745,7 @@
 <div data-role="page" class="jqm-demos jqm-home" id="Bard" data-url="Bard">
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
    <h3 class="ui-bar ui-bar-a ui-corner-all">Bard - Spell Caster</h3>
@@ -1263,7 +1265,7 @@
 <div data-role="page" class="jqm-demos jqm-home" id="Wizard" data-url="Wizard">
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: 'true'} %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
    <h3 class="ui-bar ui-bar-a ui-corner-all">Wizard - Spell Caster</h3>

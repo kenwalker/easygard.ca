@@ -2,7 +2,7 @@
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: 'false'} %>
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
