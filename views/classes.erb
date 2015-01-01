@@ -364,6 +364,105 @@
   </div>
 <!-- End of Warrior /page -->
 
+<!-- Start of Scout page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Scout" data-url="Scout">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Scout - Melee</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> Green Sash<br>
+<b>Look The Part:</b> <a href="/spells/h#heal" data-ajax="false">Heal</a> 1/Life (ex)<br>
+<b>Armor:</b> 3 Points<br>
+<b>Shields:</b> Small<br>
+<b>Weapons:</b> Dagger, Short, Long, Heavy Thrown<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Uses</abbr></th>
+             <th data-priority="3">Cat</th>
+             <th data-priority="4">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th><a href="/spells/t#tracking" data-ajax="false">Tracking</a></th>
+              <td>2/Life Chg x3</td>
+              <td>(ex)</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th>May Use Bow so long as Shield not carried</th>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/h#heal" data-ajax="false">Heal</a></th>
+              <td>1/Life</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/r#release" data-ajax="false">Release</a></th>
+              <td>1/Life Chg x3</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/s#shadowstep" data-ajax="false">Shadow Step</a></th>
+              <td>1/Life</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/d#dispelmagic" data-ajax="false">Dispel Magic</a></th>
+              <td>1/Refresh</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>4</th>
+              <th><a href="/spells/e#evolution" data-ajax="false">Evolution</a></th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th><a href="/spells/h#holdperson" data-ajax="false">Hold Person</a></th>
+              <td>1/Life</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/a#adaptiveblessing" data-ajax="false">Adaptive Blessing (self-only)</a></th>
+              <td>1/Life</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Scout /page -->
+
 <!-- Start of Healer page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
 <%= erb :'sections/header' %>
