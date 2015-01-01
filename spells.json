@@ -125,7 +125,6 @@
     "s": "Death",
     "r": "20",
     "i": "Say the word \"Assassinate\" immediately upon killing a person.",
-    "m": "materials",
     "e": "The victim is Cursed"
   },
 
@@ -328,7 +327,7 @@
     "name": "Blood and Thunder",
     "keywords": "barbarian verbal spirit",
     "classes": {
-      "Barbarian": "1"
+      "Barbarian": "6"
     },
     "t": "Verbal",
     "s": "Spirit",
