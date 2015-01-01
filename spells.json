@@ -173,7 +173,7 @@
     "name": "Awe",
     "keywords": "bard paladin anti verbal command",
     "classes": {
-      "Anti-Paladin": "1",
+      "Anti-Paladin": "5",
       "Bard": "3",
       "Paladin": "5"
     },

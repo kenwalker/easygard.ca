@@ -126,6 +126,7 @@
 <p>
 <b>Garb:</b> White belt and a white phoenix device openly displayed on armor or clothing<br>
 <b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
+<b>Requirements:</b> Must be a Knight<br>
 <b>Armor:</b> 4 Points<br>
 <b>Shields:</b> Large<br>
 <b>Weapons:</b> All Melee, Javelins<br>
@@ -171,6 +172,13 @@
               <td>-</td>
            </tr>
            <tr>
+              <th>4</th>
+              <th><a href="/spells/r#resurrect" data-ajax="false">Resurrect</a></th>
+              <td>2/Ref</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+           <tr>
               <th>5</th>
               <th><a href="/spells/a#awe" data-ajax="false">Awe</a></th>
               <td>1/Life</td>
@@ -191,6 +199,92 @@
      <!-- /ui-content -->
   </div>
 <!-- End of Paladin /page -->
+
+<!-- Start of Anti-Paladin page -->
+<div data-role="page" class="jqm-demos jqm-home" id="AntiPaladin" data-url="AntiPaladin">
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+
+<div role="main" class="ui-content">
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Anti-Paladin - Knight</h3>
+   <div class="ui-body ui-body-a ui-corner-all">
+<p>
+<b>Garb:</b> White belt and an openly displayed black phoenix on clothing or armor<br>
+<b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
+<b>Requirements:</b> Must be a Knight<br>
+<b>Armor:</b> 4 Points<br>
+<b>Shields:</b> Large<br>
+<b>Weapons:</b> All Melee, Javelins<br>
+</p>
+        <h3>Abilities by Level</h3>
+        <table data-role="table" id="table-custom-lvl1" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+         <thead>
+           <tr class="ui-bar-d">
+             <th data-priority="1">Level</th>
+             <th data-priority="1">Name</th>
+             <th data-priority="2">Uses</abbr></th>
+             <th data-priority="3">Cat</th>
+             <th data-priority="4">Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <th>1</th>
+              <th>Immune to Command</th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>1</th>
+              <th>Immune to Flame</th>
+              <td>-</td>
+              <td>Trait</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>2</th>
+              <th><a href="/spells/p#poison" data-ajax="false">Poison (self only)</a></th>
+              <td>1/Ref Chg x3</td>
+              <td>(ex)</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>3</th>
+              <th><a href="/spells/s#steallifeessence" data-ajax="false">Steal Life Essence</a></th>
+              <td>1/Life</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>4</th>
+              <th><a href="/spells/b#brutalstrike" data-ajax="false">Brutal Strike</a></th>
+              <td>1/Life</td>
+              <td>Magical</td>
+              <td>Ambulant</td>
+           </tr>
+           <tr>
+              <th>5</th>
+              <th><a href="/spells/a#awe" data-ajax="false">Awe</a></th>
+              <td>1/Life</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+           <tr>
+              <th>6</th>
+              <th><a href="/spells/u#undeadminion" data-ajax="false">Undead Minion</a></th>
+              <td>2/Refresh</td>
+              <td>Magical</td>
+              <td>-</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     </div>
+     <!-- /ui-content -->
+  </div>
+<!-- End of Anti-Paladin /page -->
 
 <!-- Start of Healer page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Healer" data-url="Healer">
