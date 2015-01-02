@@ -1,0 +1,48 @@
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="shields">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Shields</h3>
+    			<p>Shields are used to block shots from weapons and are impervious to harm except from certain abilities and magics. All shield measurements are the exterior surface area on a flat plane</p>
+    			<ol>
+    			<li>Must not break or bend significantly during the course of combat. Rigid or easily breakable foam, or low-density foams, are inappropriate for all-foam shield construction. Some acceptable materials are:<br>
+    			<ol type="a">
+					<li>Sturdy high-density foam</li>
+					<li>Plywood</li>
+					<li>High impact plastics</li>
+					<li>Aluminum</li>
+				</ol></li>
+				<li>Must have an opaque, durable cover such as cloth or PlastiDip</li>
+				<li>The rim and face of the shield must be padded by at least 1” of closed cell foam<br>
+				<ol type="a">
+					<li>All-foam shields do not require any additional padding so long as the foam itself would be considered padding</li>
+				</ol></li>
+				<li>Hard edges may not be exposed on any surface which can reasonably come into contact with another player or their equipment</li>
+				<li>A player may only wield one shield at a time</li>
+				<li>Must be gripped in a hand in order to be considered wielded<br>
+				<ol type="a">
+					<li>A shield that is gripped in a hand may also have a support strap around the arm</li>
+					<li>A blow that strikes a non-wielded shield strapped to a player, such as a shield slung across a back, is considered to strike the player as if the shield had not been there</li>
+					<li>A small shield may be strapped to an arm instead of wielded in a hand</li>
+				</ol></li>
+				<li>A small shield is between 36 square inches (6.8 inch diameter) and three square feet (23.45 inch diameter)</li>
+				<li>A medium shield is no larger than five square feet (30.28 inch diameter)</li>
+				<li>A large shield is no larger than eight square feet (38.3 inch diameter)</li>
+				<li>Non-round shields may not be wider than 2’</li>
+				<li>A shield may be tossed in a manner that keeps it (relatively) perpendicular to the ground. While in the air, such a shield is considered a terrain effect, though it is still vulnerable to things that would normally affect a shield (such as Fireball or Destruction Arrow). A shield may not be tossed into another player or their wielded equipment</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Shields /page -->
+

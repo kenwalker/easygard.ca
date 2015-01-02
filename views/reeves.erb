@@ -1,0 +1,133 @@
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="reeves">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="#ReevingMadeEasy">Reeving Made Easy</a></li>
+               <li><a href="#EquipmentChecking">Equipment Checking</a></li>
+               <li><a href="#SashesStrips">Sashes and Strips</a></li>
+            </ul>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- ReevingMadeEasy Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="ReevingMadeEasy">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Reeving Made Easy</h3>
+    			<p>Reeves are an extremely important part of the Amtgard experience, as they are the individuals who are charged with attempting to ensure the safety and enjoyment of the game participants. Here are some helpful suggestions to being an effective reeve</p>
+    			<ol>
+				<li>As the reeve, your decision is final. If a snap decision is required, make the call that you believe is correct, and consult the rulebook after the fact to confirm the decision. If your call was incorrect, make sure to note that for the future</li>
+				<li>Your responsibility as a reeve is to facilitate the safety and enjoyment of the game participants. This may require you to make calls that are unpopular with some individuals in order to allow the game to proceed smoothly. You should attempt to remain fair and impartial in all of your calls, and apply the rules objectively, regardless of individual feelings on the subject</li>
+				<li>It is important to adhere to the spirit of the rules in addition to the letter of the rules. It is impossible in a game as varied as Amtgard for the rulebook to cover all contingencies. If you encounter a situation where a player’s actions negatively impact safety, playability, or the enjoyment of the participants, you are justified in disallowing that action. Here are a couple of examples of situations where it is reasonable for a reeve to intervene:<br>
+				<ol type="a">
+					<li>A player using a weapon in a manner that provides them with an advantage that their class would not normally receive (e.g.Monks with unusually large weapons for blocking, or an Assassin claiming that a medium shield is allowable because it is actually a weapon)</li>
+					<li>A player wielding otherwise legal equipment in an unsafe manner</li>
+					<li>A player knowingly attacking someone whom they are unable to affect (e.g. Insubstantial or frozen players)</li>
+					<li>Any situation where the player’s justification is “<i>But the rules don’t say I can’t...</i>”</li>
+				</ol></li>
+				</ol>
+
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- ReevingMadeEasy Checking /page -->
+
+<!-- EquipmentChecking Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="EquipmentChecking">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Equipment Checking</h3>
+    			<p>Before any day of combat begins all Combat Equipment brought to the field must be checked by the Champion or his appointed representative. Equipment which does not pass a check may not be used on the field. Equipment should be re- checked as necessary throughout the day. Using unchecked equipment on the field is grounds for immediate suspension from combat for the day at the discretion of the Champion. Issues with the performance of Equipment checks may be adjudicated by the Monarch and the Guild Master of Reeves. See also <i><a href="/weapons/#WeaponSafety" data-ajax="false">Weapons Safety</a></i></p>
+    			<p>This is an outline for checking Equipment. This is not exhaustive, but serves as a short checklist</p>
+    			<b><a href="/weapons/" data-ajax="false">Weapons</a></b><br>
+    			<ol>
+    			<li>Opaque cloth cover in good repair</li>
+				<li>Tips at least 2.5” in diameter</li>
+				<li>Pommel at least 2” in diameter</li>
+				<li>Strike-Legal is in good repair and is the minimum required length</li>
+				<li>Core cannot be felt when used to slash in a reasonable manner by both an average user and the intended user</li>
+				<li>Core cannot be felt when used to stab in a reasonable manner by both an average user and the intended user</li>
+				<li>The weapon does not break bones or teeth, or consistently leaves marks or bruises, when used in a reasonable manner by both an average user and the intended user</li>
+				</ol>
+				<b><a href="/shields/" data-ajax="false">Shields</a></b><br>
+				<ol>
+				<li>Opaque, durable cover in good repair</li>
+				<li>No unpadded bolts, zipties, or other solid protrusions on the shield edge or face</li>
+				<li>No solid, rigid core may be felt through either the face or the edge of the shield when struck solidly with the palm of the hand</li>
+				</ol>
+				<b><a href="/armor/" data-ajax="false">Armor</a></b>
+				<ol>
+				<li>All corners of rigid armor must be penny-round</li>
+				<li>No spikes, thin ridges, or sharp edges which could damage Equipment or players in the normal course of combat</li>
+				<li>Chain armor does not have broken or separated links which could catch on Equipment or players in the normal course of combat</li>
+				</ol>
+
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Equipment Checking /page -->
+
+<!-- SashesStrips Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="SashesStrips">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Sashes</h3>
+    			<p>Sashes are used to denote certain <a href="/classes/" data-ajax="false">Classes</a> by their color in games where classes are used. All sashes must be at least 2” wide and be worn from shoulder to opposite hip across the body</p>
+    			<h3>Strips</h3>
+    			<p>Strips are used to denote certain types of Enchantments and Special Effects for quick on-field identification. The most common use of strips is to denote enchantments or abilities that function as enchantments</p>
+    			<ol>
+    			<li>Strips must have at least 6” of visible drape, and cannot be covered by garb or equipment</li>
+				<li>Strips on players must be attached in a visible location when viewing a player from the front</li>
+				<li>Strips have a cohesive color-coding system<br>
+				<ol type="a">
+					<li>Offensive Enchantments and Special Effects are denoted by red strips</li>
+					<li>Defensive Enchantments and Special Effects are denoted by white strips</li>
+					<li>Miscellaneous Enchantments and Special Effects are denoted by yellow strips</li>
+				</ol></li>
+				<li>Enchantments and Special Effects that require enchantment strips do not function if the enchantment strips are not present. It is the responsibility of the bearer to ensure their strips are present in order for the enchantment or ability to function</li>
+				<li>Traits do not require strips unless they require activation, i.e. Traits that are an always-on part of a class do not require strips</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- SashStrips /page -->

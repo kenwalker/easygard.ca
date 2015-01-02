@@ -12,7 +12,6 @@
                <li><a href="#CombatContact">Combat Contact</a></li>
                <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
                <li><a href="#Deaths">Deaths</a></li>
-               <li><a href="#CombatEtiquette">Combat Etiquette</a></li>
             </ul>
 
 	</div><!-- /footer -->
@@ -32,9 +31,10 @@
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
     			<h3>Hit Locations</h3>
-    			<p>Players have five locations which may be Wounded: Left Arm, Right Arm, Left Leg, Right Leg, and Torso</p><b>Arm:</b> From just below the outside point of the shoulder to the tips of the fingers. A hand is not Wounded if struck below the wrist while holding a weapon or shield. Treat those strikes as though they had struck the weapon or shield held instead.<br>
+    			<p>Players have five locations which may be Wounded: Left Arm, Right Arm, Left Leg, Right Leg, and Torso<br>
+    			<b>Arm:</b> From just below the outside point of the shoulder to the tips of the fingers. A hand is not Wounded if struck below the wrist while holding a weapon or shield. Treat those strikes as though they had struck the weapon or shield held instead.<br>
 				<b>Leg:</b> From just below the end of the buttocks in the back, the hip socket in the front, and an imaginary line between them on the sides down to and including the foot. A foot on the ground is not Wounded if struck below the ankle.<br>
-				<b>Torso:</b> Everything that isn’t an arm or leg, including the groin, shoulders, and collar bones up to the vertical rise of the neck
+				<b>Torso:</b> Everything that isn’t an arm or leg, including the groin, shoulders, and collar bones up to the vertical rise of the neck</p>
 				<p><h3>Notes:</h3>
 				<ol>
 				<li>Players may not be struck in the neck or head. Will not count as a hit and is invalid</li>
@@ -64,11 +64,24 @@
     		<div class="jqm-block-content">
     			<h3>Combat Contact</h3>
     			<p>A broad range of contact is allowed in combat. The rules below outline what is and is not acceptable. No action is acceptable if it is performed in an unsafe manner. The responsibility for the results of an action always rests squarely on the the actor. Unsafe behavior on the field can result in suspension from play at the discretion of the Champion, Monarch, or Guildmaster of Reeves.
-    			</p><b>Allowed:</b> The following actions are acceptable:<br>
+    			</p>
+    			<p><b>Allowed:</b> The following actions are acceptable<br>
     			<ol>
-    			<li>Weapon to Weapon contact is allowed
-				<b>Leg:</b> From just below the end of the buttocks in the back, the hip socket in the front, and an imaginary line between them on the sides down to and including the foot. A foot on the ground is not Wounded if struck below the ankle.<br>
-				<b>Torso:</b> Everything that isn’t an arm or leg, including the groin, shoulders, and collar bones up to the vertical rise of the neck.<br>
+				<li>Weapon to Weapon contact is allowed</li>
+				<li>Weapon to body contact is allowed on valid Hit Locations using Strike-Legal portions</li>
+				<li>Body to Weapon contact: Weapons may be pushed, swept, and otherwise manipulated with your body so long as the Weapon is not trapped or grabbed. Pushing or sweeping a Strike-Legal surface results in a valid hit to the location used for contact.</li>
+				<li>Weapon to Shield contact is allowed</li>
+				<li>Shield to Weapon contact: Shields may be used to deflect, move or pin an opponents Weapon</li>
+				<li>Shield to Shield contact: Shields may be used to deflect, turn, or pin an opponents Shield so long as the wielder of the struck Shield is not moved. Bashing a shield is prohibited</li>
+				</ol></p>
+    			<p><b>Disallowed:</b> The following actions are unacceptable. Some amount of incidental contact is expected in a contact sport but repeated or egregious offenses will result in suspension<br>
+    			<ol>
+    			<li>Body to body contact is prohibited</li>
+				<li>Body to Shield contact is prohibited</li>
+				<li>Active Shield to body contact is prohibited; passively using a Shield to prevent an opponent’s forward movement is acceptable and does not count as body to Shield contact on the part of the recipient</li>
+				<li>Active Weapon to body contact using portions of a Weapon other than Strike-Legal is prohibited; passively planting the shaft of a Great Weapon to block an incoming opponent is acceptable</li>
+				<li>Forcing a player’s Weapons against them with your body or Shield is prohibited</li>
+				</ol>
             </div>
 
 	</div><!-- /footer -->
@@ -78,3 +91,62 @@
 </div>
 <!-- Combat Contact /page -->
 
+<!-- Inflicting Wounds Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="InflictingWounds">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Inflicting Wounds</h3>
+    			<p>Wounds may be inflicted by contacting a Hit Location with the Strike-Legal portion of a Weapon. Shots from Melee Weapons fall into two broad categories:<br>
+    			<b>Slash:</b> A valid slash must be percussive (contact with an audible pop) and stop on or deflect off the victim.<br>
+				<b>Stab:</b> A valid stab should strike with the tip and stop on or deflect off the victim.</p>
+				<p>These requirements do not apply to projectile weapons. Any contact from the Strike-Legal portion of a projectile weapon will cause a Wound unless otherwise noted.</p>
+				<p>Some contacts which partially fulfill the above criteria are listed here as examples of invalid shots</p>
+				<p>
+				<b>Examples of Invalid Shots:</b><br>
+				<b>Grazes:</b> Slashes that are neither percussive nor stop/deflect<br>
+				<b>Draw Cuts:</b> Stabs which fail to strike with thetip. These contacts slide against a victim instead of impacting cleanly<br>
+				<b>Pushes:</b> These contacts are pushed into or slid against a victim after the initial motion was completely blocked and the initial motion had stopped<br></p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Inflicting Wounds /page -->
+
+<!-- Deaths Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Deaths">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Deaths</h3>
+    			<p>Any two Wounds, or a Wound to the Torso, results in a Death</p>
+    			<p>
+    			<ol>
+    			<li>Unless otherwise noted a Dead player may not speak to living players or interact with game play in any manner</li>
+    			<li>Unless otherwise noted in the battlegame description a Dead player may choose to return to his respawn point or remain where he died but may not otherwise move about</li>
+				<li>Dead players may move to avoid mundane danger or interfering with living players<br>
+				a. This does not count as moving for the purposes of Magic or Abilities so long as no game advantage was derived</li>
+				<li>Dead players may retrieve their own equipment from the field while dead, but may not interfere with play in any way and must stay at least 10 ft from any living opposing players while doing so</li>
+				<li>Dead players that move after dying may only return to play via respawn unless otherwise noted</li>
+				<li>Unless otherwise noted Dead players may not be the target of Magic or Abilities</li></ol></p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Deaths /page -->

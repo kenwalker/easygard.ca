@@ -1,14 +1,28 @@
-<div data-role="page" class="jqm-demos jqm-home">
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="weapons">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
 
 	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Weapons</h3>
-    			<p>This section will eventually cover the basics around weapons, lengths maybe, reeve important things</p>
-            </div>
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="#WeaponSafety">Weapon Safety</a></li>
+               <li><a href="#WeaponDefinitions">Weapon Definitions</a></li>
+               <li><a href="#Projectiles">Projectiles</a></li>
+               <li><a href="#Bow">Bow</a></li>
+               <li><a href="#Ammunition">Ammunition</a></li>
+               <li><a href="#Melee">Melee</a></li>
+               <li data-role="list-divider">Weapon Types</li>
+               <li><a href="#Dagger">Dagger</a></li>
+               <li><a href="#Short">Short</a></li>
+               <li><a href="#Long">Long</a></li>
+               <li><a href="#Great">Great</a></li>
+               <li><a href="#Madu">Madu</a></li>
+               <li><a href="#Hinged">Hinged</a></li>
+               <li><a href="#Siege">Siege</a></li>
+            </ul>
 
 	</div><!-- /footer -->
 
@@ -16,3 +30,472 @@
 
 </div><!-- /page -->
 
+<!-- Weapon Safety Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="WeaponSafety">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Weapon Safety</h3>
+    			<p>A safe weapon is one that will not break bones, teeth, or regularly leave bruises when it strikes a person. Every weapon must be checked for legality by the Champion or a designated reeve prior to its use on the field each day. The hallmark of weapon legality is player safety, and as such safety will always trump technical compliance with weapon construction requirements. While a weapon may meet the technical requirements for legality it may still be unsafe in its construction or in the manner in which it is used. Use of unsafe weapons or safe weapons in an unsafe manner may result in removal from play by the Champion, a reeve, or other group official</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Weapon Safety /page -->
+
+<!-- WeaponDefinitions Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="WeaponDefinitions">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Weapon Definitions</h3>
+    			<p>
+				<b>Core:</b> This refers to the base of the weapon to which padding is affixed. For melee weapon cores the best things to use are carbon/graphite rods (such as from non-metallic golf clubs), kite spar, bamboo, PVC tubing or fiberglass. Other materials will be checked for safety on a case-by-case basis. Metal and wooden cores are not legal, although metal may be used to counter-weight weapons provided it is permanently attached, and not in a place that may inadvertently strike an opponent. The ends of all weapon cores must be blunted by capping them with a layer of foam and tape at a minimum. For throwing weapons acceptable options are denim, loose rubberbands, sweatshirt material, or similar<br>
+				<b>Handle:</b> Refers to the unpadded part of the weapon (where it is often held)<br>
+				<b>Pommel:</b> This refers to the padded portion of a weapon at the end of the handle, not intended for striking. The end of the pommel must have at least a 2” cross-section perpendicular to the handle and must be padded<br>
+				<b>Cross Guard:</b> This refers to an optional piece at the juncture of the blade and handle designed to deflect blows and protect the hand from injury. Cross guards must be padded and all tips must have at least a 2” cross section parallel to the handle<br>
+				<b>Double-Ended:</b> Only Weapon Types with this descriptor may have a striking surface at both ends. This may be either a Stabbing Tip or a Slash edge unless otherwise restricted by the Weapon Type. Must still adhere to the construction requirements of the Weapon Type for the extra striking surface. Example: A 6ft Great Weapon could have a striking surface on each end with a minimum of 18” of Strike-Legal in order to slash with both ends OR could have one 18” slashing end and one 6” thrusting end. Both configurations would require each end to be 1/3rd padded<br>
+				<b>Stabbing Tip:</b> This refers to the end of a weapon that is not the pommel, regardless of whether or not it is used to stab. Stabbing tips must not protrude more than 1.5” through a 2.5” ring when uncompressed, nor end in an angle less than 90 degrees. You must not be able to feel core through a stabbing tip<br>
+				<b>Padded or Courtesy Padding:</b> This refers to the portion of the weapon that is designed to limit injuries from incidental contact with that part of the weapon and is not intended for striking. These portions of a weapon should have at least 1/2” of foam over the weapon’s core. A weapon is required to have courtesy padding over the entire circumference of its Strike-Legal length<br>
+				<b>Strike-Legal:</b> This refers to the portions of the weapon that are sufficiently padded to prevent injury when used to strike an opponent at full force. These portions may not break bones, teeth, or regularly leave bruises when it strikes a person and must have at least one 2.5” cross section from edge to edge. Strike-Legal surfaces must have at least 1” of foam over the weapon core, measured from the furthest point on the blade to the surface of the core. Stab-only weapons (other than projectiles) are still required to have 6” of Strike-Legal surface extending from the end of the weapon down its length on any stabbing end for safety. Strike-Legal must be covered in a durable, opaque cloth. Unless otherwise noted, cloth tape is not an acceptable cover. Non-striking padded surfaces within 1⁄2” of a striking surface must still be covered with a cloth cover<br>
+				<b>Heavy Padding:</b> This refers to portions of the weapon that meet all of the requirements of Strike-Legal, and in addition have at least a 4” cross section from edge to edge and at least 1” of foam over the weapon core. It is considered Strike-Legal for the purposes of scoring hits<br>
+				<b>Total Length:</b> Refers to the distance from the bottom of the pommel to the furthest point of the weapon measured from the bottom of the pommel in a straight line parallel to the core of the weapon. Example: You measure a scimitar from the bottom of the pommel to the tip of the weapon, not “along the curve.”<br>
+				<b>Swing/Slash:</b> Indicates a weapon intended to be able to score a hit by swinging the weapon in such a way that the side (as opposed to the tip) of the weapon strikes an opponent.<br>
+				<b>Thrust/Stab:</b> Indicates a weapon intended to be able to score a hit by thrusting the weapon in such a way that the tip (as opposed to the sides) of the weapon strikes an opponent. Thrust only weapons must have at least 6” of Strike-Legal padding
+				</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- States /page -->
+
+<!-- Projectiles Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Projectiles">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Projectiles</h3>
+    			<p>
+				<b>Light Thrown:</b> These weapons represent throwing daggers and the like<br>
+				<ol>
+				<li>Between 2.5” and 6” in total length</li>
+				<li>All parts must be Strike-Legal<br>
+					a. These weapons are exempt from a minimum foam depth for Strike-Legal</li>
+				<li>May be covered in non-abrasive cloth tape instead of cloth<br>
+					a. Duct tape may not be used as a cover.</li>
+				<li>Will score a hit from any portion of the weapon</li>
+				<li>May not be of a color and shape which may reasonably be confused with a Magic Ball</li>
+				</ol><br>
+
+				<b>Heavy Thrown:</b> These weapons represent throwing axes and the like<br>
+				<ol>
+				<li>Between 9” and 18” in total length</li>
+				<li>All parts must be Strike-Legal<br>
+					a. These weapons are exempt from a minimum foam depth for Strike-Legal</li>
+				<li>May be covered in non-abrasive cloth tape instead of cloth<br>
+					a. Duct tape may not be used as a cover</li>
+				<li>Will score a hit from any portion of the weapon</li>
+				</ol><br>
+				<b>Rocks</b><br>
+				<ol>
+				<li>Must be at least 10” in each dimension. 2. All parts must be Strike-Legal<br>
+					a. These weapons are exempt from a minimum foam depth for Strike-Legal</li>
+				<li>May be covered in non-abrasive cloth tape instead of cloth<br>
+					a. Ducttape may not be used as a cover</li>
+				<li>Will score a hit from any portion of the weapon</li>
+				<li>Hits from Rocks are Armor Breaking and Shield Crushing</li>
+				<li>Items that meet the criteria to be classified as a Rock may not also be classified as Heaavy Thrown</li>
+				</ol>
+				<b>Javelins:</b> Javelins are a hybrid throwing/melee weapon. They are considered a melee weapon when wielded, but are considered a projectile while in flight. Javelins are only available to those classes explicitly granted Javelins<br>
+				<ol>
+				<li>Between 36” and 72” long</li>
+				<li>Must have between 6” and 12” of Strike-Legal</li>
+				<li>Must be padded along their entire length</li>
+				<li>May be thrown and used in melee (including blocking and parrying)</li>
+				<li>Stab only for both melee and throwing. 6. Must strike point-first to score a hit</li>
+				<li>Must have a rigid core</li>
+				<li>Pommel is not required to meet the requirements for a stabbing tip</li>
+				</ol><br>
+				<b>Magic Balls: </b> These are thrown to represent various magical attacks and are not projectile weapons but follow the same construction requirements except as noted below<br>
+				<ol>
+				<li>Must be a spherical object at least 2.5” in diameter</li>
+				<li>Must have a streamer between 1” and 6” long</li>
+				<li>All parts must be Strike-Legal<br>
+					a. These weapons are exempt from a minimum foam depth for Strike-Legal</li>
+				<li>Will score a hit from any portion of the object</li>
+				</ol>
+				</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Projectiles /page -->
+
+
+<!-- Ammunition Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Ammunition">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Ammunition</h3>
+    			<p>
+    			<b>Arrows:</b> Includes bolts and any other similar items<br>
+    			<div>NOTE: Improperly constructed or maintained arrows can pose a serious safety hazard. Before building your first arrows take the time to study an online construction tutorial or practice with an experienced player</div><br>
+    			<b>Shafts:</b><br>
+    			<ol>
+    			<li>May be fiberglass, aluminum, plastic, or graphite</li>
+				<li>Wood shafts are only allowed if covered in a minimum of 4 mils of plastic tape or equivalent</li>
+				<li>Shafts must have any real arrow head or tip removed</li>
+				<li>The tip of shafts must be built up to at least 0.5” in diameter in a solid manner such as:<br>
+				<ol type="a">
+				<li>Wrapping in duct tape and capping with a penny</li>
+				<li>Affixing a washer into the shaft with a glued-in screw</li>
+				<li>Other similar methods</li>
+				</ol></li></ol><br>
+				<b>Heads:</b><br>
+				<ol>
+				<li>Must be 2.5” in diameter</li>
+				<li>Front and side must be Strike-Legal</li>
+				<li>Must include a minimum of 2” of foam in front of the shaft of the arrow<br>
+				<ol type="a">
+					<li>The 0.5” of foam immediately after the end of the shaft must be closed-cell</li>
+					<li>Foam must be firm but compressible, and not able to deform around the arrow shaft on impact</li>
+					<li>Very soft foams such as couch cushion do not count towards the required 2” minimum of foam</li>
+				</ol></li>
+				<li>May not be drawn beyond 28”</li>
+				<li>Fletching and nocks, if present, must be in good repair</li>
+				<li>Heads should be checked regularly for degrading foam</li>
+				<li>Must be clearly labeled with their owner’s name<br>
+				<ol type="a">
+				<li>Arrows without labels will never be allowed on the field</li>
+				<li>Using arrows without labels can result in immediate suspension from the field</li>
+				</ol></li>
+				<li>Must have a cloth cover on the head<br>
+				<ol type="a">
+					<li>Properly colored strips may be used in lieu of colored head covers to denote special arrow status</li>
+					<li>Normal arrows may not be covered in any of the colors reserved for special arrows</li>
+					<li>Reserved colors are: yellow, red, green, purple, and grey</li>
+				</ol></li>
+				<li>Broken or poorly mended arrows are not to be used</li>
+				<li>Must strike point first to score a hit</li>
+				<li>Affects all targets struck while in motion</li>
+				<li>Hits from arrows are Armor Breaking</li>
+				<li>Hits from arrows are Weapon Destroying</li>
+				<li>Like any other equipment arrows may only be used by their owner unless the owner grants specific permission for another player to use their arrows<br>
+				<ol type="a">
+				<li>The owner of an arrow is responsible for the safety of the arrow even if fired by another player</li>
+				<li>Special arrows may never be shared</li>
+				</ol></li>
+				<li>Swinging at an arrow in flight is illegal<br>
+				<ol type="a">
+				<li>Arrows may only be passively blocked by placing an object in the flight path</li>
+				</ol></li></ol>
+				</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Ammunition /page -->
+
+<!-- Bow Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Bow">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Bow</h3>
+    			<p>Includes bows and crossbows used to fire arrows or bolts. They are not projectile weapons themselves but are used exclusively with Arrows<br>
+    			<ol>
+				<li>The maximum limit for a bow’s pull is 35 pounds with a maximum 28” draw length</li>
+				<li>Crossbows are limited to no more than 450 inch-pounds</li>
+				<li>No compound bows are allowed</li>
+				<li>At 20’ or less bows must be no more than half drawn<br>
+				<ol type="a">
+				<li>Crossbows do not have to be half drawn within 20’</li>
+				</ol></li>
+				<li>If hit by a weapon, the bow is destroyed</li>
+				</ol>
+				</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Bow /page -->
+
+<!-- Melee Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Melee">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Melee</h3>
+    			<p>All melee weapons require a rigid core (unless otherwise noted) and may be used to block, parry, or score hits with their Strike-Legal portion. Some melee weapons allow for Heavy Padding Substitution for a given length</p>
+    			<h4>Heavy Padding Substitution</h4>
+    			<p>ll melee weapons require a portion their length to be Strike- Legal, as noted in the individual weapon descriptions. Heavy Padding Substitution allows you to replace a portion of Strike- Legal with Heavy Padding. For each inch of Heavy Padding added you may also replace an additional inch of Strike-Legal with Courtesy Padding</p>
+				<p>Heavy Padding added must start within 3” of the stabbing tip and proceed continuously towards the handle. Courtesy Padding added in this manner must begin at the top of the handle and proceed continuously towards the tip</p>
+				<p>For example: A 48” Long weapon is typically required to have 32” of Strike-Legal followed by 16” of Handle. Using Heavy Padding Substitution you could have 16” of Heavy Padding, followed by 16” of Courtesy Padding, and then 16” of Handle</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Melee /page -->
+
+<!-- Dagger Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Dagger">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Dagger</h3>
+				<ol>
+				<li>May stab and slash</li>
+				<li>Between 10” and 18”</li>
+				<li>Must have 10” Strike-Legal</li>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Dagger /page -->
+
+<!-- Short Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Short">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Short</h3>
+				<ol>
+				<li>May stab and slash</li>
+				<li>Between 18” and 36”</li>
+				<li>At least 2/3 of its length must be Strike-Legal</li>
+				<li>Allows for 1/3rd of its length to be substituted for Heavy Padding</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Short /page -->
+
+<!-- Long Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Long">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Long</h3>
+				<ol>
+				<li>May stab and slash</li>
+				<li>Over 36” up to a maximum of 48”</li>
+				<li>At least 2/3rds of its length must be padded</li>
+				<li>If used to slash at least 2/3rds of its length must be Strike-Legal</li>
+				<li>Allows for 1/3rd of its length to be substituted for Heavy Padding</li>
+				<li>May be Double-Ended</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Long /page -->
+
+<!-- Great Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Great">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Great</h3>
+				<ol>
+				<li>May stab and slash</li>
+				<li>Greater than 48”in length</li>
+				<li>Must be padded on upper 1/2 of length or at least 3’, whichever is less</li>
+				<li>If used to slash must have at least 18” of Strike- Legal surface</li>
+				<li>If the weapon has at least 18” of Heavy Padding it gains the Shield Crushing and Armor Breaking Special Effects when used in a two-handed manner<br>
+				<ol type="a">
+				<li>Heavy Padding on Great Weapons must start within 3” of the tip of the weapon and be continuous down the core</li>
+				<li>If the weapon is Double-Ended only the ends with Heavy Padding take advantage of these abilities</li>
+				</ol></li>
+				<li>May be Double-Ended<br>
+				<ol type="a">
+				<li>Double-Ended requires 1⁄3 of its length to be padded or at least 3’, whichever is less. This requirement replaces the standard requirement for padding on great weapons</li>
+				</ol></li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Great /page -->
+
+<!-- Madu Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Madu">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Madu</h3>
+    			<p>A shield joined to a weapon</p>
+    			<ol>
+    			<li>Counts as both a shield and a weapon</li>
+				<li>Only usable if a class can use both a weapon of the madu’s length and a shield</li>
+				<li>Weapon Destroying will affect the entirety of the madu if it strikes any part of the weapon portion</li>
+				<li>Shield Crushing and Shield Destroying affect the entirety of the madu if it strikes any part of the shield portion</li>
+				<li>Magic and abilities that affect any part of the madu, such as Imbue Shield or Heat Weapon, affect its entirety</li>
+				<li>Weapon portion must be non-hinged and melee- only</li>
+				<li>Any shield with weapons affixed to it in any form is considered a madu and must conform to these rules</li>
+				<li>If built to slash<br>
+				<ol type="a">
+					<li>At least 1/3rd of its length (excluding the shield portion) must be Strike-Legal</li>
+					<li>At least 12” must be Strike-Legal</li>
+					<li>The entirety of the non-Strike-Legal portion must be courtesy padded</li>
+				</ol></li>
+				<li>May be Double-Ended</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Madu /page -->
+
+<!-- Hinged Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Hinged">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Hinged</h3>
+    			<ol>
+    			<li>No more than 36” in length</li>
+				<li>Has a single articulating head which must be entirely Strike-Legal and cannot contain a rigid core</li>
+				<li>The chain of a hinged weapon:<br>
+				<ol type="a">
+					<li>Is not a legal striking edge</li>
+					<li>Must be wrapped in foam with less than 0.5” of the rope exposed at any point</li>
+					<li>The combined rope and striking edge may not exceed 18” in length</li>
+					<li>The top half of the non-rope and Strike-Legal portion of the weapon must be padded</li>
+				</ol></li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Hinged /page -->
+
+<!-- Siege Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Siege">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Siege</h3>
+    			<p>Siege Weapons are extremely powerful engines of destruction that, historically, were used for everything from anti-personnel to tearing down walls from a great distance. Examples of this type of weapon include ballistas, catapults, onagers, and trebuchets. The abilities and limitations of siege weapons are as follows:</p>
+    			<ol>
+    			<li>You may only have one siege weapon per twenty people on a team</li>
+				<li>Siege weapons should have a historical or fantasy counterpart that they mimic in form and function. Ammunition from siege weapons must conform to the following rules, and cannot have any additional powers unless specified by the game designers:<br>
+				<ol type="a">
+					<li>Players struck are subject to Engulfing Shield Destroying, Armor Destroying, Weapon Destroying, and Wounds Kill. Ignores armor. Is stopped by the Enchantment Protection from Projectiles, but cannot be stopped by Missile Block</li>
+					<li>Siege weapons that fire multiple projectiles simultaneously (such as a grapeshot catapult) count as firing Armor Breaking projectiles. Each strike from a separate projectile counts as an individual Armor Breaking strike. Both Protection from Projectiles and Missile Block may be used against these type of siege attacks. No effect on shields</li>
+					<li>A siege weapon may not fire at a player within 20’</li>
+					<li>Siege ammunition must, at minimum, conform to the standards of one of the following projectiles: light thrown, heavy thrown, rocks, or arrows</li>
+					<li>Siege weapons are considered normal weapons for purposes of being destroyed</li>
+				</ol></li>
+				<li>Siege weapons must be approved by the game reeve prior to being used. Safety is of the utmost concern when determining whether a siege weapon should be allowed on the field</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Siege /page -->

@@ -30,8 +30,16 @@ get '/weapons/' do
 	erb :weapons
 end
 
+get '/shields/' do 
+	erb :shields
+end
+
 get '/states/' do 
 	erb :states
+end
+
+get '/reeves/' do 
+	erb :reeves
 end
 
 get '/spells/:letter' do
