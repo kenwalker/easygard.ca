@@ -9,8 +9,17 @@
 	<div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li><a href="#StatesMadeEasy">States Made Easy</a></li>
-               <li><a href="#States">States</a></li>
                <li><a href="#SpecialEffects">Special Effects</a></li>
+               <li data-role="list-divider">States</li>
+               <li><a href="#Cursed">Cursed</a></li>
+               <li><a href="#Fragile">Fragile</a></li>
+               <li><a href="#Frozen">Frozen</a></li>
+               <li><a href="#Immune">Immune</a></li>
+               <li><a href="#Insubstantial">Insubstantial</a></li>
+               <li><a href="#OutOfGame">Out of Game</a></li>
+               <li><a href="#Stopped">Stopped</a></li>
+               <li><a href="#Stunned">Stunned</a></li>
+               <li><a href="#Suppressed">Suppressed</a></li>
             </ul>
 
 	</div><!-- /footer -->
@@ -48,8 +57,8 @@
 </div>
 <!-- States Made Easy /page -->
 
-<!-- States Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="States">
+<!-- Cursed Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Cursed">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -58,13 +67,92 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>States</h3>
-    			<p>
-    			<b>Cursed:</b> Player becomes Immune to Spirit. Cursed persists after death but is removed at Respawn. Has no effect on magic or abilities already cast or ongoing<br>
-    			<b>Fragile:</b> Player dies on the next Wound<br>
-				<b>Frozen:</b> Player may not move, speak, or take any action. Can only be affected by mechanics that work on States in general (such as Release) or Frozen in specific (such as Shatter). Otherwise player and their equipment is not affected by combat, magic, etc.<br>
-				<b>Immune:</b> The bearing player or object is not affected by Magic or Abilities from a given School. Immunity granted as a Trait does not prevent players from making use of their own class Abilities. Unless otherwise noted, Immunities do not extend beyond the player or object that has them. Example: A player with Immunity to Flame can still have his armor destroyed by a Fireball. Unless otherwise noted, players with Immunities may still be targeted by Magic and Abilities of the given School. Example: A player with Immunity to Flame can still be the target of Pyrotechnics which would still destroy their equipment (as Immunities do not extend to equipment unless noted). Immunities do not interact with Enchantments worn by the player. Example One: An Anti-paladin may wear the Flameblade Enchantment. Example Two: A player with Protection From Magic still gains Stopped if Corrosive Mist is later cast on them<br>
-				<b>Insubstantial:</b> This State has both offensive and defensive purposes and greatly limits a player’s ability to interact with play. Insubstantial players:<br>
+    			<h3>Cursed</h3>
+    			<p>Player becomes Immune to Spirit. Cursed persists after death but is removed at Respawn. Has no effect on magic or abilities already cast or ongoing</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Cursed /page -->
+
+<!-- Fragile Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Fragile">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Fragile</h3>
+    			<p>Player dies on the next Wound</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Fragile /page -->
+
+<!-- Frozen Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Frozen">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Frozen</h3>
+    			<p>Player may not move, speak, or take any action. Can only be affected by mechanics that work on States in general (such as Release) or Frozen in specific (such as Shatter). Otherwise player and their equipment is not affected by combat, magic, etc.</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Frozen /page -->
+
+<!-- Immune Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Immune">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Immune</h3>
+    			<p>The bearing player or object is not affected by Magic or Abilities from a given School. Immunity granted as a Trait does not prevent players from making use of their own class Abilities. Unless otherwise noted, Immunities do not extend beyond the player or object that has them. Example: A player with Immunity to Flame can still have his armor destroyed by a Fireball. Unless otherwise noted, players with Immunities may still be targeted by Magic and Abilities of the given School. Example: A player with Immunity to Flame can still be the target of Pyrotechnics which would still destroy their equipment (as Immunities do not extend to equipment unless noted). Immunities do not interact with Enchantments worn by the player. Example One: An Anti-paladin may wear the Flameblade Enchantment. Example Two: A player with Protection From Magic still gains Stopped if Corrosive Mist is later cast on them</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Immune /page -->
+
+<!-- Insubstantial Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Insubstantial">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Insubstantial</h3>
+    			<p>This State has both offensive and defensive purposes and greatly limits a player’s ability to interact with play. Insubstantial players:<br>
 				<ol>
 				<li>May not move from their starting location unless otherwise noted</li>
 				<li>Are incapable of physically interacting with game items, objectives, or other players in any way unless otherwise noted</li>
@@ -77,12 +165,7 @@
 				<li>Insubstantial triggered from enchantments worn is not considered voluntary</li>
 				<li>The ending Incantation for Insubstantial is not interrupted by the player moving their feet</li>
 				<li>Must indicate their Insubstantial State by saying “Insubstantial” if asked, attacked, or targeted by a Magic or Ability</li>
-				<li>May not delay the game excessively. For instance, you may not use the Insubstantial State to avoid being killed if you are the last player alive in a Mutual Annihiliation battlegame. The reeves decision in these situations is final</li></ol><br>
-				<b>Out of Game:</b> The player is not currently participating in play. Do not interact with an Out of Game player unless you are a reeve. A player may become Out of Game if they are injured, if they are being addressed by a reeve, or other similar situation. Rarely, a Magic or Ability may also cause you to become Out of Game. The Out of Game State may only be ended by a reeve, unless otherwise noted<br>
-				<b>Stopped:</b> Player may not move their feet. Unless otherwise noted Magic and Abilities such as Teleport, Blink, Lost, Banish, etc. which allow or require movement fail when targeting a Stopped player<br>
-				<b>Stunned:</b> Player is unable to act in any manner. May still be affected as per normal<br>
-				<b>Suppressed:</b> Player unable to cast magic or activate abilities. Has no effect on abilities already activated, magic already cast, Chants already in progress, or enchantments activating such as Phoenix Tears
-				</p>
+				<li>May not delay the game excessively. For instance, you may not use the Insubstantial State to avoid being killed if you are the last player alive in a Mutual Annihiliation battlegame. The reeves decision in these situations is final</li></ol></p>
             </div>
 
 	</div><!-- /footer -->
@@ -90,7 +173,91 @@
 	</div><!-- /content -->
 
 </div>
-<!-- States /page -->
+<!-- Insubstantial /page -->
+
+<!-- Out of Game Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="OutOfGame">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Out of Game</h3>
+    			<p>The player is not currently participating in play. Do not interact with an Out of Game player unless you are a reeve. A player may become Out of Game if they are injured, if they are being addressed by a reeve, or other similar situation. Rarely, a Magic or Ability may also cause you to become Out of Game. The Out of Game State may only be ended by a reeve, unless otherwise noted</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- OutOfGame /page -->
+
+<!-- Stopped Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Stopped">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Stopped</h3>
+    			<p>Player may not move their feet. Unless otherwise noted Magic and Abilities such as Teleport, Blink, Lost, Banish, etc. which allow or require movement fail when targeting a Stopped player</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Stopped /page -->
+
+<!-- Stunned Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Stunned">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Stunned</h3>
+    			<p>Player is unable to act in any manner. May still be affected as per normal</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Stunned /page -->
+
+<!-- Suppressed Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Suppressed">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Suppressed</h3>
+    			<p>Player unable to cast magic or activate abilities. Has no effect on abilities already activated, magic already cast, Chants already in progress, or enchantments activating such as Phoenix Tears</p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Suppressed /page -->
 
 <!-- Special Effects Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="SpecialEffects">
