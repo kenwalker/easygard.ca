@@ -1,174 +1,18 @@
+<% @loaded = 'false' %>
 <div data-role="page" class="jqm-demos jqm-home" id="spells-abilities">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
 
          <div role="main" class="ui-content">
             <ul data-role="listview" data-filter="true" data-autodividers="true" data-filter-placeholder="Search spells and abilities" data-inset="true" data-icon="false">
-               <li><a href="/spells/a#abeyance" data-ajax="false">Abeyance</a></li>
-               <li><a href="/spells/a#adaptiveblessing" data-ajax="false">Adaptive Blessing</a></li>
-               <li><a href="/spells/a#adaptiveprotection" data-ajax="false">Adaptive Protection</a></li>
-               <li><a href="/spells/a#adrenaline" data-ajax="false">Adrenaline</a></li>
-               <li><a href="/spells/a#agoraphobia" data-ajax="false">Agoraphobia</a></li>
-               <li><a href="/spells/a#amplification" data-ajax="false">Amplification</a></li>
-               <li><a href="/spells/a#ambulant" data-ajax="false">Ambulant</a></li>
-               <li><a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor</a></li>
-               <li><a href="/spells/a#assassinate" data-ajax="false">Assassinate</a></li>
-               <li><a href="/spells/a#astralintervention" data-ajax="false">Astral Intervention</a></li>
-               <li><a href="/spells/a#attuned" data-ajax="false">Attuned</a></li>
-               <li><a href="/spells/a#avatarofnature" data-ajax="false">Avatar of Nature</a></li>
-               <li><a href="/spells/a#awe" data-ajax="false">Awe</a></li>
-               <li><a href="/spells/b#banish" data-ajax="false">Banish</a></li>
-               <li><a href="/spells/b#barkskin" data-ajax="false">Barkskin</a></li>
-               <li><a href="/spells/b#battlefieldtriage" data-ajax="false">Battlefield Triage</a></li>
-               <li><a href="/spells/b#battlemage" data-ajax="false">Battlemage</a></li>
-               <li><a href="/spells/b#bearstrength" data-ajax="false">Bear Strength</a></li>
-               <li><a href="/spells/b#berserk" data-ajax="false">Berserk</a></li>
-               <li><a href="/spells/b#blessedaura" data-ajax="false">Blessed Aura</a></li>
-               <li><a href="/spells/b#blessingagainstharm" data-ajax="false">Blessing Against Harm</a></li>
-               <li><a href="/spells/b#blessingagainstwounds" data-ajax="false">Blessing Against Wounds</a></li>
-               <li><a href="/spells/b#blink" data-ajax="false">Blink</a></li>
-               <li><a href="/spells/b#bloodandthunder" data-ajax="false">Blood and Thunder</a></li>
-               <li><a href="/spells/b#breakconcentration" data-ajax="false">Break Concentration</a></li>
-               <li><a href="/spells/b#brutalstrike" data-ajax="false">Brutal Strike</a></li>
-               <li><a href="/spells/c#calllightning" data-ajax="false">Call Lightning</a></li>
-               <li><a href="/spells/c#cancel" data-ajax="false">Cancel</a></li>
-               <li><a href="/spells/c#circleofprotection" data-ajax="false">Circle of Protection</a></li>
-               <li><a href="/spells/c#combatcaster" data-ajax="false">Combat Caster</a></li>
-               <li><a href="/spells/c#confidence" data-ajax="false">Confidence</a></li>
-               <li><a href="/spells/c#contagion" data-ajax="false">Contagion</a></li>
-               <li><a href="/spells/c#corrosivemist" data-ajax="false">Corrosive Mist</a></li>
-               <li><a href="/spells/c#coupdegrace" data-ajax="false">Coup de Grace</a></li>
-               <li><a href="/spells/d#dervish" data-ajax="false">Dervish</a></li>
-               <li><a href="/spells/d#destroyarmor" data-ajax="false">Destroy Armor</a></li>
-               <li><a href="/spells/d#destructionarrow" data-ajax="false">Destruction Arrow</a></li>
-               <li><a href="/spells/d#dimensionalrift" data-ajax="false">Dimensional Rift</a></li>
-               <li><a href="/spells/d#discordia" data-ajax="false">Discordia</a></li>
-               <li><a href="/spells/d#dispelmagic" data-ajax="false">Dispel Magic</a></li>
-               <li><a href="/spells/d#draggedbelow" data-ajax="false">Dragged Below</a></li>
-               <li><a href="/spells/e#elementalbarrage" data-ajax="false">Elemental Barrage</a></li>
-               <li><a href="/spells/e#empower" data-ajax="false">Empower</a></li>
-               <li><a href="/spells/e#enlightenedsoul" data-ajax="false">Enlightened Soul</a></li>
-               <li><a href="/spells/e#entangle" data-ajax="false">Entangle</a></li>
-               <li><a href="/spells/e#equipmentarmor1point" data-ajax="false">Equipment: Armor, 1 Point</a></li>
-               <li><a href="/spells/e#equipmentshieldmedium" data-ajax="false">Equipment: Shield, Medium</a></li>
-               <li><a href="/spells/e#equipmentshieldsmall" data-ajax="false">Equipment: Shield, Small</a></li>
-               <li><a href="/spells/e#equipmentweapongreat" data-ajax="false">Equipment: Weapon, Great</a></li>
-               <li><a href="/spells/e#equipmentweaponhinged" data-ajax="false">Equipment: Weapon, Hinged</a></li>
-               <li><a href="/spells/e#equipmentweaponlong" data-ajax="false">Equipment: Weapon, Long</a></li>
-               <li><a href="/spells/e#equipmentweaponshort" data-ajax="false">Equipment: Weapon, Short</a></li>
-               <li><a href="/spells/e#essencegraft" data-ajax="false">Essence Graft</a></li>
-               <li><a href="/spells/e#evoker" data-ajax="false">Evoker</a></li>
-               <li><a href="/spells/e#evolution" data-ajax="false">Evolution</a></li>
-               <li><a href="/spells/e#experienced" data-ajax="false">Experienced</a></li>
-               <li><a href="/spells/e#extendimmunities" data-ajax="false">Extend Immunities</a></li>
-               <li><a href="/spells/e#extension" data-ajax="false">Extension</a></li>
-               <li><a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a></li>
-               <li><a href="/spells/f#fingerofdeath" data-ajax="false">Finger of Death</a></li>
-               <li><a href="/spells/f#fireball" data-ajax="false">Fireball</a></li>
-               <li><a href="/spells/f#flameblade" data-ajax="false">Flameblade</a></li>
-               <li><a href="/spells/f#forcebarrier" data-ajax="false">Force Barrier</a></li>
-               <li><a href="/spells/f#forcebolt" data-ajax="false">Force Bolt</a></li>
-               <li><a href="/spells/g#giftofair" data-ajax="false">Gift of Air</a></li>
-               <li><a href="/spells/g#giftofearth" data-ajax="false">Gift of Earth</a></li>
-               <li><a href="/spells/g#giftoffire" data-ajax="false">Gift of Fire</a></li>
-               <li><a href="/spells/g#giftofwater" data-ajax="false">Gift of Water</a></li>
-               <li><a href="/spells/g#golem" data-ajax="false">Golem</a></li>
-               <li><a href="/spells/g#graspingtentacles" data-ajax="false">Grasping Tentacles</a></li>
-               <li><a href="/spells/g#greaterharden" data-ajax="false">Greater Harden</a></li>
-               <li><a href="/spells/g#greaterheal" data-ajax="false">Greater Heal</a></li>
-               <li><a href="/spells/g#greatermend" data-ajax="false">Greater Mend</a></li>
-               <li><a href="/spells/g#greaterrelease" data-ajax="false">Greater Release</a></li>
-               <li><a href="/spells/g#greaterresurrect" data-ajax="false">Greater Resurrect</a></li>
-               <li><a href="/spells/g#greaterundeadminion" data-ajax="false">Greater Undead Minion</a></li>
-               <li><a href="/spells/h#harden" data-ajax="false">Harden</a></li>
-               <li><a href="/spells/h#heal" data-ajax="false">Heal</a></li>
-               <li><a href="/spells/h#heartoftheswarm" data-ajax="false">Heart of the Swarm</a></li>
-               <li><a href="/spells/h#heatweapon" data-ajax="false">Heat Weapon</a></li>
-               <li><a href="/spells/h#holdperson" data-ajax="false">Hold Person</a></li>
-               <li><a href="/spells/i#iceball" data-ajax="false">Iceball</a></li>
-               <li><a href="/spells/i#icyblast" data-ajax="false">Icy Blast</a></li>
-               <li><a href="/spells/i#imbuearmor" data-ajax="false">Imbue Armor</a></li>
-               <li><a href="/spells/i#imbueshield" data-ajax="false">Imbue Shield</a></li>
-               <li><a href="/spells/i#imbueweapon" data-ajax="false">Imbue Weapon</a></li>
-               <li><a href="/spells/i#innate" data-ajax="false">Innate</a></li>
-               <li><a href="/spells/i#insult" data-ajax="false">Insult</a></li>
-               <li><a href="/spells/i#ironskin" data-ajax="false">Ironskin</a></li>
-               <li><a href="/spells/l#legend" data-ajax="false">Legend</a></li>
-               <li><a href="/spells/l#lightningbolt" data-ajax="false">Lightning Bolt</a></li>
-               <li><a href="/spells/l#lost" data-ajax="false">Lost</a></li>
-               <li><a href="/spells/l#lycanthropy" data-ajax="false">Lycanthropy</a></li>
-               <li><a href="/spells/m#magicballblock" data-ajax="false">Magic Ball Block</a></li>
-               <li><a href="/spells/m#masshealing" data-ajax="false">Mass Healing</a></li>
-               <li><a href="/spells/m#mend" data-ajax="false">Mend</a></li>
-               <li><a href="/spells/m#missileblock" data-ajax="false">Missle Block</a></li>
-               <li><a href="/spells/n#naturalizemagic" data-ajax="false">Naturalize Magic</a></li>
-               <li><a href="/spells/n#necromancer" data-ajax="false">Necromancer</a></li>
-               <li><a href="/spells/p#persistent" data-ajax="false">Persistent</a></li>
-               <li><a href="/spells/p#phasearrow" data-ajax="false">Phase Arrow</a></li>
-               <li><a href="/spells/p#phasebolt" data-ajax="false">Phase Bolt</a></li>
-               <li><a href="/spells/p#phoenixtears" data-ajax="false">Phoenix Tears</a></li>
-               <li><a href="/spells/p#pinningarrow" data-ajax="false">Pinning Arrow</a></li>
-               <li><a href="/spells/p#planargrounding" data-ajax="false">Planar Grounding</a></li>
-               <li><a href="/spells/p#poison" data-ajax="false">Poison</a></li>
-               <li><a href="/spells/p#poisonarrow" data-ajax="false">Poison Arrow</a></li>
-               <li><a href="/spells/p#poisonglands" data-ajax="false">Poison Glands</a></li>
-               <li><a href="/spells/p#priest" data-ajax="false">Priest</a></li>
-               <li><a href="/spells/p#protectionfrommagic" data-ajax="false">Protection From Magic</a></li>
-               <li><a href="/spells/p#protectionfromprojectiles" data-ajax="false">Protection From Projectiles</a></li>
-               <li><a href="/spells/p#pyrotechnics" data-ajax="false">Pyrotechnics</a></li>
-               <li><a href="/spells/r#ranger" data-ajax="false">Ranger</a></li>
-               <li><a href="/spells/r#ravage" data-ajax="false">Ravage</a></li>
-               <li><a href="/spells/r#regeneration" data-ajax="false">Regeneration</a></li>
-               <li><a href="/spells/r#release" data-ajax="false">Release</a></li>
-               <li><a href="/spells/r#reload" data-ajax="false">Reload</a></li>
-               <li><a href="/spells/r#restoration" data-ajax="false">Restoration</a></li>
-               <li><a href="/spells/r#resurrect" data-ajax="false">Resurrect</a></li>
-               <li><a href="/spells/s#sanctuary" data-ajax="false">Sanctuary</a></li>
-               <li><a href="/spells/s#scavenge" data-ajax="false">Scavenge</a></li>
-               <li><a href="/spells/s#severspirit" data-ajax="false">Sever Spirit</a></li>
-               <li><a href="/spells/s#shadowstep" data-ajax="false">Shadow Step</a></li>
-               <li><a href="/spells/s#shakeitoff" data-ajax="false">Shake It Off</a></li>
-               <li><a href="/spells/s#shatter" data-ajax="false">Shatter</a></li>
-               <li><a href="/spells/s#shatterweapon" data-ajax="false">Shatter Weapon</a></li>
-               <li><a href="/spells/s#shove" data-ajax="false">Shove</a></li>
-               <li><a href="/spells/s#silvertongue" data-ajax="false">Silver Tongue</a></li>
-               <li><a href="/spells/s#sleightofmind" data-ajax="false">Sleight of Mind</a></li>
-               <li><a href="/spells/s#sniper" data-ajax="false">Sniper</a></li>
-               <li><a href="/spells/s#songofbattle" data-ajax="false">Song of Battle</a></li>
-               <li><a href="/spells/s#songofdeflection" data-ajax="false">Song of Deflection</a></li>
-               <li><a href="/spells/s#songofdetermination" data-ajax="false">Song of Determination</a></li>
-               <li><a href="/spells/s#songoffreedom" data-ajax="false">Song of Freedom</a></li>
-               <li><a href="/spells/s#songofinterference" data-ajax="false">Song of Interference</a></li>
-               <li><a href="/spells/s#songofpower" data-ajax="false">Song of Power</a></li>
-               <li><a href="/spells/s#songofsurvival" data-ajax="false">Song of Survival</a></li>
-               <li><a href="/spells/s#songofvisit" data-ajax="false">Song of Visit</a></li>
-               <li><a href="/spells/s#sphereofannihilation" data-ajax="false">Sphere of Annihilation</a></li>
-               <li><a href="/spells/s#steallifeessence" data-ajax="false">Steal Life Essence</a></li>
-               <li><a href="/spells/s#stoneform" data-ajax="false">Stoneform</a></li>
-               <li><a href="/spells/s#stoneskin" data-ajax="false">Stoneskin</a></li>
-               <li><a href="/spells/s#stun" data-ajax="false">Stun</a></li>
-               <li><a href="/spells/s#summondead" data-ajax="false">Summon Dead</a></li>
-               <li><a href="/spells/s#summoner" data-ajax="false">Summoner</a></li>
-               <li><a href="/spells/s#suppressaura" data-ajax="false">Suppress Aura</a></li>
-               <li><a href="/spells/s#suppressionarrow" data-ajax="false">Suppression Arrow</a></li>
-               <li><a href="/spells/s#suppressionbolt" data-ajax="false">Suppression Bolt</a></li>
-               <li><a href="/spells/s#swift" data-ajax="false">Swift</a></li>
-               <li><a href="/spells/t#teleport" data-ajax="false">Teleport</a></li>
-               <li><a href="/spells/t#terror" data-ajax="false">Terror</a></li>
-               <li><a href="/spells/t#throw" data-ajax="false">Throw</a></li>
-               <li><a href="/spells/t#tracking" data-ajax="false">Tracking</a></li>
-               <li><a href="/spells/t#trollblood" data-ajax="false">Troll Blood</a></li>
-               <li><a href="/spells/t#truegrit" data-ajax="false">True Grit</a></li>
-               <li><a href="/spells/u#undeadminion" data-ajax="false">Undead Minion</a></li>
-               <li><a href="/spells/v#vampirism" data-ajax="false">Vampirism</a></li>
-               <li><a href="/spells/v#voidtouched" data-ajax="false">Void Touched</a></li>
-               <li><a href="/spells/w#wardself" data-ajax="false">Ward Self</a></li>
-               <li><a href="/spells/w#warder" data-ajax="false">Warder</a></li>
-               <li><a href="/spells/w#warlock" data-ajax="false">Warlock</a></li>
-               <li><a href="/spells/w#wordofmending" data-ajax="false">Word of Mending</a></li>
-               <li><a href="/spells/w#wounding" data-ajax="false">Wounding</a></li>
+
+<% @allSpells.each {|key, value| %>
+
+               <li><a href=<%="/spells/#{key[0]}##{key}"%> data-ajax="false"><%="#{value['name']}"%></a></li>
+<% } %>
             </ul>
          </div>
          <!-- /content -->

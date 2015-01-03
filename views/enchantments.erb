@@ -1,0 +1,77 @@
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="enchantments">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="#enchantments-overview">Enchantments Overview</a></li>
+               <li><a href="/enchantments/all" data-ajax="false">All Enchantments</a></li>
+               <li data-role="list-divider">By Range</li>
+               <li><a href="/enchantments/self" data-ajax="false">Range Self</a></li>
+               <li><a href="/enchantments/touch" data-ajax="false">Range Touch</a></li>
+               <li data-role="list-divider">By School</li>
+               <li><a href="/enchantments/death" data-ajax="false">Death School</a></li>
+               <li><a href="/enchantments/flame" data-ajax="false">Flame School</a></li>
+               <li><a href="/enchantments/protection" data-ajax="false">Protection School</a></li>
+               <li><a href="/enchantments/sorcery" data-ajax="false">Sorcery School</a></li>
+               <li><a href="/enchantments/spirit" data-ajax="false">Spirit School</a></li>
+               <li data-role="list-divider">By Color</li>
+               <li><a href="/enchantments/red" data-ajax="false">Red Strips</a></li>
+               <li><a href="/enchantments/white" data-ajax="false">White Strips</a></li>
+               <li><a href="/enchantments/yellow" data-ajax="false">Yellow Strips</a></li>
+            </ul>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Enchantments  Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="enchantments-overview">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Enchantment Overview</h3>
+    			<p>Enchantments are ongoing. Enchantments remain until they are used up or removed. Unless otherwise noted:<br>
+    			<ol>
+					<li>Enchantments must be denoted by an appropriately colored strip attached to the enchanted person<br>
+					<ol type="a">
+						<li>Offensive enchantments are denoted by a red strip</li>
+						<li>Defensive enchantments are denoted by a white strip</li>
+						<li>Miscellaneous enchantments are denoted by a yellow strip</li>
+					</ol></li>
+					<li>Enchantments may only be carried one at a time by a player, unless otherwise noted</li>
+					<li>Enchantments may only be cast on willing players</li>
+					<li>Enchantments are always placed on players. Some Enchantments carried by players affect the equipment they carry or use as noted in the Enchantments description</li>
+					<li>If a person bearing an Enchantment is killed the Enchantment remains but becomes inactive. Respawning removes any Enchantments from a player and their equipment unless the Enchantments are Persistent. If the person is returned to the same life, as opposed to respawning, then Enchantments are preserved and will function again, unless otherwise noted<br>
+					<ol type="a">
+						<li>If a player voluntarily moves after having died then the Enchantments they carried are removed. Does not apply to Persistent Enchantments</li>
+						<li>If a player voluntarily takes a death, all Enchantments carried are removed</li>
+					</ol></li>
+					<li>Magic users may not cast Enchantments on themselves with the exception of Enchantments with a range of ‘Self ’</li>
+					<li>Enchantments are used up even if ineffective against their target. Discharging Poison against a target Immune to the Death School still consumes the Poison Enchantment</li>
+					<li>Enchantments that have a definite number of uses, such as Blessing Against Harm or Grasping Tentacles, are removed when their last use is expended or when removed by Dispel Magic, Resurrect, or similar Enchantment removal effects</li>
+					<li>States imparted by Enchantments to their bearer cannot be removed in any way while the Enchantment is active and are removed when the Enchantment is removed, unless otherwise noted. Example One: A player bearing Corrosive Mist is Stopped. When they die the Enchantment becomes inactive and the Stopped State is removed since all States, except Cursed, are removed by death. If the player is returned to life in a manner that preserves his Enchantments then he will again become Stopped as Corrosive Mist becomes active again and re-applies the State. Example Two: A player bearing Protection From Magic is killed and becomes Cursed by Protection From Magic. Protection From Magic becomes inactive after he dies but the Cursed State persists as Cursed is not removed by player death. Since Protection From Magic is no longer active the Cursed State would be removable by Greater Release or similar means</li>
+					<li>Special Effects granted to equipment via Enchantments are considered magical and have a School corresponding to the School of the Enchantment</li>
+					<li>Enchantments worn (or a summary of their effects) must be announced at the beginning of an engagement if possible. Enchantments worn must always be announced when requested</li>
+				</ol>
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Enchantments Locations Page -->

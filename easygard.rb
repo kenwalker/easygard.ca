@@ -15,6 +15,7 @@ get '/index.html' do
 end
 
 get '/spells/' do 
+	@allSpells = spells.allSpells()
 	erb :spells
 end
 
@@ -45,6 +46,66 @@ end
 get '/spells/:letter' do
 	@reducedHash = spells.allSpells().reject {|k,v| k[0] != params[:letter]}
 	erb :"spell-byletter"
+end
+
+get '/enchantments/' do
+	@allSpells = spells.allSpells()
+	erb :enchantments
+end
+
+get '/enchantments/self' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-self"
+end
+
+get '/enchantments/all' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-all"
+end
+
+get '/enchantments/touch' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-touch"
+end
+
+get '/enchantments/protection' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-protection"
+end
+
+get '/enchantments/flame' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-flame"
+end
+
+get '/enchantments/death' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-death"
+end
+
+get '/enchantments/sorcery' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-sorcery"
+end
+
+get '/enchantments/spirit' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-spirit"
+end
+
+get '/enchantments/yellow' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-yellow"
+end
+
+get '/enchantments/white' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-white"
+end
+
+get '/enchantments/red' do
+	@allSpells = spells.allSpells()
+	erb :"enchantments-red"
 end
 
 get '/classes/' do 
