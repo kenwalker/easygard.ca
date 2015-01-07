@@ -172,9 +172,9 @@
     "name": "Awe",
     "keywords": "bard paladin anti verbal command",
     "classes": {
-      "Anti-Paladin": "5",
+      "Anti-Paladin": "1",
       "Bard": "3",
-      "Paladin": "5"
+      "Paladin": "1"
     },
     "t": "Verbal",
     "s": "Command",
@@ -327,7 +327,7 @@
     "name": "Blood and Thunder",
     "keywords": "barbarian verbal spirit",
     "classes": {
-      "Barbarian": "6"
+      "Barbarian": "1"
     },
     "t": "Verbal",
     "s": "Spirit",
@@ -1076,7 +1076,7 @@
     "classes": {
       "Druid": "2",
       "Healer": "1",
-      "Monk": "4",
+      "Monk": "1",
       "Paladin": "2",
       "Scout": "1"
     },
