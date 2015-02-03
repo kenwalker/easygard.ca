@@ -250,7 +250,7 @@
     "r": "Touch",
     "i": "\"I enchant thee with the strength of the bear\" x3",
     "m": "Red Strip",
-    "e": "Bearer’s melee weapons are Shield Crushing"
+    "e": "Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
   },
 
   "berserk": {
@@ -263,7 +263,7 @@
     "s": "Sorcery",
     "r": "Self",
     "m": "Red Strip",
-    "e": "All weapons wielded in melee are Armor Breaking"
+    "e": "All weapons wielded in melee are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
   },
 
   "blessedaura": {
@@ -447,7 +447,7 @@
     "r": "Touch",
     "i": "\"May thou bear this plague to all\" x3",
     "m": "Red Strip",
-    "e": "All melee weapons wielded by player are Wounds Kill. Bearer is Fragile"
+    "e": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is Fragile"
   },
 
   "corrosivemist": {
@@ -500,7 +500,7 @@
     "s": "Death",
     "r": "20",
     "i": "\"Death destroys thy [hit location] armor\" x3",
-    "e": "Armor on target hit location is subjected to Armor Destroying"
+    "e": "Armor on target hit location is subjected to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>"
   },
 
   "destructionarrow": {
@@ -513,7 +513,7 @@
     "s": "Sorcery",
     "i": "\"Destruction Arrow\"",
     "m": "Arrow with red head cover labeled \"Destruction\"",
-    "e": "This arrow is Armor Destroying and Shield Destroying. Armor Destroying and Shield Destroying are applied after the normal effect of being hit with an arrow is applied"
+    "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a>. Armor Destroying and Shield Destroying are applied after the normal effect of being hit with an arrow is applied"
   },
 
   "dimensionalrift": {
@@ -807,7 +807,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"Fight after death\" immediately after dying",
-    "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players do not receive further Wounds during Fight After Death. Players melee weapons are Shield Crushing",
+    "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players do not receive further Wounds during Fight After Death. Players melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>",
     "l": "Players may not activate Abilities or Magic during Fight After Death. Players may not activate Fight After Death if they died while Suppressed, Stunned, Insubstantial, or Frozen. States on the player (Such as Stopped) persist until Fight After Death has ended and are then removed as per the rules for player death. Players may not achieve game objectives nor carry game items while affected by Fight After Death, though they may still kill other players even if that player is a game objective",
     "n": "Reeves are encouraged to remove this ability from those who use it in an unsafe manner"
   },
@@ -836,7 +836,7 @@
     "r": "Ball",
     "i": "\"The flame of fire is mine to evoke\" x3",
     "m": "Red Magic Ball",
-    "e": "Fireball will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to Shield Destroying<br>3. Armor hit with Armor Points remaining is subject to Armor Destroying<br>4. A player hit receives a Wounds Kill Wound to that hit location"
+    "e": "Fireball will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a><br>4. A player hit receives a <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a> Wound to that hit location"
   },
 
   "flameblade": {
@@ -850,7 +850,7 @@
     "r": "Touch",
     "i": "\"The element of fire shall infuse your weapons\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer’s melee weapons are Armor Breaking and Shield Crushing. Bearer and their weapons are Immune to Flame"
+    "e": "Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their weapons are Immune to Flame"
   },
 
   "forcebarrier": {
@@ -878,7 +878,7 @@
     "r": "Ball",
     "i": "\"Forcebolt\" x3",
     "m": "Blue Magic Ball",
-    "e": "Force Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to Armor Breaking<br>3. A player hit receives a Wound to that hit location"
+    "e": "Force Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound to that hit location"
   },
 
   "giftofair": {
@@ -892,7 +892,7 @@
     "r": "Touch",
     "i": "\"I grant thee a gift of the air\" x3",
     "m": "White Strip",
-    "e": "When struck by a melee weapon or projectile the bearer instead announces \"Gift of Air\" and becomes Insubstantial. The bearer treats the triggering event as though it had no effect on them other than triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the Armor Breaking, Armor Destroying, Shield Crushing, or Shield Destroying Special Effects will wound the bearer as normal and do not trigger Gift of Air",
+    "e": "When struck by a melee weapon or projectile the bearer instead announces \"Gift of Air\" and becomes Insubstantial. The bearer treats the triggering event as though it had no effect on them other than triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will wound the bearer as normal and do not trigger Gift of Air",
     "l": "Bearer may not wield weapons or shields",
     "n": "Bearer may end the Insubstantial state caused by Gift of Air at any time with the standard Incantation"
   },
@@ -1203,7 +1203,7 @@
     "r": "Touch",
     "i": "\"I enchant thee to slay all foes\" x3",
     "m": "Red Strip",
-    "e": "Melee weapons wielded by the bearer are Wounds Kill"
+    "e": "Melee weapons wielded by the bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
 
   "innate": {
@@ -1271,7 +1271,7 @@
     "r": "Ball",
     "i": "\"The flame of storms is mine to evoke\" x3",
     "m": "Yellow Magic Ball",
-    "e": "A player struck is subject to an Engulfing Stopped effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to Armor Breaking<br>3. A player hit receives a Wound in that hit location"
+    "e": "A player struck is subject to an Engulfing Stopped effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
   },
 
   "lost": {
@@ -1299,7 +1299,7 @@
     "r": "Touch",
     "i": "\"Stalked in the forest, too close to hide, I’ll be upon thee by the moonlight side\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer gains two points of magic armor. Bearer’s melee weapons are Shield Crushing. Bearer is Immune to Command"
+    "e": "Bearer gains two points of magic armor. Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
   },
 
   "magicballblock": {
@@ -1424,7 +1424,7 @@
     "r": "Ball",
     "i": "\"The power of sorcery is mine to evoke\" x3",
     "m": "Grey Magic Ball",
-    "e": "This Magic Ball does not interact with other ongoing Magic or Abilities. Example: This Magic Ball is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Magic Ball Block, or similar Magic or Abilities. Will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to Armor Breaking<br>3. A player hit receives a Wound in that hit location",
+    "e": "This Magic Ball does not interact with other ongoing Magic or Abilities. Example: This Magic Ball is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Magic Ball Block, or similar Magic or Abilities. Will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location",
     "n": "Does not supercede the Frozen, Insubstantial, or Out of Game States"
   },
 
@@ -1484,7 +1484,7 @@
     "m": "Red Strip",
     "r": "Touch",
     "i": "(Assassins and Anti-Paladins must hold weapon in both hands) \"I coat these weapons with a deadly poison\" x 2",
-    "e": "The next Wound dealt by the bearer in melee is Wounds Kill"
+    "e": "The next Wound dealt by the bearer in melee is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
 
   "poisonarrow": {
@@ -1497,7 +1497,7 @@
     "s": "Death",
     "i": "\"Poison Arrow\"",
     "m": "Arrow with green head cover labeled ‘Poison’",
-    "e": "This arrow is Wounds Kill"
+    "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
 
   "poisonglands": {
@@ -1834,7 +1834,7 @@
     "r": "Self",
     "i": "\"I sing of my legendary prowess\"",
     "m": "No strip required",
-    "e": "Bearer’s weapons are Armor Breaking. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": "Bearer’s weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },
 
   "songofdeflection": {
@@ -1950,7 +1950,7 @@
     "r": "Ball",
     "i": "\"The power of void is mine to evoke\" x3",
     "m": "Black Magic Ball",
-    "e": "Sphere of Annihilation will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to Shield Destroying<br>3. A player hit dies and is Cursed",
+    "e": "Sphere of Annihilation will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is Cursed",
     "n": "Ignores armor. Enchantments which affect equipment, such as Imbue Shield or Harden, do not function against Sphere of Annihilation"
   },
 
@@ -2219,7 +2219,7 @@
     "r": "Touch",
     "i": "\"Embrace the old ones and surrender thyself\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Melee weapons wielded by bearer are Armor Breaking. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is Immune to magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is Cursed"
+    "e": "Melee weapons wielded by bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is Immune to magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is Cursed"
   },
 
   "wardself": {
