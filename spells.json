@@ -110,7 +110,7 @@
     "r": "Touch",
     "i": "<br>\"May this armor protect you from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect you from all forms of harm\"",
     "m": "White Strip",
-    "e": "The effects of a Magic Ball, projectile, or weapon which just struck armor worn by the player is ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities",
+    "e": "The effects of a Magic Ball, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a>, or weapon which just struck armor worn by the player is ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities",
     "l": "Phase Arrow and Phase Bolt interact with armor worn by the bearer as though Ancestral Armor was not present",
     "n": "Abilities that ignore armor do not trigger Ancestral Armor"
   },
@@ -512,7 +512,7 @@
     "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Destruction Arrow\"",
-    "m": "Arrow with red head cover labeled \"Destruction\"",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with red head cover labeled \"Destruction\"",
     "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a>. Armor Destroying and Shield Destroying are applied after the normal effect of being hit with an arrow is applied"
   },
 
@@ -674,7 +674,7 @@
       "Druid": "5"
     },
     "t": "Neutral",
-    "e": "May use any great weapon. May use one such weapon at a time for each instance purchased"
+    "e": "May use any <a href=\"/weapons/#Great\" data-ajax=\"false\">great</a> weapon. May use one such weapon at a time for each instance purchased"
   },
 
   "equipmentweaponhinged": {
@@ -684,7 +684,7 @@
       "Healer": "2"
     },
     "t": "Neutral",
-    "e": "May use any hinged weapon. May use one such weapon at a time for each instance purchased"
+    "e": "May use any <a href=\"/weapons/#Hinged\" data-ajax=\"false\">hinged weapon</a>. May use one such weapon at a time for each instance purchased"
   },
 
   "equipmentweaponlong": {
@@ -696,7 +696,7 @@
       "Wizard": "5"
     },
     "t": "Neutral",
-    "e": "May use any long weapon. May use one such weapon at a time for each instance purchased"
+    "e": "May use any <a href=\"/weapons/#Long\" data-ajax=\"false\">long</a> weapon. May use one such weapon at a time for each instance purchased"
   },
 
   "equipmentweaponshort": {
@@ -709,7 +709,7 @@
       "Wizard": "1"
     },
     "t": "Neutral",
-    "e": "May use any short weapon. May use one such weapon at a time for each instance purchased"
+    "e": "May use any <a href=\"/weapons/#Short\" data-ajax=\"false\">short</a> weapon. May use one such weapon at a time for each instance purchased"
   },
 
   "essencegraft": {
@@ -892,7 +892,7 @@
     "r": "Touch",
     "i": "\"I grant thee a gift of the air\" x3",
     "m": "White Strip",
-    "e": "When struck by a melee weapon or projectile the bearer instead announces \"Gift of Air\" and becomes Insubstantial. The bearer treats the triggering event as though it had no effect on them other than triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will wound the bearer as normal and do not trigger Gift of Air",
+    "e": "When struck by a melee weapon or <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> the bearer instead announces \"Gift of Air\" and becomes Insubstantial. The bearer treats the triggering event as though it had no effect on them other than triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will wound the bearer as normal and do not trigger Gift of Air",
     "l": "Bearer may not wield weapons or shields",
     "n": "Bearer may end the Insubstantial state caused by Gift of Air at any time with the standard Incantation"
   },
@@ -1356,7 +1356,7 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "e": "Player is allowed to block arrows and projectiles with their weapons and hands without penalty. Any arrow or projectile in motion touched by a weapon wielded or by the hand of the player is nullified",
+    "e": "Player is allowed to block <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrows</a> and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectiles</a> with their weapons and hands without penalty. Any arrow or projectile in motion touched by a weapon wielded or by the hand of the player is nullified",
     "n": "Engulfing effects from blocked arrows and projectiles do not activate"
   },
 
@@ -1408,7 +1408,7 @@
     "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Phase Arrow\"",
-    "m": "Arrow with grey cover labeled ‘Phase’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with grey cover labeled ‘Phase’",
     "e": "This arrow does not interact with ongoing Magic or Abilities. Example: This arrow is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Missile Block, or similar Magic or Abilities",
     "l": "This arrow does not supercede the Frozen, Insubstantial, or Out of Game States"
   },
@@ -1452,8 +1452,8 @@
     "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Pinning Arrow\"",
-    "m": "Arrow with yellow head cover labeled ‘Pinning’",
-    "e": "A player struck by this arrow is Stopped for 30 seconds",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with yellow head cover labeled ‘Pinning’",
+    "e": "A player struck by this <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrow</a> is Stopped for 30 seconds",
     "n": "Engulfing"
   },
 
@@ -1496,7 +1496,7 @@
     "t": "Specialty Arrow",
     "s": "Death",
     "i": "\"Poison Arrow\"",
-    "m": "Arrow with green head cover labeled ‘Poison’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with green head cover labeled ‘Poison’",
     "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
 
@@ -1552,7 +1552,7 @@
     "r": "Touch",
     "i": "\"I enchant thee with Protection from Projectiles\" x3",
     "m": "White Strip",
-    "e": "Bearer is unaffected by ammunition, thrown javelins, rocks, and throwing weapons. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player"
+    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player"
   },
 
   "pyrotechnics": {
@@ -1577,7 +1577,7 @@
     },
     "t": "Neutral",
     "s": "Neutral",
-    "e": "The cost of all available Equipment is reduced to zero points. May use bows so long as a shield is not carried. The cost of all Enchantments is doubled"
+    "e": "The cost of all available Equipment is reduced to zero points. May use <a href=\"/weapons/#Bow\" data-ajax=\"false\">bows</a> so long as a shield is not carried. The cost of all Enchantments is doubled"
   },
 
   "ravage": {
@@ -1848,7 +1848,7 @@
     "r": "Self",
     "i": "\"I sing of my nimble acrobatics\"",
     "m": "No strip required",
-    "e": "Bearer does not receive Wounds from ammunition, thrown javelins, rocks, and throwing weapons. Bearer must Chant \"Song of Deflection\" or sing a song regarding their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": "Bearer does not receive Wounds from <a href=\"/weapons/#Amunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Bearer must Chant \"Song of Deflection\" or sing a song regarding their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },
 
   "songofdetermination": {
@@ -2058,7 +2058,7 @@
     "t": "Specialty￼Arrow",
     "s": "Sorcery",
     "i": "\"Suppression Arrow\"",
-    "m": "Arrow with purple head cover labeled ‘Suppression’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with purple head cover labeled ‘Suppression’",
     "e": "A player struck by this arrow is Suppressed for 30 seconds",
     "n": "Engulfing"
   },
