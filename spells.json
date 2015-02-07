@@ -125,7 +125,7 @@
     "s": "Death",
     "r": "20",
     "i": "Say the word \"Assassinate\" immediately upon killing a person.",
-    "e": "The victim is Cursed"
+    "e": "The victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
   },
 
   "astralintervention": {
@@ -363,7 +363,7 @@
     "s": "Death",
     "r": "Unlimited",
     "i": "\"And stay down!\"",
-    "e": "Victim is Cursed and Suppressed for 30 seconds",
+    "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and Suppressed for 30 seconds",
     "l": "Must be used immediately upon the caster dealing a Wound to the victim in melee combat"
   },
 
@@ -447,7 +447,7 @@
     "r": "Touch",
     "i": "\"May thou bear this plague to all\" x3",
     "m": "Red Strip",
-    "e": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is Fragile"
+    "e": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
   },
 
   "corrosivemist": {
@@ -950,7 +950,7 @@
     "r": "Touch",
     "i": "\"From earth and clay I form thee\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer is Immune to Death. Bearer is Cursed. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Non-magical armor worn affected as per Imbue Armor",
+    "e": "Bearer is Immune to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Non-magical armor worn affected as per Imbue Armor",
     "l": "A caster may only have a single Golem Enchantment active at a time",
     "n": "All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn"
   },
@@ -994,7 +994,7 @@
     "s": "Spirit",
     "r": "Touch",
     "i": "\"By the grace of the divine thou art healed\" x5",
-    "e": "All wounds are healed. Ignores the Cursed State"
+    "e": "All wounds are healed. Ignores the <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> State"
   },
 
   "greatermend": {
@@ -1050,7 +1050,7 @@
     "r": "Touch",
     "i": "<br>\"Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my greater minion!\"",
     "m": "Yellow Strip",
-    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is Cursed and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x5 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
+    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x5 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
     "l": "<br>1. The Insubstantial State imposed by Greater Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
   },
 
@@ -1538,7 +1538,7 @@
     "r": "Touch",
     "i": "\"I enchant thee with protection from magic\" x3",
     "m": "White Strip",
-    "e": "Bearer is Immune to magic from any school. Upon death the player is Cursed"
+    "e": "Bearer is Immune to magic from any school. Upon death the player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
   },
 
   "protectionfromprojectiles": {
@@ -1590,7 +1590,7 @@
     "s": "Death",
     "r": "20",
     "i": "\"Death shall ravage thy flesh and make thee fragile\" x3",
-    "e": "Target player is Fragile"
+    "e": "Target player is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
   },
 
   "regeneration": {
@@ -1623,7 +1623,7 @@
     "r": "Touch",
     "i": "\"From thy bindings thou art released\" x5",
     "e": "A single ongoing effect or State is removed from the target. Casters choice",
-    "l": "Cannot remove Cursed"
+    "l": "Cannot remove <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
   },
 
   "reload": {
@@ -1711,7 +1711,7 @@
     "s": "Spirit",
     "r": "20",
     "i": "\"The spirits lay a curse on thee.\" x3",
-    "e": "May only target dead players. Player is Cursed. Any Enchantments on the player are removed"
+    "e": "May only target dead players. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Any Enchantments on the player are removed"
   },
 
   "shadowstep": {
@@ -1950,7 +1950,7 @@
     "r": "Ball",
     "i": "\"The power of void is mine to evoke\" x3",
     "m": "Black Magic Ball",
-    "e": "Sphere of Annihilation will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is Cursed",
+    "e": "Sphere of Annihilation will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
     "n": "Ignores armor. Enchantments which affect equipment, such as Imbue Shield or Harden, do not function against Sphere of Annihilation"
   },
 
@@ -1967,7 +1967,7 @@
     "r": "Touch",
     "i": "\"Steal Life\"",
     "e": "Caster may heal a Wound or instantly Charge an ability",
-    "l": "May only be used on a dead player. That player is Cursed. Does not work on Cursed players"
+    "l": "May only be used on a dead player. That player is Cursed. Does not work on <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> players"
   },
 
   "stoneform": {
@@ -2190,7 +2190,7 @@
     "r": "Touch",
     "i": "<br>Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my minion!",
     "m": "Yellow Strip",
-    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is Cursed, Fragile, and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x10 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
+    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>, <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>, and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x10 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
     "l": "<br>1. The Insubstantial State imposed by Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
   },
 
@@ -2205,7 +2205,7 @@
     "r": "Touch",
     "i": "\"Thy hunger can never be sated\" x3",
     "m": "Yellow Strip and White Strip",
-    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is Immune to Death, and is Cursed. Bearer’s Adrenaline ability will work through their Cursed State"
+    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is Immune to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer’s Adrenaline ability will work through their Cursed State"
   },
 
   "voidtouched": {
@@ -2219,7 +2219,7 @@
     "r": "Touch",
     "i": "\"Embrace the old ones and surrender thyself\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Melee weapons wielded by bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is Immune to magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is Cursed"
+    "e": "Melee weapons wielded by bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is Immune to magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
   },
 
   "wardself": {
