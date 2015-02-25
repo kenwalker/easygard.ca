@@ -224,7 +224,7 @@
     "r": "Self or Touch",
     "i": "\“Be a bastion of healing\” x3",
     "m": "4 Yellow strips",
-    "e": "Bearer is Stopped. Bearer may cast Greater Heal by announcing \"<Player> thou art made whole\". Bearer must remove an Enchantment strip after each use of Greater Heal",
+    "e": "Bearer is Stopped. Bearer may cast Greater Heal by announcing \"[Player] thou art made whole\". Bearer must remove an Enchantment strip after each use of Greater Heal",
     "n": "Battlefield Triage is removed when the last strip is removed"
   },
 
