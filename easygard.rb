@@ -6,6 +6,10 @@ spells = Spells.new()
 set :bind, '0.0.0.0'
 set :port, 1337
 
+configure do
+	mime_type :appcache, 'text/cache-manifest'
+end
+
 get '/' do 
 	erb :home
 end

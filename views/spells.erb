@@ -1,6 +1,7 @@
 <% @loaded = 'false' %>
 <div data-role="page" class="jqm-demos jqm-home" id="spells-abilities">
 
+<%= erb :'sections/updated' %>
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>

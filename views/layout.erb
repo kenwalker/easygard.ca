@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="/easygard.appcache">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +19,15 @@
 	  ga('create', 'UA-57944446-1', 'auto');
 	  ga('send', 'pageview');
 
+	</script>
+	<script>
+	function onUpdateReady() {
+		$( "#easygard-updated-popup" ).popup( "open" )
+	}
+	window.applicationCache.addEventListener('updateready', onUpdateReady);
+	if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+		onUpdateReady();
+	}
 	</script>
 </head>
 <body>
