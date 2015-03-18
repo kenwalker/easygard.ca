@@ -13,6 +13,7 @@
                <li><a href="#CombatContact">Combat Contact</a></li>
                <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
                <li><a href="#Deaths">Deaths</a></li>
+               <li><a href="#CombatNotes">Combat Notes</a></li>
             </ul>
 
 	</div><!-- /footer -->
@@ -151,3 +152,35 @@
 
 </div>
 <!-- Deaths /page -->
+
+<!-- Combat Notes Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="CombatNotes">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Combat Notes</h3>
+    			<p>Miscellaneous rules necessary for the smooth operation of combat</p>
+    			<p>
+    			<ol>
+	    			<li>Shots that only strike garb or unwielded equipment do not count as a hit unless:</li>
+	    			<ol>
+	    				<li>Said items blocked a blow that would have struck a combatant (i.e. garb, equipment, sheathed
+	weapons, etc. are not shields and do not count as armor)</li>
+						<li>The shot is Engulfing. Engulfing effects do trigger on garb and equipment hits</li>
+					</ol>
+	    			<li>If a person is wounded in an arm throwing a shot, or killed, shots they threw into motion before being struck still count as a hit, if they land within a half second of being struck. In the case of a two-handed weapon, the wielder must remove his wounded hand from the weapon within a half second for the shot to count. This should be a clear case of finishing an already thrown shot, meaning that it requires no change of direction and the last action required to finish the shot has already been started prior to being struck. If you have any questions, ask your kingdom/group level Guildmaster of Reeves. A reeve‘s call is always final in determining if a shot is in time or late</li>
+					<li>Unless otherwise noted in the battlegame description players may always choose to take a Death. Players who take a Death may not return to play except by respawning, may not activate any ‘on death’ Magic and Abilities such as Fight After Death, have all Enchantments removed (including Persistent ones), and do not benefit from any Magic or Abilities that prevent Death such as Undead Minion.</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Combat Notes /page -->
