@@ -810,7 +810,7 @@
     "i": "\"Fight after death\" immediately after dying",
     "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players do not receive further Wounds during Fight After Death. Players melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>",
     "l": "Players may not activate Abilities or Magic during Fight After Death. Players may not activate Fight After Death if they died while Suppressed, Stunned, Insubstantial, or Frozen. States on the player (Such as Stopped) persist until Fight After Death has ended and are then removed as per the rules for player death. Players may not achieve game objectives nor carry game items while affected by Fight After Death, though they may still kill other players even if that player is a game objective",
-    "n": "Reeves are encouraged to remove this ability from those who use it in an unsafe manner"
+    "n": "Reeves are encouraged to remove this ability from those who use it in an unsafe manner. Also note that it was clarified online that if a player moves during fight after death they must be <a href=\"/spells/s#summondead\" data-ajax=\"false\">summon resurrected</a> from their respawn location since they have moved from where they died"
   },
 
   "fingerofdeath": {
