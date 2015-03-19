@@ -607,7 +607,7 @@
     "name": "Enlightened Soul",
     "keywords": "healer monk enchantment protection",
     "classes": {
-      "Healer": "1",
+      "Healer": "5",
       "Monk": "1"
     },
     "t": "Enchantment",
