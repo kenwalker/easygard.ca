@@ -1994,6 +1994,7 @@
     "s": "Protection",
     "r": "Touch",
     "i": "\"May nature protect thee from all forms of attack\" x3",
+    "m": "White Strip",
     "e": "Bearer gains 2 points of Magic armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
   },
 
