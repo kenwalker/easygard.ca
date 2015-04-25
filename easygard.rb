@@ -1,14 +1,23 @@
 require 'sinatra' 
+require 'sinatra-logentries'
+
 require_relative 'spells'
 
 spells = Spells.new()
 
 set :bind, '0.0.0.0'
 set :port, 1337
+set :environment :production
 
 configure do
 	mime_type :appcache, 'text/cache-manifest'
 end
+
+configure do
+	Sinatra::Logentries.token = 'e52c755c-a05b-4edd-b81c-e7a49b97b006'
+end
+
+logger.info("Starting up EasyGard.ca")
 
 get '/' do 
 	erb :home
