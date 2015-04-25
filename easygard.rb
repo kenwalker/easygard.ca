@@ -7,7 +7,7 @@ spells = Spells.new()
 
 set :bind, '0.0.0.0'
 set :port, 1337
-set :environment :production
+set :environment, :production
 
 configure do
 	mime_type :appcache, 'text/cache-manifest'
