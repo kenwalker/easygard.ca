@@ -1,0 +1,59 @@
+<% @loaded = 'false' %>
+<% @reducedBattlegames.each do |uniqueName, battlegameData| %>
+
+<div data-role="page" class="jqm-demos jqm-home" id="<%= uniqueName %>" data-url="<%= uniqueName %>">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+         <div role="main" class="ui-content">
+            <h3 class="ui-bar ui-bar-a ui-corner-all"><%= battlegameData['name'] %></h3>
+            <div class="ui-body ui-body-a ui-corner-all">
+               <h3>
+               <% if battlegameData['types'] %>
+                  <% battlegameData['types'].each do |aType| %>
+                     <a href="/battlegames/<%=aType%>" data-ajax="false"><%=aType.capitalize%></a>
+                  <% end %>
+               <% else %>
+                  No specific class types
+               <% end %>
+               </h3>
+                  <p>
+                  <% if battlegameData.include?('objective') %>
+                  <b>Objective:</b> <%= battlegameData['objective'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('teams') %>
+                  <b>Teams:</b> <%= battlegameData['teams'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('lives') %>
+                  <b>Lives:</b> <%= battlegameData['lives'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('respawn') %>
+                  <b>Respawn:</b> <%= battlegameData['respawn'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('refresh') %>
+                  <b>Refresh:</b> <%= battlegameData['refresh'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('players') %>
+                  <b>Players:</b> <%= battlegameData['players'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('equipment') %>
+                  <b>Equipment:</b> <%= battlegameData['equipment'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('credit') %>
+                  <b>Credited To:</b> <%= battlegameData['credit'] %><br>
+                  <% end %>
+                  <% if battlegameData.include?('description') %>
+                  <b>Description:</b> <%= battlegameData['description'] %><br>
+                  <% end %>
+               </p>
+            </div>
+         </div>
+         <!-- /content -->
+
+</div><!-- /page -->
+<% end %>
+
+

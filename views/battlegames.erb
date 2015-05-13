@@ -1,0 +1,223 @@
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="battlegames">
+
+<%= erb :'sections/updated' %>
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="/battlegames/all" data-ajax="false">List All V8 Battlegames</a></li>
+               <li data-role="list-divider">Battlegames By Type</li>
+               <li><a href="/battlegames/class" data-ajax="false">Class Games</a></li>
+               <li><a href="/battlegames/militia" data-ajax="false">Militia Games</a></li>
+               <li><a href="/battlegames/ditch" data-ajax="false">Ditch Games</a></li>
+               <li data-role="list-divider">Balancing</li>
+               <li><a href="#battlegames-balancing">Balancing Battlegames</a></li>
+               <li><a href="#battlegames-largeteams">Balancing Large Teams</a></li>
+               <li><a href="#battlegames-otheroptions">Other Balancing Options</a></li>
+               <li data-role="list-divider">Building</li>
+               <li><a href="#battlegames-building">Building Battlegames</a></li>
+               <li><a href="#battlegames-submitting">Submit a Battlegame!</a></li>
+            </ul>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Battlegames Balancing Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="battlegames-balancing">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Balancing Battlegames</h3>
+    			<p>Creating teams during weekly field days can be a stressful experience - even more so for Reeves and Champions who volunteer to build teams at events where they may not always know the skills and abilities of the players in the game. Balancing these teams can be considered an art, and therefore - by definition - is impossible to perfect.</p>
+				<p>It's very common for players in the game to be upset by poor team balance, but Reeves and Champions should remember that they're attempting to do something that is very difficult and can take a lot of practice. This manual attempts to provide some suggestions and guidelines to improve the chances of creating two relatively equal teams.</p>
+				<p>Regardless of the concepts presented here, however - always remember that creating teams takes a lot of practice, and even the best Reeves will produce teams that are unbalanced due to factors out of their control (such as the field's top stick being secretly hung over, or a typically mediocre Healer trying a better spell list).</p>
+				<p>The process of reaching two balanced teams is not as consequential as the considerations that define balanced teams. Many successful Reeves will begin by splitting each class equally between the teams, fixing any problems in balance as they go - but this isn't always the case. Below is a list, then a discussion, of each major consideration to keep in mind between two teams.</p>
+    			<ul>
+					<li>Do both teams have the same number of players?</li>
+					<li>Do both teams have players of skill?</li>
+					<li>Are classes represented as equally as possible on both teams?</li>
+					<li>Are both teams comparable in terms of "Stick" and "Spellcasting"?</li>
+					<li>Will a gap in equipment cause potential unbalance?</li>
+					<li>Are there any Teamwork imbalances?</li>
+					<li>Do potentially problematic classes/players have "Answers" on the opposing team?</li>
+				</ul>
+				<p><b>Do both teams have the same number of players?</b> It somewhat goes without saying, but it is a strong consideration. As the teams get larger, this matters less - but if you can have both teams with the same number of players (plus or minus one player if the player pool is uneven), you should.</p>
+				<p><b>Do both teams have players of skill?</b> Ability with Amtgard Battlegames is as much a skill that can be developed as ability with any sport. With practice, spellcasting and fighting can be improved - and therefore some players will be plainly better than others by virtue of talent, experience, or dedication.</p>
+				<p>It is important to ensure that teams have a relative balance between experienced players. If only one team has a cadre of veteran (and in practice) Amtgarders and the other doesn't, some serious thought should be given to how that imbalance will be solved.</p>
+				<p><b>Are classes represented as equally as possible on both teams?</b> In smaller games, or on fields where not every class is represented twice, this may be a difficult consideration. This is to mean that classes - or at least class "Types" - are equally sorted on to each team. For instance, one team shouldn't have drastically more Healers than the other. If a team has two players playing the same class and the other team still has one, that's not too bad. But, one team having two while the other has none can lead to imbalances if not accounted for with other balancing factors.</p>
+				<p>This also includes relative level. If, for instance, you are balancing three Barbarians (levels 6, 5, and 2) on to two teams, the sum of levels on either team should be as equal as possible. That is, the level 6 Barbarian should be balanced against the level 5 and level 2 Barbarian (note that this could be balanced differently if the level 5 Barbarian player is markedly better by skill than the level 6 player, since in most cases the difference between level 5 and 6 is insignificant). Note, though, that this creates a number imbalance that will have to be accounted for with other class splits.</p>
+				<p>That said, Amtgard allows for twelve classes (assuming you're not allowing Monster Classes), two of which can't be accessed by every player. Sometimes you'll have several classes that aren't available to be sorted on to each team. In these cases, try to make up the initial balance by sorting "like" classes together. For instance if there is only one Healer available, but also only one Wizard available, the two should likely be sorted opposite one another.</p>
+				<p>The class "Types" can be considered in three broad categories - Combat, Skirmish, and Spellcasting. Combat classes are Anti-Paladin, Barbarian, Paladin, and Warrior; Skirmish classes are Archer, Assassin, Monk, and Scout; Spellcasting classes are Bard, Druid, Healer, and Wizard. These are not hard-and-fast classifications however. Some Scouts can fit just as easily into Combat roles as a Paladin, and some Bards and Druids could easily Skirmish with the best Monk. These are just examples, but show that the above concept is just a guideline.</p>
+				<p><b>Are both teams comparable in terms of "Stick" and "Spellcasting"?</b> Similarly to how classes need to be balanced, the concept of strong Fighting and Spellcasting potential need to be balanced. This is a combination of the above two considerations, where it is a mix of both class being played and player skill.</p>
+				<p>Simply put, look at both teams and try to decide if one would team would obviously win in a Militia style Line Ditch (i.e. no class abilities, but weapons and armour used by relative player skill), or if one team would obviously win in a similar game where only class abilities could be used (no weapons, but armour and shields). If either situation presented an obvious winner, the balance should be adjusted (if possible) to compensate.</p>
+				<p><b>Will a gap in equipment cause potential unbalance?</b> As another consideration to add to the list in addition to classes and player ability - will equipment play a role in deciding the outcome of the game? For instance, does one team have more armour than the other? Are all the bows against a team that has the majority of shields? Are all the polearms on one team?</p>
+				<p>While class abilities can play a role in countering equipment available, a large part of the outcome of Amtgard battlegames is decided by melee engagements, and sometimes even more-so by ammunition and projectiles available.</p>
+				<p>As a quick check-list, ensure that all projectile weapons, then armour, long-ranged melee weapons (polearms), heavy-padded great weapons, and shields are as equal as possible between two teams. This is also considering player skill with the weapons. It doesn't help balance any to have two accomplished bowmen balanced against two players using bows who have never picked them up before - regardless of what class and level all four players are using.</p>
+				<p><b>Are there any Teamwork imbalances?</b> One cornerstone concept of effective battlegaming in Amtgard v8, is that "Teamwork is OP". No matter how individually good a player is, effective combination of class abilities and teamwork will trump them even if used by players far below the "superior" player's skill level.</p>
+				<p>Because of this, it is just as important to look at teams from the perspective of particularly effective team combinations. That is, typically players from the same Company or Belted Family are more effective when fighting alongside one another, or two friends who have learned and developed within the game together. Adjudicating how much this makes a difference really requires a large amount of "feel", but when two players fight well enough together to take on half or more of the other team, it has to be a factor to consider.</p>
+				<p><b>Do potentially problematic classes/players have "Answers" on the opposing team?</b> This concept can be used to solve some imbalance issues, but it is important to consider how detrimental to team balance some high-level accomplished spellcasters, or the sole-owner of 6 point armour on the field, can be.</b>
+				<p>The concept of an "answer" is something that is intrinsic to how Amtgard v8 classes work with and against each other. Every class is built with a "hard" and several "soft" counter. Using the Wizard as an example, it is hard countered by a Monk, and soft countered by other Wizards, Bards, Healers, and potentially Anti-Paladins.</p>
+				<p>Monks are hard counters for Wizards because they are automatically immune to all Verbal magic, and at 6th can avoid spellballs as well. A Wizard's only class abilities available for use against a Monk are Heat Weapon and Pyrotechnics, which may not be on all Wizard's spell lists. This means that most solitary engagements between a Wizard and Monk comes down to combat ability and gear choices. Soft counters to the Wizard are decided for similar reasons - the ability to survive or thwart their class abilities (i.e. Break Concentration, immunities, etc.) and overpower what is left with their own strengths.</p>
+				<p>The same concepts can be applied to every class. Classes that rely on combat ability to make a difference are countered by classes that nullify the need for melee engagements (such as verbal spells), and support classes are nullified by class abilities that make it difficult to use or sustain those abilities (such as Dispel Magic, or applying the Cursed state).</p>
+				<p>Unfortunately, providing an example of team balancing would be very difficult in this Manual. Quite a bit of context is needed to establish the relative skill and ability of every player. The best way to get better at creating teams is to practice, take notes, and reflect on the choices you made after the game. Try discussing the ramifications of your choices with players playing the game, in the context of the above considerations.</p>
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- End Battlegames Balancing Page -->
+
+<!-- Battlegames Large Teams Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="battlegames-largeteams">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Balancing Large Teams</h3>
+    			<p>As teams get larger and larger, two things happen: One is that the effect one player has on the team balance lessens, and the other is that team creation takes longer. The standard model of sorting player by player can work well at most regular fields, but as soon as teams start getting larger than twenty people per side it begins to break down.</p>
+    			<p>In order to streamline the process without drastically altering the steps involved, have players divide themselves into small squads and then balance those small squads into teams. This presents some additional challenges with regards to teamwork (in that there are likely going to be some squads with far superior teamwork ability by default), but as long as you approach the problem pragmatically with the above considerations in mind, balancing squads instead of individual players will be faster with only sacrificing a little with regards to "ideal balance".</p>
+    			<p>The size of squad can, and should, differ based on the game size. Up to thirty person teams can work well with two to three person squads, but as teams approach fifty or more players, squads could start reaching five or more players. The decision on squad size should try to balance the ideas of granularity and speed.</p>
+    			<p>Granularity means that each team should be made up of ten or more squads - as a rule of thumb. The fewer choices you have the ability of making, the less likely you are to have good balance. With more squads, and therefore more choices when building teams, the easier it is to fine-tune how the teams fit together.</p>
+    			<p>Speed is determined by how few decisions you have to make. For instance, if you are only balancing four squads of ten into two teams - you'll be able to complete the task in no time at all, but the teams may not be very equal since the choices you have available to you are limited. However, if you balanced the same forty players in squads of two, you'd have ten squads per team - therefore more choices and better balance, but more time required and decisions to make (though still less than balancing all forty players individually).</p>
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- End Battlegames Large Teams Page -->
+
+<!-- Battlegames Other Options Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="battlegames-otheroptions">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Other Balancing Options</h3>
+    			<p>Both of the other sections make the assumption that an unbiased party is creating the teams used in a game (<i>such as a Reeve</i>). Sometimes this isn't always possible, and sometimes it's interesting to use a different model for a change.</p>
+    			<p>The following examples of team creation methods aren't always "fair" or "balanced", but they can sometimes offer quick or fun ways to get games going:</p>
+    			<ul>
+    			<li><b>Quick Assignment:</b> Many players will be familiar with this concept from grade-school, where a Reeve quickly moves through the crowd of available players assigning each player with either "Team A" or "Team B". Each player moves to their designated team quickly, and the completed teams are seen compared to one another. Any adjustments after the initial assignment are optional.</li>
+    			<li><b>Team Captains - Traditional:</b> Another grade-school favorite, two roughly equivalent team captains are chosen, who then take turns picking from the available players. Determining who picks first can vary (flip a coin, rock-paper-scissors, youngest/shortest/least experienced picks first, etc.). Teams typically aren't adjusted by a Reeve afterwards, but could be if necessary.</li>
+    			<li><b>Team Captains - Backwards:</b> Similar to the Traditional Team Captains method, two captains take turns picking teams (whether Traditional or To-and-Fro), but they pick players for their opponents team. Teams typically aren't adjusted by a Reeve afterwards, but could be if necessary.</li>
+    			<li><b>Team Captains - To-and-Fro:</b> Two captains take turns picking players for their team, similar to the Traditional Team Captains, but the process is altered slightly. Whoever's turn it isn't to pick a player picks two players from the crowd. The picking captain must then select a player from the two presented. This works almost exactly like the Traditional style, but the currently picking captain has their current player options limited by the opposing captain. Teams typically aren't adjusted by a Reeve afterwards, but could be if necessary.</li>
+    			<li><b>The Cup of Unbalancing:</b> A Reeve prepares a cup, or hat, or other receptacle with tokens or paper pieces of two different colours. Enough tokens of each colour are placed into the cup to create two teams of the same size (or as close to as possible). Each participating player picks a token from the cup, and is balanced on to that team. Teams typically aren't adjusted by a Reeve afterwards, but could be if necessary.</li>
+    			</ul>
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- End Battlegames Other Options Page -->
+
+<!-- Building Battlegames Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="battlegames-building">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Building Battlegames</h3>
+    			<p>Designing a Battlegame that is fun, fair, and exciting can be a lot of difficult work. Frequently, Game Designers come up with brilliant ideas for a fun game but can't seem to make the rules work in a way that makes sense to see their vision come to life.</p>
+    			<p>Seeing players enjoy a game you've designed however, is an incredibly rewarding experience. The hope is that the guidelines and tips in this Battlegame Manual will help Designers create more, and better, games for Amtgard fields.</p>
+    			<p>Someone could write pages on how to go about designing effective battlegames. However, the majority of advice can be boiled down to a few simple rules, integrated with experience both playing and running games:</p>
+    			<ul>
+    			<li><p><b>Have a Clear Objective:</b> The first thing that players need to know about a game, is what their goal is. Make sure you can easily and concisely explain the concept to your game to someone before you try running it. If the game can't be explained clearly in the five minutes before the game starts, it might be too complex, or not quite ironed out enough yet.</p></li>
+    			<li><p><b>Keep it All Simple:</b> In most cases, players want to get on the field and have fun. If they're sitting around listening to someone describe a complex game design or mechanic, or even worse - stopping mid game to ask for clarification - it detracts from how good the game is.</p>
+    			<p>This is not to say that you can't design and run games that get seriously complex, just that they need to be built up to. Try running simple games over a month to introduce players at your field to a game mechanic, and then add another the next month, until several months later you're running the game of your dreams that involves several customized game mechanics that all interact with one another to tell a story. While the whole story is complex to an outsider, to your local players it has been kept simple.</p></li>
+    			<li><p><b>Don't Design Games that Unbalance Teams:</b> Have a mind to run a game that involves two teams rushing and taking a hill, but that the hill is really an entrenched bunker that is nigh-impossible to storm once it's taken? That may be a game that is better played as a three-team defense game (see <a href="/battlegamesby/c#castledefense" data-ajax="false">Castle Defense</a>), instead of two equal teams rushing in.</p>
+    			<p>The reason for saying this, is that the team that doesn't make it to the top of the hill may as well give up at that point, for how difficult their job is to try and win the game. If a game or terrain mechanic can win the game before it's over, it may be worth re-evaluating how the game is designed.</p>
+    			<p>In general, most games between two teams should be built to encourage good back-and-forth play. Regardless of game mechanics, no team is able to entrench themselves that they get and hold the lead early on. Games that include these heavy-advantage mechanics are best built in the mind of using three (or more) teams, where one team takes a turn using that mechanic against two others.</p></li>
+    			<li><p><b>Remember that People Came to Play Amtgard:</b> While games that involve grabbing game objects from the center of the field can be fun, they sometimes devolve into simply who gets balanced the faster runner. Amtgard may be a physical game, but it becomes less and less about someone playing their class and more about their physical abilities when games can be won in seconds without casting a spell or swinging a sword.</p>
+    			<p>Try to ensure that combat happens and is encouraged. Want to run a Capture the Flag game, but only have one flag? Put it in the center, but have the Scoring Zones nearer to the opposing Team instead of your own base. That way, if a Team is slower to start (for example, if they have a Summoner Druid on their Team that needs to get enchantments out), they aren't completely behind the curve right at Lay-On.</p></li>
+    			<li><p><b>Be Judicious with Refreshes:</b> Refreshes can change the tide of the game and can severely imbalance how classes interact with one another. A great example of this is to compare the Barbarian to a Battlemage Wizard or Summoner Druid. The Barbarian has only two per Refresh ability (Fight After Death, and Blood and Thunder), while both the spellcasters have more than several. Granting a Refresh is a bigger advantage to the spellcasters in a game that is intended to stay theoretically even for all classes.</p>
+    			<p>The best suggestion, or rule of thumb, is to grant Refreshes in a way to effectively gain one Refresh every hour. This can be accomplished by statically granting one per hour, or by offering a side- objective can be completed once every hour or so. Perhaps teams are given so many "Refresh" vouchers in a two-hour game (i.e. one voucher for every two players), and the team captain decides who uses them and when.</p>
+    			<p>Alternately, a Refresh can prolong a game if granted to the Team that is currently loosing if the currently winning Team is about to score a winning point. That is, if playing a Capture the Flag game as a first-to-three points, if one Team has one point and the other has two, the Team that has one point could be granted a Refresh to keep the game going an additional round (in theory).</p></li>
+    			<li><p><b>Keep People Active:</b> Ask any Warrior, and they'll tell you that it's bad enough that Wizards and Druids have spells like Iceball and Icy Blast as repeatable abilities. Try not to add additional terrain or game mechanics that remove players from play frequently. Players come to field to be able to play, not get stuck in a moving Blizzard (that causes the Frozen state), after surviving a Bard's Stun, and then to be victim to an Entangle.</p>
+    			<p>Another similar piece of advice, is to be considerate of how Lives work in your game. It was common in previous versions of the game for newer players to be Shattered out of games early and have to wait around for sometimes as long as a half hour before the game concluded. That time was boring and discouraging. For that reason, Personal Life Pool games should be discouraged unless they're quick games designed to be fast-paced or flavourful.</p></li>
+    			<li><p><b>Remember that the Game is Going to be Played:</b> Sometimes Game Designers get carried away with telling a story about their Persona or something in their backstory, that they forget that other players will be participating in their games. When designing a game, design it to be fun for everyone involved, not just one or two key players. If you have a story to tell that focuses on a small group, write it out as an RP creative writing piece or organize a smaller game using people specifically interested.</p></li>
+				</ul>
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- End Building Battlegames Page -->
+
+<!-- Submitting Battlegames Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="battlegames-submitting">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Submitting a Battlegame to Easygard</h3>
+    			<p>The list provided in Easygard is by no means complete.  Submit a Battlegame you know of and help build a great selection of V8 Battlegames.</p>
+    			<p>The various pieces required to define a Battlegame can be see in any of the other <a href="/battlegames/all" data-ajax="false">Battlegames</a> in the list.  A Battlegame should have most of the following defined:</p>
+    			<ul>
+    			<li><b>Name:</b> A short descriptive name of the game</li>
+    			<li><b>Objective:</b> A short one liner of the objective of the game</li>
+    			<li><b>Teams:</b> Number of teams such at 2, or 2+ or Free-for-all as examples</li>
+    			<li><b>Lives:</b> How many lives players get, Unlimited or Life pool or 1 in some cases</li>
+    			<li><b>Respawn:</b> How long or what type of respawn (60 seconds, None, etc.)</li>
+    			<li><b>Refresh:</b> Is there any Refresh options during the game?</li>
+    			<li><b>Players:</b> How many players (usually per team)</li> 
+    			<li><b>Equipment:</b> Any special items needed? Flagging tape, foam ball, tokens</li>
+    			<li><b>Credited To:</b> Who you think originally came up with the game idea</li>
+    			<li><b>Description</b> A full description of the rules, how the game works, mechanics, items, etc.</li>
+    			</ul>
+    			<p>If you think you have a neat idea you can click on the email link, fill in the information and we'll see if we can put it into the right form for Easygard.</p>
+    			<p>
+    			<a href="mailto:kismet@felfrost.ca?subject=V8 Battlegame Suggestion&body=Name: %0D Objective: %0D Teams: %0D Lives: %0D Respawn: %0D Refresh: %0D Players: %0D Equipment: %0D Credited To: %0D Description: %0D%0D ">Send Battlegame information via this Email Link</a></p>
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Submitting Battlegames Page -->
+

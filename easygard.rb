@@ -2,8 +2,10 @@ require 'sinatra'
 require 'sinatra-logentries'
 
 require_relative 'spells'
+require_relative 'battlegames'
 
 spells = Spells.new()
+battlegames = Battlegames.new()
 
 set :bind, '0.0.0.0'
 set :port, 1337
@@ -59,6 +61,35 @@ end
 get '/spells/:letter' do
 	@reducedHash = spells.allSpells().reject {|k,v| k[0] != params[:letter]}
 	erb :"spell-byletter"
+end
+
+get '/battlegames/' do 
+	erb :battlegames
+end
+
+get '/battlegames/all' do
+	@allBattlegames = battlegames.allBattlegames()
+	erb :"battlegames-all"
+end
+
+get '/battlegamesby/:letter' do
+	@reducedBattlegames = battlegames.allBattlegames().reject {|k,v| k[0] != params[:letter]}
+	erb :"battlegame-byletter"
+end
+
+get '/battlegames/class' do
+	@allBattlegames = battlegames.allBattlegames()
+	erb :"battlegames-class"
+end
+
+get '/battlegames/ditch' do
+	@allBattlegames = battlegames.allBattlegames()
+	erb :"battlegames-ditch"
+end
+
+get '/battlegames/militia' do
+	@allBattlegames = battlegames.allBattlegames()
+	erb :"battlegames-militia"
 end
 
 get '/enchantments/' do

@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#version 1.0.13
+#version 1.0.14
  
 index.html
 lib/jquery.mobile-1.4.5.min.css
@@ -50,6 +50,26 @@ spells/v
 spells/w
 states/
 weapons/
+battlegames/
+battlegames/all
+battlegamesby/a
+battlegamesby/b
+battlegamesby/c
+battlegamesby/d
+battlegamesby/e
+battlegamesby/f
+battlegamesby/g
+battlegamesby/h
+battlegamesby/k
+battlegamesby/l
+battlegamesby/m
+battlegamesby/p
+battlegamesby/r
+battlegamesby/s
+battlegamesby/t
+battlegames/class
+battlegames/militia
+battlegames/ditch
 
 NETWORK:
 *
