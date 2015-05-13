@@ -10,3 +10,5 @@ Information and most of the textual content is derived from the Amtgard Rules of
 The mobile implementation is done by [Lord Kismet](http://amtgard.com/ork/orkui/?Route=Player/index/43232) of the [Felfrost Duchy in Ottawa](http://felfrost.ca).
 
 On Twitter [@easygardca](https://twitter.com/easygardca)
+
+Currently experimenting with [Waffle.io](https://waffle.io/kenwalker/easygard.ca)
