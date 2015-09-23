@@ -315,6 +315,32 @@
   	"equipment": "Flagging tape, scoring items like stuffed animals, pylons, flags",
   	"description": "<br>Teams start equidistant across the field with two Control Zones placed in the center of the field. Both Zones should be roughly 10ft x 20ft, placed right next to each other to create a 20ft x 20ft area. The Zone furthest from a team is considered their scoring area.<p>In the middle between the Control Zones and the Bases are two scoring items - these can be stuffed animals, pylons, flags, whatever is available - one for each team.<p>The goal of the game is to retrieve and place both items in your team's Scoring Zone. After a 60 second count, your team then scores one point. The game is typically played first-to-3, or the most points scored in a given time period."
 	},
+  "ogre": {
+    "name": "Ogre",
+    "credit": "Dagorhir",
+    "teams": "None",
+    "lives": "1",
+    "respawn": "None",
+    "players": "3+",
+    "objective": "Ditch rules game, be the last one standing",
+    "refresh": "None",
+    "types": [ "ditch" ],
+    "equipment": "Any melee",
+    "description": "<br> Ogre is a combo Hunger Games vs an OGRE! One player is the ogre and has all the weapons around them (they can use whatever they want). Remaining players attempt to get the weapons, slay the ogre, and then vie for last one standing. There are some that PVP before getting ogre... that is okay! Enjoy! Modification for larger groups- ogre has 1 point of armor everywhere."
+  },
+  "planttheflag": {
+    "name": "Plant the Flag",
+    "credit": "Siar Geata (park)",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "Instant at base or 2/3 man forever with large player counts",
+    "players": "3+",
+    "objective": "Offensive Team wins by planting a flag on a flag stand. Defensive team wins by killing the flag carrier and complete a 30 second count to destroy the flag.",
+    "refresh": "After a point is scored",
+    "types": [ "class" ],
+    "equipment": "Any melee",
+    "description": "<br><i>Setup:</i><br>The Offensive team starts with the flag at their base, and the Defensive team starts at their base. 1/3 the distance from the defender's base to the attacker's base is the flag stand object (which should not be moved during game play).<br><i>Game Rules:</i><br>The flag is a game object and can not be destroyed by magic or weapons. If the Offensive team manages to touch any part of the flag to the flag stand object the Offensive team Wins. Only living members of the Offensive team may move the flag. If the member of the offensive team who currently holds the flag dies, they must drop the flag where they died. Members of the Defensive team may touch the flag to initiate a 30 second verbal count. If the defender completes the count without loosing contact with the flag, the flag is destroyed and the Defensive team wins. If the defender who is counting looses contact with the flag (by loosing the limb that was touching it, dying, going insubstantial, or stepping away) the count resents.<br><i>Balancing:</i><br>There are two ways of balancing this game. The team who wins looses the player who carried our the game winning action (ie the one who planted the flag or completed the destruction count). Alternatly the teams can stay the same and the flag stand can move 3 feet away from the winning team's base after every point."
+  },
   "protectthereliquary": {
   	"name": "Protect the Reliquary",
   	"credit": "Celestial Codex",
