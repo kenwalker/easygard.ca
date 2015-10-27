@@ -14,6 +14,7 @@
                <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
                <li><a href="#Deaths">Deaths</a></li>
                <li><a href="#CombatNotes">Combat Notes</a></li>
+               <li><a href="#CommonClarifications">Common Clarifications</a></li>
             </ul>
 
 	</div><!-- /footer -->
@@ -176,6 +177,51 @@
 	    			<li>If a person is wounded in an arm throwing a shot, or killed, shots they threw into motion before being struck still count as a hit, if they land within a half second of being struck. In the case of a two-handed weapon, the wielder must remove his wounded hand from the weapon within a half second for the shot to count. This should be a clear case of finishing an already thrown shot, meaning that it requires no change of direction and the last action required to finish the shot has already been started prior to being struck. If you have any questions, ask your kingdom/group level Guildmaster of Reeves. A reeve‘s call is always final in determining if a shot is in time or late</li>
 					<li>Unless otherwise noted in the battlegame description players may always choose to take a Death. Players who take a Death may not return to play except by respawning, may not activate any ‘on death’ Magic and Abilities such as Fight After Death, have all Enchantments removed (including Persistent ones), and do not benefit from any Magic or Abilities that prevent Death such as Undead Minion.</li>
 				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Combat Notes /page -->
+
+<!-- Common Clarifications Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="CommonClarifications">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Common Clarifications</h3>
+    			<p>These clarifications and misinterpretations made easy come from the Facebook group <i>Official Amtgard Rules Discussion</i></p>
+    			<p>
+    			<ol>
+					<li>For verbals, it doesn’t matter if your target is in range/in line of sight/able to be affected by a verbal at any point but the end of the verbal.
+
+					Your target could be on the dark side of the moon and immune to everything when you start the verbal, but if they are in range, in line of sight, and not immune when you finish the verbal, they are affected.</li>
+
+					<li>If you moved after having died, you must have <a href="/spells/s#summondead" data-ajax="false">summon dead</a> cast on you FROM RESPAWN in order to return to play in any way other than respawning.  You can’t just run to the healer and have them summon dead you in the middle of the field.</li>
+
+					<li><a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor</a> doesn’t block engulfing hits to your equipment.  It will block engulfing hits to your armor.   The reason is because, for example, an <a href="/spells/e#entangle" data-ajax="false">entangle ball</a> to the weapon doesn’t count as an entangle ball to the arm; it just effects you if it hits your equipment, and ancestral armor only stops hits to the armor.</li>
+
+					<li><a href="/weapons/#Projectiles" data-ajax="false">Light thrown</a> is generally more powerful than heavy thrown, and purposefully so.  They both do the same amount of damage,  but light thrown has smaller design requirements and you can therefore carry more.  This is meant to be an advantage for <a href="/classes/#Assassin" data-ajax="false">Assassins</a>.</li>
+
+					<li><a href="/spells/r#release" data-ajax="false">Release</a>/<a href="/spells/g#greaterrelease" data-ajax="false">Greater release</a> doesn’t just end states, it also ends ongoing effects.  <a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a>, <a href="/spells/e#elementalbarrage" data-ajax="false">Elemental Barrage</a>, <a href="/spells/a#awe" data-ajax="false">Awe</a>, <a href="/spells/h#heatweapon" data-ajax="false">Heat Weapon</a>, and <a href="/spells/t#terror" data-ajax="false">Terror</a> are all examples of effects that can be removed by Greater Release.</li>
+
+					<li><a href="/spells/p#phasebolt" data-ajax="false">Phase Bolt</a>/<a href="/spells/p#phasearrow" data-ajax="false">Arrow</a> only ignores enchantments and ongoing effects.  It doesn’t ignore anything else.  For example, you can throw a phase bolt at a <a href="/classes/#Monk" data-ajax="false">Monk</a> in <a href="/spells/s#sanctuary" data-ajax="false">sanctuary</a> from 2 feet away and they are not immune to it because it ignores sanctuary.  It also ignores <a href="/spells/m#missileblock" data-ajax="false">Missile Block</a>.  It does nothing to a shield, and it doesn’t ignore regular armor.  It will ignore pure magic armor (like <a href="/spells/s#stoneskin" data-ajax="false">stoneskin</a>) and treat warrior <a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor</a> like regular <a href="/armor/" data-ajax="false">armor</a>.</li>
+
+					<li>You have to say a person’s name when you cast verbal magic on them at range.  If you don’t know their name, you point at them with a free hand and use their class and unique description.  If you don’t do that, your spell is not properly cast.  It doesn’t matter if they absolutely know who you are casting on.  It doesn’t matter if everyone and God knows who you are casting on.  The spell is not properly cast.  It’s part of the incantation.</li>
+
+					<li><a href="/spells/h#heatweapon" data-ajax="false">Heat weapon</a> targets weapons.  If you drop your weapon mid-incantation, it is still affected because the weapon, not the person is targeted.  This means that a weapon lying all by itself in a field can be affected by heat weapon.</li>
+
+					<li><a href="/spells/p#pyrotechnics" data-ajax="false">Pyrotechnics</a> targets a person but affects their equipment.  The weapons themselves must be immune to flame in order to avoid Pyrotechnics.  <a href="/classes/#Monk" data-ajax="false">Monks</a> and <a href="/classes/#AntiPaladin" data-ajax="false">Anti-Palidins’s</a> are immune to verbals and flame respectively, but their equipment is not.  In general, what a spell TARGETS doesn’t matter when it comes to immunities; just what it AFFECTS.</li>
+
+					<li><a href="/states/#SpecialEffects" data-ajax="false">Shield Crushing/Armor Breaking</a> don’t have to be announced on every swing.  When you first engage with someone, let them know your weapons are AB/SC, and you’ll be fine.  Same goes for any enchantment/special effect.</li>
+					</ol>
             </div>
 
 	</div><!-- /footer -->
