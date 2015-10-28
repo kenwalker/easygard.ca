@@ -159,3 +159,7 @@ end
 get '/about/' do 
 	erb :about
 end
+
+get '/changes/' do
+	erb :changes
+end
