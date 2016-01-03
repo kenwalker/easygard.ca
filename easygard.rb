@@ -29,11 +29,6 @@ get '/index.html' do
 	erb :home
 end
 
-get '/spells/' do 
-	@allSpells = spells.allSpells()
-	erb :spells
-end
-
 get '/armor/' do 
 	erb :armor
 end
@@ -58,12 +53,47 @@ get '/reeves/' do
 	erb :reeves
 end
 
+get '/spells/' do 
+	@allSpells = spells.allSpells()
+	erb :spells
+end
+
+get '/spells/all' do
+	@allSpells = spells.allSpells()
+	erb :"spells-all"
+end
+
+get '/spells/balls' do
+	@allSpells = spells.allSpells()
+	erb :"spells-balls"
+end
+
+get '/spells/definitions' do
+	@allSpells = spells.allSpells()
+	erb :"spells-definitions"
+end
+
+get '/spells/self' do
+	@allSpells = spells.allSpells()
+	erb :"spells-self"
+end
+
+get '/spells/touch' do
+	@allSpells = spells.allSpells()
+	erb :"spells-touch"
+end
+
+get '/spells/verbal' do
+	@allSpells = spells.allSpells()
+	erb :"spells-verbal"
+end
+
 get '/spells/:letter' do
 	@reducedHash = spells.allSpells().reject {|k,v| k[0] != params[:letter]}
 	erb :"spell-byletter"
 end
 
-get '/battlegames/' do 
+get '/battlegames/' do
 	erb :battlegames
 end
 

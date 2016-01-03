@@ -1,0 +1,404 @@
+<% @loaded = 'false' %>
+<div data-role="page" class="jqm-demos jqm-home" id="magic-definitions">
+
+<%= erb :'sections/updated' %>
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="#abilities">Abilities</a></li>
+               <li><a href="#chant">Chant</a></li>
+               <li><a href="#charge">Charge and Incantation</a></li>
+               <li><a href="#engulfing">Engulfing</a></li>
+               <li><a href="#incantation">Incantation</a></li>
+               <li><a href="#armor">Magic Armor</a></li>
+               <li><a href="#magicballs">Magic Balls</a></li>
+               <li><a href="#metamagic">Meta-Magic</a></li>
+               <li><a href="#range">Range</a></li>
+               <li><a href="#resistant">Resistant</a></li>
+               <li><a href="#school">School</a></li>
+               <li><a href="#arrows">Specialty Arrows</a></li>
+               <li><a href="#traits">Traits</a></li>
+            </ul>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Abilities Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="abilities">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Abilities</h3>
+    			<p>Powers or skills that must be activated to be used.</p>
+                <ol>
+                    <li>Ability Enchantments denoted as Magical (m) in the class description count towards the bearers limit for carried <a href="/enchantments/" data-ajax="false">Enchantments</a>. May be removed by Magic that removes Enchantments, such as Dispel.</li>
+                    <li>Ability Enchantments denoted as Extraordinary (ex) in the class description do not count towards the bearers limit for carried Enchantments. May be removed by Magic that removes Enchantments, such as Dispel.</li>
+                    <li>Unless otherwise specified, Ability enhanced equipment cannot be used except by the player who enhanced the equipment. For instance: an Archer cannot loan his Poison Arrow to another player, even another Archer.</li>
+                    <li>Abilities that are denoted as Ambulant in the class description do not require the statement of ‘Ambulant’ before their incantation.</li>
+                    <li>Ability Incantations follow all the rules of magical Incantations unless otherwise noted. Incantations for Abilities listed as Extraordinary (ex) do not require a free hand.</li>
+                </ol>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Abilities /page -->
+
+<!-- Chant Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="chant">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Chant</h3>
+                <p>An audible component required by some magics and abilities that sustains their continuing function.  The audible components of a Chant must be spaced no further than five seconds apart and audible to 50’. Unless otherwise noted failure to Chant ends the effect. May be spoken while moving. Only one Chant can be maintained at a time.</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Chant /page -->
+
+<!-- Charge Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="charge">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Charge</h3>
+                <p>Some Magic and Abilities may continue to be used after their per-life or per-refresh uses are consumed.  These Magic and Abilities are denoted with the word “Charge” and a number after them. In order to gain an additional per-life or per-refresh use of a Charge Magic or Ability the Charge Incantation must be repeated in full the number of times indicated by number after Charge. For instance an Ability labeled ‘Charge x3’ requires three full repetitions of the Charge Incantation in order to be usable</p>>
+                <p>Unless otherwise noted:</p>
+                <ol>
+                    <li>Once an ability has been Charged, it may then be held for later use in the same game. Once it is used you may then Charge it again for another use</li>
+                    <li>Any Incantation to activate a Charged ability is separate from the Charge Incantation</li>
+                    <li>Charges for per-refresh Magic and Abilities carry between lives; a per-refresh Ability Charged on a previous life and not used can be used on the next life</li>
+                    <li>Charged Magic and Abilities that are per life or per Refresh lose their Charge when they are replenished. Example: A Charged Ability which is ‘1/Life Charge x3’ loses it’s Charge when a player begins a new life, but may be Charged normally once the standard per-life uses have been consumed</li>
+                    <li>The ability being Charged must be designated at the beginning of the Charge</li>
+                    <li>You may only have one instance of a given Magic or Ability Charged at a time. Example: An Ability listed as 2/life Charge x3 may only be Charged once both per-life uses have been expended, and may only have a single instance of the Ability Charged thereafer</li>
+                    <li>Only Magic and Abilities which may be Charged can benefit from Innate, Steal Life Essence, etc.</li>
+                </ol>
+                <h3>Charge Incantation</h3>
+                <p>The Incantation (see Incantation for general rules about Incantations) that is used to Charge an ability. A single ‘Charge Incantation’ is repeating the following phrase:</p>
+                <p><i>“Out of battle I pause to rest,<br>
+                I take some time to catch my breath.<br>
+                Return to me my feeting power<br>
+                To aid me in my darkest hour.”</i></p>
+                <p>The Charge Incantation requires an empty hand and must be audible out to 20 feet</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Charge /page -->
+
+<!-- Engulfing Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="engulfing">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Engulfing</h3>
+                <p>Engulfing effects affect the victim even if they hit only garb, worn equipment, or wielded equipment. Other effects only function on items or players they physically touch</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Engulfing /page -->
+
+<!-- Incantation Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="incantation">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Incantation</h3>
+                <p>The verbal component required by some magics and abilities that initiates their function.<br>
+                Magics with a range component of 20ft or greater require that the target be indicated by name. Example: <i>“Timmy, I command thee to stop, I command thee to stop, I command thee to stop.”</i> If the name of the target is not known, or if the casting player prefers, they may instead point at the target with a free hand and name their class and a descriptor. Example: <Point with a free hand> <i>“Warrior in blue, I command thee to stop, I command thee to stop, I command thee to stop.”</i> When targeting a piece of equipment the caster must explicitly define the equipment in addition to the player most recently using it. Example: <i>“Timmy, blue sword on hip, I call upon flame to heat that sword, I call upon flame to heat that sword, I call upon  flame to heat that sword.”</i><br>
+                Unless otherwise noted all Incantations:<br>
+                <ol>
+                    <li>Magic must be said loudly and clearly enough to be heard within 50 feet or by the recipient, whichever is closer</li>
+                    <li>Unless otherwise noted in the Magic/Ability description a player may not move their feet when incanting. If a player moves their feet the incant is interrupted</li>
+                    <li>Improper wording, mispronunciation, a gap of more than two seconds between words, or omitting words will all result in an interrupted Incantation</li>
+                    <li>An interrupted incantation does not result in a magic or ability being consumed. Interrupted Incantations must be restarted from the beginning</li>
+                    <li>Require the caster to have an empty hand with the exception of holding Material Components or the target of a Touch Range magic</li>
+                    <li>Starting an Incantation renders the player’s active Magic Balls inactive and interrupts any other Incantation or Chant the player has in progress</li>
+                    <li>Meta-magic used must be stated immediately prior to beginning the incantation for the modifed magic. Abilities marked as Ambulant in the class description ignore this requirement</li>
+                    <li>Require the target to be at least partially visible at the end of the Incantation to be effective. If the target is not at least partially visible the Ability or Magic is still used up</li>
+                </ol>
+                <p>Completing an Incantation results in an Ability or Magic being used up, regardless of if the target was valid or affected</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Incantation /page -->
+
+<!-- Armor Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="armor">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Magic Armor</h3>
+                <p>Magic Armor is provided by some Enchantments</p>
+                <ol>
+                    <li>Magic Armor never stacks with other Magic Armor and may not be worn with normal armor. If Magic Armor is granted from two different sources only the highest value present is used and all others are ignored. Example: A player is wearing both <a href="/spells/g#giftofearth" data-ajax="false">Gift of Earth</a> (2 points of Magic Armor) and <a href="/spells/b#barkskin" data-ajax="false">Barkskin</a> (1 point of Magic Armor). Since Gift of Earth is the highest value the Magic Armor from Barkskin is ignored. If Gift of Earth is removed the player will have a new Magic Armor maximum of 1 point. All locations greater than 1 point will be lowered to 1 point while all locations lower at 1 point or lower will remain unchanged</li>
+                    <li>Magic Armor may be the target of magic or effects that affect armor such as Armor Breaking, Fireball, etc</li>
+                    <li>Magic Armor may be repaired like any other armor</li>
+                    <li>Magic Armor covers all locations on a player without any gaps in coverage</li>
+                    <li>Unless otherwise noted in the description of the Enchantment, Magic Armor can never benefit from armor enhancement abilities or magics such as Blessed Armor or Imbued Armor. Example: Stoneskin is naturally considered Blessed Armor, but Barkskin can not benefit from Blessed Armor in any way</li>
+                    <li>Players may wear more Magic Armor than their class maximum allows. A class which cannot wear any armor can still wear Magic Armor</li>
+                    <li>Unless otherwise noted Magic Armor behaves identically to <a href="/armor/#ArmorMadeEasy" data-ajax="false">normal armor</a></li>
+                    <li>The presence of Magic Armor must be announced to any opponents at the beginning of an engagement if possible; Magic Armor should not result in a <i>surprise survival</i></li>
+                </ol>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Armor /page -->
+
+<!-- Magic Balls Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="magicballs">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Magic Balls</h3>
+                <p>Magic Balls which are thrown and strike a player or object can have various effects (see list of <a href="/spells/balls" data-ajax="false">Magic Balls</a>)</p>
+                <p>Unless otherwise noted:</p>
+                <ol>
+                    <li>A magic-user may physically carry only the number of Magic Balls purchased. Pages and other players may not carry extra Magic Balls for magic-users</li>
+                    <li>Once a Magic Ball’s Incantation has been said, it is considered active until thrown or interrupted</li>
+                    <li>A player may only have one Magic Ball active at a time</li>
+                    <li>Magic Balls of the Subdual School have no effect on equipment that is not being carried. Example: You may not Iceball a players shield if it is not being wielded or carried by them</li>
+                    <li>Magic Balls only affect the first thing they hit</li>
+                    <li>Magic Balls affect only the player or object struck; Magic Balls are not engulfing unless noted</li>
+                    <li>Barring any Enchantments or magical effects, garb strikes count as hitting the player if the Magic Ball would have continued on to hit the player. Example: You may not block Lightning Bolts with your cloak</li>
+                    <li>Magic Balls do not damage armor unless otherwise noted</li>
+                    <li>Magic Balls are not stopped by Protection from Projectiles, Missile Block, and other similar magic and abilities.</li>
+                </ol>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Magic Balls /page -->
+
+<!-- Meta-magic Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="metamagic">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Meta-Magic</h3>
+                <p>A type of magic which alters the typical behavior of other magics</p>
+                <p>Unless otherwise noted:</p>
+                <ol>
+                    <li>Meta-Magic follows all the standard rules for Incantations</li>
+                    <li>Meta-Magics must be used immediately prior to the magic being altered</li>
+                    <li>Meta-Magics do not affect other Meta-Magics, but may be combined in any number so long as all restrictions are observed. Example: A player may cast a spell using Extension and Ambulant, however Extension must be stated without moving the feet as it is unaffected by Ambulant</li>
+                    <li>Meta-Magics are considered expended as soon as their incantation is finished regardless of whether or not the altered magic was completed</li>
+                    <li>May not be used to modify the behavior of magic and abilities granted by Enchantments such as Heat Weapon from Gift of Flame</li>
+                </ol>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Meta-magic /page -->
+
+<!-- Range Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="range">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Range</h3>
+                <p>Targets of Magics and Abilities out of range at the completion of an Incantation are not valid targets. For Magics and Abilities with a range of <a href="/spells/touch" data-ajax="false">“Touch”</a> any physical contact between caster and target is sufficient</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Range /page -->
+
+<!-- Resistant Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="resistant">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Resistant</h3>
+                <p>The player is unaffected by the next effect of a given type. Players must announce ‘resistant’ upon triggering</p>
+                <p><b>Melee:</b> Not affected by the next strike from a melee weapon. No effect on projectiles</p>
+                <p><b>Wounds:</b> Does not receive the next Wound that would otherwise be inflicted</p>
+                <p><b>School:</b> Immune to the next Magic or Ability from the given School</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Resistant /page -->
+
+<!-- School Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="school">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>School</h3>
+                <p>Magic and Abilities are divided into Schools, referred to commonly as the ‘Schools of Magic’. Each School specializes in a certain genre of magic and typically the effects of the different Magic and Abilities within a School are similar</p>
+                <p><b>Command:</b> Typically makes players stop moving or change their actions in some manner. Frequently makes use of the Stopped, Frozen, and Insubstantial States. All offensive magic and abilities from the Command School are Verbals. All offensive magic and abilities from the Command School have the word <i>“command”</i> in the incantation</p>
+                <p><b>Death:</b> Typically causes injury or death. Frequently makes use of the Cursed and Fragile States. All offensive magic and abilities from the Death School are Verbals. Offensive magic and abilities from the Death School tend to be very explicit about the result as part of the incantation such as <i>“I call for your death”</i></p>
+                <p><b>Flame:</b>Typically destroys equipment or wounds/kills players. Offensive magic and abilities from the Flame School can be either a Verbal or a Magic Ball. Magic Balls from the Flame School typically destroy equipment and wound or kill players, while Verbals from the Flame School typically target equipment and destroy it, rather than targeting players themselves. All offensive Verbals from the Flame School have the word <i>“flame”</i> in the incantation</p>
+                <p><b>Neutral:</b> Has effects that alter game play for the user in some manner and does not directly affect other players</p>
+                <p><b>Protection:</b> Typically enchantments that provide magical armor, Immunity to a School, or Resistance to a School or State. There are no offensive magic or abilities in the Protection School</p>
+                <p><b>Sorcery:</b> Typically effects that deal with raw magical force, manipulating magic itself, or controlling the aether. Offensive magic amd abilities from the Sorcery School tend to be very explicit about the result as part of the incantation and frequently includes the word <i>“power”</i>. Offensive magic and abilities from the Sorcery School are generally Verbals</p>
+                <p><b>Spirit:</b> Typically Verbals that offer healing, resurrection, or the removal of harmful States with a few Enchantments sprinkled in.  There are no offensive magic or abilities in the Spirit School</p>
+                <p><b>Subdual:</b> Typically makes a player stop moving or limits their actions. Makes use of the Stopped, Frozen, Stunned, and Suppressed States. All offensive magic and abilities in the Subdual School are Magic Balls</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- School /page -->
+
+<!-- Specialty Arrows Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="arrows">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Specialty Arrows</h3>
+                <p>Specialty Arrows which strike a player or object can have various effects.<p>
+                <p>Unless otherwise noted:</p>
+                <ol>
+                    <li>A player may only physically carry one Specialty Arrow per instance of Ability. Pages and other players may not carry extra Specialty Arrows for players</li>
+                    <li>Specialty Arrows must be fired alone</li>
+                    <li>Incantations for Specialty Arrows must be said immediately prior to firing, and said loudly and clearly enough to be heard within 50 feet</li>
+                    <li>Hits from Specialty Arrows still count as a normal hit from an arrow to the location struck</li>
+                    <li>If a player has Specialty Arrows with a frequency that includes Charge, they may have only one Specialty Arrow of any type Charged at a time</li>
+                </ol>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Specialty Arrows /page -->
+
+<!-- Traits Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="traits">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Traits</h3>
+                <p>Class Abilities that function all of the time without activation being required. Includes such things as Immunity and the ability to use extra equipment. Traits are denoted with a <i>(T)</i> and are always non-magical in nature. Traits may not be removed by any means and persist after respawn. Immunities granted by Traits persist after death. Note: Some Traits mimic other Magic or Abilities, but these Traits are still always on and ignore any Incantation or Materials requirement listed</p>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Traits /page -->

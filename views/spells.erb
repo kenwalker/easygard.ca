@@ -1,5 +1,5 @@
 <% @loaded = 'false' %>
-<div data-role="page" class="jqm-demos jqm-home" id="spells-abilities">
+<div data-role="page" class="jqm-demos jqm-home" id="spells">
 
 <%= erb :'sections/updated' %>
 <%= erb :'sections/header' %>
@@ -7,16 +7,54 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 <% @loaded = 'true' %>
 
-         <div role="main" class="ui-content">
-            <ul data-role="listview" data-filter="true" data-autodividers="true" data-filter-placeholder="Search spells and abilities" data-inset="true" data-icon="false">
-
-<% @allSpells.each {|key, value| %>
-
-               <li><a href=<%="/spells/#{key[0]}##{key}"%> data-ajax="false"><%="#{value['name']}"%></a></li>
-<% } %>
+	<div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="/spells/all" data-ajax="false">All Spells</a></li>
+               <li><a href="/enchantments/" data-ajax="false">Enchantments</a></li>
+               <li><a href="/spells/verbal" data-ajax="false">Verbal Spells</a></li>
+               <li><a href="/spells/balls" data-ajax="false">Magic Balls</a></li>
+               <li data-role="list-divider">By Range</li>
+               <li><a href="/spells/self" data-ajax="false">Range Self</a></li>
+               <li><a href="/spells/touch" data-ajax="false">Range Touch</a></li>
+               <li data-role="list-divider">Magic Overview</li>
+               <li><a href="#magic-made-easy">Magic Made Easy</a></li>
+               <li><a href="/spells/definitions" data-ajax="false">Magic Definitions</a></li>
             </ul>
-         </div>
-         <!-- /content -->
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Magic made Easy Page -->
+
+<div data-role="page" class="jqm-demos jqm-home" id="magic-made-easy">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Magic Made Easy</h3>
+				<p>The number and variety of Magic, Abilities, States, and Special Effects can seem overwhelming, but it doesn’t have to be. Here are a few quick steps to help you learn what you need to know to play on the field with magic and abilities.<br>
+				Only three things can adversely affect you: <a href="/weapons/" data-ajax="false">Weapons</a>, <a href="/spells/balls" data-ajax="false">Magic Balls</a>, and <a href="/spells/verbal" data-ajax="false">Verbals</a>.<br>
+				Weapons and Magic Balls have to physically hit you or your equipment to have an effect. No hit, no effect, no problem.<br>
+				Engulfing Magic Balls (Iceball, etc) and weapons (Pinning Arrow, etc) can affect you by hitting your equipment or garb. Everything else has to hit your body. Engulfng isn’t terribly common.<br>
+				Verbal Magic and Abilities all follow the same format:  They state your name, point at you, and say an incantation of three repetitions of a phrase that activates the Verbal.<br>
+				<ul>
+					<li>All offensive Verbals have very descriptive incantations.  The incantation typically contains the <a href="/spells/definitions#school" data-ajax="false">School</a> and the State of the Magic or Ability being used. Example:  The incantation for <a href="/spells/h#holdperson" data-ajax="false">Hold Person</a> is “I command thee to stop” three times;  The School is ‘Command’ and the State it inficts is <a href="/states/#Stopped" data-ajax="false">‘Stopped’</a></li>
+					<li>No Verbal has a range greater than 50 feet. If you can get further away from the caster than that you won’t be affected</li>
+				</ul>
+				<p>There are lots of Magic and Abilities, but only a few results. If you read through and understand the <a href="/states/#StatesMadeEasy" data-ajax="false">States Made Easy</a> and <a href="/states/#SpecialEffects" data-ajax="false">Special Effects</a> pages you will understand the result of any Magic or Ability used against you in combat on the  field. All offensive combat abilities (with very few exceptions) result in one of those States or Special Effects. If you don’t know what a magic or ability does by its incantation don’t worry; ask the caster to explain and they can communicate to you in just a couple of words exactly what happened using States and Special Effects.<br>
+				Immunities are also very simple: If the Magic or Ability targeting you is of a given School (which is always part of the incantation) and you have Immunity to that School, then the magic or ability has no effect on you. The only exception is if they are targeting equipment you are carrying instead of you yourself, but the player will have to indicate that as part of using the Magic or Ability. If you are unaffected by a Magic or Ability, you must announce it when the Magic or Ability is complete. You can also let them know before hand if you’re feeling generous.
+			</div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
 
 </div><!-- /page -->
 

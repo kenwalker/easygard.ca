@@ -177,6 +177,19 @@
   	"equipment": "Flagging tape for 10ft Circles",
   	"description": "<br>Each Team begins with two or more \"Faerie Circles\" (zones designated by flagging tape or equivalent - best results when they are at least 10ft squares), which act as their Respawn points and Bases. Players may Respawn at either of their Team's Circles freely, and change where the Respawn each life. Circles should be created at least 50ft away from one another.<p>An Opposing Team's Faerie Circle may be closed by entering the Circle and chanting \"<i>I don't believe in Faeries</i>\" x10. At this point, a Reeve begins a 30 second count-down. After that count, the circle closes. A closed Circle cannot be used to Respawn from.<p>A Circle can be re-opened by entering the Circle and chanting \"<i>I believe in Faeries</i>\" x10, after which a Reeve begins a 15 second count-down. After that count, the circle opens.<p>The game ends when one team has no viable Faerie Circles to Respawn from."
 	},
+  "feedthetrolls": {
+    "name": "Feed the Trolls",
+    "objective": "Kill the Trolls!",
+    "teams": "2+ plus Trolls",
+    "lives": "Unlimited",
+    "respawn": "60",
+    "refresh": "None",
+    "players": "10+ and 1 Troll per 5 players",
+    "equipment": "Troll Bait, Troll Cave",
+    "credit": "Lofold",
+    "types": [ "class"],
+    "description": "<br>Scattered throughout the field is Troll bait (5-7 pieces of something...).  The teams try to collect the bait so that they can put all the pieces in front of the entrance of the cave to get the Trolls to emerge.  Each time the Trolls are summoned, they may have a random ability determined by QM (optional).  After all the Trolls are killed, players return to their base, bait is redispersed, and the game continues.  Whichever team gets the first to a set number of Troll kills wins."
+  },
   "foxtrotkrakensharksandminnowssnakesandrats": {
   	"name": "Foxtrot / Kraken / Sharks and Minnows / Snakes and Rats",
   	"credit": "Amtgard standard",
@@ -241,6 +254,45 @@
   	"equipment": "Hula-hoops or equivalent, tokens (balls, coins, stuffed animals, etc.)",
   	"description": "<br>Each Team has three scoring zones (hula hoops or equivalent) on their side of the field, one closer than the other (so that one zone is close to the opposing Team, one close to the friendly Respawn point, and one between them). A number of tokens (balls, coins, stuffed animals, etc.) are distributed between the zones.<p>In order to interact with a token, the player must cast <a href=\"/spells/t#tracking\" data-ajax=\"false\">Tracking</a> on it. A Token must be carried in a free hand, and if dropped (such as when a player dies or is removed from play, as they are Game Objects) must be <a href=\"/spells/t#tracking\" data-ajax=\"false\">Tracking'ed</a> again before being able to be picked up again.<p>At the end of the game, Teams score points for the number of Tokens in each zone (3 points for the zone closest to the opposing Team, 2 points for the middle zone, and 1 point for the zone closest to the friendly Respawn point). The Team with the most points at the end of the game wins.<p>All players should play Scout for this game.<p>A variation of the game could be played where players are allowed to play any class - however the requirement to Track the ball should be removed, or heavily considered when balancing Teams."
 	},
+  "hoardofthehydra": {
+    "name": "Hoard of the Hyrda",
+    "objective": "Collect the Hydra's eggs",
+    "teams": "2 and neutral Hyrda",
+    "lives": "Infinite",
+    "respawn": 60,
+    "refresh": "Every 3 points",
+    "players": "At least 2 for hydra, then 6-7 for teams",
+    "equipment": "Hydra garb, something to mark the Hydra's nest, something to mark each teams' incubators",
+    "credit": "Dorcas",
+    "types": [ "class"],
+    "description": "<br>There is a nest of eggs, guarded by a neutral hydra tethered to it.  Rounds are 5 minutes, adjust as needed.  Whichever team has the most eggs in their incubator at the end of the round wins the round and the eggs are returned back to the center.  You may carry as many eggs as you wish, but if killed you must drop them all.  You may steal eggs from the enemy incubator.  The incubator should be near the spawn point for the team, but not the spawn point itself."
+  },
+  "hungerrush": {
+    "name": "Hunger Rush",
+    "objective": "Collect the most food in the time period",
+    "teams": "2+",
+    "lives": "Unlimited",
+    "respawn": "60",
+    "refresh": "15 Minutes",
+    "players": "4+ Per Team",
+    "equipment": "4-5 objects to represent food (Unused throwies work great)",
+    "credit": "Darkcast - Neverwinter",
+    "types": ["class", "militia"],
+    "description": "<br>You need at least three reeves for this game.  Two scoring reeves that are by each base, and a field reeve that moves about the field.  At the start of the game the field reeves are carrying all the food and the two teams are just fighting.  Around 30 seconds in the reeve will announce \"Food as spawned\" and toss the food onto the field.  To score a point a player must pick up a piece of food and bring it back to base. Food requires a free hand to be carried but you may run while carrying the food.   The reeves will then toss the food out onto the field again periodically as the game continues.  The team to score the most points after 30 minutes wins."
+  },
+  "islandofdread": {
+    "name": "Island of Dread",
+    "objective": "Survival",
+    "teams": "2",
+    "lives": "Attack team, unlimited; Defending team, players x 4 lifepool",
+    "respawn": "Attack team, 60; Defending team, 30",
+    "refresh": "Per role change",
+    "players": "Any",
+    "equipment": "Area of water with island inside",
+    "credit": "Pungkow, who got it from the internet",
+    "types": [ "class"],
+    "description": "<br>The Defending team spawns at the center of the island and has a life pool as described.  The attacking team spawns on a base somewhere on the water and no offensive actions can be taken from this base.<p>Any participant must walk while in the water but when on the island that restriction is lifted.<p>The attacking team tries to wipe out the defending team on the island.  If the defending team has zero living players on the island at one time, hold is called, everyone returns to their respective base and comes back alive. This causes the defending team to lose 4 lives from their total live pool.<p>A max time should be set and after that has run out count the number of lives left in the defending team livepool.  This could be used to determine the winner if the life pools are never fully consumed."
+  },
   "jugging": {
     "name": "Jugging",
     "credit": "The movie 'Blood of Heroes', introduced to Amtgard by Sir Rift Gorhan Tele",
@@ -328,6 +380,19 @@
   	"equipment": "Flagging tape, scoring items like stuffed animals, pylons, flags",
   	"description": "<br>Teams start equidistant across the field with two Control Zones placed in the center of the field. Both Zones should be roughly 10ft x 20ft, placed right next to each other to create a 20ft x 20ft area. The Zone furthest from a team is considered their scoring area.<p>In the middle between the Control Zones and the Bases are two scoring items - these can be stuffed animals, pylons, flags, whatever is available - one for each team.<p>The goal of the game is to retrieve and place both items in your team's Scoring Zone. After a 60 second count, your team then scores one point. The game is typically played first-to-3, or the most points scored in a given time period."
 	},
+  "mylifefortheswarm": {
+    "name": "My Life For The Swarm",
+    "objective": "Protect your Swarm Mother",
+    "teams": "2+",
+    "lives": "Unlimited, Swarm Mother: 5",
+    "respawn": "60",
+    "refresh": "None",
+    "players": "10+",
+    "equipment": "None",
+    "credit": "TJ",
+    "types": [ "class"],
+    "description": "<br>Each team has a swarm mother, which is a standard class player with unlimited use of the enchantment <a href=\"/spells/h#heartoftheswarm\" data-ajax=\"false\">Heart of the Swarm</a>.  Teammates may only spawn at their mother when they have it active.  The Swarm Mothers each have a different respawn point determined ahead of the game.  A team wins by wiping the other team or putting them in a condition where they cannot respawn.  Large teams make this game more interesting."
+  },
   "ogre": {
     "name": "Ogre",
     "credit": "Dagorhir",
@@ -443,6 +508,19 @@
   	"types": [ "class", "militia"],
   	"description": "<br>This game is a timed game, with rounds being 15 to 30 minutes long depending on game size. Each round, one Team takes a turn playing Humans (i.e. full Class, or Militia rules) against the opposing Team(s) playing Goblins.<p>The Human team has either a Player Life Pool (4 or 5 is suggested) or a Team Life Pool (2-5x the number of players is suggested), and Goblins have unlimited lives. Humans will Respawn at their Base after a 60 second count, and Goblins will Respawn at their Base after only 20 seconds.<p>Each time a Goblin is killed (i.e. returning to play via Respawn, not <i>Superior Numbers</i>), they must record their death with the Base Reeve. After each team has taken a turn playing Humans, the team with the most Goblin kills wins.<p>To add some complexity to the game, Human teams must select a \"Captain\", and the Goblin team may be asked to substitute any number of players for \"Orcs\".<p>Captains are worth 20 points when killed, and cannot be removed from play by any means (in that they are immune to the Frozen, Insubstantial, and Out of Game States). This will be the only way that the Team playing Goblins can score points during those rounds. (If there are multiple Teams playing Goblins at one time, points are attributed to all current Goblin Teams.)<p>Orcs are worth 4 points when killed. They may choose to either play the Orc Monster Class, or any player class that the player has access to at 1st level. They return to play after an 80 second Respawn count."
 	},
+  "thepurge": {
+    "name": "The Purge",
+    "credit": "Dorcas",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": 60,
+    "players": "5+ per team",
+    "objective": "Destroy the Points",
+    "refresh": "1/role switch",
+    "types": [ "militia"],
+    "equipment": "Tape helps to mark sites.  2 bases.",
+    "description": "<br>Each team takes turns playing the cleansing team and the team to be purged.  The job of the purging team is simply to delay the cleansing team for as long as possible (generally 10-15 minutes depending on team sizes)<p>The cleansing team has a dedicated Purifier, who must travel to specifically marked sites, touch with a free hand and say \"I cleanse and purify this site\" five times.  This follows all incantation rules and requires 2 living teammates to be within 5 feet of the site.  Once all the sites are cleansed that team wins.<p><b>Variation:</b>  Does work with class and without dedicated purifiers, but it's a bit harder to keep track of when sites are purified.<p><b>Variation:</b>  Have the purged team's spawn point be at each cleansing site, when that site is purged, they can no longer spawn there."
+  },
   "threemanforever": {
   	"name": "Three Man Forever",
   	"credit": "Amtgard standard",
