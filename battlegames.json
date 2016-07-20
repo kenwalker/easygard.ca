@@ -1,7 +1,7 @@
 {
   "almostquidditch": {
   	"name": "Almost Quidditch",
-  	"credit": "Twilight Peak, Northern Empire",
+  	"credit": "Wunjo",
   	"teams": "2+",
   	"lives": "Infinite",
   	"respawn": "25 seconds",
@@ -69,6 +69,19 @@
   	"equipment": "Flagging tape or pylons",
   	"description": "<br>The specifics of this game can vary depending on mood and desire. However, in every case there are at least two regions (one for each Team), joined together by at least one \"Bridge\". In most circumstances these areas are designated by flagging tape or pylons, but sometimes parks are able to otherwise designate a bridge.<p>Depending on design, players who step off the bridge (into the \"Water\"/\"Void\"/\"Pit\") are either forced to \"walk\" on their knees only, are dead, or suffer some other penalty. Death is usually thought to be the easiest to adjudicate, and therefore is the most common.<p><b>Pirate Battle</b> (Nautical Nights): Game is played between two regions representing Pirate Ships, which are connected by one or two boarding bridges. Bridges should be at least five feet across and twenty feet long.<p>All players are restricted to wearing light (non-metal) armour. No bows or crossbows are permitted, though thrown weapons and javelins are allowed. No large or medium shields are allowed.<p>As an additional benefit, any player who fights with no armour and only a single short sword or dagger will gain a free <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing against Wounds</a> every life."
 	},
+  "capturethecapturer": {
+    "name": "Capture the Capturer",
+    "credit": "Inspired by a random game somewhere on the internet",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "30 ditch/militia, 60 class",
+    "players": "8+",
+    "objective": "Put your opposing team(s) in jail",
+    "refresh": "No more than 1 per 2 points scored",
+    "types": [ "class", "ditch", "militia"],
+    "equipment": "Something to mark nirvana per team, something to mark jail per team",
+    "description": "<br>When a player dies, they do not move until their count is complete.  During this time, a player from an opposing team may tag the player with a free hand and announce \"captured\".<br><br>The captured players spawn count is paused and must follow the capturer, the player may not intentionally move slow to attempt to break free from the captured status.  The player may not be summoned or resurrected, but for all other purposes, the player is considered dead.<br><br>To maintain the the captured status, the capturer must have a hand free, stay within 3 feet of the captured player, and may not run.  The capturer may also announce \"dropping\" to remove the captured status from the player they have captured.<br><br>The teams need to take their captured players to their prison, and once a captured player reaches it, their count stops, and they must remain in the prison until either the round is over or until rescued.  You may rescue your teammates by entering the prison while alive and saying \"prison break!\".  All captured players in that prison may return to their base and immediately come alive upon tagging it.  The captured players are out of game until they tag their base while the player that caused the prison break is still alive and in play.  The last team standing wins.  May play multiple rounds with teams earning points for each round they survived."
+  },
   "capturetheflag": {
   	"name": "Capture the Flag",
   	"credit": "Amtgard standard",
@@ -82,6 +95,19 @@
   	"equipment": "Flags for the teams",
   	"description": "<br>Each Team is given a flag that is kept at their Base. Each Team should also have a Nirvana/Respawn Point which is separate from where their flag is stored.<p>The goal of the game is to retrieve an opposing Team's flag, and return it to their own Base. In order to score, the Team must have possession of their own flag.<p>Games are usually played for either a time duration, or until one Team earns a certain number of points. If the game is being played until one Team scores a certain number of points, it can sometimes be fun to give the \"loosing\" Team a Refresh when the \"Winning\" Team is one point away from winning the game.<p>Respawn counts should be adjust based on game size and type. In smaller (<10 players per Team) non-class games lower Respawn counts should be used, while larger (>30 players per Team) games should use longer counts.<p><b>Capture and Hold:</b> A variation of Capture the Flag requires Teams to successfully hold both flags before they score a point. This count should always be longer than a Death Count (for example, 120 seconds for a 60 second Respawn count game)."
 	},
+  "capturetheflaghoardervariant": {
+    "name": "Capture the Flag - Hoarder Variant",
+    "credit": "Dorcas",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "30 ditch/militia, 60 class",
+    "players": "8+",
+    "objective": "Capture the flag, and the resources",
+    "refresh": "No more than 1 per 2 points scored",
+    "types": [ "class", "ditch", "militia"],
+    "equipment": "2 flags, about a dozen tennis balls/blocks/other similar sized things to represent resources, something for nirvana/start point, something to hold balls/blocks/ similar sized things to represent resources",
+    "description": "<br>Runs as standard <a href=\"/battlegamesby/c#capturetheflag\" data-ajax=\"false\">Capture the Flag</a>, to score and end the round, both flags must be at your base.  In addition, there are resources scattered throughout the field that each team can collect and placed in a team's hoard.  Resources may be stolen out of a team's hoard.<br><br>The flag requires a free hand to carry, and may carry as many flags as desired.  Resources do not require a free hand, multiple may be carried.  If you willingly enter a state or die (willing or not) while carrying a game item(s), you must drop all of them. A team earns 3 points with a flag capture, and 1 point for each resource that is in their hoard."
+  },
   "caravanbattle": {
   	"name": "Caravan Battle",
   	"credit": "Amtgard standard",
@@ -149,7 +175,7 @@
 	},
   "duellingchargos": {
   	"name": "Duelling Chargos",
-  	"credit": "Twilight Peak, Northern Empire",
+  	"credit": "Wunjo",
   	"objective": "To Charge scoring zones more than the opposing Team",
   	"refresh": "None",
   	"types": [ "class", "ditch", "militia"],
@@ -186,7 +212,7 @@
     "refresh": "None",
     "players": "10+ and 1 Troll per 5 players",
     "equipment": "Troll Bait, Troll Cave",
-    "credit": "Lofold",
+    "credit": "Wunjo",
     "types": [ "class"],
     "description": "<br>Scattered throughout the field is Troll bait (5-7 pieces of something...).  The teams try to collect the bait so that they can put all the pieces in front of the entrance of the cave to get the Trolls to emerge.  Each time the Trolls are summoned, they may have a random ability determined by QM (optional).  After all the Trolls are killed, players return to their base, bait is redispersed, and the game continues.  Whichever team gets the first to a set number of Troll kills wins."
   },
@@ -218,7 +244,7 @@
 	},
   "healathon": {
   	"name": "Heal-a-Thon",
-  	"credit": "Twilight Peak, Northern Empire",
+  	"credit": "Wunjo",
   	"teams": "2",
   	"lives": "Infinite",
   	"respawn": "25 seconds",
@@ -243,7 +269,7 @@
 	},
   "hoarders": {
   	"name": "Hoarders",
-  	"credit": "Twilight Peak, Northern Empire",
+  	"credit": "Wunjo",
   	"teams": "2+",
   	"lives": "Infinite",
   	"respawn": "60 seconds",
@@ -330,6 +356,19 @@
   	"types": [ "ditch" ],
   	"description": "<br>All players begin the game equidistant apart. The game can be played with either Single Short restriction, or any Melee, depending on desire.<p>When a player is killed, they should remove themselves from play and take note of who killed them. If the player who killed them is in turn killed, they may return to play after calling \"<i>Alive</i>\" loudly.<p>The game only really ends when one player manages to kill all other players by them self, so that no other players come back to play when the last opponent is defeated.<p>Some variations exist where some throwies or spellballs are available on the field for use.<p>At a certain game size, this game will almost inevitably not end. It is usually best to set a time limit for the game."
 	},
+  "knockoverthecone": {
+    "name": "Knock Over The Cone",
+    "credit": "Gymir (Eugene) for game idea, Balbanes for hula hoop varient",
+    "teams": "6+",
+    "lives": "Unlimited",
+    "respawn": "30 seconds for ditch/militia, 60 for class",
+    "players": "Free-for-all",
+    "objective": "To knock over your opponents cones",
+    "refresh": "Every 3 points scored, the team with the least points gets a refresh",
+    "types": [ "class", "ditch", "militia"],
+    "equipment": "Something to mark nirvana/starting point, 6+ cones (3+ for each team), things to mark terrain as desired",
+    "description": "<br>Each team has cones set up in some formation (preferably 20-50 feet apart).  A point is scored when a team knocks over the opposing team's cones.  A cone may be knocked over with a melee weapon (not thrown), thrown weapon (thrown only), spellball (thrown only), arrow (only if shot), shield (not thrown), or with hands or feet if done in a safe manner.  Knocked over cones may be set back up if time allows.<br><br>Terrain such as water and bridges may be added as desired.<br><br>Variant: There is a hula hoop in the center of each teams' cones.  To score a point, the opposing team must knock over the cones and have a player inside the opponents' hula hoop."
+  },
   "leagueoflegends": {
   	"name": "League of Legends",
   	"credit": "Eliah, Northern Empire",
@@ -585,7 +624,7 @@
 	},
   "tugofwar": {
   	"name": "Tug-of-War",
-  	"credit": "Ausric, Northern Empire",
+  	"credit": "Wunjo",
   	"teams": "2",
   	"lives": "Unlimited",
   	"respawn": "60 seconds",
