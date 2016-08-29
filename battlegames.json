@@ -31,19 +31,32 @@
   	"types": [ "class", "ditch", "militia"],
   	"description": "<br>The aspects of this game can be added to any pre-existing battlegame. It is typically played during a four or five life shatter game, but it is not necessary to follow that tradition.<p>Before Lay-On is called, each player is whispered a Code Word from a Reeve. Each Team should have the same number of the same Code Word present (i.e. if Team A has two players using the \"Fluffymuffin\" Code Word, Team B should also have two players using \"Fluffymuffin\").<p>At random intervals during gameplay, the Caller Reeve (in that, only one Reeve should be calling out words) shouts random Code Words from those used. Immediately, any player who is using that Code Word switches Teams for the duration of that life and should try to do as much damage as possible to his original Team."
 	},
-  "backtoback": {
-  	"name": "Back to Back",
-  	"credit": "Finola, Northern Empire",
-  	"teams": "2+",
-  	"respawn": "See below",
-  	"lives": "1 each",
-  	"players": "2 or 4",
-  	"objective": "Kill the other team, or survive against multiple waves",
+  "barrage": {
+  	"name": "Barrage",
+  	"credit": "Jondal'ar Silvertongue and Aicean",
+  	"teams": "Free-for-all",
+  	"respawn": "None",
+  	"lives": "1",
+  	"players": "3+",
+  	"objective": "Quickly teach spell balls, incants and effects",
   	"refresh": "None",
-  	"types": [ "ditch", "militia"],
-  	"equipment": "",
-  	"description": "<br>Teams of two take turns defending against four attackers. At its simplest, the game is about learning to fight as a team against other teams, so who wins and who loses doesn't matter. However, a variation exists where two-man teams will fight continuous waves of four-man teams until the two- man team is defeated. If multiple two-man teams run this gauntlet, the team with the most wins, wins the day."
+  	"types": [ "ditch" ],
+  	"equipment": "Large number/variety of spell balls",
+  	"description": "<br>A large number and variety of spell balls are scattered on the field. All players begin in a ring around the field. They can use any spell ball they can grab, after using the correct incant for it. States from spell balls only last 15sec for speed of play.<br>Before the game, go over what each spell ball is, what it does, and what the incant is. <br>This game is usually best to run 3-4 times in a row, as it helps players really learn the info, and it can be rather fast."
 	},
+  "backtoback": {
+    "name": "Back to Back",
+    "credit": "Finola, Northern Empire",
+    "teams": "2+",
+    "respawn": "See below",
+    "lives": "1 each",
+    "players": "2 or 4",
+    "objective": "Kill the other team, or survive against multiple waves",
+    "refresh": "None",
+    "types": [ "ditch", "militia"],
+    "equipment": "",
+    "description": "<br>Teams of two take turns defending against four attackers. At its simplest, the game is about learning to fight as a team against other teams, so who wins and who loses doesn't matter. However, a variation exists where two-man teams will fight continuous waves of four-man teams until the two- man team is defeated. If multiple two-man teams run this gauntlet, the team with the most wins, wins the day."
+  },
   "bountyhunt": {
   	"name": "Bounty Hunt",
   	"credit": "Dor un Avathar / By Night They Dance",
@@ -559,6 +572,19 @@
     "types": [ "militia"],
     "equipment": "Tape helps to mark sites.  2 bases.",
     "description": "<br>Each team takes turns playing the cleansing team and the team to be purged.  The job of the purging team is simply to delay the cleansing team for as long as possible (generally 10-15 minutes depending on team sizes)<p>The cleansing team has a dedicated Purifier, who must travel to specifically marked sites, touch with a free hand and say \"I cleanse and purify this site\" five times.  This follows all incantation rules and requires 2 living teammates to be within 5 feet of the site.  Once all the sites are cleansed that team wins.<p><b>Variation:</b>  Does work with class and without dedicated purifiers, but it's a bit harder to keep track of when sites are purified.<p><b>Variation:</b>  Have the purged team's spawn point be at each cleansing site, when that site is purged, they can no longer spawn there."
+  },
+  "thethreebrothers": {
+    "name": "The Three Brothers",
+    "credit": "Jondal'ar Silvertongue",
+    "teams": "2",
+    "lives": "3-4",
+    "respawn": "30 seconds from death, at base",
+    "players": "4-5",
+    "objective": "2 teams with metamagic items, shatter battle",
+    "refresh": "Reeve's choice",
+    "types": [ "class"],
+    "equipment": "1 \"hand\" item, 1 multicolored spell ball",
+    "description": "<br>There should be 1 spell caster (preferably high level) on each team<br>Each team gets the use of one item below, and the designated caster who will play the bearer will have 5 minutes to write a new spell list to have at least 75% of their spells be Verbal or Touch as appropriate.<br><b>Monk's Bane</b> - a multicolored spell ball- While holding it the user may cast any Verbal spell into this ball. The ball may be thrown, while saying the name of the spell cast and will aﬀect the target with the spell cast. Swift may be used with this item.<br><b>Mage Hand</b>- a plastic hand worn as a pendant or necklace- While wearing it the user may cast any Touch range spell instead at a range of up to 20 feet. Swift may be used with this item."
   },
   "threemanforever": {
   	"name": "Three Man Forever",

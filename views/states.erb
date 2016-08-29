@@ -9,6 +9,7 @@
 
 	<div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
+               <li><a href="#StatesDefined">States Defined</a></li>
                <li><a href="#StatesMadeEasy">States Made Easy</a></li>
                <li><a href="#SpecialEffects">Special Effects</a></li>
                <li data-role="list-divider">States</li>
@@ -29,6 +30,27 @@
 
 </div><!-- /page -->
 
+<!-- States Defined Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="StatesDefined">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>States Defined</h3>
+    			<p>All abilities and magics (with a few exceptions) make use of a small set of common terms to explain the result they have on the player. These results are referred to as a ‘State’ or ‘States’. A player can have any number of different States simultaneously. A State may have a duration, after which it expires. If a player would gain a State they are already affected by, the State’s duration should simply be adjusted to the new duration if it is longer than the current duration. A State without a duration continues until it is removed by some outside force or until a condition is met. Unless otherwise noted, all States are removed when a player dies and cannot apply to dead players. A State conferred by a class Trait, such as Immunity to Subdual, is always on and may not be removed by respawn, death, or any other means. States imparted at the same time as a killing blow are considered to have taken e ect prior to death.  If a State which prevented a player from moving expires due to its duration ending, the player it affected must declare, “No longer [State that ended]”. This must be audible out to 20 feet.<p>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- States Defined /page -->
+
 <!-- States Made Easy Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="StatesMadeEasy">
 
@@ -47,7 +69,7 @@
 				<p>Verbal Magic and Abilities all follow the same format: They state your name, point at you, and say an incantation of three repetitions of a phrase that activates the Verbal.</p>
 				<p>All offensive Verbals have very descriptive incantations. The incantation typically contains the School and the State of the Magic or Ability being used. Example: The incantation for Hold Person is “I command thee to stop” three times; The School is ‘Command’ and the State it inflicts is ‘Stopped’.</p>
 				<p>No Verbal has a range greater than 50’. If you can get further away from the caster than that you won’t be affected.</p>
-				<p>There are lots of Magic and Abilities, but only a few results. If you read through and understand the States Defined and Special Effects Defined sections below you will understand the result of any Magic or Ability used against you in combat on the field. All offensive combat abilities (with very few exceptions) result in one of those States or Special Effects. If you don’t know what a magic or ability does by its incantation don’t worry; ask the caster to explain and they can communicate to you in just a couple of words exactly what happened using States and Special Effects.</p>
+				<p>There are lots of Magic and Abilities, but only a few results. If you read through and understand the States Defined and Special Effects Defined sections you will understand the result of any Magic or Ability used against you in combat on the field. All offensive combat abilities (with very few exceptions) result in one of those States or Special Effects. If you don’t know what a magic or ability does by its incantation don’t worry; ask the caster to explain and they can communicate to you in just a couple of words exactly what happened using States and Special Effects.</p>
 				<p>Immunities are also very simple: If the Magic or Ability targeting you is of a given School (which is always part of the incantation) and you have Immunity to that School, then the magic or ability has no effect on you. The only exception is if they are targeting equipment you are carrying instead of you yourself, but the player will have to indicate that as part of using the Magic or Ability. If you are unaffected by a Magic or Ability, you must announce it when the Magic or Ability is complete. You can also let them know before hand if you’re feeling generous</p>
             </div>
 
