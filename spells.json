@@ -364,7 +364,7 @@
     "s": "Death",
     "r": "Unlimited",
     "i": "\"And stay down!\"",
-    "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also Suppressed for 30 seconds",
+    "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds",
     "l": "Must be used immediately upon the caster dealing a Wound to the victim in melee combat"
   },
 
