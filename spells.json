@@ -21,7 +21,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with this blessing\" x3",
     "m": "White Strip",
     "e": "Bearer becomes Resistant to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit, may not be worn with any other Enchantments from the Protection School"
@@ -34,7 +34,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with this protection\" x3",
     "m": "White Strip",
     "e": "earer becomes Immune to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting"
@@ -51,8 +51,7 @@
     "r": "Self",
     "i": "\"Adrenaline\"",
     "e": "Player heals a wound",
-    "l": "May only be used within 30 seconds of killing an enemy in melee combat or causing the activation of any effects which allow the player struck to avoid death such as Undead Minion, Song of Survival, or other similar magic and abilities. May not be used within 10’ of a living enemy",
-    "n": "May only be used by the player striking the final blow and only once per kill per eligible enemy"
+    "l": "Kill Trigger"
   },
 
   "agoraphobia": {
@@ -107,7 +106,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "<br>\"May this armor protect you from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect you from all forms of harm\"",
     "m": "White Strip",
     "e": "The effects of a Magic Ball, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a>, or weapon which just struck armor worn by the player is ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities",
@@ -150,7 +149,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with attune\" x3",
     "m": "Yellow strip",
     "e": "May wear an additional Enchantment. Attuned does not count towards the bearer’s Enchantment limit",
@@ -207,7 +206,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with barkskin\" x3",
     "m": "White strip",
     "e": "Bearer gains one point of Magic Armor"
@@ -221,7 +220,7 @@
     },
     "t": "Enchantment",
     "s": "Spirit",
-    "r": "Self or Touch",
+    "r": "Self/Touch: Others",
     "i": "\“Be a bastion of healing\” x3",
     "m": "4 Yellow strips",
     "e": "Bearer is Stopped. Bearer may cast Greater Heal by announcing \"[Player] thou art made whole\". Bearer must remove an Enchantment strip after each use of Greater Heal",
@@ -248,7 +247,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with the strength of the bear\" x3",
     "m": "Red Strip",
     "e": "Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
@@ -275,7 +274,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thy person, arms, and armor\" x3",
     "m": "White Strip",
     "e": "Resistant to the next effect which would inflict a Wound, Death, State, or the next effect which would negatively affect them or their equipment. Does not trigger against effects cast by the player"
@@ -289,7 +288,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee against all harm\" x3",
     "m": "White Strip",
     "e": "Resistant to the next effect which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
@@ -303,7 +302,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee against wounds\" x3",
     "m": "White Strip",
     "e": "Resistant to Wounds. Does not count towards a players Enchantment limit",
@@ -335,8 +334,8 @@
     "r": "Self",
     "i": "\"Blood and Thunder!\"",
     "e": "Player gains Blessing Against Wounds",
-    "l": "May only be used within 30 seconds of killing an enemy in melee combat or causing the activation of any effects which allow the player struck to avoid death such as Undead Minion, Song of Survival, or other similar magic and abilities. May not be used within 10’ of a living enemy",
-    "n": "May only be used by the player striking the final blow and only once per kill per eligible enemy. Player must still wear a white strip to denote Blessing Against Wounds"
+    "l": "Kill Trigger",
+    "n": "Player must still wear a white strip to denote Blessing Against Wounds"
   },
 
   "breakconcentration": {
@@ -365,7 +364,7 @@
     "r": "Unlimited",
     "i": "\"And stay down!\"",
     "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds",
-    "l": "Must be used immediately upon the caster dealing a Wound to the victim in melee combat"
+    "l": "Wound Trigger"
   },
 
   "calllightning": {
@@ -444,7 +443,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"May thou bear this plague to all\" x3",
     "m": "Red Strip",
     "e": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
@@ -458,7 +457,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Self or Touch",
+    "r": "Self or Touch: Others",
     "i": "\"The mists of corrosion surround thee\" x3",
     "m": "5 Red Strips",
     "e": "Bearer is Stopped. Bearer may cast Destroy Armor by announcing \"<i>[Player] the mists of corrosion destroy your [armor location] armor</i>\". Bearer must remove a strip after each use of Destroy Armor",
@@ -476,7 +475,7 @@
     "r": "20",
     "i": "\"Death shall come for thee\" x3",
     "e": "Target player dies",
-    "l": "Target must be Wounded prior to starting the Incantation"
+    "l": "Target must be Wounded prior to starting the Incantation. Although it still functions even if they are healed by the end of the Incantation"
   },
 
   "dervish": {
@@ -611,11 +610,11 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"A distant magic has no hold upon thy now enlightened soul\" x3",
     "m": "White Strip",
     "e": "Player is unaffected by Verbal magic used at a Range greater than Touch",
-    "l": "Effects beneficial magic as well as harmful magic"
+    "l": "Effects beneficial magic as well as harmful magic. Does not affect (ex) abilities."
   },
 
   "entangle": {
@@ -720,7 +719,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"Open up and receive my power\" x3",
     "m": "Yellow Strip",
     "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer’s Enchantment limit",
@@ -775,7 +774,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "Tie strip on target: \"May the blessing of my god protect thee\" x3",
     "m": "White Strip",
     "e": "The target player gains either Resistant to Command or Resistant to Death",
@@ -847,7 +846,7 @@
     },
     "t": "Enchantment",
     "s": "Flame",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"The element of fire shall infuse your weapons\" x3",
     "m": "Red Strip and White Strip",
     "e": "Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their weapons are Immune to Flame"
@@ -889,7 +888,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I grant thee a gift of the air\" x3",
     "m": "White Strip",
     "e": "When struck by a melee weapon or <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> the bearer instead announces \"Gift of Air\" and becomes Insubstantial. The bearer treats the triggering event as though it had no effect on them other than triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will wound the bearer as normal and do not trigger Gift of Air",
@@ -905,7 +904,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I grant thee a gift of the earth\" x3",
     "m": "White Strip",
     "e": "Bearer gains two points of magic armor and is affected as per <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a>. Bearer is Suppressed"
@@ -919,7 +918,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I grant thee a gift of the fire\" x3",
     "m": "Red Strip and White Strip",
     "e": "Bearer is Immune to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
@@ -933,7 +932,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I grant thee a gift of the water\" x3",
     "m": "White Strip and Yellow Strip",
     "e": "Bearer gains one point of magic armor and <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self- only) unlimited"
@@ -947,7 +946,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"From earth and clay I form thee\" x3",
     "m": "White Strip and Red Strip",
     "e": "Bearer is Immune to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Non-magical armor worn affected as per Imbue Armor",
@@ -978,7 +977,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with Greater Harden\" x3",
     "m": "White Strip",
     "e": "Shields and weapons wielded by the player are affected as per <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a>. May only be cast on a player"
@@ -1047,7 +1046,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "<br>\"Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my greater minion!\"",
     "m": "Yellow Strip",
     "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x5 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
@@ -1063,7 +1062,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with Harden\" x3",
     "m": "White Strip",
     "e": "Bearers weapons or shield may only be destroyed by Magic Balls/Verbals which destroy objects e.g. Fireball or Pyrotechnics",
@@ -1171,7 +1170,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with Imbued Armor\" x3",
     "m": "White Strip",
     "e": "All armor worn by the bearer gains +1 up to the bearer’s class maximum",
@@ -1186,7 +1185,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"This shield shall neither break or bend\" x3",
     "m": "White Strip",
     "e": "Shield wielded by the player cannot be destroyed. Engulfing effects hitting the shield are ignored"
@@ -1243,7 +1242,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with Ironskin\" x3",
     "m": "White Strip",
     "e": "Bearer is Immune to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
@@ -1296,7 +1295,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"Stalked in the forest, too close to hide, I’ll be upon thee by the moonlight side\" x3",
     "m": "White Strip and Red Strip",
     "e": "Bearer gains two points of magic armor. Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
@@ -1436,7 +1435,7 @@
     },
     "t": "Enchantment",
     "s": "Spirit",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"May the tears of the phoenix wash over thee\" x3",
     "m": "Two White Strips",
     "e": "Enchanted player does not die as normal. When the player would otherwise die they instead remove a strip and become Frozen for 30 seconds. When the Frozen State is ended the bearer has:<br>1. All Wounds removed<br>2. All States removed that are removed by Death or Respawning<br>3. All ongoing effects with a timer are expired<br>4. All of their equipment is fully repaired<br>5. All enchantments, except those which are Persistent, are removed<br>Additionally Phoenix Tears allows you to wear an extra Enchantment from the Protection School. This extra enchantment is considered Persistent as long as Phoenix Tears is present. The additional Enchantment is not removed once Phoenix Tears is removed",
@@ -1482,8 +1481,8 @@
     "t": "Enchantment",
     "s": "Death",
     "m": "Red Strip",
-    "r": "Touch",
-    "i": "(Assassins and Anti-Paladins must hold weapon in both hands) \"I coat these weapons with a deadly poison\" x 2",
+    "r": "Touch: Others",
+    "i": "\"I coat these weapons with a deadly poison\" x 2",
     "e": "The next Wound dealt by the bearer in melee is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
 
@@ -1508,7 +1507,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"Thou shalt secrete poison from thy venemous glands\" x3",
     "m": "Red Strip",
     "e": "Bearer gains self-only <a href=\"/spells/p#poison\" data-ajax=\"false\">Poison</a> (ex) 1/Refresh Charge x3"
@@ -1535,7 +1534,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with protection from magic\" x3",
     "m": "White Strip",
     "e": "Bearer is Immune to magic from any school. Upon death the player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
@@ -1549,7 +1548,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I enchant thee with Protection from Projectiles\" x3",
     "m": "White Strip",
     "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player"
@@ -1601,7 +1600,7 @@
     },
     "t": "Enchantment",
     "s": "Spirit",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"I grant thee the power of regeneration\" x3",
     "m": "Yellow Strip",
     "e": "Bearer gains unlimited use of <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self-only)",
@@ -1681,9 +1680,9 @@
     "s": "Protection",
     "r": "Self",
     "i": "State \"Sanctuary\" without any weapons in hand",
-    "e": "Player and their equipment is unaffected by hostile actions originating from within 20’. Must Chant \"sanctuary\"",
+    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20’. Must Chant \"sanctuary\". Player may normally end Sanctuary at any time by ceasing to chant, or by picking up a weapon with their hand",
     "l": "Player may not carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a non-friendly base",
-    "n": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only end Sanctuary within 20’ of a friendly base. Player is still susceptible to Phase Bolt and Phase Arrow"
+    "n": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20’ of a friendly base, and must continue chanting until there. Player is still susceptible to Phase Bolt and Phase Arrow"
   },
 
   "scavenge": {
@@ -1790,7 +1789,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Self or Touch",
+    "r": "Self or Touch: Others",
     "i": "\"The seething sea ceaseth and thus the seething sea sufficeth us\" x2",
     "m": "Yellow Strip",
     "e": "Bearer gains <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 1/refresh Charge x3. Swift may still only be used on eligible magic. Other sources of Swift may not be utilized while Silver Tongue is worn",
@@ -1805,7 +1804,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"May thy power remain\" x3",
     "m": "Yellow Strip",
     "e": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer’s Enchantment Limit"
@@ -1991,7 +1990,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"May nature protect thee from all forms of attack\" x3",
     "m": "White Strip",
     "e": "Bearer gains 2 points of Magic armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
@@ -2159,7 +2158,7 @@
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"The blood of the trolls sustains thee\" x3",
     "m": "Three White Strips",
     "e": "Enchanted player does not die as normal. When the player would otherwise die they instead ignore the triggering effect as though it had not occurred, remove a strip, and become Frozen for 30 seconds. The bearer is treated as though they have the effects of <a href=\"/spells/r#regeneration\" data-ajax=\"false\">Regeneration</a> in addition to the above",
@@ -2188,7 +2187,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "<br>Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my minion!",
     "m": "Yellow Strip",
     "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>, <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>, and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial and return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant “Rise and fight again” x10 to end this Insubstantial State and remove all Wounds from the player so long as no living enemies are within 10’ of the bearer<br>4. If Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
@@ -2203,7 +2202,7 @@
     },
     "t": "Enchantment",
     "s": "Death",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"Thy hunger can never be sated\" x3",
     "m": "Yellow Strip and White Strip",
     "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is Immune to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer’s Adrenaline ability will work through their Cursed State"
@@ -2217,7 +2216,7 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Touch",
+    "r": "Touch: Others",
     "i": "\"Embrace the old ones and surrender thyself\" x3",
     "m": "Red Strip and White Strip",
     "e": "Melee weapons wielded by bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is Immune to magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
