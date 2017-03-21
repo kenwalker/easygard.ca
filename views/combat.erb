@@ -14,8 +14,7 @@
                <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
                <li><a href="#Deaths">Deaths</a></li>
                <li><a href="#CombatNotes">Combat Notes</a></li>
-               <li><a href="#CommonClarifications">Common Clarifications</a></li>
-               <li><a href="#GeneralClarifications">General ESAM Clarifications</a></li>
+               <li><a href="#CommonMisconceptions">Common Misconceptions</a></li>
             </ul>
 
 	</div><!-- /footer -->
@@ -188,8 +187,8 @@
 </div>
 <!-- Combat Notes /page -->
 
-<!-- Common Clarifications Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="CommonClarifications">
+<!-- Common Misconceptions Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="CommonMisconceptions">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -198,48 +197,61 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Common Clarifications</h3>
-    			<p>These clarifications and misinterpretations made easy come from the Facebook group <i>Official Amtgard Rules Discussion</i></p>
+    			<h3>Common Misconceptions</h3>
+    			<p>There are often additional misconceptions and clarifications made on the <i>Official Amtgard Rules Discussion</i> group in Facebook.</p>
     			<p>
     			<ol>
-					<li>For verbals, it doesn’t matter if your target is in range/in line of sight/able to be affected by a verbal at any point but the end of the verbal.
+					<li>For Verbals, unless otherwise stated, it doesn’t matter if your target is in range/in line of sight/able to be affected by a Verbal at any point other than the end of the Incantation.</li>
 
-					Your target could be on the dark side of the moon and immune to everything when you start the verbal, but if they are in range, in line of sight, and not immune when you finish the verbal, they are affected.</li>
-
-					<li>If you moved after having died, you must have <a href="/spells/s#summondead" data-ajax="false">summon dead</a> cast on you FROM RESPAWN in order to return to play in any way other than respawning.  You can’t just run to the healer and have them summon dead you in the middle of the field.</li>
+					<li>If you moved after having died, you must have <a href="/spells/s#summondead" data-ajax="false">summon dead</a> cast on you from respawn in order to return to play in any way other than respawning.  You can’t just run to the Healer and have them Summon Dead you in the middle of the field.</li>
 
 					<li><a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor</a> doesn’t block engulfing hits to your equipment.  It will block engulfing hits to your armor.   The reason is because, for example, an <a href="/spells/e#entangle" data-ajax="false">entangle ball</a> to the weapon doesn’t count as an entangle ball to the arm; it just effects you if it hits your equipment, and ancestral armor only stops hits to the armor.</li>
 
 					<li><a href="/weapons/#Projectiles" data-ajax="false">Light thrown</a> is generally more powerful than heavy thrown, and purposefully so.  They both do the same amount of damage,  but light thrown has smaller design requirements and you can therefore carry more.  This is meant to be an advantage for <a href="/classes/#Assassin" data-ajax="false">Assassins</a>.</li>
 
-					<li><a href="/spells/r#release" data-ajax="false">Release</a>/<a href="/spells/g#greaterrelease" data-ajax="false">Greater release</a> doesn’t just end states, it also ends ongoing effects.  <a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a>, <a href="/spells/e#elementalbarrage" data-ajax="false">Elemental Barrage</a>, <a href="/spells/a#awe" data-ajax="false">Awe</a>, <a href="/spells/h#heatweapon" data-ajax="false">Heat Weapon</a>, and <a href="/spells/t#terror" data-ajax="false">Terror</a> are all examples of effects that can be removed by Greater Release.</li>
+					<li><a href="/spells/r#release" data-ajax="false">Release</a>/<a href="/spells/g#greaterrelease" data-ajax="false">Greater release</a> don't just end states, they also ends ongoing effects.  <a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a>, <a href="/spells/e#elementalbarrage" data-ajax="false">Elemental Barrage</a>, <a href="/spells/a#awe" data-ajax="false">Awe</a>, <a href="/spells/h#heatweapon" data-ajax="false">Heat Weapon</a>, and <a href="/spells/t#terror" data-ajax="false">Terror</a> are all examples of effects that can be removed by Greater Release.</li>
 
-					<li><a href="/spells/p#phasebolt" data-ajax="false">Phase Bolt</a>/<a href="/spells/p#phasearrow" data-ajax="false">Arrow</a> only ignores enchantments and ongoing effects.  It doesn’t ignore anything else.  For example, you can throw a phase bolt at a <a href="/classes/#Monk" data-ajax="false">Monk</a> in <a href="/spells/s#sanctuary" data-ajax="false">sanctuary</a> from 2 feet away and they are not immune to it because it ignores sanctuary.  It also ignores <a href="/spells/m#missileblock" data-ajax="false">Missile Block</a>.  It does nothing to a shield, and it doesn’t ignore regular armor.  It will ignore pure magic armor (like <a href="/spells/s#stoneskin" data-ajax="false">stoneskin</a>) and treat warrior <a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor</a> like regular <a href="/armor/" data-ajax="false">armor</a>.</li>
+					<li><a href="/spells/p#phasebolt" data-ajax="false">Phase Bolt</a>/<a href="/spells/p#phasearrow" data-ajax="false">Arrow</a> only ignores enchantments and ongoing effects.  It doesn’t ignore anything else.  For example, you can throw a phase bolt at a <a href="/classes/#Monk" data-ajax="false">Monk</a> in <a href="/spells/s#sanctuary" data-ajax="false">sanctuary</a> from 2 feet away and they are not immune to it because it ignores sanctuary.  It also ignores <a href="/spells/m#missileblock" data-ajax="false">Missile Block</a>.  It does nothing to a shield, and it doesn’t ignore regular armor.  It will ignore pure magic armor (like <a href="/spells/s#stoneskin" data-ajax="false">stoneskin</a>) and treat warrior <a href="/spells/a#ancestralarmor" data-ajax="false">Ancestral Armor</a> like regular <a href="/armor/" data-ajax="false">armor</a>. It will not ignore the Insubstantial and Frozen effects; even if those effects are given by an Enchantment</li>
 
-					<li>You have to say a person’s name when you cast verbal magic on them at range.  If you don’t know their name, you point at them with a free hand and use their class and unique description.  If you don’t do that, your spell is not properly cast.  It doesn’t matter if they absolutely know who you are casting on.  It doesn’t matter if everyone and God knows who you are casting on.  The spell is not properly cast.  It’s part of the incantation.</li>
+					<li>When casting a Verbal at 20’ range or greater the caster must begin the incantation with the target’s name. If the target’s name is not known, then the caster must do three things: Point at the target with a free hand; state the target’s class; and state a unique descriptor for the target. If the caster doesn’t either state a name or do all three things, the Verbal is not properly cast.</li>
 
-					<li><a href="/spells/h#heatweapon" data-ajax="false">Heat weapon</a> targets weapons.  If you drop your weapon mid-incantation, it is still affected because the weapon, not the person is targeted.  This means that a weapon lying all by itself in a field can be affected by heat weapon.</li>
+					<li><a href="/spells/h#heatweapon" data-ajax="false">Heat weapon</a> targets weapons.  If the targeted weapon is dropped mid-incantation, it is still heated because the weapon, not the person, is targeted. This means that a weapon lying all by itself in a field can be affected by heat weapon.</li>
 
-					<li><a href="/spells/p#pyrotechnics" data-ajax="false">Pyrotechnics</a> targets a person but affects their equipment.  The weapons themselves must be immune to flame in order to avoid Pyrotechnics.  <a href="/classes/#Monk" data-ajax="false">Monks</a> and <a href="/classes/#AntiPaladin" data-ajax="false">Anti-Palidins’s</a> are immune to verbals and flame respectively, but their equipment is not.  In general, what a spell TARGETS doesn’t matter when it comes to immunities; just what it AFFECTS.</li>
+					<li><a href="/spells/p#pyrotechnics" data-ajax="false">Pyrotechnics</a> targets a person but affects their equipment.  The weapons themselves must be immune to flame in order to be protected from Pyrotechnics.  <a href="/classes/#Monk" data-ajax="false">Monks</a> and <a href="/classes/#AntiPaladin" data-ajax="false">Anti-Palidins’s</a> are immune to verbal magic and flame respectively, but their equipment is not.  In general, when it comes to immunities what a spell targets doesn’t matter; just what it affects.</li>
 
-					<li><a href="/states/#SpecialEffects" data-ajax="false">Shield Crushing/Armor Breaking</a> don’t have to be announced on every swing.  When you first engage with someone, let them know your weapons are AB/SC, and you’ll be fine.  Same goes for any enchantment/special effect.</li>
+					<li><a href="/states/#SpecialEffects" data-ajax="false">Shield Crushing/Armor Breaking</a> don’t have to be announced on every swing.  When you first engage with someone, let them know the special effects of your weapons, and you’ll be fine. Same goes for any Enchantment/Special Effect.</li>
 
-					<li>The range on all magics state the maximum range.  This means that all ranged verbals can be used at a range of touch.  Because <a href="/spells/e#enlightenedsoul" data-ajax="false">Enlightened Soul</a> only makes someone <a href="/states/#Immune" data-ajax="false">immune</a> to ranged verbals, it will not protect against a ranged verbal used at a range of touch.  However, in order for the unwilling to be affected by a touch magic, they must be <a href="/states/#Frozen" data-ajax="false">frozen</a>, <a href="/states/#Stunned" data-ajax="false">stunned</a>, <a href="/combat/#Deaths" data-ajax="false">dead</a>, or unable to otherwise fight or move away. This, for example, means a frozen <a href="/classes/#Monk" data-ajax="false">Monk</a> is not immune to <a href="/spells/s#shatter" data-ajax="false">Shatter</a> used at a range of touch</li>
+					<li>It’s commonly known that enchantments can only be cast on yourself if they have a range of Self; Touch: Others enchantments cannot be cast on yourself. A common misinterpretation is that this applies to Verbals too. This is not true. You can cast Touch range Verbals, such as Heal and Release, on yourself</li>
 
-					<li>You can wield a shield and a weapon in the same hand.  The restriction is that you can't wield two weapons in the same hand.  Shields aren't weapons.  Yes, this is intentional</li>
+					<li>The range on all magics state the maximum range.  This means that all ranged verbals can be used at a range of touch.  Because <a href="/spells/e#enlightenedsoul" data-ajax="false">Enlightened Soul</a> only makes someone <a href="/states/#Immune" data-ajax="false">immune</a> to Verbal Magic used at a range greater than touch, it will not protect against a Verbal Magic used at a range of touch</li>
 
-					<li>It's commonly known that enchantments can only be cast on yourself if they have a range of self; touch enchantments cannot be cast on yourself.<br>
-					A common misinterpretation is that this applies to verbals too; AKA, some come to the conclusion that you cannot cast verbals on yourself unless they have a range of self.<br>
-					This is not true.<br>
-					You can cast <a href="/spells/touch" data-ajax="false">touch-range</a> verbals, such as Heal and Release, on yourself.<br>
-					The "<i>can't use magic/ability with range of touch on yourself</i>" rule only applies to enchantments, not verbals.
+					<li>In order for an unwilling player to be affected by a Touch range Magic or Ability, they must be Frozen, Stunned, Dead, or unable to otherwise fight and move away. This, for example, means a Frozen Monk is not immune to Shatter used at a range of touch. A player who is just Stopped, but has no weapons, is still considered able to engage in combat, and so must be willing in order to be affected by touch range Magic or Abilities</li>
+					<li>You can wield a shield and a weapon in the same hand. The restriction is that you can’t wield two weapons in the same hand. Shields aren’t weapons</li>
+					<li>If you just thought of some obscure combination of abilities that are able to grant you a huge battlefield advantage that obviously wasn’t intended, the answer is probably no</li>
+					<li>Declaring Enchantments/game effects or explaining what abilities do to new or inexperienced players should not interrupt existing incantations or ongoing chants. The point of declaring enchantments is to keep the game flowing smoothly for all involved. A player is not punished for pausing an incantation to aide in the flow of gameplay. If a Bard, for example, paused their Chant to explain to a new player what the Chant represents, he/she may resume the chant when they are finished. When in doubt, give leeway to players who go out of their way to teach the game to other players during a game</li>
+					<li>Sniper made easy: Player may physically carry any number of Specialty Arrows of each type. Player may shoot one arrow of each specialty type per life; Then may charge x3 to shoot another arrow of that type. (Repeat for any number of further arrows of that type that life)</li>
+					<li>Armor stops Wounds by losing points in the location it is hit. This damage is tracked on a location, as long as there is any armor on that location. Adding another piece of armor does not affect the damage, although it might affect the maximum armor points of that location. You must remove all armor from a location for the damage to stop being tracked</li>
+					<li>Teleport - you must move <b>directly</b> to a fixed location (One that won’t move during transit, you can’t pick “10 feet behind that warrior”). If you cast Teleport on yourself you may end the teleport as per normal for Insubstantial but there’s no wandering around. Directly means directly, and reeves have final say as to what that means you can do in transit</li>
+					<li>If a player under the effects of Circle of Protection is affected by Teleport, the duration of Insubstantial changes to the duration of Teleport, but the restriction that you cannot move lasts until COP ends</li>
+					<li>For the purposes of having an empty hand for casting, opening the hand gripping a shield handle is all it takes to qualify. You do not have to completely remove your hand from touching the hand-hold in order to not grip a shield, as Gripping means to take a firm hold with your fingers</li>
+					<li>Lorica segmentata is not Plate Armor. It is equivalent to Brigandine, base 4 points, max of 5. (Due to the design it cannot qualify for the higher max via Large Plates)</li>
+					<li>Neither slingshots nor atlatls appear as a weapon type in the Rulebook. The only things you could argue they could be are:
+						<ol type="a">
+							<li>Heavy Thrown/Light Thrown</li>
+							<li>An alternative to bow/arrows</li>
+						</ol>
+					They aren't legal because:
+						<ol type="a">
+							<li>Thrown weapons must be thrown</li>
+							<li>A slingshot/atlatl isn’t a bow</li>
+						</ol>
 					</li>
-
-					<li>If you just thought of some obscure combination of abilities that are able to grant you a huge battlefield advantage that obviously wasn't intended, the answer is probably no.
-					</li>
-
-			        <li>Declaring enchantments/game effects or explaining what abilities do to new or inexperienced players should not interrupt existing incantations or ongoing chants.<br>The point of declaring enchantments is to keep the game flowing smoothly for all involved.  A player is not punished for pausing an incantation to aide in the flow of gameplay.   If a bard, for example, paused their chant to explain to a new player what the chant represents, he/she may resume the chant when they are finished<br>When in doubt, give leeway to players who go out of their way to teach the game to other players during a game..
-			        </li>
+					<li>Casting Persistent on an enchantment that provides a set number of uses only matters if you died with remaining uses left (through Phase Bolt/Arrow or some other method that bypassed Phoenix tears for instance)</li>
+					<li>Half Draw is half the distance between the brace height and 28 inches. If your bow has a brace height of 8in. That bow’s Half Draw is 18 inches</li>
+					<li>If you intentionally cause your own death, it has the same repercussions as taking a death</li>
+					<li>Enchantments only check validity when they are first cast. For example: If someone has Attuned and two Persistent Enchantments and they die, Attuned is removed, but the two Persistent Enchantments stay</li>
+					<li>Any armor worn under other armor can be treated as a Gambeson (on a per location basis). However, if that Gambeson extends past the area covered by the armor it is supporting, it can still only be treated as Cloth armor or Garb</li>
+					<li>Cross Section refers to the width of a strike legal portion of a weapon (the distance from one edge to the other of the flat of a flat blade for instance). The thickness of the striking edge can be any amount that still results in a safe weapon</li>
 				</ol>
             </div>
 
@@ -248,245 +260,5 @@
 	</div><!-- /content -->
 
 </div>
-<!-- Common Clarifications /page -->
+<!-- Common Misconceptions /page -->
 
-<!-- General ESAM Clarifications Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="GeneralClarifications">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>General ESAM Clarifications</h3>
-    			<p>Simplified, not exact. Check links for exact rulings. Copied as required from the Facebook group <a href="https://www.facebook.com/groups/AmtgardRules/">Official Amtgard Rules Discussion</a>.
-    			JP Prentiss (Medryn) has binding authority, Denny Dombkowski (Kaads) does as well but JP always takes priority. Consider what Denny clarifies as coming from JP (the rules rep organizer) unless he says otherwise. What JP says is as binding as the ROP unless countermanded by the circle of monarchs.<br><br>
-    			Link to <a href="#CommonClarifications">Common Clarifications within Easygard</a><br>
- 				Link to <a href="https://www.facebook.com/groups/176812649184466/permalink/429502940582101/">Common Clarifications on Facebook</a><br>
- 				Link to <a href="http://www.electricsamurai.com/forums/viewtopic.php?f=57&t=28988&p=676579#p676579">Common Clarifications on ESAM</a><br>
- 				Link to <a href="http://www.electricsamurai.com/forums/viewtopic.php?f=57&t=29494">General Clarifications (this doc) on ESAM</a>
-    			</p>
-    			<p>
-    			<ol>
-					<li><a href="/spells/s#steallifeessence" data-ajax="false">Steal Life Essence</a> does work on a dead <a href="/classes/#Paladin" data-ajax="false">Paladin</a>, they are unaffected and the caster benefits.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/402947296570999/">Facebook post</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/474566902742371/">ESAM</a>
-					</li>
-
-					<li>You can target a <a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a> <a href="/classes/#Barbarian" data-ajax="false">Barbarian</a> with magic that can target the dead, nothing else. (FAD Modifies what a player can do while dead).<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/412781928920869/">Facebook Post 1</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/302107049988358/">Facebook Post 2</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/256764834522580/">Facebook Post 3</a>
-					</li>
-
-					<li>If a caster <a href="/s#shove" data-ajax="false">Shoves</a> themselves they can choose what direction to move in.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/406523936213335/">Facebook Post</a><br>
-					</li>
-
-					<li>Damage is to the hit location, casting new armor or donning new armor in its place will retain previous damage.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/380810112118051/">Facebook Post</a><br>
-					</li>
-
-					<li>You cannot <b>drop</b> throwies, projectiles, or etc in front of weapons or projectiles to stop them from hitting you. Take the wound.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/447342832131445/">Facebook Post</a><br>
-					</li>
-
-					<li>Phase ignores natural Immunities to Sorcery.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/449780791887649/">Facebook Post</a><br>
-					</li>
-
-					<li>If you are wearing regular <a href="/armor/" data-ajax="false">armor</a> at all, you cannot also wear an <a href="/enchantments/protection" data-ajax="false">enchantment</a> that gives any armor.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/427347217464340/">Facebook Post 1</a><br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/408737099325352/">Facebook Post 2</a><br>
-					</li>
-
-					<li>A player wearing armor rated at 6 points (without <a href="/spells/i#imbuearmor" data-ajax="false">Imbue Armor</a>), that has taken one point of damage while the player is wearing Imbue Armor will be at 5 points. Imbue Armor does not add more points to 6 points or armor. Casting Imbue Armor on armor rated at 6 while it has taken damage will not raise its armor points.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/446051112260617/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/s#songofdeflection" data-ajax="false">Song of Deflection</a> does not stop Siege.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/469803566552038/">Facebook Post</a><br>
-					</li>
-
-					<li>You cannot have both <a href="/spells/h#heartoftheswarm" data-ajax="false">Heart of the Swarm</a> (or any <a href="/states/#Stopped" data-ajax="false">Stopped</a> enchantment) and <a href="/spells/s#songofvisit" data-ajax="false">Song of Visit</a> at the same time. Song of Visit fizzles because it requires movement and Stopped prevents that.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/423258617873200/">Facebook Post</a><br>
-					</li>
-
-					<li>When going back to base is attached to being Insubstantial and other movement types. Lost/Banish/GoA/Blink/Song of Visit/Teleport/Song of Survival. All explanations are in the link.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/403314816534247/">Facebook Post</a><br>
-					</li>
-
-					<li>Errata.  <a href="/spells/s#songofvisit" data-ajax="false">Song Of Visit</a> interacting with <a href="/spells/d#dispelmagic" data-ajax="false">Dispel</a>. Wording changed to "removed" You always become Insubstantial when SoV is removed or ends.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/420228844842844/">Facebook Post</a><br>
-					</li>
-
-					<li>You can friendly fire a Barbarian to activate his <a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a>.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/371137663085296/">Facebook Post</a><br>
-					</li>
-
-					<li>Wounding the player is an exception to when you can cast on the dead, you can Brutal Strike a dead player.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/423360067863055/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/p#poison" data-ajax="false">Poison</a> under Assassin and AntiPaladin don't require the weapon in both hands (TYPO). Cast as normal.<br>
-					<a href="https://www.facebook.com/groups/176812649184466/permalink/423360067863055/">Facebook Post</a><br>
-					</li>
-
-					<li>You cannot block with <a href="/weapons/#Projectiles" data-ajax="false">projectiles</a> ever. Don't drop them or throw them into other proectiles.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/447342832131445/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/weapons/#WeaponDefinitions" data-ajax="false">Padding</a> has to be continuous to meet requirements.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/468064370059291/">Facebook Post</a><br>
-					</li>
-
-					<li>Ongoing effects are removed when you are <a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a>.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/449381565260905/">Facebook Post 1</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/408768279322234/">Facebook Post 2</a><br>
-					</li>
-
-					<li>Phase versus 3 points plus Imbue Armor, ignores Imbue Armor and subjects Armor Breaking to that armor.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/449158548616540/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/classes/#Monk" data-ajax="false">Monk</a> <a href="/spells/s#sanctuary" data-ajax="false">Sanctuary</a>, don't throw your weapons in combat or close to it.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/428150454050683/">Facebook Post</a><br>
-					</li>
-
-					<li>Respawning removes ongoing effects.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/408768279322234/">Facebook Post</a><br>
-					</li>
-
-					<li>Casting <a href="/states/#Insubstantial" data-ajax="false">Insubstantial</a> inducing verbals on yourself is considered voluntary (<a href="/spells/a#astralintervention" data-ajax="false">Astral Intervention</a>).<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/459847090881019/">Facebook Post</a><br>
-					</li>
-
-					<li>You can cast <a href="/spells/t#teleport" data-ajax="false">Teleport</a> and other movement abilities on players in <a href="/spells/c#circleofprotection" data-ajax="false">Circle of Protection</a>, strange things happen after.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/353366018195794">Facebook Post 1</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/439914309540964">Facebook Post 2</a><br>
-					</li>
-
-					<li><a href="/spells/c#cancel" data-ajax="false">Cancel</a> should be able to remove an enchantment from a player with <a href="/spells/s#sleightofmind" data-ajax="false">Sleight of Mind</a> on.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/476838245848570/">Facebook Post</a><br>
-					</li>
-
-					<li>You can wear garb that looks like a sash instead of a sash.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/476301965902198/">Facebook Post</a><br>
-					</li>
-
-
-					<li><a href="/s#shove" data-ajax="false">Shoving</a> players in a <a href="/spells/c#circleofprotection" data-ajax="false">Circle of Protection</a> is weird. Also you can't run up and touch someone about to cast Circle of Protection to sneak into it.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/478496839016044/">Facebook Post</a><br>
-					</li>
-
-					<li>Foam can be part of real armor.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/479776208888107/">Facebook Post</a><br>
-					</li>
-
-					<li>You can physically block people from moving through an area by being in the way, but do it safely.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/479443152254746/">Facebook Post</a><br>
-					</li>
-
-					<li>Having two sources of the same chargeable magic allows both of those to be charged simultaneously. For example <a href="/spells/e#experienced" data-ajax="false">Experienced</a> <a href="/spells/h#heatweapon" data-ajax="false">Heat Weapon</a> making it 1/life charge x5. A Druid gives <a href="/spells/g#giftoffire" data-ajax="false">Gift of Fire</a> - giving them heat weapon 1/refresh charge x5. They're mechanically considered different abilities.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/478830828982645/">Facebook Post</a><br>
-					</li>
-
-					<li>You cannot cast <a href="/spells/touch" data-ajax="false">touch magic</a> on an unwilling player who is unarmed and <a href="/states/#Stopped" data-ajax="false">Stopped</a>, whether <a href="/states/#Suppressed" data-ajax="false">Suppressed</a> or not.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/481038975428497/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/weapons/#Ammunition" data-ajax="false">Arrows</a> have to have shafts.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/481539468711781/">Facebook Post</a><br>
-					</li>
-
-					<li>In order to be a <a href="/weapons/#Bow" data-ajax="false">Bow</a>, it must look like a bow and function like a bow. And your <a href="/weapons/#Ammunition" data-ajax="false">Arrows</a> need to look like arrows.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/481597408705987/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/definitions#arrows" data-ajax="false">Specialty</a> <a href="/weapons/#Ammunition" data-ajax="false">Arrows</a> affect all things in flight with their effects.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/238558206343243/">Facebook Post 1</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/427566957442366/">Facebook Post 2</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/372669129598816/">Facebook Post 3</a><br>
-					</li>
-
-					<li><a href="/spells/d#dispelmagic" data-ajax="false">Dispel</a> ignores <a href="/spells/s#sanctuary" data-ajax="false">Sanctuary</a>. The spell targets the enchantments.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/482622978603430/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/f#flameblade" data-ajax="false">Flameblade</a> and similar don't interact with Immunities.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/453376491528079/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/definitions#arrows" data-ajax="false">Specialty Arrows</a> have Incantations and follow the Incantation rules.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/482379805294414/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/definitions#arrows" data-ajax="false">Specialty Arrows</a> fired without an Incantation do nothing and aren't allowed.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/482649098600818/">Facebook Post</a><br>
-					</li>
-
-					<li>Requirements for un-wielded equipment to count towards blocking things.<br>
-					<ol>
-					<li>Unwielded equipment may be targeted and/or affected by any relevant effects.</li>
-					<li>Unwielded equipment does not block shots if those shots would have struck wielded equipment or a player.</li>
-					<li>The combination of 1 and 2 creates an exception to Magic Ball Rule 5; Magic Balls affect all unwielded equipment and then the first wielded equipment or player it would have hit.</li>
-					</ol>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/437697433095985/">Facebook Post</a><br>
-					</li>
-
-					<li>Phase also ignores Special Effects. (Phase Blade)<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/345809078951488/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/h#harden" data-ajax="false">Hardened</a> or <a href="/spells/i#imbueshield" data-ajax="false">Imbued Shields</a> don't take <a href="/states/#SpecialEffects" data-ajax="false">Shield Crushing</a> damage.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/482828171916244/">Facebook Post</a><br>
-					</li>
-
-					<li>Siege engines are considered weapons for the purposes of magic.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/483184755213919/">Facebook Post</a><br>
-					</li>
-
-					<li>Casters pay to wield weapons, they may carry as many as they like.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/483289331870128/">Facebook Post</a><br>
-					</li>
-
-					<li>A charged <a href="/spells/balls" data-ajax="false">Magic Ball</a> leaving your hand is considered thrown.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/486814261517635/">Facebook Post</a><br>
-					</li>
-
-					<li><a href="/spells/f#fightaftereeath" data-ajax="false">Fight After Death</a> is considered having moved for the purposes of being brought to life and relevant magic.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/356600914538971/">Facebook Post</a><br>
-					</li>
-
-					<li>You can charge magic while <a href="/states/#Suppressed" data-ajax="false">Suppressed</a>, it only prevents Magic or Abilities. No link, too old.
-					</li>
-
-					<li>You can remove the "go back to base" effect from <a href="/spells/l#lost" data-ajax="false">Lost</a> (and similar) with <a href="/spells/g#greaterrelease" data-ajax="false">Greater Release</a> and leave the player <a href="/states/#Insubstantial" data-ajax="false">Insubstantial</a>. They may go back to base, but are not required to except to remove the state per Lost (or similar).<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/488299341369127/">Facebook Post</a><br>
-					</li>
-
-					<li>Armor remains and still functions on dead limbs, arms still must be kept out of combat. Too old.</li>
-
-					<li><a href="/spells/s#steallifeessence" data-ajax="false">Steal Life Essence</a> can be used on players who have moved.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/487268878138840/">Facebook Post</a><br>
-					</li>
-
-					<li>(ex) abilities are not considered Magic. <a href="/spells/e#enlightenedsoul" data-ajax="false">Enlightened Soul</a> and things that give <b>Immunity to Magic of x school</b> do not stop them.<br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/488253284707066/">Facebook Post 1</a><br>
-					<a href="https://www.facebook.com/groups/AmtgardRules/permalink/486154934916901/">Facebook Post 2 (in comments)</a><br>
-					</li>
-					
-					<li><a href="/spells/p#poisonglands" data-ajax="false">Poison Glands</a> is supposed to give (m) chargeable Poison.<br>
-          <a href="https://www.facebook.com/groups/AmtgardRules/permalink/488593338006394/">Facebook Post</a>
-          </li>
-				</ol>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- General Clarifications /page -->
