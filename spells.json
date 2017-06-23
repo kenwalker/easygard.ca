@@ -1778,7 +1778,7 @@
     "s": "Sorcery",
     "r": "20",
     "i": "\"My power shoves thee\" x3",
-    "e": "Target player is moved back 20' in a straight line away from the caster"
+    "e": "Target player is moved back 20' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
   },
 
   "silvertongue": {
