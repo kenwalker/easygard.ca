@@ -334,7 +334,8 @@
     "r": "Self",
     "i": "\"Blood and Thunder!\"",
     "e": "Player gains Blessing Against Wounds",
-    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>"
+    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>",
+    "n": "Player must still wear a white strip to denote Blessing Against Wounds"
   },
 
   "breakconcentration": {
