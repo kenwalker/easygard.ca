@@ -712,5 +712,18 @@
   	"types": [ "class", "ditch", "militia"],
   	"equipment": "Heavy object, Hula hoops or equivalent",
   	"description": "<br>A Heavy Object (requires two players with at least one free hand to move at a walk) is placed in the center of the field. Equidistant between the Object and each team's Respawn point are three Scoring Zones (hula hoops). Zones are controlled by the Team who's Respawn point is closest to the Zone.<p>When the Object is moved into a Scoring Zone, the Team who controls that Zone earns points for every full minute that it remains there. The Zone closest to the center of the field scores the Team 3 points, the middle Zone 2 points, and the Zone closest to their Respawn point scores them 1 point.<p>The Team with the most points at the end of the game duration (suggested 20-30 minutes), wins."
+	},
+  "ultimatechakram": {
+  	"name": "Ultimate Chakram",
+  	"credit": "Niall Rook, Felfrost",
+  	"teams": "2",
+  	"lives": "Infinite",
+  	"respawn": 15,
+  	"players": "5+ per team",
+  	"objective": "To move the Object to score points",
+  	"refresh": "Every Three Points (If playing with Class rules)",
+  	"types": [ "class", "ditch", "militia"],
+  	"equipment": "Timer or device to track time, One strike-legal throwie/spell ball 12\" in diameter, >50' flagging tape/rope for two endzones",
+		"description": "<br>Teams compete to score the most points within a time limit, to score a point a player must be holding the Chakram within opposing team's scoring zone. The Chakram is a game item and cannot be interacted with while <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Out of Game</a>, <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>, or <a href=\"/combat/#Deaths\" data-ajax=\"false\">Dead</a>.<br>The Chakram inflicts the <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> state on any player touched by it for 10 seconds this effect is <a href=\"/spells/definitions#engulfing\" data-ajax=\"false\">engulfing</a> and bypasses all traits, enchantments, and abilities. The Stopped state is ongoing while holding the Chakram and continues to last for 10 seconds after throwing or dropping the Chakram.<br>When a point is scored the timer pauses, teams return to their bases. The scoring team from the previous round takes the Chakram, and the time resumes when they throw the Chakram (Pull) to the other team. Only players on the non-scoring team may first touch the Chakram after the Pull, at which point the Chakram is in-play, and can be interacted with by both teams for the duration of that round. On team wins when they score the most points with Chakram in the opposing team's scoring zone before time runs out."
 	}
 }
