@@ -497,6 +497,19 @@
     "equipment": "Any melee",
     "description": "<br> Ogre is a combo Hunger Games vs an OGRE! One player is the ogre and has all the weapons around them (they can use whatever they want). Remaining players attempt to get the weapons, slay the ogre, and then vie for last one standing. There are some that PVP before getting ogre... that is okay! Enjoy! Modification for larger groups- ogre has 1 point of armor everywhere."
   },
+  "phoenixball": {
+    "name": "Phoenix Ball",
+    "credit": "Tyler Salvador",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "45s death-count that begins immediately on death",
+    "players": "6",
+    "objective": "Each team must work to secure the ball and place it into a goal basket on the opposing side of the field. The team with the most points at the end of the game is declared the winner.",
+    "refresh": "At half time",
+    "types": [ "class" ],
+    "equipment": "See full rules",
+    "description": "<br>Phoenix Ball is a living and evolving game for competitive, class Amtgard. It's rules are maintained by the Phoenix League Team and are updated yearly. Visit <a href=\"http://phoenixleague.net\" data-ajax=\"false\">www.phoenixleague.net</a> or <a href=\"https://www.facebook.com/groups/amtgardphoenixleague/\">Amtgard: Phoenix League</a> on Facebook to download the full rules PDF and join the growing community!"
+  },
   "planttheflag": {
     "name": "Plant the Flag",
     "credit": "Siar Geata (park)",

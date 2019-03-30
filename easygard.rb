@@ -190,6 +190,10 @@ get '/about/' do
 	erb :about
 end
 
+get '/phoenixball/' do 
+	erb :phoenixball
+end
+
 get '/changes/' do
 	erb :changes
 end
