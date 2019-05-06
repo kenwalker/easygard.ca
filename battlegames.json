@@ -319,6 +319,19 @@
     "types": [ "class"],
     "description": "<br>There is a nest of eggs, guarded by a neutral hydra tethered to it.  Rounds are 5 minutes, adjust as needed.  Whichever team has the most eggs in their incubator at the end of the round wins the round and the eggs are returned back to the center.  You may carry as many eggs as you wish, but if killed you must drop them all.  You may steal eggs from the enemy incubator.  The incubator should be near the spawn point for the team, but not the spawn point itself."
   },
+  "holdtheclock": {
+    "name": "Hold the Clock",
+    "objective": "Hold the centre clock",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": 60,
+    "refresh": "At Reeves discretion",
+    "players": "7+",
+    "equipment": "A Chess clock, if possible in a box, 50’ of rope",
+    "credit": "DorcTristan Garnovichas",
+    "types": [ "class", "ditch", "militia"],
+    "description": "<br>Two teams with a chess clock in the middle of the field, the goal is to hold the clock for as long as possible. There is to be a swamp zone around that game item which will be treated as waters/swamp that requires to be on your knees when in that zone. The swamp is to help players not to clump up around the game objective.<br>To maximize fun, set the clock in a wooden box, with holes on the top that won’t allow a strike surface to access.  Even better if it’s a weight that is held in place on the switch, giving a visual marker from far away to know who holds the time.<br>Time on the clock to be set by a reeve, between 10 to 25 minutes is good. Warning that some clocks might require some babysitting to start, as not everyone is familiar with how it works."
+  },
   "hungerrush": {
     "name": "Hunger Rush",
     "objective": "Collect the most food in the time period",
@@ -458,6 +471,19 @@
   	"equipment": "Spellballs, Sashes matching spellball colours",
     "description": "<br>Tanks are built out of a single turret with spellballs, <a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental barrage</a> and a body of one or more short and shield wielders. The components of the tanks must stay within arms reach of each other. The body acts as an extension of the turret. They may pick up spell balls and reload their turret, allowing them to continue the onslaught to try and destroy their opponents!<br><br><b>Infantry:</b> As Class<br><b>Light Tanks:</b> Blue Sashes, <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force bolt</a> only. 1 Turret, 1 Body. 3 Points magical armor<br><b>Medium Tanks:</b> Yellow Sashes, <a href=\"/spells/l#lightningbolt\" data-ajax=\"false\">Lightning bolt</a> and <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force bolt</a>. 1 Turret, 2 Body. Slow. 4 Points magical armor<br><b>Heavy Tanks:</b> Red Sashes, <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> and <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force bolt</a>. 2 Turrets, 3 Body. Slow. 6 points magical armor (<a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">ancestral</a>)<br><br>All Tanks are immune to <a href=\"/spells/verbal\" data-ajax=\"false\">Verbals</a>. Medium and Heavy tanks are vulnerable to <a href=\"/spells/e#entangle\" data-ajax=\"false\">Entangle</a>. If 2 or more Body players are under the effect of Entangle, they will collapse and be destroyed.<br><br>The number of tanks is flexible with the number of players. For balance’s sake, it’s recommended to play with more light tanks than medium, and more medium tanks than heavy. If the players making up a tank are scattered, the tank has ten seconds to regroup or be considered destroyed! (this allows for the body to gather spellballs nearby more effectively)."
 	},
+  "merlinsball": {
+  	"name": "Merlin's Ball",
+  	"credit": "Steven Leblanc",
+  	"teams": "2",
+  	"lives": "Unlimited",
+  	"respawn": "45 Seconds",
+  	"players": "7 per side plus 1 Snitch",
+  	"objective": "Score the most points and catch the Snitch to earn an extra 50 points!",
+  	"refresh": "None",
+  	"types": [ "class", "ditch", "militia"],
+  	"equipment": "6 Baskets, a foam football, a yellow strap with Velcro for a tail",
+    "description": "<br>Merlin’s Ball is a cross between Phoenix League, Jugging and Quidditch.<br><b>Team Structure:</b><br>Teams are made up of 7 players, positioned as follows: Seeker (1 player), Chaser (3 players), Beaters (2 players), Keeper (1 player). Each position is responsible for the following:<ul><li>Seeker- Catching the Snitch</li><li>Chasers- Scoring points with the Merlin’s Ball</li><li>Beaters- Cause mayhem, kill enemies</li><li>Keepers- Defend baskets. Restriction: Cannot touch ball outside crease</li><li>In addition, 1 player is the Snitch and is a game objective (no class)</li></ul><b>Field Setup:</b><br><ul><li>White Dots- Points Baskets</li><li>Green Dots- Keeper Starting Position</li><li>Blue Dots- Beater Starting Positions</li><li>Red Dots- Chaser Starting Positions</li><li>Yellow Dot- Seeker Starting Position</li></ul><b>Gameplay:</b><br>The Chasers on each team will attempt to score points in the opposing team’s baskets. Each point scored is worth 10 points. After each scored point, any players that are alive on the scoring team are considered out of game until they return to their side of the field. Dead players may stay in the location they died provided they have their hand or weapon on their head and have not moved from their location. The game ends when a player catches the Snitch by pulling the yellow flag off the player marked as the Snitch. Catching the Snitch earns the team an additional 50 points. The winning team is the team with the most points.<br><b>Deaths:</b><br>Dead players may either stay on the field and wait for a resurrection or exit the field on the closest edge. A player who dies and exits the field must return to the bench before a new player can take their place. Upon returning to the bench, they will tell the next player going in their position on the field. Before returning to the field, a player must count down the last 5 seconds of their respawn out loud. Any player may take a death at any time. Any player holding a ball when they die must drop it in place.<br><b>Notes on Chasers and Keepers:</b><br>Only Chasers may score the Merlin’s ball. Both Keepers and Chasers may move, grab, or throw the Merlin’s ball. Keepers cannot touch the ball outside their crease and must either throw it or drop it before exiting their crease. A Chaser holding the ball inside the crease IS VOLATILE. A Keeper who exits their crease while holding the ball DIES.<br><b>Notes on Beaters:</b><br>The only objective for a beater is to kill enemy players. They may not catch the Snitch or interact with the Merlin’s Ball.<br><b>Notes on the Snitch:</b><br>The Snitch is a game objective and is treated as an object like the Merlin’s Ball. The Snitch will have a yellow removable flag attached to them that the Seekers must pull off of them. ONLY SEEKERS MAY CATCH THE SNITCH. The objective of the Snitch is to run around the field and avoid being caught. Players may not hit the Snitch. The Snitch should be an unbiased person and actively avoid being caught. The Snitch enters the field and leaves the field as often as they wish, with the only caveat being they must exit the field along a side of the field they did not enter.<img src='/images/merlinsball.png'>"
+  },
   "mooseball": {
   	"name": "Mooseball",
   	"credit": "Ausric, Northern Empire",
