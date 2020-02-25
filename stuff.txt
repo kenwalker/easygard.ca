@@ -1,3 +1,5 @@
 heroku ps:scale web=1
 rackup -p 4567 -o 0.0.0.0
 
+Add the remote after a fresh clone
+heroku git:remote -a shielded-castle-5255
