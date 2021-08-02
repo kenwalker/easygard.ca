@@ -10,10 +10,12 @@
          <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li data-role="list-divider">Melee</li>
+               <li><a href="#AntiPaladin">Anti-Paladin</a></li>
                <li><a href="#Archer">Archer</a></li>
                <li><a href="#Assassin">Assassin</a></li>
                <li><a href="#Barbarian">Barbarian</a></li>
                <li><a href="#Monk">Monk</a></li>
+               <li><a href="#Paladin">Paladin</a></li>
                <li><a href="#Scout">Scout</a></li>
                <li><a href="#Warrior">Warrior</a></li>
                <li data-role="list-divider">Magic Users</li>
@@ -21,9 +23,6 @@
                <li><a href="#Druid">Druid</a></li>
                <li><a href="#Healer">Healer</a></li>
                <li><a href="#Wizard">Wizard</a></li>
-               <li data-role="list-divider">Knights</li>
-               <li><a href="#AntiPaladin">Anti-Paladin</a></li>
-               <li><a href="#Paladin">Paladin</a></li>
             </ul>
          </div>
          <!-- /content -->
@@ -122,12 +121,12 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
-   <h3 class="ui-bar ui-bar-a ui-corner-all">Paladin - Knight</h3>
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Paladin</h3>
    <div class="ui-body ui-body-a ui-corner-all">
 <p>
-<b>Garb:</b> White belt, an openly displayed white phoenix on clothing or armor, and medieval/sword and sorcery looking garb<br>
+<b>Garb:</b> Openly displayed white Dragon, and medieval/sword and sorcery looking garb. Knights may wear a White belt and an openly displayed white phoenix instead<br>
 <b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
-<b>Requirements:</b> Must be a Knight<br>
+<b>Requirements:</b> Have at least 1 class at 6th level<br>
 <b>Armor:</b> 4 Points<br>
 <b>Shields:</b> Large<br>
 <b>Weapons:</b> All Melee, Javelins<br>
@@ -208,12 +207,12 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 
 <div role="main" class="ui-content">
-   <h3 class="ui-bar ui-bar-a ui-corner-all">Anti-Paladin - Knight</h3>
+   <h3 class="ui-bar ui-bar-a ui-corner-all">Anti-Paladin</h3>
    <div class="ui-body ui-body-a ui-corner-all">
 <p>
-<b>Garb:</b> White belt, an openly displayed black phoenix on clothing or armor, and medieval/sword and sorcery looking garb<br>
+<b>Garb:</b> Openly displayed black Dragon, and medieval/sword and sorcery looking garb. Knights may wear a White belt and an openly displayed black phoenix instead<br>
 <b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
-<b>Requirements:</b> Must be a Knight<br>
+<b>Requirements:</b> Have at least 1 class at 6th level<br>
 <b>Armor:</b> 4 Points<br>
 <b>Shields:</b> Large<br>
 <b>Weapons:</b> All Melee, Javelins<br>
@@ -431,7 +430,7 @@
            <tr>
               <th>3</th>
               <th><a href="/spells/d#dispelmagic" data-ajax="false">Dispel Magic</a></th>
-              <td>1/Refresh</td>
+              <td>1/Ref Chg x5</td>
               <td>(ex)</td>
               <td>-</td>
            </tr>
