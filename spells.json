@@ -194,7 +194,7 @@
     "s": "Spirit",
     "r": "20",
     "i": "\"The Spirits banish thee from this place\" x3",
-    "e": "Target Insubstantial player must return to their respawn location where their Insubstantial State immediately ends",
+    "e": "Target Insubstantial player must return to their base where their Insubstantial State immediately ends",
     "n": "A player bearing Undead Minion or Greater Undead Minion who is currently Insubstantial has their Enchantment removed"
   },
 
@@ -749,7 +749,7 @@
     "s": "Sorcery",
     "r": "Self",
     "e": "May wear an additional Enchantment. Evolution does not count towards the bearer’s Enchantment limit",
-    "n": "This ability does work in conjunction with Attuned or Essence Graft so long as the other limitations of those Enchantments are followed"
+    "n": "This ability does work in conjunction with Attuned, Essence Graft, or Phoenix Tears so long as the other limitations of those Enchantments are followed"
   },
 
   "experienced": {
@@ -807,7 +807,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"Fight after death\" immediately after dying",
-    "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players do not receive further Wounds during Fight After Death. Players melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>",
+    "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players ignore further Wounds during Fight After Death. Players melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>",
     "l": "Players may not activate Abilities or Magic during Fight After Death. Players may not activate Fight After Death if they died while Suppressed, Stunned, Insubstantial, or Frozen. States on the player (Such as Stopped) persist until Fight After Death has ended and are then removed as per the rules for player death. Players may not achieve game objectives nor carry game items while affected by Fight After Death, though they may still kill other players even if that player is a game objective",
     "n": "Reeves are encouraged to remove this ability from those who use it in an unsafe manner. Also note that it was clarified online that if a player moves during fight after death they must be <a href=\"/spells/s#summondead\" data-ajax=\"false\">summon resurrected</a> from their respawn location since they have moved from where they died"
   },
@@ -892,7 +892,7 @@
     "r": "Touch: Others",
     "i": "\"I grant thee a gift of the air\" x3",
     "m": "White Strip",
-    "e": "The effects of a melee weapon or <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> which just struck the bearer are ignored, instead the bearer announces \“Gift of Air\” and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their respawn location immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air.",
+    "e": "The effects of a melee weapon or <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> which just struck the bearer are ignored, instead the bearer announces \“Gift of Air\” and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air.",
     "l": "Bearer may not wield weapons or shields",
     "n": "Bearer may end the Insubstantial state caused by Gift of Air at any time with the standard Incantation"
   },
@@ -950,7 +950,7 @@
     "r": "Touch: Others",
     "i": "\"From earth and clay I form thee\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer is Immune to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
+    "e": "Bearer is Immune to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
     "l": "A caster may only have a single Golem Enchantment active at a time",
     "n": "Greater Mend and Word of Mending will not remove a wound"
   },
@@ -1050,7 +1050,7 @@
     "r": "Touch: Others",
     "i": "<br>\"Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my greater minion!\"",
     "m": "Yellow Strip",
-    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial, remove all Wounds, and must return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant \“Rise and fight again\” x5 to end this Insubstantial State so long as no living enemies are within 10’ of the bearer.<br>4. If this Enchantment's Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
+    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial, remove all Wounds, and must return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant \“Rise and fight again\” x5 to end this Insubstantial State so long as no living enemies are within 10’ of the bearer.<br>4. If this Enchantment's Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base<br>8. Dead players may be targeted by Greater Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
     "l": "<br>1. The Insubstantial State imposed by Greater Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
   },
 
@@ -1099,7 +1099,7 @@
     "r": "Self",
     "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer is Stopped. Any player on the bearer’s team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\"",
+    "e": "Bearer is Stopped. Any player on the bearer’s team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer’s team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
     "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20’ of the bearer"
   },
 
@@ -1919,7 +1919,7 @@
     "r": "Self",
     "i": "\"I sing of my numerous close calls\"",
     "m": "No strip required",
-    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Bearer may choose to return directly to their respawn location immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom",
+    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom",
     "l": "Once Song of Survival has activated to protect the bearer it may not be cast again on the same life. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
     "n": "Bearer may end the Insubstantial state caused by Song of Survival at any time with the standard Incantation"
   },
@@ -1968,7 +1968,7 @@
     "r": "Touch",
     "i": "\"Steal Life\"",
     "e": "Caster may heal a Wound or instantly Charge an ability",
-    "l": "May only be used on a dead player. That player is Cursed. Does not work on <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> players. The caster still gains the effect even if the dead player is unaffected.",
+    "l": "May only be used on a dead player. That player is Cursed. Does not work on <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> players. The caster does not gain the effect if the dead player is unaffected",
     "n": "In order to charge an ability, the name of the ability being charged must still be stated immediately after the incantation."
   },
 
@@ -2193,7 +2193,7 @@
     "r": "Touch: Others",
     "i": "<br>Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my minion!",
     "m": "Yellow Strip",
-    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>, <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>, and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial, remove all Wounds, and must return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant \“Rise and fight again\” x10 to end this Insubstantial State so long as no living enemies are within 10’ of the bearer<br>4. If this Enchantment's Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the Caster is considered the players respawn<br>8. Dead players may be targeted by Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
+    "e": "<br>1. Bearer does not die or respawn as normal<br>2. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>, <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>, and Suppressed<br>3. When the bearer would normally die, they instead become Insubstantial, remove all Wounds, and must return to the caster as soon as possible. Insubstantial players may not move more than 10’ from the caster and may not speak. The caster may touch the player and then Incant \“Rise and fight again\” x10 to end this Insubstantial State so long as no living enemies are within 10’ of the bearer<br>4. If this Enchantment's Insubstantial is removed from the Bearer in any other manner than outlined in item 3 (or prevented entirely) this Enchantment is removed<br>5. If the caster dies, this Enchantment is removed the next time the bearer returns to the caster<br>6. If the Enchantment is removed, the bearer dies<br>7. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base<br>8. Dead players may be targeted by Undead Minion and are immediately returned to life with all Wounds removed and the Insubstantial State applied",
     "l": "<br>1. The Insubstantial State imposed by Undead Minion can be removed or prevented by any Magic or Ability which would normally be capable of removing Insubstantial or preventing Insubstantial such as Tracking, Planar Grounding, Release, or similar Magic and Abilities<br>2. This Enchantment is removed by Banish and Dimensional Rift if used on the player while they are Insubstantial<br>3. The caster may not have more than three active Greater Undead Minion and Undead Minion Enchantments combined"
   },
 

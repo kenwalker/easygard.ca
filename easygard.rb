@@ -194,6 +194,10 @@ get '/phoenixball/' do
 	erb :phoenixball
 end
 
+get '/codeofconduct/' do 
+	erb :codeofconduct
+end
+
 get '/changes/' do
 	erb :changes
 end

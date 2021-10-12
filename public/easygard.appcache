@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#version 1.0.63
+#version 1.0.64
  
 index.html
 lib/jquery.mobile-1.4.5.min.css
@@ -77,6 +77,8 @@ battlegamesby/t
 battlegames/class
 battlegames/militia
 battlegames/ditch
+phoenixball/
+codeofconduct/
 
 NETWORK:
 *

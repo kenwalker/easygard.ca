@@ -9,7 +9,8 @@
 
 	<div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
-               <li><a href="#ReevingMadeEasy">Reeving Made Easy</a></li>
+			<li><a href="#Reeving">Overview</a></li>
+			<li><a href="#ReevingMadeEasy">Reeving Made Easy</a></li>
                <li><a href="#EquipmentChecking">Equipment Checking</a></li>
                <li><a href="#SashesStrips">Sashes and Strips</a></li>
             </ul>
@@ -19,7 +20,28 @@
 	</div><!-- /content -->
 
 </div><!-- /page -->
-
+	<!-- Overview Page -->
+	<div data-role="page" class="jqm-demos jqm-home" id="Reeving">
+	
+	<%= erb :'sections/header' %>
+	<%= erb :'sections/nav-panel' %>
+	<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+	<% @loaded = 'true' %>
+	
+		<div role="main" class="ui-content">
+				<div class="jqm-block-content">
+					<h3>Reeving Overview</h3>
+					<p>In order to ensure that the Park is following the rules, and that the game is being run fairly for all participants, members of the park may also choose to become members of the Reeves Guild and take credit in the Reeve class. Reeves are the judges or referees of the game and will wear or carry a unique identifier to reflect this status. This identifier will be either a gold sash, a tunic or tabard of alternating stripes of contrasting high-visibility colors (black and white, neon green and purple, etc.), or a “Reeve’s Staff ” (a padded staff at least 5’ long with padded ends at least 2” in diameter and covered in alternating stripes or spiraling contrasting high-visibility colors as above). The identifier will be communicated to players before the start of a game. Reeves should have in-depth knowledge of the rules, and are tested by the current Guildmaster of Reeves to become members of the guild. When a reeve is in charge of a battlegame, their word is final on disputes involving game play. If a player wishes to dispute a reeve’s decision, they may do so after the game with the reeve in question or with the Guildmaster of Reeves. However, while the game is occurring, the decision may not be disputed. Arguing with a reeve on the field may result in being penalized or even ejected from the game. Consistent arguing may result in being removed from play for an extended period.</p>
+				</div>
+	
+		</div><!-- /footer -->
+	
+		</div><!-- /content -->
+	
+	</div>
+	<!-- Overview /page -->
+	
+	
 <!-- ReevingMadeEasy Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="ReevingMadeEasy">
 
@@ -51,7 +73,8 @@
 	</div><!-- /content -->
 
 </div>
-<!-- ReevingMadeEasy Checking /page -->
+<!-- ReevingMadeEasy /page -->
+
 
 <!-- EquipmentChecking Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="EquipmentChecking">

@@ -9,7 +9,9 @@
 
          <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
-               <li data-role="list-divider">Melee</li>
+            <li><a href="#ClassesMadeEasy">Classes Made Easy</a></li>
+            <li><a href="#ClassLevels">Class Levels</a></li>
+            <li data-role="list-divider">Melee</li>
                <li><a href="#AntiPaladin">Anti-Paladin</a></li>
                <li><a href="#Archer">Archer</a></li>
                <li><a href="#Assassin">Assassin</a></li>
@@ -28,6 +30,106 @@
          <!-- /content -->
 
 </div><!-- /page -->
+
+<!-- Classes Made Easy Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="ClassesMadeEasy">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Classes Made Easy</h3>
+          <p>Classes have levels. Each level unlocks new Traits, Abilities, or Magic you can use. Your level in a class is determined by the number of times you have played that class before. See ‘Credits and Levels’ for more information.</p>
+          <p>Except for Traits, all Abilities and Magic require an Incantation in order to be activated. That’s just a short audible sentence that announces to everybody what is going on</p>
+          <p>All classes also have a list of weapons and armor they can use regardless of level. Available equipment, along with any additional restrictions or limitations, is listed in the class description</p>
+          <p>Classes are grouped into two broad categories:
+          <ul>
+            <li><b>Magic-Users</b>: Bard, Druid, Healer, and Wizard</li>
+            <li><b>Fighting Classes</b>: Anti-Paladin, Archer, Assassin, Barbarian, Monk, Paladin, Scout, and Warrior</li>
+          </ul></p>
+          <p>Magic-users have access to a broad array of magic, which is listed along with their class description. Fighting classes have fewer, but more focused, abilities to go along with their expanded equipment availability. Abilities for fighting classes are listed like this: <b>Name</b> [<b>Uses</b>] ([<b>Category</b>]) ([<b>Notes</b>])</p>
+          <p><b>Name</b>: The name of the Ability</p>
+          <p><b>Uses</b>: How often the Ability can be used. Possible options are:
+          <ul>
+            <li><b>Unlimited</b>: This Ability may be used any number of times</li>
+            <li><b>‘X’/life</b>: This Ability may be used X number of times each life. Each time you respawn you have a fresh set of these ‘per life’ Abilities</li>
+            <li><b>‘X’/Refresh</b>: This Ability may be used X number of times per Refresh. You start the game with a full set of these ‘per refresh’ Abilities, but they are only refilled when a Reeve announces a Refresh</li>
+            <li><b>Charge</b>: May be used in conjunction with per life or per refresh, or on its own. Charge Abilities can be used any number of times, but must be Charged after the initial uses are expended. See the definition of Charge under the section ‘Magic, Abilities, States, and Special Effects Defined’ for a full explanation of how Charge works</li>
+            <li><b>Not listed</b>: This Ability isn’t an activated Ability</li>
+          </ul></p>
+          <p><b>Category</b>: What kind of Ability it is. Possible options are:
+          <ul>
+            <li><b>(T)</b>: for Trait: This is an always-on self-only Ability which cannot be removed in any way and never requires an Incantation of any sort to start and does not require an Enchantment Strip or count towards the bearer’s Enchantment limit</li>
+            <li><b>(ex)</b>: for Extraordinary: This Ability is not magical in nature. It could represent poison from a vial or using a piece of twine to fix a broken arrow. An Ability listed as (ex) which is defined as being an Enchantment in its Ability definition generally behaves as an Enchantment but does not count towards the limit of Enchantments that may be worn by a player. See the definition of Enchantment under the section ‘Magic, Abilities, States, and Special Effects Defined’ for more information</li>
+            <li><b>(m)</b>: for Magical: This Ability is magical in nature. If the Definition of this Ability lists it as an Enchantment then it follows all the rules for Enchantments and counts towards the limit of Enchantments that may be worn by a player</li>
+          </ul></p>
+          <p><b>Notes</b>: Anything non-standard about the Ability. Typical examples might be Ambulant or Persistent</p>
+          </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Classes Made Easy Page /page -->
+
+<!-- Classes Levels -->
+<div data-role="page" class="jqm-demos jqm-home" id="ClassLevels">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Class Levels</h3>
+          <p>If you wish to fight or participate in a battlegame, you must conform to one class for each game. A person may advance in level in a class after having the requisite credits and passing a class test administered by your class Guildmaster. Only one attendance credit may be given on a single day, although Kingdoms may award bonus credits according to their corpora. You must play the class you wish to gain credit in. If no class is played but fighting takes place, you may take a Warrior credit. Players who reeve may take a Reeve Credit, and players who otherwise participate may take a Color Credit Kingdoms are allowed to award a maximum of 12 total bonus credits (credits above and beyond attendance credits) to any player in a single month and no more than 3 bonus credits may be issued per 1 attendance credit. All classes gain new abilities and levels at the following rate:
+          <table data-role="table" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-popup-theme="a">
+          <thead>
+            <tr class="ui-bar-d">
+              <th data-priority="1">Level</th>
+              <th data-priority="1">Credit Requirements</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+               <th>1st</th>
+               <th>Less than 5 credits in that class</th>
+            </tr>
+            <tr>
+               <th>2nd</th>
+               <th>At least 5 and less than 12 credits in that class</th>
+            </tr>
+            <tr>
+               <th>3rd</th>
+               <th>At least 12 and less than 21 credits in that class</th>
+            </tr>
+            <tr>
+               <th>4th</th>
+               <th>At least 21 and less than 34 credits in that class</th>
+            </tr>
+            <tr>
+               <th>5th</th>
+               <th>At least 34 and less than 53 credits in that class</th>
+            </tr>
+            <tr>
+               <th>6th</th>
+               <th>53 or more credits in that class</th>
+            </tr>
+          </tbody>
+          </table>
+          </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Class Levels Page /page -->
 
 <!-- Start of Assassin page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Assassin" data-url="Assassin">
@@ -124,9 +226,9 @@
    <h3 class="ui-bar ui-bar-a ui-corner-all">Paladin</h3>
    <div class="ui-body ui-body-a ui-corner-all">
 <p>
-<b>Garb:</b> Openly displayed white Dragon, and medieval/sword and sorcery looking garb. Knights may wear a White belt and an openly displayed white phoenix instead<br>
+<b>Garb:</b> Openly displayed white dragon on clothing or armor and medieval/sword and sorcery looking garb. Knights may wear a white belt and white phoenix instead<br>
 <b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
-<b>Requirements:</b> Have at least 1 class at 6th level<br>
+<b>Requirements:</b> Must be 6th level in at least one class<br>
 <b>Armor:</b> 4 Points<br>
 <b>Shields:</b> Large<br>
 <b>Weapons:</b> All Melee, Javelins<br>
@@ -210,9 +312,9 @@
    <h3 class="ui-bar ui-bar-a ui-corner-all">Anti-Paladin</h3>
    <div class="ui-body ui-body-a ui-corner-all">
 <p>
-<b>Garb:</b> Openly displayed black Dragon, and medieval/sword and sorcery looking garb. Knights may wear a White belt and an openly displayed black phoenix instead<br>
+<b>Garb:</b> Openly displayed black dragon on clothing or armor and medieval/sword and sorcery looking garb. Knights may wear a white belt and black phoenix instead<br>
 <b>Look The Part:</b> <a href="/spells/a#awe" data-ajax="false">Awe</a> 1/Life (m)<br>
-<b>Requirements:</b> Have at least 1 class at 6th level<br>
+<b>Requirements:</b> Must be 6th level in at least one class<br>
 <b>Armor:</b> 4 Points<br>
 <b>Shields:</b> Large<br>
 <b>Weapons:</b> All Melee, Javelins<br>
@@ -656,6 +758,7 @@
 <b>Armor:</b> 2 Points<br>
 <b>Shields:</b> None<br>
 <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#Short" data-ajax="false">Short</a>, <a href="/weapons/#Bow" data-ajax="false">Bow</a><br>
+<b>Reminder:</b> All <a href="/spells/definitions#arrows" data-ajax="false">Specialty Arrow</a> Incantations are treated as Ambulant but do not require the statement of "Ambulant" before their incantation<br>
 </p>
         <h3>Abilities by Level</h3>
         <table data-role="table" id="table-custom-lvl1-archer" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
