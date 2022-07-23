@@ -13,7 +13,12 @@
             <div class="ui-body ui-body-a ui-corner-all">
                <h3>
                <% spellData['classes'].each do |aClass, aLevel| %>
-                  <a href="/classes/#<%=aClass%>" data-ajax="false"><%=aClass%></a> <%=aLevel%>
+                  <% if (aClass.casecmp('antipaladin')) == 0 %>
+                  <% className = "Anti-Paladin" %>
+                  <% else %>
+                  <% className = aClass %>
+                  <% end %>
+                  <a href="/classes/#<%=aClass%>" data-ajax="false"><%=className%></a> <%=aLevel%>
                <% end %>
                </h3>
                <p>

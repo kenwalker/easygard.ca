@@ -16,21 +16,21 @@
     "name": "Adaptive Blessing",
     "keywords": "enchantment white healer scout",
     "classes": {
-      "Healer": "2",
-      "Scout": "6"
+      "Healer": "2"
     },
     "t": "Enchantment",
     "s": "Protection",
     "r": "Touch: Others",
     "i": "\"I enchant thee with this blessing\" x3",
     "m": "White Strip",
-    "e": "Bearer becomes Resistant to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit, may not be worn with any other Enchantments from the Protection School"
+    "e": "Bearer becomes Resistant to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit, may not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
   },
   "adaptiveprotection": {
     "name": "Adaptive Protection",
     "keywords": "enchantment white healer",
     "classes": {
-      "Healer": "3"
+      "Healer": "3",
+      "Scout": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
@@ -64,7 +64,7 @@
     "s": "Command",
     "r": "20",
     "i": "\"I command thee to be alone\" x3",
-    "e": "Target must remain at least 20’ away from all other players unless forced there by another Magic or Ability. Lasts 30 seconds."
+    "e": "Target must remain at least 20’ away from all other living players unless forced there by another Magic or Ability. Lasts 30 seconds."
   },
 
   "amplification": {
@@ -123,8 +123,10 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20",
-    "i": "Say the word \"Assassinate\" immediately upon killing a person.",
-    "e": "The victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
+    "i": "\"Assassinate\"",
+    "e": "The victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "l": "Must be used immediately upon killing an enemy",
+    "n": "Assassinate targets the killed enemy and does not require verbal targeting"
   },
 
   "astralintervention": {
@@ -162,7 +164,7 @@
     "classes": {
       "Druid": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "All the casters Enchantments of level 4 and below are now range Self instead of their previous range. Does not apply to Golem"
   },
@@ -171,7 +173,6 @@
     "name": "Awe",
     "keywords": "bard paladin anti verbal command",
     "classes": {
-      "Anti-Paladin": "1",
       "Bard": "3",
       "Paladin": "1"
     },
@@ -180,7 +181,7 @@
     "r": "20",
     "i": "\"I command thee awed\" x3",
     "e": "Target may not attack or cast magic at the caster. Target must remain at least 20’ away from the caster unless forced there by another Magic or Ability. Lasts 30 seconds",
-    "n": "If the caster attacks or begins casting another magic at the target, this spell’s effect is negated"
+    "n": "If the caster attacks or begins casting another magic at the target, or dies, this spell’s effect is negated"
   },
 
   "banish": {
@@ -188,6 +189,7 @@
     "keywords": "banish healer wizard insubstantial spirit",
     "classes": {
       "Healer": "1",
+      "Monk": "2",
       "Wizard": "1"
     },
     "t": "Verbal",
@@ -233,7 +235,7 @@
     "classes": {
       "Wizard": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Use of Ambulant becomes unlimited",
     "l": "May not purchase Enchantments or Magic Balls"
@@ -263,7 +265,7 @@
     "s": "Sorcery",
     "r": "Self",
     "m": "Red Strip",
-    "e": "All weapons wielded in melee are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
+    "e": "Bearer's melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
   },
 
   "blessedaura": {
@@ -306,7 +308,7 @@
     "i": "\"I enchant thee against wounds\" x3",
     "m": "White Strip",
     "e": "Resistant to Wounds. Does not count towards a players Enchantment limit",
-    "l": "May not be worn with any other Enchantments from the Protection School"
+    "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
   },
 
   "blink": {
@@ -327,7 +329,7 @@
     "name": "Blood and Thunder",
     "keywords": "barbarian verbal spirit",
     "classes": {
-      "Barbarian": "1"
+      "Barbarian": "6"
     },
     "t": "Verbal",
     "s": "Spirit",
@@ -356,7 +358,7 @@
     "name": "Brutal Strike",
     "keywords": "anti paladin barbarian verbal death cursed suppressed",
     "classes": {
-      "Anti-Paladin": "4",
+      "AntiPaladin": "4",
       "Barbarian": "5"
     },
     "t": "Verbal",
@@ -416,7 +418,7 @@
     "classes": {
       "Bard": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Does not require an empty hand to cast Magic"
   },
@@ -459,8 +461,8 @@
     "s": "Death",
     "r": "Self or Touch: Others",
     "i": "\"The mists of corrosion surround thee\" x3",
-    "m": "5 Red Strips",
-    "e": "Bearer is Stopped. Bearer may cast Destroy Armor by announcing \"<i>[Player] the mists of corrosion destroy your [armor location] armor</i>\". Bearer must remove a strip after each use of Destroy Armor",
+    "m": "3 Red Strips",
+    "e": "Bearer may cast Destroy Armor by announcing \"<i>[Player] the mists of corrosion destroy your [armor location] armor</i>\". Bearer must remove a strip after each use of Destroy Armor",
     "n": "Corrosive Mist is removed when the last strip is removed"
   },
 
@@ -475,7 +477,8 @@
     "r": "20",
     "i": "\"Death shall come for thee\" x3",
     "e": "Target player dies",
-    "l": "Target must be Wounded when the caster begins the Incantation. Although it still functions even if they are healed by the end of the Incantation"
+    "l": "Target must be Wounded when the caster begins the Incantation",
+    "n": "Even if the target has no Wounds by the end of the Incantation they still die"
   },
 
   "dervish": {
@@ -484,7 +487,7 @@
     "classes": {
       "Bard": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Equipment costs are doubled. Each Verbal purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life, 1/Refresh becomes 2/Refresh"
   },
@@ -721,10 +724,10 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Touch: Others",
-    "i": "\"Open up and receive my power\" x3",
+    "i": "\"I enchant thee with essence graftr\" x3",
     "m": "Yellow Strip",
     "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer’s Enchantment limit",
-    "l": "Bearer may only wear Enchantments from the caster of Essence Graft. This ability may not be used in conjunction with any other similar ability or magic"
+    "l": "Bearer may only wear (m) Enchantments from the caster of Essence Graft. This ability may not be used in conjunction with any other similar ability or magic"
   },
 
   "evoker": {
@@ -733,7 +736,7 @@
     "classes": {
       "Wizard": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Verbals purchased may only be of range Touch or Self. Elemental Barrage becomes Charge x10",
     "n": "Elemental Barrage must still be purchased"
@@ -843,6 +846,7 @@
     "name": "Flame Blade",
     "keywords": "druid enchantment flame",
     "classes": {
+      "AntiPaladin": "6",
       "Druid": "4"
     },
     "t": "Enchantment",
@@ -955,8 +959,8 @@
     "n": "Greater Mend and Word of Mending will not remove a wound"
   },
 
-  "graspingtentacles": {
-    "name": "Grasping Tentacles",
+  "snaringvines": {
+    "name": "Snaring Vines",
     "keywords": "druid enchantment command",
     "classes": {
       "Druid": "6"
@@ -965,9 +969,9 @@
     "s": "Command",
     "r": "Self",
     "i": "\"The hands of the earth rise to your bidding\" x3",
-    "m": "5 Red Strips",
-    "e": "Bearer is Stopped. Bearer may cast Hold Person by announcing \"[Player] stop at my command.\" Bearer must remove an Enchantment strip after each use of Hold Person",
-    "n": "Grasping Tentacles is removed when the last strip is removed"
+    "m": "3 Red Strips",
+    "e": "Bearer may cast Hold Person by announcing \"[Player] stop at my command.\" Bearer must remove an Enchantment strip after each use of Hold Person",
+    "n": "Snaring Vines is removed when the last strip is removed"
   },
 
   "greaterharden": {
@@ -986,9 +990,10 @@
 
   "greaterheal": {
     "name": "Greater Heal",
-    "keywords": "healer verbal spirit",
+    "keywords": "healer paladin verbal spirit",
     "classes": {
-      "Healer": "4"
+      "Healer": "4",
+      "Paladin": "2"
     },
     "t": "Verbal",
     "s": "Spirit",
@@ -1030,7 +1035,8 @@
     "name": "Greater Resurrect",
     "keywords": "healer verbal spirit",
     "classes": {
-      "Healer": "5"
+      "Healer": "5",
+      "Paladin": "4"
     },
     "t": "Verbal",
     "s": "Spirit",
@@ -1076,7 +1082,7 @@
     "classes": {
       "Druid": "2",
       "Healer": "1",
-      "Monk": "1",
+      "Monk": "4",
       "Paladin": "2",
       "Scout": "1"
     },
@@ -1231,8 +1237,9 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20",
-    "i": "\"I command thy attention sirrah\" x3",
-    "e": "Victim is unable to attack or cast magic at anyone other than the caster for 30 seconds. If the victim of insult is attacked or has magic cast on them by someone other than the caster, the victim of Insult becomes able to choose to attack the offending party as well"
+    "i": "\"I command thy attention\" x3",
+    "e": "Victim is unable to attack or cast magic at anyone other than the caster for 30 seconds. If the victim of insult is attacked or has magic cast on them by someone other than the caster, the victim of Insult becomes able to choose to attack the offending party as well",
+    "n": "If the caster of Insult dies, the victim’s effect is negated"
   },
 
   "ironskin": {
@@ -1255,7 +1262,7 @@
     "classes": {
       "Bard": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Each Extension purchased gives double the uses. Example: 1/life becomes 2/life. Swift may not be purchased or used"
   },
@@ -1380,7 +1387,7 @@
     "classes": {
       "Healer": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "All magic purchased in the Death School becomes Charge x3. You may have a combined total of five active Greater Undead Minion and Undead Minion Enchantments",
     "l": "You may not purchase any Enchantments from the Protection School"
@@ -1453,8 +1460,7 @@
     "s": "Sorcery",
     "i": "\"Pinning Arrow\"",
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with yellow head cover labeled ‘Pinning’",
-    "e": "A player struck by this <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrow</a> is Stopped for 30 seconds",
-    "n": "Engulfing"
+    "e": "A player struck by this <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrow</a> is Stopped for 30 seconds. Engulfing"
   },
 
   "planargrounding": {
@@ -1475,7 +1481,7 @@
     "name": "Poison",
     "keywords": "anti paladin assassin druid enchantment death",
     "classes": {
-      "Anti-Paladin": "2",
+      "AntiPaladin": "2",
       "Assassin": "1",
       "Druid": "2"
     },
@@ -1520,7 +1526,7 @@
     "classes": {
       "Healer": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. Heal costs zero points"
   },
@@ -1553,7 +1559,8 @@
     "r": "Touch: Others",
     "i": "\"I enchant thee with Protection from Projectiles\" x3",
     "m": "White Strip",
-    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player"
+    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player",
+    "n": "Equipment can still be affected by projectiles"
   },
 
   "pyrotechnics": {
@@ -1576,7 +1583,7 @@
     "classes": {
       "Druid": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "The cost of all available Equipment is reduced to zero points. May use <a href=\"/weapons/#Bow\" data-ajax=\"false\">bows</a> so long as a shield is not carried. The cost of all Enchantments is doubled"
   },
@@ -1637,8 +1644,8 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I nocked my arrows to my bow, I let them fly, my quiver is low. Now I pause to go reload.\" x3",
-    "e": "Player becomes Out of Game and may move about the field retrieving their arrows",
-    "l": "Must stay at least 10’ away from other players at all times. The player may only remove their Out of Game state in the location they started by stating, \"I return with a full quiver\" x3",
+    "e": "Player becomes <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Out of Game</a> and may move about the field retrieving their arrows. The player may remove their Out of Game state in the location they started by stating, \"I return with a full quiver\" x3",
+    "l": "Must stay at least 10’ away from other players at all times",
     "n": "May ask reeve for assistance in retrieving arrows that are within 10’ of other players"
   },
 
@@ -1681,9 +1688,9 @@
     "t": "Verbal",
     "s": "Protection",
     "r": "Self",
-    "i": "State \"Sanctuary\" without any weapons in hand",
+    "i": "\"Sanctuary\"",
     "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20’. Must Chant \"sanctuary\". Player may normally end Sanctuary at any time by ceasing to chant, or by picking up a weapon with their hand",
-    "l": "Player may not carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a non-friendly base",
+    "l": "Player may not   carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a non-friendly base",
     "n": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20’ of a friendly base, and must continue chanting until there. Player is still susceptible to Phase Bolt and Phase Arrow"
   },
 
@@ -1817,7 +1824,7 @@
     "classes": {
       "Archer": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Sorcery",
     "e": "Player may physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3",
     "l": "May not fire normal arrows. Only one type of Specialty￼Arrow may be charged at any given time"
@@ -1902,7 +1909,7 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing to inspire my brothers-in-arms\"",
+    "i": "\"I sing to inspire my comrades-in-arms\"",
     "m": "No strip required",
     "e": "Friendly players within 20’ of the bearer have their Charging Incantation repetitions divided by 2, rounded down. Bearer is Stopped. Bearer must Chant \"Song of Power\" or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },  
@@ -1919,8 +1926,8 @@
     "r": "Self",
     "i": "\"I sing of my numerous close calls\"",
     "m": "No strip required",
-    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom",
-    "l": "Once Song of Survival has activated to protect the bearer it may not be cast again on the same life. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom",
+    "l": "Once Song of Survival has activated to protect the bearer it may not activate again on the same life. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
     "n": "Bearer may end the Insubstantial state caused by Song of Survival at any time with the standard Incantation"
   },
 
@@ -1959,7 +1966,7 @@
     "name": "Steal Life Essence",
     "keywords": "anti paladin healer wizard verbal death charge",
     "classes": {
-      "Anti-Paladin": "3",
+      "AntiPaladin": "3",
       "Healer": "5",
       "Wizard": "5"
     },
@@ -2023,7 +2030,7 @@
     "s": "Spirit",
     "r": "50",
     "i": "\"I summon thy corpse\" x5",
-    "e": "Target dead player may choose to go to the caster and then counts as though they had not moved from where they died. May be used on a dead player who has not moved from where they died or who is at their respawn location"
+    "e": "Target dead player may choose to go to the caster and then counts as though they had not moved from where they died. May be used on a dead player who has not moved from where they died or who is at their respawn"
   },
 
   "summoner": {
@@ -2032,7 +2039,7 @@
     "classes": {
       "Druid": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Each Enchantment purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/ life becomes 4/life",
     "l": "May not purchase Verbals with a range other than Touch or Self. May not purchase equipment beyond 2nd level"
@@ -2062,8 +2069,7 @@
     "s": "Sorcery",
     "i": "\"Suppression Arrow\"",
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with purple head cover labeled ‘Suppression’",
-    "e": "A player struck by this arrow is Suppressed for 30 seconds",
-    "n": "Engulfing"
+    "e": "A player struck by this arrow is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Engulfing"
   },
 
   "suppressionbolt": {
@@ -2115,8 +2121,9 @@
 
   "terror": {
     "name": "Terror",
-    "keywords": "bard verbal death",
+    "keywords": "bard anti paladin verbal death",
     "classes": {
+      "AntiPaladin": "5",
       "Bard": "4"
     },
     "t": "Verbal",
@@ -2185,7 +2192,6 @@
     "name": "Undead Minion",
     "keywords": "anti paladin healer enchantment death",
     "classes": {
-      "Anti-Paladin": "6",
       "Healer": "3"
     },
     "t": "Enchantment",
@@ -2246,7 +2252,7 @@
     "classes": {
       "Healer": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Each Enchantment purchased in the Protection School gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life",
     "l": "Player may not purchase any magic from the Death, Command, or Subdual Schools"
@@ -2258,7 +2264,7 @@
     "classes": {
       "Wizard": "6"
     },
-    "t": "Neutral",
+    "t": "Archetype",
     "s": "Neutral",
     "e": "Each Verbal purchased in the Death and Flame Schools gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life",
     "l": "Player may not purchase Verbals from any School other than the Death and Flame Schools"
