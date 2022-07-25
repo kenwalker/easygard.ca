@@ -1083,7 +1083,6 @@
       "Druid": "2",
       "Healer": "1",
       "Monk": "4",
-      "Paladin": "2",
       "Scout": "1"
     },
     "t": "Verbal",
@@ -1669,8 +1668,7 @@
     "classes": {
       "Druid": "5",
       "Healer": "3",
-      "Monk": "5",
-      "Paladin": "4"
+      "Monk": "5"
     },
     "t": "Verbal",
     "s": "Spirit",
