@@ -781,7 +781,7 @@
     "r": "Touch: Others",
     "i": "Tie strip on target: \"May the blessing of my god protect thee\" x3",
     "m": "White Strip",
-    "e": "The target player gains either Resistant to Command or Resistant to Death",
+    "e": "The target player gains either <a href=\"/states/#Immune\" data-ajax=\"false\">Immunity</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immunity to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
     "l": "Type of Ability must be chosen at the time of casting and may not be changed. The caster may only have one instance of Extend Immunities active at a time"
   },
 
