@@ -23,7 +23,8 @@
     "r": "Touch: Others",
     "i": "\"I enchant thee with this blessing\" x3",
     "m": "White Strip",
-    "e": "Bearer becomes Resistant to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit, may not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
+    "e": "Bearer becomes <a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit.",
+    "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
   },
   "adaptiveprotection": {
     "name": "Adaptive Protection",
@@ -125,7 +126,7 @@
     "r": "20",
     "i": "\"Assassinate\"",
     "e": "The victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
-    "l": "Must be used immediately upon killing an enemy",
+    "l": "May only be used immediately upon killing an enemy",
     "n": "Assassinate targets the killed enemy and does not require verbal targeting"
   },
 
@@ -261,7 +262,7 @@
     "classes": {
       "Barbarian": "1"
     },
-    "t": "Enchantment",
+    "t": "Granted as Trait",
     "s": "Sorcery",
     "r": "Self",
     "m": "Red Strip",
@@ -279,7 +280,7 @@
     "r": "Touch: Others",
     "i": "\"I enchant thy person, arms, and armor\" x3",
     "m": "White Strip",
-    "e": "Resistant to all effects from the next source which would inflict a Wound, Death, State, or negatively affect them or their equipment. Does not trigger against effects cast by the player"
+    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or negatively affect them or their equipment. Does not trigger against effects cast by the player"
   },
 
   "blessingagainstharm": {
@@ -293,7 +294,7 @@
     "r": "Touch: Others",
     "i": "\"I enchant thee against all harm\" x3",
     "m": "White Strip",
-    "e": "Resistant to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
+    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
   },
 
   "blessingagainstwounds": {
@@ -307,7 +308,7 @@
     "r": "Touch: Others",
     "i": "\"I enchant thee against wounds\" x3",
     "m": "White Strip",
-    "e": "Resistant to Wounds. Does not count towards a players Enchantment limit",
+    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to Wounds. Does not count towards a players Enchantment limit",
     "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
   },
 
@@ -461,7 +462,7 @@
     "s": "Death",
     "r": "Self or Touch: Others",
     "i": "\"The mists of corrosion surround thee\" x3",
-    "m": "3 Red Strips",
+    "m": "Three Red Strips",
     "e": "Bearer may cast Destroy Armor by announcing \"<i>[Player] the mists of corrosion destroy your [armor location] armor</i>\". Bearer must remove a strip after each use of Destroy Armor",
     "n": "Corrosive Mist is removed when the last strip is removed"
   },
@@ -724,7 +725,7 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Touch: Others",
-    "i": "\"I enchant thee with essence graftr\" x3",
+    "i": "\"I enchant thee with essence graft\" x3",
     "m": "Yellow Strip",
     "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer’s Enchantment limit",
     "l": "Bearer may only wear (m) Enchantments from the caster of Essence Graft. This ability may not be used in conjunction with any other similar ability or magic"
@@ -781,7 +782,7 @@
     "r": "Touch: Others",
     "i": "Tie strip on target: \"May the blessing of my god protect thee\" x3",
     "m": "White Strip",
-    "e": "The target player gains either <a href=\"/states/#Immune\" data-ajax=\"false\">Immunity</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immunity to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
+    "e": "The target player gains either <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immune to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
     "l": "Type of Ability must be chosen at the time of casting and may not be changed. The caster may only have one instance of Extend Immunities active at a time"
   },
 
@@ -957,21 +958,6 @@
     "e": "Bearer is Immune to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
     "l": "A caster may only have a single Golem Enchantment active at a time",
     "n": "Greater Mend and Word of Mending will not remove a wound"
-  },
-
-  "snaringvines": {
-    "name": "Snaring Vines",
-    "keywords": "druid enchantment command",
-    "classes": {
-      "Druid": "6"
-    },
-    "t": "Enchantment",
-    "s": "Command",
-    "r": "Self",
-    "i": "\"The hands of the earth rise to your bidding\" x3",
-    "m": "3 Red Strips",
-    "e": "Bearer may cast Hold Person by announcing \"[Player] stop at my command.\" Bearer must remove an Enchantment strip after each use of Hold Person",
-    "n": "Snaring Vines is removed when the last strip is removed"
   },
 
   "greaterharden": {
@@ -1559,7 +1545,7 @@
     "i": "\"I enchant thee with Protection from Projectiles\" x3",
     "m": "White Strip",
     "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player",
-    "n": "Equipment can still be affected by projectiles"
+    "n": "Equipment can still be affected by projectiles. Does not protect bearer against Magic Balls"
   },
 
   "pyrotechnics": {
@@ -1688,7 +1674,7 @@
     "r": "Self",
     "i": "\"Sanctuary\"",
     "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20’. Must Chant \"sanctuary\". Player may normally end Sanctuary at any time by ceasing to chant, or by picking up a weapon with their hand",
-    "l": "Player may not   carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a non-friendly base",
+    "l": "Player may not activate this ability while they have any weapons in hand and cannot carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a nonfriendly base",
     "n": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20’ of a friendly base, and must continue chanting until there. Player is still susceptible to Phase Bolt and Phase Arrow"
   },
 
@@ -1816,6 +1802,21 @@
     "e": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer’s Enchantment Limit"
   },
 
+  "snaringvines": {
+    "name": "Snaring Vines",
+    "keywords": "druid enchantment command",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Enchantment",
+    "s": "Command",
+    "r": "Self",
+    "i": "\"The hands of the earth rise to your bidding\" x3",
+    "m": "Three Red Strips",
+    "e": "Bearer may cast Hold Person by announcing \"[Player] stop at my command.\" Bearer must remove an Enchantment strip after each use of Hold Person",
+    "n": "Snaring Vines is removed when the last strip is removed"
+  },
+
   "sniper": {
     "name": "Sniper",
     "keywords": "archer sorcery",
@@ -1823,7 +1824,7 @@
       "Archer": "6"
     },
     "t": "Archetype",
-    "s": "Sorcery",
+    "s": "Neutral",
     "e": "Player may physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3",
     "l": "May not fire normal arrows. Only one type of Specialty￼Arrow may be charged at any given time"
   },
@@ -1924,8 +1925,8 @@
     "r": "Self",
     "i": "\"I sing of my numerous close calls\"",
     "m": "No strip required",
-    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom",
-    "l": "Once Song of Survival has activated to protect the bearer it may not activate again on the same life. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant \"Song of Survival\" or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "l": "Once Song of Survival has activated to protect the bearer it may not activate again on the same life",
     "n": "Bearer may end the Insubstantial state caused by Song of Survival at any time with the standard Incantation"
   },
 
@@ -2129,7 +2130,7 @@
     "r": "20",
     "i": "\"Death makes thee terrified\" x3",
     "e": "Target may not attack or cast magic at the caster. Target must remain at least 50’ away from the caster unless forced there by another Magic or Ability. Lasts 30 seconds",
-    "n": "If the caster attacks or begins casting another magic at the target, this spell’s effect is negated"
+    "n": "If the caster attacks the target, begins casting another magic at the target, or dies, this spell’s effect is negated"
   },
 
   "throw": {
@@ -2241,7 +2242,7 @@
     "r": "Self",
     "i": "\"The power of magic defends me\" x3",
     "m": "White Strip",
-    "e": "Resistant to all effects from the next source which would inflict a Wound, Death, or State. Does not trigger against effects cast by the player"
+    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, or State. Does not trigger against effects cast by the player"
   },
 
   "warder": {
