@@ -225,8 +225,8 @@
     "s": "Spirit",
     "r": "Self/Touch: Others",
     "i": "\“Be a bastion of healing\” x3",
-    "m": "4 Yellow strips",
-    "e": "Bearer is Stopped. Bearer may cast Greater Heal by announcing \"[Player] thou art made whole\". Bearer must remove an Enchantment strip after each use of Greater Heal",
+    "m": "3 Yellow strips",
+    "e": "Bearer may cast Heal by announcing \“<Player> thou art made whole\”. Bearer must remove an Enchantment strip after each use of Heal",
     "n": "Battlefield Triage is removed when the last strip is removed"
   },
 
@@ -456,7 +456,7 @@
     "name": "Corrosive Mist",
     "keywords": "druid enchantment death",
     "classes": {
-      "Druid": "1"
+      "Druid": "2"
     },
     "t": "Enchantment",
     "s": "Death",
