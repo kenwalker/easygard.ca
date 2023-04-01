@@ -21,7 +21,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-   ruby 3.1.4p223
+   ruby 2.7.8p225
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
