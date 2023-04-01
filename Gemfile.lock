@@ -10,6 +10,7 @@ GEM
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
     tilt (1.4.1)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
@@ -17,6 +18,7 @@ PLATFORMS
 DEPENDENCIES
   json
   sinatra
+  webrick
 
 RUBY VERSION
    ruby 3.1.4p223
