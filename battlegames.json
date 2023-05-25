@@ -638,7 +638,20 @@
   	"types": [ "class", "militia"],
   	"description": "<br>This game is a timed game, with rounds being 15 to 30 minutes long depending on game size. Each round, one Team takes a turn playing Humans (i.e. full Class, or Militia rules) against the opposing Team(s) playing Goblins.<p>The Human team has either a Player Life Pool (4 or 5 is suggested) or a Team Life Pool (2-5x the number of players is suggested), and Goblins have unlimited lives. Humans will Respawn at their Base after a 60 second count, and Goblins will Respawn at their Base after only 20 seconds.<p>Each time a Goblin is killed (i.e. returning to play via Respawn, not <i>Superior Numbers</i>), they must record their death with the Base Reeve. After each team has taken a turn playing Humans, the team with the most Goblin kills wins.<p>To add some complexity to the game, Human teams must select a \"Captain\", and the Goblin team may be asked to substitute any number of players for \"Orcs\".<p>Captains are worth 20 points when killed, and cannot be removed from play by any means (in that they are immune to the Frozen, Insubstantial, and Out of Game States). This will be the only way that the Team playing Goblins can score points during those rounds. (If there are multiple Teams playing Goblins at one time, points are attributed to all current Goblin Teams.)<p>Orcs are worth 4 points when killed. They may choose to either play the Orc Monster Class, or any player class that the player has access to at 1st level. They return to play after an 80 second Respawn count."
 	},
-  "thepurge": {
+	"thekingscrown": {
+		"name": "The Kings Crown",
+		"credit": "Valeria Ironscales",
+		"teams": "2",
+		"lives": "Unlimited",
+		"respawn": "30 seconds",
+		"players": "5+",
+		"objective": "Get as much treasure as possible",
+		"refresh": "2+",
+		"types": [ "class", "militia"],
+		"equipment": "Water markers, bridge markers, treasure",
+		"description": "<br>15 mins play time<br>2 points of armor or less slow walk through water anything above drowns and dies in the water<br>Looting 5 count for treasure in the water<br>One treasure can be held in any open hand. Crown can be worn as another treasure<br>Crown wearer has one extra point of armor everywhere (if no armor then 1 point natural armor while crown is worn)<br>Crown can be looted from players looting 3 count<br>When you are killed all treasure must be dropped<br>You can loot from the opponents treasure chest looting 5 count<br>Game items (treasure) can not be carried in any game altering State (insub, sanctuary, ect.)<br><br>One side will be protecting the treasure in the river, the other side will be trying to get to the treasure in the river and get the crown the crown is worth the most points after 15 minutes the two teams will switch sides the team that was getting the treasure will now be defending the treasure and vice versa. This game can be played  militia or class. The river is 25 ft wide there's a 10 ft wide bridge going over the river the river goes on infinitely past whatever marker. The defending team can loot from the offending teams treasure chest it's a looting 5 count. Crown is worth 5 Points any other treasure is worth 2 points will be tallied at the end of each round"
+	  },
+	"thepurge": {
     "name": "The Purge",
     "credit": "Dorcas",
     "teams": "2",
