@@ -41,7 +41,7 @@
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
     			<h3>States Defined</h3>
-    			<p>All abilities and magics (with a few exceptions) make use of a small set of common terms to explain the result they have on the player. These results are referred to as a ‘State’ or ‘States’. A player can have any number of different States simultaneously. A State may have a duration, after which it expires. If a player would gain a State they are already affected by, the State’s duration will simply be adjusted to the new duration if it is longer than the current duration. A State without a duration continues until it is removed by some outside force or until a condition is met. Unless otherwise noted, all States are removed when a player dies and cannot apply to dead players. A State conferred by a class Trait, such as Immunity to Subdual, is always on and may not be removed by respawn, death, or any other means. States imparted at the same time as a killing blow are considered to have taken effect prior to death.  If a State which prevented a player from moving expires due to its duration ending, the player it affected must declare, “No longer [State that ended]”. This must be audible out to 20 feet. If a State which prevented a player from moving expires due to its duration ending, the player it affected must declare, “No longer [State that ended]”. This must be audible out to 20 feet.<p>
+    			<p>All abilities and magics (with a few exceptions) make use of a small set of common terms to explain the result they have on the player. These results are referred to as a ‘State’ or ‘States’. A player can have any number of different States simultaneously. A State may have a duration, after which it expires. If a player would gain a State they are already affected by, the State’s duration will simply be adjusted to the new duration if it is longer than the current duration. A State without a duration continues until it is removed by some outside force or until a condition is met. Unless otherwise noted, States cannot apply to dead players and are removed when a player dies or has an effect activate which allows the player struck to avoid death (Undead Minion, Greater Undead Minion, Troll Blood, Phoenix Tears, Song of Survival). A State conferred by a class Trait, such as Immunity to Subdual, is always on and may not be removed by respawn, death, or any other means. States imparted at the same time as a killing blow are considered to have taken effect prior to death. If a State which prevented a player from moving expires due to its duration ending, the player it affected must declare, “No longer [State that ended]”. This must be audible out to 20 feet<p>
             </div>
 
 	</div><!-- /footer -->
@@ -91,7 +91,7 @@
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
     			<h3>Cursed</h3>
-				<p>Player becomes Immune to Spirit. Cursed persists after death but is removed at Respawn. Has no effect on magic or abilities already cast or ongoing</p>
+				<p>Player becomes Immune to Spirit. Has no effect on magic or abilities already cast or ongoing. Cursed persists after death but is removed on Respawn. Cursed imparted by an Enchantment cannot be removed in any way while the Enchantment is worn, whether it is active or inactive. If the Enchantment is removed, Cursed is not removed unless otherwise noted</p>
 				<p><a href="/states/" data-ajax="false">Return to all States</>
             </div>
 
@@ -135,7 +135,7 @@
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
     			<h3>Frozen</h3>
-    			<p>Player may not move, speak, or take any action. Can only be affected by mechanics that work on States in general (such as Release) or Frozen in specific (such as Shatter). Otherwise player and their equipment is not affected by combat, magic, etc.</p>
+    			<p>Player may not move, speak, or take any action. Can only be affected by mechanics that work on States in general (such as Release) or Frozen in specific (such as Shatter). Otherwise the player and their carried or worn equipment is not affected by combat, magic, etc</p>
 				<p><a href="/states/" data-ajax="false">Return to all States</>
             </div>
 
@@ -157,11 +157,18 @@
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
     			<h3>Immune</h3>
-    			<p>The bearing player or object is not affected by Magic or Abilities from a given School.  Immunities always take affect after Traits but before Resistances and any other abilities. Immunity granted as a Trait does not prevent players from making use of their own class Abilities. Unless otherwise noted, Immunities do not extend beyond the player or object that has them. Example: A player with Immunity to Flame can still have his armor destroyed by a Fireball. Unless otherwise noted, players with Immunities may still be targeted by Magic and Abilities of the given School. Example: A player with Immunity to Flame can still be the target of Pyrotechnics which would still destroy their equipment (as Immunities do not extend to equipment unless noted). Immunities do not interact with Enchantments worn by the player.<br>
-    			<i>Example One</i>: An Anti-paladin may wear the Flameblade Enchantment<br>
-    			<i>Example Two</i>: A player with Protection From Magic still gains Stopped if Corrosive Mist is later cast on them<br>
-    			<i>Example Three</i>: A player may still benefit from the Heal from Regeneration, even if they are Cursed<br>
-    			<i>Example Four</i>: A player with Greater Undead Minion and Enlightened Soul would still have their enchantment removed when Banish is cast on them while insubstantial</p>
+				<p>The bearing player or object is not affected by Magic or Abilities from a given School.<br>
+				Unless otherwise noted:
+				</p>
+				<ol>
+					<li>Immunities always take effect after Traits but before Resistances and any other effects</li>
+					<li>Immunity granted as a Trait does not prevent players from making use of their own class Abilities</li>
+					<li>Unless otherwise noted, Immunities do not extend beyond the player or object that has them. Example: A player with Immunity to Flame can still have their armor destroyed by a Fireball</li>
+					<li>If a player is Immune to an effect which would remove a State or ongoing effect, the State/ongoing effect is not removed. Example: A player who is Immune to Sorcery cannot be Released from Frozen, as they cannot be affected by Release, a Sorcery school ability</li>
+					<li>Players with Immunities may still be targeted by Magic and Abilities of the given School. Example: A player with Immunity to Flame can still be the target of Pyrotechnics which would still destroy their equipment (as Immunities do not extend to equipment unless noted)</li>
+					<li>Immunities do not interact with Enchantments worn by the player. Example One: An Anti-paladin may wear the Flame Blade Enchantment. Example Two: A player with Protection From Magic still gains Stopped if Heart of the Swarm is later cast on them. Example Three: A player may still benefit from the Heal from Regeneration, even if they are Cursed. Example Four: A player with Greater Undead Minion and Enlightened Soul would still have their enchantment removed when Banish is cast on them while insubstantial</li>
+					<li>A target becoming Immune to the source of an ongoing effect or State while it is applied does not remove ongoing effects or States currently affecting the target. Example: If a player who is Stopped by Hold Person casts Song of Determination on themselves, that player remains Stopped</li>
+				</ol>
 				<p><a href="/states/" data-ajax="false">Return to all States</>
             </div>
 
@@ -187,16 +194,15 @@
 				<ol>
 				<li>May not move from their starting location unless otherwise noted. This is different from Stopped in that you can still move your feet</li>
 				<li>Are incapable of physically interacting with game items, objectives, or other players in any way unless otherwise noted. This does not prevent you from retrieving equipment</li>
-				<li>Can only be affected by mechanics that work on States in general (such as Release) or Insubstantial in specific (such as Dimensional Rift). Player and their equipment are otherwise unaffected by combat, magic, etc</li>
+				<li>Can only be affected by mechanics that work on States in general (such as Release) or Insubstantial in specific (such as Dimensional Rift). Player and their carried or worn equipment are otherwise unaffected by combat, magic, etc</li>
 				<li>Are not affected or stopped by game terrain such as walls, lava pits, traps, etc unless otherwise indicated by the reeve or game designer</li>
 				<li>May be seen and heard</i>
                 <li>May see and hear</li>
 				<li>May Charge abilities</li>
 				<li>May not target others unless otherwise noted. May only target themselves with magic and abilities that are able to affect insubstantial players</li>
-				<li>May use Magic and Abilities on themselves if the Magic and Abilities are able to affect Insubstantial players</li>
-				<li>May remove this State from themselves at any time by Incanting “I return to the physical world” x2 provided they are the cause of the State and entered it voluntarily. Otherwise they must end the State as per the description of the responsible Magic or Ability</li>
-				<li>Insubstantial triggered from enchantments worn is not considered voluntary</li>
+				<li>May remove this State from themselves at any time by Incanting "<b>I return to the physical world</b>” x2 provided they are the cause of the State and entered it voluntarily. Otherwise they must end the State as per the description of the responsible Magic or Ability</li>
 				<li>The ending Incantation for Insubstantial is not interrupted by the player moving their feet, and does not require a free hand</li>
+				<li>Insubstantial triggered from enchantments worn is not considered voluntary</li>
 				<li>Must indicate their Insubstantial State by saying “Insubstantial” if asked, attacked, or targeted by a Magic or Ability</li>
 				<li>May not delay the game excessively. For instance, you may not use the Insubstantial State to avoid being killed if you are the last player alive in a Mutual Annihiliation battlegame. The reeves decision in these situations is final</li></ol></p>
 				<p><a href="/states/" data-ajax="false">Return to all States</>
