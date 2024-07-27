@@ -8,29 +8,21 @@
 <% @loaded = 'true' %>
 
 	<div role="main" class="ui-content">
-            <ul data-role="listview" data-inset="true" data-icon="false">
-               <li><a href="#ArmorMadeEasy">Armor Made Easy</a></li>
-               <li data-role="list-divider">Types of Armor</li>
-               <li><a href="#SyntheticArmor">Synthetic Armor</a></li>
-               <li><a href="#ClothArmor">Cloth Armor</a></li>
-               <li><a href="#LightLeatherArmor">Light Leather Armor</a></li>
-               <li><a href="#StrongLeatherArmor">Strong Leather Armor</a></li>
-               <li><a href="#ChainmailArmor">Chainmail Armor</a></li>
-               <li><a href="#ButtedPlateArmor">Butted Plate Armor</a></li>
-               <li><a href="#ScaleArmor">Scale Armor</a></li>
-               <li><a href="#LamellarArmor">Lamellar Armor</a></li>
-               <li><a href="#BrigandineArmor">Brigandine Armor</a></li>
-               <li><a href="#PlateArmor">Plate Armor</a></li>
-            </ul>
-
+	<p>This is my interpretation of the AICOM 2024 documentation and is subject to change after the 
+	release of the updated rulebook</p>
+		<ul data-role="listview" data-inset="true" data-icon="false">
+			<li><a href="#ArmorRatingAndSafety">Armor Rating and Safety</a></li>
+			<li><a href="#ArmorTypesAndModifiers">Armor Types and Modifiers</a></li>
+			<li><a href="#ArmorMaterialThicknessRequirements">Armor Material Thickness Requirements</a></li>
+			<li><a href="#ConstructionRequirementsByType">Construction Requirements by Type</a></li>
+		</ul>
 	</div><!-- /footer -->
-
 	</div><!-- /content -->
 
 </div><!-- /page -->
 
-<!-- Armor Made Easy Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="ArmorMadeEasy">
+<!-- Armor Rating and Safety -->
+<div data-role="page" class="jqm-demos jqm-home" id="ArmorRatingAndSafety">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -39,19 +31,14 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Armor Made Easy</h3>
-    			<p>The armor rules can look intimidating at first glance but it can be boiled down to a few simple rules that allow you to interact with the armor system in combat.</p>
-				<p>Armor stops hits by losing points in the location it is hit. Once a location is out of points the armor doesn’t stop hits anymore and the player is hit. All hits remove a single point from the armor in the location struck unless the strike is Armor-Breaking or Armor-Destroying. The three most common Armor-Breaking strikes are from an arrow, a great weapon swung two-handed, or a strike from a Barbarian. Armor-Destroying strikes are much rarer.</p>
-				<p><a href="/states/#SpecialEffects" data-ajax="false">Armor-Breaking</a> strikes will reduce the armor to zero in the location struck unless the player struck is wearing more than three points of armor in that location. That can only happen if they are playing Warrior, Paladin, or Anti-Paladin.If the player struck has more than three points of armor in the location struck, then all hits to their armor remove a single point until they are at three points or less and then it behaves as stated earlier.</p>
-				<p><a href="/states/#SpecialEffects" data-ajax="false">Armor-Destroying</a> strikes will reduce armor to zero in the location struck regardless of how much armor remains.</p>
-				<p>Keeping track of your own armor is simple. If you are playing any class other than Warrior, Paladin, or Anti-Paladin then each hit removes a single point of armor unless it’s one of the above types of strikes, which reduces your armor to zero. If you are playing a Warrior, Paladin, or Anti-Paladin and wearing more than three points of armor then all Armor Breaking strikes do one point in the location struck until you get to three points, and then it behaves as above. An Armor-Destroying strike gets rid of all of the armor, period.</p>
-				<p>Determining the approximate amount of armor worn by a player is easy to do at a glance:
-				<ul>
-				<li>Non-metal armors are always three points or less. Non-rigid metal armors are four points or less. Only rigid armors can reach more than four points.</li>
-				</ul>
-				<p>There are a few more magical effects and abilities that interact in different ways with
-				armor, but this covers the vast majority of the situations encountered on the field
-				of play. If you want more information read the Magic and Abilities sections. If you run into a situation you are not sure of you can always ask a reeve or the player who affected you.</p>
+    			<h3>Armor Rating and Safety</h3>
+				<ol>
+				<li>Armor that is of mixed values across the same area will be averaged based on the percentage of each type of coverage of the area, rounding fractions to the nearest whole number. Example: An arm with a Plate bracer (6 AP) covering 50% of the arm and a Cloth/Padded sleeve (1 AP) covering 50% of the arm will result in an armor value of (6 x 0.5) + (1 x 0.5) = 3.5, which rounds up to 4 AP across the entire location</li>
+				<li>Straps and other such material that hold your armor on do not count as part of the armor, for either coverage or averaging purposes, unless they are specifically built as such. Example: the leather strap across your back holding on your steel breastplate does not protect you from hits</li>
+				<li>Armor that is initially rated as zero points does not count as armor. Armor that has been depleted continues to be considered armor, but does not continue to stop wounds until restored</li>
+				<li>Obviously modern materials and obviously modern protective gear such as sports shin pads and hockey chest pads may never be considered as armor; such materials and items may be used as a base for armor, but the final product must have the appearance of actual armor rather than modern protective gear. Wholly inappropriate materials such as cardboard, tinfoil, and foam may never be considered as armor</li>
+				<li>All armor must be safe, with no protruding edges that could injure someone. All corners on any armor that will not deform under contact must come to a point no sharper than the radius of a penny</li>
+				</ol>
             </div>
 
 	</div><!-- /footer -->
@@ -59,10 +46,10 @@
 	</div><!-- /content -->
 
 </div>
-<!-- Armor Made Easy Page /page -->
+<!-- Armor Rating and Safety /page -->
 
-<!-- Synthetic Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="SyntheticArmor">
+<!-- Armor Types and Modifiers -->
+<div data-role="page" class="jqm-demos jqm-home" id="ArmorTypesAndModifiers">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -71,18 +58,69 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Synthetic Armor</h3>
-    			<p>Material such as vinyl, naugahyde, ABS plastic, etc</p>
-    			<b>Base Armor Points:</b> 1<br>
-    			<b>Maxiumum Armor Points:</b> 2<br>
-    			<b>Requirements:</b> Must be a minimum of 1/8” (0.125") thick. Must not be obviously synthetic in appearance<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				Material is at least 1/4” (0.25") thick either as a single piece or through the permanent attachment of several layers</li>
-					<li><b>Gambeson:</b> +1<br>
-					The armor is worn over a Gambeson</li>
-    			</ul>
+    			<h3>Armor Types and Modifiers</h3>
+				<p>Each Armor Type is rated with base points equal to its tier. Armor may also receive Armor Point bonuses and penalties. These modifiers may not result in the armor type receiving more than its maximum rating, except for Heavy Helms.</p>
+				<table data-role="table" id="table-custom-lvl6-wizard" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+				<caption style="text-align:center;">Armor Types</caption>
+				<thead>
+				  <tr class="ui-bar-d">
+					<th data-priority="1" style="text-align:center;">Tier</th>
+					<th data-priority="2" style="text-align:center;">Max Pts</th>
+					<th data-priority="3">Armor Types</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td style="text-align:center;">1</td>
+					<td style="text-align:center;">2</td>
+					<td>Cloth/Padded</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:center;">2</td>
+					<td style="text-align:center;">3</td>
+					<td>Light Leather, Flexible Synthetic</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:center;">3</td>
+					<td style="text-align:center;">4</td>
+					<td>Heavy Leather, Butcher’s Mail, Rigid Synthetic</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:center;">4</td>
+					<td style="text-align:center;">5</td>
+					<td>Light Scale, Chainmail</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:center;">5</td>
+					<td style="text-align:center;">6</td>
+					<td>Heavy Scale, Butted Plate (Splint, Kikko, etc)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:center;">6</td>
+					<td style="text-align:center;">7</td>
+					<td>Lamellar, Laminar, Brigandine, Plate</td>
+				  </tr>
+				  <tr>
+					<td colspan="2" style="text-align:center;">Special</td>
+					<td>Ambiguous Armor</td>
+				  </tr>
+				</tbody>
+			  </table>
+			  <br>
+			  <h3>Appearance</h3>
+			  <p>Exceptionally aesthetically pleasing armor may be awarded a bonus point. Armor that is well below standard in appearance may be given an armor penalty</p>
+			  <h3>Construction</h3>
+			  <p>Exceptionally durable or well-crafted armor may be given an armor bonus. Some examples of this would be being made from at least 75% steel, being made of significantly thicker material than standard, riveted or welded chainmail rings, and so on. An armor penalty may be given if armor is in poor repair, is made of thinner materials than standard, and so forth</p>
+			  <h3>Layered Armor Bonus</h3>
+			  <p>Where multiple layers of armor overlap, such as chainmail over cloth or leather over chainmail, the overlapping area is rated at one point higher than the highest rated armor’s usual rating</p>
+			  <h3>Helm Bonus</h3>
+			  <p>
+			  	Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms
+				<ol>
+					<li>Light Helms must meet the requirements of at least a Tier 2 armor type. The torso armor bonus received for a Light Helm may not exceed the maximum value for the armor type</li>
+					<li>Heavy Helms must meet the requirements of at least a Tier 4 armor type. The torso armor bonus received from a Heavy Helm may allow the wearer to exceed the maximum value for the armor type</li>
+				</ol>
+			  </p>
             </div>
 
 	</div><!-- /footer -->
@@ -90,10 +128,10 @@
 	</div><!-- /content -->
 
 </div>
-<!-- Synthetic Armor /page -->
+<!-- Armor Types and Modifiers /page -->
 
-<!-- Cloth Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="ClothArmor">
+<!-- Armor Material Thickness Requirements -->
+<div data-role="page" class="jqm-demos jqm-home" id="ArmorMaterialThicknessRequirements">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -102,12 +140,84 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Cloth Armor</h3>
-    			<p>This fabric armor offers minimal protection from penetration and impact</p>
-    			<b>Base Armor Points:</b> 1<br>
-    			<b>Maxiumum Armor Points:</b> 2<br>
-    			<b>Requirements:</b> Must be a minimum of 1/16” (0.06") thick when fully compressed. Must not be easily mistaken as regular garb<br>
-    			<b>Armor Specific Modifiers:</b> None<br>
+    			<h3>Armor Material Thickness Requirements</h3>
+				<table data-role="table" id="table-custom-lvl6-wizard" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+				<caption style="text-align:center;">Armor Material Thickness Requirements</caption>
+				<thead>
+				  <tr class="ui-bar-d">
+					<th data-priority="1" style="text-align:center;">Material</th>
+					<th data-priority="2" style="text-align:center;">Minimum</th>
+					<th data-priority="3" style="text-align:center;">Standard</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td style="text-align:right;">Cloth</td>
+					<td style="text-align:center;">Cannot be substandard</td>
+					<td style="text-align:center;">1/16"</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Light Leather</td>
+					<td style="text-align:center;">4oz (1/16”)</td>
+					<td style="text-align:center;">6oz (3/32”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Flexible Synthetic</td>
+					<td style="text-align:center;">Cannot be substandard</td>
+					<td style="text-align:center;">3/32”</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Heavy Leather</td>
+					<td style="text-align:center;">Cannot be substandard</td>
+					<td style="text-align:center;">10oz (5/32”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Rigid Non-Metal/Rigid Synthetic</td>
+					<td style="text-align:center;">Cannot be substandard</td>
+					<td style="text-align:center;">3/16”</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Aluminum Round Rings</td>
+					<td style="text-align:center;">18ga swg (0.048”)</td>
+					<td style="text-align:center;">16ga swg (0.064”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Aluminum Flat Rings</td>
+					<td style="text-align:center;">20ga swg (0.048”)</td>
+					<td style="text-align:center;">18ga swg (0.048”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Aluminum Scales</td>
+					<td style="text-align:center;">20ga (0.030”)</td>
+					<td style="text-align:center;">18ga (0.040”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Aluminum Sheet Metal</td>
+					<td style="text-align:center;">18ga (0.040”)</td>
+					<td style="text-align:center;">16ga (0.051”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Steel Round Rings</td>
+					<td style="text-align:center;">20ga swg (0.036”)</td>
+					<td style="text-align:center;">18ga swg (0.048”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Steel Flat Rings</td>
+					<td style="text-align:center;">22ga swg (0.028”)</td>
+					<td style="text-align:center;">20ga swg (0.036”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Steel Scales</td>
+					<td style="text-align:center;">22ga (0.030”)</td>
+					<td style="text-align:center;">20ga (0.036”)</td>
+				  </tr>
+				  <tr>
+					<td style="text-align:right;">Steel Sheet Metal</td>
+					<td style="text-align:center;">20ga (0.036”)</td>
+					<td style="text-align:center;">18ga (0.048”)</td>
+				  </tr>
+				</tbody>
+			  </table>
             </div>
 
 	</div><!-- /footer -->
@@ -115,10 +225,10 @@
 	</div><!-- /content -->
 
 </div>
-<!-- Cloth Armor /page -->
+<!-- Armor Material Thickness Requirements /page -->
 
-<!-- Light Leather Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="LightLeatherArmor">
+<!-- Construction Requirements by Type -->
+<div data-role="page" class="jqm-demos jqm-home" id="ConstructionRequirementsByType">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -126,269 +236,35 @@
 <% @loaded = 'true' %>
 
 	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Light Leather Armor</h3>
-    			<p>This animal skin or fur armor offers minimal protection from penetration and impact</p>
-    			<b>Base Armor Points:</b> 1<br>
-    			<b>Maxiumum Armor Points:</b> 2<br>
-    			<b>Requirements:</b> Must be a minimum of 1/16” (0.06") thick, or 2mm (0.08") thick leather alternative (PU leather, Pleather, Faux Fur). Must not be obviously synthetic in appearance<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Cuirboilli:</b> +1<br>
-    				The leather has been made rigid through boiling, wax impregnation, lacquering, or a similar process</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    			</ul>
-            </div>
+		<div class="jqm-block-content">
+			<h3>Construction Requirements by Type</h3>
+			<p>All armor must meet certain construction requirements according to its type</p>
+			<ol>
+				<li>Armor that is made from materials thinner than the minimum thickness is not allowed</li>
+				<li>Armor that is made from materials significantly above the standard may qualify for the Superior Construction bonus</li>
+				<li>All Tier 4-6 armor is assumed to be made of metal, as well as butcher’s mail</li>
+				<li>If an armor type is not listed here, it has no special construction requirements beyond material thickness</li>
+			</ol>
+			<h3>Butcher’s Mail/Sharkmail</h3>
+			<p>This armor type is for machine-welded chain mesh. There are no material thickness requirements for this armor, and it may receive no modifiers for superior construction. Any weave pattern is permitted, but it must not allow a 1/8" dowel to pass through</p>
+			<h3>Rigid Non-Metal/Synthetic Armor</h3>
+			<p>Rigid armor that utilizes unusual materials must meet any non-material requirements for the style of armor that it is mimicking. The density of the material must be at least equal to 0.9g/cm³, equal to HDPE plastic</p>
+			<h3>Chainmail</h3>
+			<p>Any weave is permitted, but a 1/2" dowel must not pass through. Rings must have an aspect ratio (AR) of 8 or less</p>
+			<h3>Light Scale</h3>
+			<p>Scales must overlap by at least 10%, and the backing must not be visible through the scales. Scales are individually mobile</p>
+			<h3>Heavy Scale</h3>
+			<p>Scales must overlap by at least 10%, and the backing must not be visible through the scales. Scales are held rigidly together</p>
+			<h3>Butted Plate (Splint, Kikko, etc)</h3>
+			<p>Plates are spaced no more than 1/2" apart, and cover at least 75% of the armor</p>
+			<h3>Lamellar/Laminar</h3>
+			<p>Plates must overlap by at least 10%, and connect to one another with no supportive backing</p>
+		</div>
 
 	</div><!-- /footer -->
 
 	</div><!-- /content -->
 
 </div>
-<!-- Light Leather Armor /page -->
+<!-- Construction Requirements by Type /page -->
 
-<!-- Strong Leather Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="StrongLeatherArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Strong Leather Armor</h3>
-    			<p>This thick leather armor provides some amount of protection from impact and penetration</p>
-    			<b>Base Armor Points:</b> 2<br>
-    			<b>Maxiumum Armor Points:</b> 3<br>
-    			<b>Requirements:</b> Must be a minimum of 3/16” (0.19") thick<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Cuirboilli:</b> +1<br>
-    				The leather has been made rigid through boiling, wax impregnation, lacquering, or a similar process</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				The leather is at least 1/4” thick either as a single piece or through the permanent attachment of several layers</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Strong Leather Armor /page -->
-
-<!-- Chainmail Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="ChainmailArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Chainmail Armor</h3>
-    			<p>This flexible armor is comprised of a tight weave of interlocked metal rings that provides good protection against penetration and some protection from impact. The standard weave for chainmail is 4-in-1 European. Weaves containing less metal qualify as inferior construction</p>
-    			<b>Base Armor Points:</b> 3<br>
-    			<b>Maxiumum Armor Points:</b> 4<br>
-    			<b>Requirements:</b> Any weave is permitted, but must not allow a 1/2” diameter dowel to pass through it. Minimum 1.58mm (0.06") (16 gauge) diameter round steel rings. Flat rings must be at least 1.22mm (0.05")(18 gauge) thick along their thinnest axis. Maximum ring inner diameter of 3/8” (0.38")<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				The rings are at least 1.9mm (0.07") (14 gauge) in diameter. Flat rings must be at least 1.58mm (0.06") (16 gauge) thick along their thinnest axis</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    				<li><b>Dense Weave:</b> +1<br>
-    				Must not allow a 1/8” (0.125") diameter dowel to pass through it</li>
-    				<li><b>Solid Rings:</b> +1<br>
-    				All of the rings are permanently joined so that they may not separate. Examples are riveting, welding, or solid-cast rings</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Chainmail Armor /page -->
-
-<!-- Butted Plate Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="ButtedPlateArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Butted Plate Armor</h3>
-    			<p>Armor comprised of numerous steel plates that are attached to a backing, linked by cord or chain, or by some other method. This armor is flexible with numerous seams and joints between plates. This armor will deform locally when struck rather than spreading out impact over a large area. It provides fair protection against both penetration and impact</p>
-    			<b>Base Armor Points:</b> 3<br>
-    			<b>Maxiumum Armor Points:</b> 4<br>
-    			<b>Requirements:</b> Plates must be at least 1.22mm (0.05")(18 gauge) steel. Plates must be spaced no more than 1/2” apart. Plates must cover at least 80% of the exposed area of the armor<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				The plates are at least 1.58mm (0.06") (16 gauge)</li>
-    				<li><b>Heavy Backing:</b> +1<br>
-    				The plates are attached to a backing of Strong Leather</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    				<li><b>Rigid:</b> +1<br>
-    				The plates are attached to a rigid backing in such a way as to create armor which does not deform locally on impact</li>
-    				<li><b>No Gaps:</b> +1<br>
-    				The plates are attached in such a fashion as to provide a continuous layer without gaps between plates</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Butted Plate Armor /page -->
-
-<!-- Scale Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="ScaleArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Scale Armor</h3>
-    			<p>This armor is created by overlapping many metal plates which are attached along only one edge. Individual scales are not held into rigid contact with the others, thus providing less protection from penetration and impact than other overlapping metal armors. Scale offers fair penetration and impact resistance</p>
-    			<b>Base Armor Points:</b> 3<br>
-    			<b>Maxiumum Armor Points:</b> 4<br>
-    			<b>Requirements:</b> Scales must be at least 1.22mm (0.05") (18 gauge) steel. Scales must overlap by at least 10%. The backing must not be visible through the scales<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Fluted:</b> +1<br>
-    				Each plate has been fluted for additional strength and rigidity</li>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				Each plate is at least 1.58mm (0.06") (16 gauge)</li>
-    				<li><b>Rigid:</b> +1<br>
-    				Each scale is attached to neighboring scales in such a fashion as to create a rigid shell rather than individually mobile scales</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Scale Armor /page -->
-
-<!-- Lamellar Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="LamellarArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Lamellar Armor</h3>
-    			<p>This armor is constructed from numerous plates connected to each other in an overlapping fashion by cord, chain link, or similar methods. Unlike scales the plates of this type of armor are firmly connected to each other in such a way that they resist penetration. Lamellar armor differs from other rigid metal armors in that it is not shaped to fit the body or articulated; mobility is instead provided by the small amount of flex and slack in the attachment between the individual plates. This armor provides good protection from both impact and penetration</p>
-    			<b>Base Armor Points:</b> 4<br>
-    			<b>Maxiumum Armor Points:</b> 5 (6 if both the Superior Overlap and Heavy Gauge modifiers are used)<br>
-    			<b>Requirements:</b> Plates must be at least 1.22mm (0.05") (18 gauge) steel. Plates must overlap by at least 10%. No backing is used for support; plates must connect directly to each other<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Fluted:</b> +1<br>
-    				Each plate has been fluted for additional strength and rigidity</li>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				Each plate is at least 1.58mm (0.06") (16 gauge)</li>
-    				<li><b>Superior Overlap:</b> +1<br>
-    				75% of plates overlap at least 25% of their surface area</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Lamellar Armor /page -->
-
-<!-- Brigandine Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="BrigandineArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Brigandine Armor</h3>
-    			<p>This armor is constructed from numerous shaped and fitted overlapping metal plates solidly connected along a supporting shell of heavy cloth (such as canvas, denim, or velvet) in such a way that when worn all plates are held together firmly without any gaps between them and follow the general contours of the body. This armor provides good protection against both impact and penetration</p>
-    			<b>Base Armor Points:</b> 4<br>
-    			<b>Maxiumum Armor Points:</b> 5 (6 if both the Superior Overlap and Large Plates modifiers are used)<br>
-    			<b>Requirements:</b> Plates must be at least 1.22mm (0.05") (18 gauge) steel. At least 75% of plates must overlap by at least 10% of their surface area. Plates need only be attached along one edge but must be held firmly against each other when the armor is worn. Plates must be shaped and fitted so as to follow the general contours of the wearer<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				Each plate is at least 1.58mm (0.06") (16 gauge)</li>
-    				<li><b>Superior Overlap:</b> +1<br>
-    				75% of plates overlap at least 25% of their surface area</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    				<li><b>Large Plates:</b> +1<br>
-    				At least 50% of the surface area of the armor is protected by individual large plates rather than numerous smaller plates. Each large plate must be at least 10% of the total size of the hit location</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Brigandine Armor /page -->
-
-<!-- Plate Armor Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="PlateArmor">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Plate Armor</h3>
-    			<p>Plate armor is the pinnacle of medieval armor and offers excellent protection against both impact and penetration. Plate armor armor forms a solid metal shell over the protected areas that spreads impact over a large surface area to mitigate concussive force. The individual metal pieces of plate armor are shaped and fitted to articulate together and follow the contours of the body. Plate armor will not deform locally when struck, but will instead behave as a single contiguous whole</p>
-    			<b>Base Armor Points:</b> 5<br>
-    			<b>Maxiumum Armor Points:</b> 6<br>
-    			<b>Requirements:</b> Metal used must be at least 1.22mm (0.05")(18 gauge) steel. At least 75% of the protected area must be covered by individual plates which cover at least 10% of the hit location; Plate is large individual contiguous pieces of metal connected together to form a whole, not a large number of smaller plates. Each plate must be firmly attached to all neighboring plates by strapping or metal-on-metal articulation in such a way as to form a rigid shell when worn. Armor may still be flexible where necessary for mobility<br>
-    			<b>Armor Specific Modifiers:</b><br>
-    			<ul>
-    				<li><b>Fluted:</b> +1<br>
-    				The armor has been fluted for additional strength and rigidity</li>
-    				<li><b>Heavy Gauge:</b> +1<br>
-    				Each plate is at least 1.58mm (0.06") (16 gauge)</li>
-    				<li><b>Metal Articulations:</b> +1<br>
-					At least 60% of articulations and connections between plates are metal-on-metal rather than metal-on-leather</li>
-    				<li><b>Gambeson:</b> +1<br>
-    				The armor is worn over a Gambeson</li>
-    			</ul>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
-</div>
-<!-- Plate Armor /page -->
