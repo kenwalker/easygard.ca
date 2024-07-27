@@ -23,6 +23,7 @@
                <li><a href="#Madu">Madu</a></li>
                <li><a href="#Hinged">Hinged</a></li>
                <li><a href="#Siege">Siege</a></li>
+               <li><a href="#MagicStaff">Magic Staff</a></li>
             </ul>
 
 	</div><!-- /footer -->
@@ -535,3 +536,31 @@
 
 </div>
 <!-- Siege /page -->
+
+<!-- Magic Staff Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="MagicStaff">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+	<div role="main" class="ui-content">
+    		<div class="jqm-block-content">
+    			<h3>Magic Staff</h3>
+				<ol>
+				<li>May not be used to strike</li>
+				<li>Between 36” and 72” long</li>
+				<li>Must be padded along their entire length</li>
+				<li>A player wielding a magic staff may not wield any other weapons or shields except for Daggers</li>
+				<li> Wielding a magic staff does not count against having an empty hand for the purpose of casting spells</li>
+				<li>May not be easily confused for a Reeve Staff or for a different category of weapon</li>
+				</ol>
+            </div>
+
+	</div><!-- /footer -->
+
+	</div><!-- /content -->
+
+</div>
+<!-- Magic Staff /page -->
