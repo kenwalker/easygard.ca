@@ -2,6 +2,8 @@
 <%  enchantmentsTouch = @allSpells.reject {|k,v|
           if (v['t'].casecmp('Enchantment')) == 0 && (v['r'].include? "Touch")
                false
+          elsif (v['t'].casecmp('Enchantment')) == 0 && (v['r'].include? "Other")
+               false
           else
                true
           end

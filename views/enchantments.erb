@@ -7,7 +7,7 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 <% @loaded = 'true' %>
 
-	<div role="main" class="ui-content">
+    <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li><a href="#enchantments-overview">Enchantments Overview</a></li>
                <li><a href="/enchantments/all" data-ajax="false">All Enchantments</a></li>
@@ -26,9 +26,9 @@
                <li><a href="/enchantments/yellow" data-ajax="false">Yellow Strips</a></li>
             </ul>
 
-	</div><!-- /footer -->
 
-	</div><!-- /content -->
+
+    </div><!-- /content -->
 
 </div><!-- /page -->
 
@@ -41,39 +41,45 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 <% @loaded = 'true' %>
 
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Enchantment Overview</h3>
-    			<p>Enchantments are ongoing magics and abilities that remain until they are used up or removed<br>
-    			<ol>
-					<li>Enchantments must be denoted by an appropriately colored strip attached to the enchanted person<br>
-					<ol type="a">
-						<li>Offensive enchantments are denoted by a red strip</li>
-						<li>Defensive enchantments are denoted by a white strip</li>
-						<li>Miscellaneous enchantments are denoted by a yellow strip</li>
-					</ol></li>
-					<li>Enchantments may only be carried one at a time by a player, unless otherwise noted. A player may not have more than one (ex) enchantment of the same name</li>
-					<li>Enchantments may only be cast on willing players</li>
-					<li>Enchantments are always placed on players. Some Enchantments carried by players affect the equipment they carry or use as noted in the Enchantments description</li>
-					<li>If a person bearing an Enchantment is killed the Enchantment remains but becomes inactive. Respawning removes any Enchantments from a player and their equipment unless the Enchantments are Persistent. If the person is returned to the same life, as opposed to respawning, then Enchantments are preserved and will function again, unless otherwise noted<br>
-					<ol type="a">
-						<li>If a player voluntarily moves after having died then the Enchantments they carried are removed. Does not apply to Persistent Enchantments</li>
-						<li>If a player voluntarily takes a death, all Enchantments carried are removed</li>
-					</ol></li>
-					<li>Enchantments may be removed by Dispel Magic, but not by Release or similar magics and abilities</li>
-					<li>Enchantments that have a definite number of uses, such as Blessing Against Harm or Snaring Vines, are removed when their last use is expended (even if ineffective against their target. i.e. discharging Poison against a target Immune to the Death School still expends that use of Poison).  These Enchantments are still removed by Dispel Magic, Resurrect, or other Enchantment removing mechanics</li>
-					<li>States, Abilities, and Special Effects imparted by Enchantments to their bearer cannot be removed in any way while the Enchantment is active and are removed when the Enchantment is removed, unless otherwise noted. Example One: A player bearing Heart of the Swarm is Stopped. When they die the Enchantment becomes inactive and and the player is no longer Stopped since all States other than Cursed are removed on death. If the player is returned to life in a manner that preserves their Enchantments then they will again become Stopped as Heart of the Swarm becomes active again and re-applies the State<br>
-					<ol type="a">
-						<li>Cursed imparted by an Enchantment cannot be removed in any way while the Enchantment is worn, whether it is active or inactive. If the Enchantment is removed, Cursed is not removed unless otherwise noted. Example One: A player bearing Vampirism dies. Their enchantment becomes inactive, but the Cursed State remains. If the player moves from where they died, Vampirism would be removed (unless it were persistent) but the Player would remain Cursed</li>
-					</ol></li>
-					<li>Special Effects granted to equipment via Enchantments are considered magical and have a School corresponding to the School of the Enchantment</li>
-					<li>Enchantments worn (or a summary of their effects) must be announced at the beginning of an engagement if possible. Enchantments worn must always be announced when requested</li>
-				</ol>
-			</div>
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Enchantment Overview</h3>
+                <p>Enchantments are ongoing magics and abilities that remain until they are used up or removed<br>
+                <ol>
+                    <li>Enchantments must be denoted by an appropriately colored strip attached to the enchanted person<br>
+                    <ol type="a">
+                        <li>Offensive enchantments are denoted by a red strip</li>
+                        <li>Defensive enchantments are denoted by a white strip</li>
+                        <li>Miscellaneous enchantments are denoted by a yellow strip</li>
+                    </ol></li>
+                    <li>Enchantments may only be carried one at a time by a player, unless otherwise noted. A player may not have more than one (ex) enchantment of the same name</li>
+                    <li>Enchantments may only be cast on willing players</li>
+                    <li>Enchantments are always placed on players. Some Enchantments carried by players affect the equipment they carry or use as noted in the Enchantments description</li>
+                    <li>If a person bearing an Enchantment is killed the Enchantment remains but becomes inactive. Respawning removes any Enchantments from a player and their equipment unless the Enchantments are Persistent. If the person is returned to the same life, as opposed to respawning, then Enchantments are preserved and will function again, unless otherwise noted<br>
+                    <ol type="a">
+                        <li>If a player voluntarily moves after having died then the Enchantments they carried are removed. Does not apply to Persistent Enchantments</li>
+                        <li>If a player voluntarily takes a death, all Enchantments carried are removed</li>
+                    </ol></li>
+                    <li>Enchantments may be removed by Dispel Magic, but not by Release or similar magics and abilities</li>
+                    <li>Enchantments that have a definite number of uses, such as Blessing Against Harm or Snaring Vines, are removed when their last use is expended (even if ineffective against their target. i.e. discharging Poison against a target Immune to the Death School still expends that use of Poison).  These Enchantments are still removed by Dispel Magic, Resurrect, or other Enchantment removing mechanics</li>
+                    <li>States, Abilities, and Special Effects imparted by Enchantments to their bearer cannot be removed in any way while the Enchantment is active and are removed when the Enchantment is removed, unless otherwise noted. Example One: A player bearing Heart of the Swarm is Stopped. When they die the Enchantment becomes inactive and and the player is no longer Stopped since all States other than Cursed are removed on death. If the player is returned to life in a manner that preserves their Enchantments then they will again become Stopped as Heart of the Swarm becomes active again and re-applies the State<br>
+                    <ol type="a">
+                        <li>Cursed imparted by an Enchantment cannot be removed in any way while the Enchantment is worn, whether it is active or inactive. If the Enchantment is removed, Cursed is not removed unless otherwise noted. Example One: A player bearing Vampirism dies. Their enchantment becomes inactive, but the Cursed State remains. If the player moves from where they died, Vampirism would be removed (unless it were persistent) but the Player would remain Cursed</li>
+                    </ol></li>
+                    <li>Special Effects granted to equipment via Enchantments 
+                        <ol type="a">
+                            <li>Are always Extraordinary.</li>
+                            <li>Have no school, except for Wounds Kill, which is always of the Death School</li>
+                        </ol>
+                    </li>
+                    <li>Enchantments worn (or a summary of their effects) must be announced at the beginning of an engagement if possible. Enchantments worn must always be announced when requested</li>
+                    <li>Players may remove any worn enchantments from themselves by declaring that they are doing so. This must be audible out to 20 feet.</li>
+                </ol>
+            
 
-	</div><!-- /footer -->
+    </div><!-- /footer -->
 
-	</div><!-- /content -->
+    </div><!-- /content -->
 
 </div><!-- /page -->
 

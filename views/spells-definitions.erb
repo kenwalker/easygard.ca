@@ -7,7 +7,7 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 <% @loaded = 'true' %>
 
-	<div role="main" class="ui-content">
+    <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li><a href="#abilities">Abilities</a></li>
                <li><a href="#archetypes">Archetypes</a></li>
@@ -28,9 +28,9 @@
                <li><a href="#woundtrigger">Wound Trigger</a></li>
             </ul>
 
-	</div><!-- /footer -->
+    </div><!-- /footer -->
 
-	</div><!-- /content -->
+    </div><!-- /content -->
 
 </div><!-- /page -->
 
@@ -42,24 +42,24 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 <% @loaded = 'true' %>
 
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Abilities</h3>
-    			<p>Powers or skills that must be activated to be used.</p>
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Abilities</h3>
+                <p>Powers or skills that must be activated to be used.</p>
                 <ol>
                     <li>Ability Enchantments denoted as Magical (m) in the class description count towards the bearers limit for carried <a href="/enchantments/" data-ajax="false">Enchantments</a>. May be removed by Magic that removes Enchantments, such as Dispel</li>
                     <li>Ability Enchantments denoted as Extraordinary (ex) in the class description do not count towards enchantment limits or count for the purposes of Attuned, Essence Graft, or similar magic and abilities. May be removed by Magic that removes Enchantments, such as Dispel. A player may not have more than one (ex) enchantment of the same name</li>
                     <li>Unless otherwise specified, Ability enhanced equipment cannot be used except by the player who enhanced the equipment. For instance: an Archer cannot loan his Poison Arrow to another player, even another Archer.</li>
                     <li>Ability Incantations follow all the rules of magical Incantations unless otherwise noted. Incantations for Abilities listed as Extraordinary (ex) do not require a free hand.</li>
                     <li>Abilities granted via an Enchantment retain the original School of the Ability, not the School of the Enchantment</li>
-                    <li>Ongoing Effects are effects applied by Abilities where the effect lasts for some specified duration (Examples: Fight After Death, Heat Weapon, and Shake it Off) or for an indefinite duration (Examples: Amplification, Elemental Barrage, and Shove)</li>
+                    <li>Ongoing Effects are effects applied by Abilities where the effect lasts for some specified duration (Examples: Rage, Heat Weapon, and Shake it Off) or for an indefinite duration (Examples: Elemental Barrage and Shove)</li>
                 </ol>
                 <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
             </div>
 
-	</div><!-- /footer -->
+    </div><!-- /footer -->
 
-	</div><!-- /content -->
+    </div><!-- /content -->
 
 </div>
 <!-- Abilities /page -->
@@ -72,16 +72,16 @@
 <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
 <% @loaded = 'true' %>
 
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Archetypes</h3>
-    			<p>Class abilities which modify base rules about their class. Archetypes are denoted with an (A) and are always active throughout the game. Archetypes may not be removed by any means and persist after respawn. Archetypes are not enchantments, and do not count towards enchantment limits or count for the purposes of Attuned, Essence Graft, or similar magic and abilities. You do not have to have an archetype, even if one is available to you.</p>
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Archetypes</h3>
+                <p>Class abilities which modify base rules about their class. Archetypes are denoted with an (A) and are always active throughout the game. Archetypes may not be removed by any means and persist after respawn. Archetypes are not enchantments, and do not count towards enchantment limits or count for the purposes of Attuned, Essence Graft, or similar magic and abilities. You do not have to have an archetype, even if one is available to you.</p>
                 <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
             </div>
 
-	</div><!-- /footer -->
+    </div><!-- /footer -->
 
-	</div><!-- /content -->
+    </div><!-- /content -->
 
 </div>
 <!-- Archetypes /page -->
@@ -181,14 +181,14 @@
             <div class="jqm-block-content">
                 <h3>Incantation</h3>
                 <p>The verbal component required by some magics and abilities that initiates their function.<br>
-                Magic and Abilities used at a Range greater than Touch require that the target be indicated by name. Example: <i>“Timmy, I command thee to stop, I command thee to stop, I command thee to stop.”</i> If the name of the target is not known, or if the casting player prefers, they may instead point at the target with a free hand and name their class and a descriptor. Example: <Point with a free hand> <i>“Warrior in blue, I command thee to stop, I command thee to stop, I command thee to stop.”</i> When targeting a piece of equipment the caster must explicitly define the equipment in addition to the player most recently using it. Example: <i>“Timmy, blue sword on hip, I call upon flame to heat that sword, I call upon flame to heat that sword, I call upon  flame to heat that sword.”</i><br>
+                Magic and Abilities used at a Range greater than Touch require that the target be indicated by name. Example: <i>“Timmy, I command thee to stop, I command thee to stop, I command thee to stop.”</i> If the name of the target is not known, or if the casting player prefers, they may instead point at the target with a free hand and name their class and a descriptor. Example: &lt;Point with a free hand&gt; <i>“Warrior in blue, I command thee to stop, I command thee to stop, I command thee to stop.”</i> When targeting a piece of equipment the caster must explicitly define the equipment in addition to the player most recently using it. Example: <i>“Timmy, blue sword on hip, I call upon flame to heat that sword, I call upon flame to heat that sword, I call upon  flame to heat that sword.”</i><br>
                 Unless otherwise noted all Incantations:<br>
                 <ol>
                     <li>Must be said loudly and clearly enough to be heard within 50’ or by the recipient, whichever is closer. Incantations which target self must be audible to within 20’. In the event of a disagreement over audible range, consult a reeve</li>
                     <li>A player may not move their feet when incanting. If a player moves their feet the incant is interrupted</li>
                     <li>Improper wording, mispronunciation, a gap of more than two seconds between words, or omitting words will all result in an interrupted Incantation</li>
                     <li>An interrupted incantation does not result in a magic or ability being consumed. Interrupted Incantations must be restarted from the beginning</li>
-                    <li>Require the caster to have an empty hand with the exception of holding Material Components or the target of a Touch Range magic. An open hand inside a shield handle is considered an open hand for the purposes of Incantations</li>
+                    <li>Require the caster to have an empty hand with the exception of holding Material Components or the target of a Touch Range magic. Any hand that is touching a shield or weapon is not considered an empty hand, with the exception of hands incidentally touching Small shields that are strapped securely to the arm.</li>
                     <li>Starting an Incantation renders the player’s active Magic Balls inactive and interrupts any other Incantation or Chant the player has in progress</li>
                     <li>The target of a Magic or Ability must be at least partially visible at the completion of an Incantation. The target being out of sight at any other point does not prevent or interrupt the casting attempt. If a piece of equipment is the target, the physical equipment itself is what needs to be at least partially visible. If the incantation is completed and the target is not at least partially visible, the Magic or Ability has no effect but is still expended</li>
                 </ol>
@@ -275,7 +275,7 @@
                         <ol type="a">
                             <li>Owners of Magic Balls may grant other players permission to carry their Magic Balls in order to return them to the owner or to the owner’s base. They may also grant other players permission to use their Magic Balls if the other person has the ability to do so</li>
                         </ol>
-                    </li>      
+                    </li>
                     <li>A Magic Ball must be held in the caster's hand by the end of the Incantation</li>
                     <li>Once a Magic Ball’s Incantation has been said, it is considered active until it hits a Player, Wielded Equipment, or Terrain. It will also become inactive if the caster begins an incantation or the material component stops being held in hand and has not been thrown. The caster can transfer an active Magic Ball from one hand to the other without it becoming inactive and can wield a weapon or shield in a hand that is also holding an active Magic Ball</li>
                     <li>A player may only have one Magic Ball active at a time</li>
@@ -283,7 +283,7 @@
                     <li>Magic Balls discharge and attempt to affect the first Player, Wielded Equipment, or Terrain they hit; Magic Balls are not engulfing unless noted</li>
                     <li>Barring any Enchantments or magical effects, garb strikes count as hitting the player if the Magic Ball would have continued on to hit the player. Example: You may not block Lightning Bolts with your cloak</li>
                     <li>Magic Balls do not damage armor unless otherwise noted</li>
-                    <li>Magic Balls are not stopped by Protection from Projectiles, Missile Block, and other similar magic and abilities.</li>
+                    <li>Magic Balls are not stopped by Protection from Projectiles, Song of Deflection, and other similar magic and abilities.</li>
                 </ol>
                 <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
             </div>
@@ -337,8 +337,22 @@
     <div role="main" class="ui-content">
             <div class="jqm-block-content">
                 <h3>Range</h3>
-                <p>The target of a Magic or Ability must be in range at the completion of an Incantation. The target being out of range at any other point does not prevent or interrupt the casting attempt. If a piece of equipment is the target, the physical equipment itself it what needs to be in range. If the incantation is completed and the target is not in range, the Magic or Ability has no effect but is still expended. For Magics
-                and Abilities used at a range of Touch, any physical contact between caster and target is sufficient. Unless otherwise noted, Magics and Abilities with a listed range of Touch or greater can be cast at range Self. Magic or Abilities used at a range of Touch may only be used on players that are willing, Dead, Frozen, Stunned, or otherwise unable to move and unable to engage in combat</p>
+                <p>The target of a Magic or Ability must be in range at the completion of an Incantation. The target being out of range at any other point does not prevent or interrupt the casting attempt. If a piece of equipment is the target, the physical equipment itself is what needs to be in range. If the incantation is completed and the target is not in range, the Magic or Ability has no effect but is still expended.</p>
+                <ul>
+                    <li>Self: Target must be the caster.</li>
+                    <li>Other: Target must be other players that are in direct physical contact.</li>
+                    <li>Touch: Target may be Self or Others. Any physical contact between caster and target is sufficient, or placing one's hand within six inches of the target</li>
+                    <li>20': Target must be within 20' at upon completion of the incantation.</li>
+                    <li>50': Target must be within 50' at upon completion of the incantation.</li>
+                </ul>
+                <p>Magic or Abilities that require physical contact may only be used provided at least one of the following is true:</p>
+                <ul>
+                    <li>The target is willing</li>
+                    <li>The target is Dead</li>
+                    <li>The target is Stunned</li>
+                    <li>The target is Frozen</li>
+                    <li>The target is Insubstantial and unable to move from their current location.</li>
+                </ul>
                 <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
             </div>
 
@@ -493,7 +507,7 @@
     <div role="main" class="ui-content">
             <div class="jqm-block-content">
                 <h3>Wound Trigger</h3>
-                <p>Some Magics and Abilities have special circumstances that must be met before they can be activated. Magics and abilities with the Wound Trigger Limitation can only be used immediately after the caster causes a wound to an enemy (even if that wound kills the enemy)</p>
+                <p>Magics and abilities with the Wound Trigger Limitation can only be used immediately after the caster causes a wound to an enemy (even if that wound kills the enemy; but not if the wound is not received, e.g. by a Resistance).</p>
                 <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
             </div>
 

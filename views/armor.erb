@@ -1,270 +1,266 @@
 <% @loaded = 'false' %>
 <div data-role="page" class="jqm-demos jqm-home" id="armor">
-
-<%= erb :'sections/updated' %>
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-	<p>This is my interpretation of the AICOM 2024 documentation and is subject to change after the 
-	release of the updated rulebook</p>
-		<ul data-role="listview" data-inset="true" data-icon="false">
-			<li><a href="#ArmorRatingAndSafety">Armor Rating and Safety</a></li>
-			<li><a href="#ArmorTypesAndModifiers">Armor Types and Modifiers</a></li>
-			<li><a href="#ArmorMaterialThicknessRequirements">Armor Material Thickness Requirements</a></li>
-			<li><a href="#ConstructionRequirementsByType">Construction Requirements by Type</a></li>
-		</ul>
-	</div><!-- /footer -->
-	</div><!-- /content -->
-
-</div><!-- /page -->
-
+  <%= erb :'sections/updated' %>
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true" data-icon="false">
+      <li><a href="#ArmorRatingAndSafety">Armor Rating and Safety</a></li>
+      <li><a href="#ArmorTypesAndModifiers">Armor Types and Modifiers</a></li>
+      <li><a href="#ArmorMaterialThicknessRequirements">Armor Material Thickness Requirements</a></li>
+      <li><a href="#ConstructionRequirementsByType">Construction Requirements by Type</a></li>
+    </ul>
+  </div>
+  <!-- /content -->
+</div>
+<!-- /page -->
 <!-- Armor Rating and Safety -->
 <div data-role="page" class="jqm-demos jqm-home" id="ArmorRatingAndSafety">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Armor Rating and Safety</h3>
-				<ol>
-				<li>Armor that is of mixed values across the same area will be averaged based on the percentage of each type of coverage of the area, rounding fractions to the nearest whole number. Example: An arm with a Plate bracer (6 AP) covering 50% of the arm and a Cloth/Padded sleeve (1 AP) covering 50% of the arm will result in an armor value of (6 x 0.5) + (1 x 0.5) = 3.5, which rounds up to 4 AP across the entire location</li>
-				<li>Straps and other such material that hold your armor on do not count as part of the armor, for either coverage or averaging purposes, unless they are specifically built as such. Example: the leather strap across your back holding on your steel breastplate does not protect you from hits</li>
-				<li>Armor that is initially rated as zero points does not count as armor. Armor that has been depleted continues to be considered armor, but does not continue to stop wounds until restored</li>
-				<li>Obviously modern materials and obviously modern protective gear such as sports shin pads and hockey chest pads may never be considered as armor; such materials and items may be used as a base for armor, but the final product must have the appearance of actual armor rather than modern protective gear. Wholly inappropriate materials such as cardboard, tinfoil, and foam may never be considered as armor</li>
-				<li>All armor must be safe, with no protruding edges that could injure someone. All corners on any armor that will not deform under contact must come to a point no sharper than the radius of a penny</li>
-				</ol>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <div class="jqm-block-content">
+      <h3>Armor Rating and Safety</h3>
+      <ol>
+        <li>The Monarch, Champion, Guildmaster of Reeves, and Game Reeves rate armor.</li>
+        <li>Armor that is of mixed values across the same area will be averaged based on the percentage of each type of coverage of the area, rounding fractions to the nearest whole number. Example: An arm with a Plate bracer (6 Armor Points) covering 50% of the arm and a Cloth/Padded sleeve (1 Armor Point) covering 50% of the arm will result in an armor value of (6 x 0.5) + (1 x 0.5) = 3.5, which rounds up to 4 Armor Points across the entire location.</li>
+        <li>Straps and other such material that hold your armor on do not count as part of the armor, for either coverage or averaging purposes, unless they are specifically built as such. Example: the leather strap across your back holding on your steel breastplate does not protect you from hits.</li>
+        <li>Armor that is initially rated as zero points does not count as armor. Armor that has been depleted continues to be considered armor, but does not continue to stop wounds until restored.</li>
+        <li>Obviously modern materials and obviously modern protective gear such as sports shin pads and hockey chest pads may never be considered as armor; such materials and items may be used as a base for armor, but the final product must have the appearance of actual armor rather than modern protective gear. Wholly inappropriate materials such as cardboard, tinfoil, and foam may never be considered as armor.</li>
+        <li>All armor must be safe, with no protruding edges that could injure someone. All corners on any armor that will not deform under contact must come to a point no sharper than the radius of a penny (3/8").</li>
+      </ol>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /content -->
 </div>
 <!-- Armor Rating and Safety /page -->
-
 <!-- Armor Types and Modifiers -->
 <div data-role="page" class="jqm-demos jqm-home" id="ArmorTypesAndModifiers">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Armor Types and Modifiers</h3>
-				<p>Each Armor Type is rated with base points equal to its tier. Armor may also receive Armor Point bonuses and penalties. These modifiers may not result in the armor type receiving more than its maximum rating, except for Heavy Helms.</p>
-				<table data-role="table" id="table-custom-lvl6-wizard" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
-				<caption style="text-align:center;">Armor Types</caption>
-				<thead>
-				  <tr class="ui-bar-d">
-					<th data-priority="1" style="text-align:center;">Tier</th>
-					<th data-priority="1" style="text-align:center;">Max Pts</th>
-					<th data-priority="1">Armor Types</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr>
-					<td style="text-align:center;">1</td>
-					<td style="text-align:center;">2</td>
-					<td>Cloth/Padded</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:center;">2</td>
-					<td style="text-align:center;">3</td>
-					<td>Light Leather, Flexible Synthetic</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:center;">3</td>
-					<td style="text-align:center;">4</td>
-					<td>Heavy Leather, Butcher’s Mail, Rigid Synthetic</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:center;">4</td>
-					<td style="text-align:center;">5</td>
-					<td>Light Scale, Chainmail</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:center;">5</td>
-					<td style="text-align:center;">6</td>
-					<td>Heavy Scale, Butted Plate (Splint, Kikko, etc)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:center;">6</td>
-					<td style="text-align:center;">7</td>
-					<td>Lamellar, Laminar, Brigandine, Plate</td>
-				  </tr>
-				  <tr>
-					<td colspan="2" style="text-align:center;">Special</td>
-					<td>Ambiguous Armor</td>
-				  </tr>
-				</tbody>
-			  </table>
-			  <br>
-			  <h3>Appearance</h3>
-			  <p>Exceptionally aesthetically pleasing armor may be awarded a bonus point. Armor that is well below standard in appearance may be given an armor penalty</p>
-			  <h3>Construction</h3>
-			  <p>Exceptionally durable or well-crafted armor may be given an armor bonus. Some examples of this would be being made from at least 75% steel, being made of significantly thicker material than standard, riveted or welded chainmail rings, and so on. An armor penalty may be given if armor is in poor repair, is made of thinner materials than standard, and so forth</p>
-			  <h3>Layered Armor Bonus</h3>
-			  <p>Where multiple layers of armor overlap, such as chainmail over cloth or leather over chainmail, the overlapping area is rated at one point higher than the highest rated armor’s usual rating</p>
-			  <h3>Helm Bonus</h3>
-			  <p>
-			  	Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms
-				<ol>
-					<li>Light Helms must meet the requirements of at least a Tier 2 armor type. The torso armor bonus received for a Light Helm may not exceed the maximum value for the armor type</li>
-					<li>Heavy Helms must meet the requirements of at least a Tier 4 armor type. The torso armor bonus received from a Heavy Helm may allow the wearer to exceed the maximum value for the armor type</li>
-				</ol>
-			  </p>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <div class="jqm-block-content">
+      <h3>Armor Types and Modifiers</h3>
+      <p>Each Armor Type is rated with base points equal to its tier. Armor may also receive Armor Point bonuses and penalties. These modifiers may not result in the armor type receiving more than its maximum rating, except for Heavy Helms.</p>
+      <table data-role="table" id="table-custom-armor-types" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+        <caption style="text-align:center;">Armor Types</caption>
+        <thead>
+          <tr class="ui-bar-d">
+            <th data-priority="1" style="text-align:center;">Tier</th>
+            <th data-priority="1" style="text-align:center;">Max Pts</th>
+            <th data-priority="1">Armor Types</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align:center;">1</td>
+            <td style="text-align:center;">2</td>
+            <td>Cloth/Padded</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">2</td>
+            <td style="text-align:center;">3</td>
+            <td>Light Leather, Flexible Synthetic</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">3</td>
+            <td style="text-align:center;">4</td>
+            <td>Heavy Leather, Butcher’s Mail, Rigid Synthetic</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">4</td>
+            <td style="text-align:center;">5</td>
+            <td>Light Scale, Chainmail</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">5</td>
+            <td style="text-align:center;">6</td>
+            <td>Heavy Scale, Butted Plate (Splint, Kikko, etc)</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">6</td>
+            <td style="text-align:center;">7</td>
+            <td>Lamellar, Laminar, Brigandine, Plate</td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center;">Special</td>
+            <td>Ambiguous Armor</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h3>Appearance</h3>
+      <p>Exceptionally aesthetically pleasing armor may be awarded a bonus point. Armor that is well below standard in appearance may be given an armor penalty</p>
+      <h3>Construction</h3>
+      <p>Exceptionally durable or well-crafted armor may be given an armor bonus. Some examples of this would be being made from at least 75% steel, being made of significantly thicker material than standard, riveted or welded chainmail rings, and so on. An armor penalty may be given if armor is in poor repair, is made of thinner materials than standard, and so forth</p>
+      <h3>Layered Armor Bonus</h3>
+      <p>Where multiple layers of armor overlap, such as chainmail over cloth or leather over chainmail, the overlapping area is rated at one point higher than the highest rated armor’s usual rating</p>
+      <h3>Helm Bonus</h3>
+      <p>Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms</p>
+      <ul>
+        <li>Light Helms must meet the requirements of at least a Tier 2 armor type. The torso armor bonus received for a Light Helm may not exceed the maximum value for the armor type</li>
+        <li>Heavy Helms must meet the requirements of at least a Tier 4 armor type. The torso armor bonus received from a Heavy Helm may allow the wearer to exceed the maximum value for the armor type</li>
+      </ul>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /content -->
 </div>
 <!-- Armor Types and Modifiers /page -->
-
 <!-- Armor Material Thickness Requirements -->
 <div data-role="page" class="jqm-demos jqm-home" id="ArmorMaterialThicknessRequirements">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-    		<div class="jqm-block-content">
-    			<h3>Armor Material Thickness Requirements</h3>
-				<table data-role="table" id="table-custom-lvl6-wizard" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
-				<caption style="text-align:center;">Armor Material Thickness Requirements</caption>
-				<thead>
-				  <tr class="ui-bar-d">
-					<th data-priority="1" style="text-align:center;">Material</th>
-					<th data-priority="1" style="text-align:center;">Minimum</th>
-					<th data-priority="1" style="text-align:center;">Standard</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr>
-					<td style="text-align:right;">Cloth</td>
-					<td style="text-align:center;">Cannot be substandard</td>
-					<td style="text-align:center;">1/16"</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Light Leather</td>
-					<td style="text-align:center;">4oz (1/16”)</td>
-					<td style="text-align:center;">6oz (3/32”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Flexible Synthetic</td>
-					<td style="text-align:center;">Cannot be substandard</td>
-					<td style="text-align:center;">3/32”</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Heavy Leather</td>
-					<td style="text-align:center;">Cannot be substandard</td>
-					<td style="text-align:center;">10oz (5/32”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Rigid Non-Metal/Rigid Synthetic</td>
-					<td style="text-align:center;">Cannot be substandard</td>
-					<td style="text-align:center;">3/16”</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Aluminum Round Rings</td>
-					<td style="text-align:center;">18ga swg (0.048”)</td>
-					<td style="text-align:center;">16ga swg (0.064”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Aluminum Flat Rings</td>
-					<td style="text-align:center;">20ga swg (0.048”)</td>
-					<td style="text-align:center;">18ga swg (0.048”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Aluminum Scales</td>
-					<td style="text-align:center;">20ga (0.030”)</td>
-					<td style="text-align:center;">18ga (0.040”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Aluminum Sheet Metal</td>
-					<td style="text-align:center;">18ga (0.040”)</td>
-					<td style="text-align:center;">16ga (0.051”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Steel Round Rings</td>
-					<td style="text-align:center;">20ga swg (0.036”)</td>
-					<td style="text-align:center;">18ga swg (0.048”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Steel Flat Rings</td>
-					<td style="text-align:center;">22ga swg (0.028”)</td>
-					<td style="text-align:center;">20ga swg (0.036”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Steel Scales</td>
-					<td style="text-align:center;">22ga (0.030”)</td>
-					<td style="text-align:center;">20ga (0.036”)</td>
-				  </tr>
-				  <tr>
-					<td style="text-align:right;">Steel Sheet Metal</td>
-					<td style="text-align:center;">20ga (0.036”)</td>
-					<td style="text-align:center;">18ga (0.048”)</td>
-				  </tr>
-				</tbody>
-			  </table>
-            </div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <div class="jqm-block-content">
+      <h3>Armor Material Thickness Requirements</h3>
+      <table data-role="table" id="table-custom-armor-thickness" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+        <caption style="text-align:center;">Armor Material Thickness Requirements</caption>
+        <thead>
+          <tr class="ui-bar-d">
+            <th data-priority="1" style="text-align:center;">Material</th>
+            <th data-priority="1" style="text-align:center;">Minimum</th>
+            <th data-priority="1" style="text-align:center;">Standard</th>
+            <th data-priority="1" style="text-align:center;">Superior</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align:left;">Cloth</td>
+            <td style="text-align:center;">Cannot be substandard</td>
+            <td style="text-align:center;">1/16"</td>
+            <td style="text-align:center;">1/8"</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Flexible Synthetic</td>
+            <td style="text-align:center;">Cannot be substandard</td>
+            <td style="text-align:center;">3/32”</td>
+            <td style="text-align:center;">1/8"</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Light Leather</td>
+            <td style="text-align:center;">4oz (1/16”)</td>
+            <td style="text-align:center;">6oz (3/32”)</td>
+            <td style="text-align:center;">8oz (1/8")</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Heavy Leather</td>
+            <td style="text-align:center;">Cannot be substandard</td>
+            <td style="text-align:center;">10oz (5/32”)</td>
+            <td style="text-align:center;">12oz (3/16”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Rigid Non-Metal/Rigid Synthetic</td>
+            <td style="text-align:center;">Cannot be substandard</td>
+            <td style="text-align:center;">3/16”</td>
+            <td style="text-align:center;">1/4"</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Aluminum Round Rings</td>
+            <td style="text-align:center;">18ga swg (0.048”)</td>
+            <td style="text-align:center;">16ga swg (0.064”)</td>
+            <td style="text-align:center;">14ga swg (.080”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Aluminum Flat Rings</td>
+            <td style="text-align:center;">20ga swg (0.048”)</td>
+            <td style="text-align:center;">18ga swg (0.048”)</td>
+            <td style="text-align:center;">16ga swg (0.064”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Aluminum Scales</td>
+            <td style="text-align:center;">20ga (0.030”)</td>
+            <td style="text-align:center;">18ga (0.040”)</td>
+            <td style="text-align:center;">16ga (0.051”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Aluminum Sheet Metal</td>
+            <td style="text-align:center;">18ga (0.040”)</td>
+            <td style="text-align:center;">16ga (0.051”)</td>
+            <td style="text-align:center;">14ga (0.064”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Steel Round Rings</td>
+            <td style="text-align:center;">20ga swg (0.036”)</td>
+            <td style="text-align:center;">18ga swg (0.048”)</td>
+            <td style="text-align:center;">16ga swg (0.064”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Steel Flat Rings</td>
+            <td style="text-align:center;">22ga swg (0.028”)</td>
+            <td style="text-align:center;">20ga swg (0.036”)</td>
+            <td style="text-align:center;">18ga swg (0.048”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Steel Scales</td>
+            <td style="text-align:center;">22ga (0.030”)</td>
+            <td style="text-align:center;">20ga (0.036”)</td>
+            <td style="text-align:center;">18ga (0.048”)</td>
+          </tr>
+          <tr>
+            <td style="text-align:left;">Steel Sheet Metal</td>
+            <td style="text-align:center;">20ga (0.036”)</td>
+            <td style="text-align:center;">18ga (0.048”)</td>
+            <td style="text-align:center;">16ga (0.060”)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /content -->
 </div>
 <!-- Armor Material Thickness Requirements /page -->
-
 <!-- Construction Requirements by Type -->
 <div data-role="page" class="jqm-demos jqm-home" id="ConstructionRequirementsByType">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-	<div role="main" class="ui-content">
-		<div class="jqm-block-content">
-			<h3>Construction Requirements by Type</h3>
-			<p>All armor must meet certain construction requirements according to its type</p>
-			<ol>
-				<li>Armor that is made from materials thinner than the minimum thickness is not allowed</li>
-				<li>Armor that is made from materials significantly above the standard may qualify for the Superior Construction bonus</li>
-				<li>All Tier 4-6 armor is assumed to be made of metal, as well as butcher’s mail</li>
-				<li>If an armor type is not listed here, it has no special construction requirements beyond material thickness</li>
-			</ol>
-			<h3>Butcher’s Mail/Sharkmail</h3>
-			<p>This armor type is for machine-welded chain mesh. There are no material thickness requirements for this armor, and it may receive no modifiers for superior construction. Any weave pattern is permitted, but it must not allow a 1/8" dowel to pass through</p>
-			<h3>Rigid Non-Metal/Synthetic Armor</h3>
-			<p>Rigid armor that utilizes unusual materials must meet any non-material requirements for the style of armor that it is mimicking. The density of the material must be at least equal to 0.9g/cm³, equal to HDPE plastic</p>
-			<h3>Chainmail</h3>
-			<p>Any weave is permitted, but a 1/2" dowel must not pass through. Rings must have an aspect ratio (AR) of 8 or less</p>
-			<h3>Light Scale</h3>
-			<p>Scales must overlap by at least 10%, and the backing must not be visible through the scales. Scales are individually mobile</p>
-			<h3>Heavy Scale</h3>
-			<p>Scales must overlap by at least 10%, and the backing must not be visible through the scales. Scales are held rigidly together</p>
-			<h3>Butted Plate (Splint, Kikko, etc)</h3>
-			<p>Plates are spaced no more than 1/2" apart, and cover at least 75% of the armor</p>
-			<h3>Lamellar/Laminar</h3>
-			<p>Plates must overlap by at least 10%, and connect to one another with no supportive backing</p>
-		</div>
-
-	</div><!-- /footer -->
-
-	</div><!-- /content -->
-
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <div class="jqm-block-content">
+      <h3>Construction Requirements by Type</h3>
+      <p>All armor must meet certain construction requirements according to its type</p>
+      <ol>
+        <li>Armor that is made from materials thinner than the minimum thickness is not allowed</li>
+        <li>Armor that is made from materials significantly above the standard may qualify for the Superior Construction bonus</li>
+        <li>All Tier 4-6 armor is assumed to be made of metal, as well as butcher’s mail</li>
+      </ol>
+      <p>If an armor type is not listed here, it has no special construction requirements beyond material thickness</p>
+      <h3>Cloth</h3>
+      <p>Must be visually distinct from garb.</p>
+      <h3>Butcher’s Mail/Sharkmail</h3>
+      <p>This armor type is for machine-welded chain mesh. There are no material thickness requirements for this armor, and it may receive no modifiers for superior construction. Any weave pattern is permitted, but it must not allow a 1/8" dowel to pass through.</p>
+      <h3>Rigid Non-Metal/Synthetic Armor</h3>
+      <p>Rigid armor that utilizes unusual materials must meet any non-material requirements for the style of armor that it is mimicking. The density of the material must be at least equal to 0.9g/cm³, equal to HDPE plastic.</p>
+      <h3>Chainmail</h3>
+      <p>Any weave is permitted, but a 1/2" dowel must not pass through. Rings must have an aspect ratio (AR) of 8 or less.</p>
+      <h3>Light Scale</h3>
+      <p>Scales must overlap by at least 10%, and the backing must not be visible through the scales. Scales are individually mobile.</p>
+      <h3>Heavy Scale</h3>
+      <p>Scales must overlap by at least 10%, and the backing must not be visible through the scales. Scales are held rigidly together.</p>
+      <h3>Butted Plate (Splint, Kikko, etc)</h3>
+      <p>Plates are spaced no more than 1/2" apart, and cover at least 75% of the armor.</p>
+      <h3>Lamellar/Laminar</h3>
+      <p>Plates must overlap by at least 10%, and connect to one another with no supportive backing.</p>
+      <h3>Brigandine</h3>
+      <p>75% of plates must overlap by at least 10%. Plates are attached to a backing and are held firmly together when worn.</p>
+      <h3>Plate</h3>
+      <p>75% of the plates used must be large enough to cover 10% of the full hit location, excepting joint articulations.</p>
+      <h3>Ambiguous Armor</h3>
+      <p>Armor that doesn't clearly fit into any of the typical armor styles should be rated at the discretion of the reeve and matched to the nearest style. If it is not made of metal, it should be rated no higher than Tier 3.</p>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /content -->
 </div>
 <!-- Construction Requirements by Type /page -->
-

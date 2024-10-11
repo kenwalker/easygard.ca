@@ -2,6 +2,8 @@
 <%  spellsSelf = @allSpells.reject {|k,v|
           if (v['t'].casecmp('Enchantment')) != 0 && v.has_key?('r') && (v['r'].include? "Self")
                false
+          elsif (v['t'].casecmp('Enchantment')) != 0 && v.has_key?('r') && (v['r'].include? "Touch")
+               false
           else
                true
           end
