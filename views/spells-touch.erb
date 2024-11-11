@@ -2,10 +2,12 @@
 <%  spellsTouch = @allSpells.reject {|k,v|
           if (v['t'].casecmp('Enchantment')) != 0 && v.has_key?('r') && (v['r'].include? "Touch")
                false
+          elsif (v['t'].casecmp('Enchantment')) != 0 && v.has_key?('r') && (v['r'].include? "Other")
+               false
           else
                true
           end
-               
+
      }%>
 
 <div data-role="page" class="jqm-demos jqm-home" id="spells-touch">
@@ -28,4 +30,3 @@
          <!-- /content -->
 
 </div><!-- /page -->
-

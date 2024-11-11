@@ -1,49 +1,62 @@
 {
   "almostquidditch": {
-  	"name": "Almost Quidditch",
-  	"credit": "Wunjo",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "25 seconds",
-  	"players": "3+",
-  	"objective": "To fire arrows through opposing Team's hoops",
-  	"refresh": "None",
-  	"types": [ "class", "militia"],
-  	"equipment": "Hoops, bow & arrows or other projectiles",
-  	"description": "<br>Each end of the field should have three Scoring Hoops held vertically in some way (whether by non-combatants or otherwise). Each Team begins play 10ft behind one row of these Hoops at a point which is considered their Respawn point. The Scoring Hoops closest to their Respawn point are their friendly Hoops.<p><p>A Team scores points by firing arrows through the opposing Team's Scoring Hoops. Each standard arrow is worth 1 point, while Specialty Arrows (those special arrow-based class abilities possessed by the Archer class) are worth 2 points. The game lasts for 20 minutes and the team with the highest number of points at the end of that duration wins.<p><p>All players must play the Archer class during this game.<p><p>A variation of this game would be to allow any class to be played, and any projectile (i.e. Thrown Weapons, Spellballs, etc.) score points (Thrown Weapons scoring 1 point, Spellballs scoring 2) - but be careful when balancing teams, since it would be unfair for one Team to have more potential scoring players than the other."
-	},
+    "name": "Almost Quidditch",
+    "credit": "Wunjo",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "25 seconds",
+    "players": "3+",
+    "objective": "To fire arrows through opposing Team's hoops",
+    "refresh": "None",
+    "types": [
+      "class",
+      "militia"
+    ],
+    "equipment": "Hoops, bow & arrows or other projectiles",
+    "description": "<br>Each end of the field should have three Scoring Hoops held vertically in some way (whether by non-combatants or otherwise). Each Team begins play 10ft behind one row of these Hoops at a point which is considered their Respawn point. The Scoring Hoops closest to their Respawn point are their friendly Hoops.<p><p>A Team scores points by firing arrows through the opposing Team's Scoring Hoops. Each standard arrow is worth 1 point, while Specialty Arrows (those special arrow-based class abilities possessed by the Archer class) are worth 2 points. The game lasts for 20 minutes and the team with the highest number of points at the end of that duration wins.<p><p>All players must play the Archer class during this game.<p><p>A variation of this game would be to allow any class to be played, and any projectile (i.e. Thrown Weapons, Spellballs, etc.) score points (Thrown Weapons scoring 1 point, Spellballs scoring 2) - but be careful when balancing teams, since it would be unfair for one Team to have more potential scoring players than the other."
+  },
   "assassingame": {
-  	"name": "Assassin Game",
-  	"credit": "Amtgard standard",
-  	"teams": "Free for all",
-  	"lives": "1",
-  	"respawn": "0 seconds",
-  	"players": "4+",
-  	"objective": "To be the last Assassin standing",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"description": "<br>Every player is on their own during this game. Every player participating has their name written on a sheet of paper, which is then added to a hat. Every player then selects a name from the hat to be their first \"Mark\". Reeves should ensure that no player has their own name.<p>Players may always defend themselves, and anyone may kill any other player. However, a player is only required to leave the game if they were killed by a player who holds the piece of paper with their name (in that, the dead player was the other player's Mark). Players killed by someone who did not have them as a mark Respawn in 60 seconds where they died. The game ends when one player is left alive.<p>When a player is killed, they give their Mark to the player who killed them. For instance, if Maus has Modus as his Mark, and successfully kills her, he would take over her Mark. He would then proceed to track down and try to kill whoever Modus' mark was.<p>In most cases, weapon selection is restricted in this game (i.e. every plays the Assassin Class, or all players are restricted to one Short Melee weapon and a single Light Thrown), but it is not necessary."
-	},
+    "name": "Assassin Game",
+    "credit": "Amtgard standard",
+    "teams": "Free for all",
+    "lives": "1",
+    "respawn": "0 seconds",
+    "players": "4+",
+    "objective": "To be the last Assassin standing",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "description": "<br>Every player is on their own during this game. Every player participating has their name written on a sheet of paper, which is then added to a hat. Every player then selects a name from the hat to be their first \"Mark\". Reeves should ensure that no player has their own name.<p>Players may always defend themselves, and anyone may kill any other player. However, a player is only required to leave the game if they were killed by a player who holds the piece of paper with their name (in that, the dead player was the other player's Mark). Players killed by someone who did not have them as a mark Respawn in 60 seconds where they died. The game ends when one player is left alive.<p>When a player is killed, they give their Mark to the player who killed them. For instance, if Maus has Modus as his Mark, and successfully kills her, he would take over her Mark. He would then proceed to track down and try to kill whoever Modus' mark was.<p>In most cases, weapon selection is restricted in this game (i.e. every plays the Assassin Class, or all players are restricted to one Short Melee weapon and a single Light Thrown), but it is not necessary."
+  },
   "assassinationspy": {
-  	"name": "Assassination / Spy",
-  	"credit": "Sir Guy Kasama / Squire Niveus, Iron Mountains / Westmarch",
-  	"objective": "An add-on to any existing battlegame",
-  	"types": [ "class", "ditch", "militia"],
-  	"description": "<br>The aspects of this game can be added to any pre-existing battlegame. It is typically played during a four or five life shatter game, but it is not necessary to follow that tradition.<p>Before Lay-On is called, each player is whispered a Code Word from a Reeve. Each Team should have the same number of the same Code Word present (i.e. if Team A has two players using the \"Fluffymuffin\" Code Word, Team B should also have two players using \"Fluffymuffin\").<p>At random intervals during gameplay, the Caller Reeve (in that, only one Reeve should be calling out words) shouts random Code Words from those used. Immediately, any player who is using that Code Word switches Teams for the duration of that life and should try to do as much damage as possible to his original Team."
-	},
+    "name": "Assassination / Spy",
+    "credit": "Sir Guy Kasama / Squire Niveus, Iron Mountains / Westmarch",
+    "objective": "An add-on to any existing battlegame",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "description": "<br>The aspects of this game can be added to any pre-existing battlegame. It is typically played during a four or five life shatter game, but it is not necessary to follow that tradition.<p>Before Lay-On is called, each player is whispered a Code Word from a Reeve. Each Team should have the same number of the same Code Word present (i.e. if Team A has two players using the \"Fluffymuffin\" Code Word, Team B should also have two players using \"Fluffymuffin\").<p>At random intervals during gameplay, the Caller Reeve (in that, only one Reeve should be calling out words) shouts random Code Words from those used. Immediately, any player who is using that Code Word switches Teams for the duration of that life and should try to do as much damage as possible to his original Team."
+  },
   "barrage": {
-  	"name": "Barrage",
-  	"credit": "Jondal'ar Silvertongue and Aicean",
-  	"teams": "Free-for-all",
-  	"respawn": "None",
-  	"lives": "1",
-  	"players": "3+",
-  	"objective": "Quickly teach spell balls, incants and effects",
-  	"refresh": "None",
-  	"types": [ "ditch" ],
-  	"equipment": "Large number/variety of spell balls",
-  	"description": "<br>A large number and variety of spell balls are scattered on the field. All players begin in a ring around the field. They can use any spell ball they can grab, after using the correct incant for it. States from spell balls only last 15sec for speed of play.<br>Before the game, go over what each spell ball is, what it does, and what the incant is. <br>This game is usually best to run 3-4 times in a row, as it helps players really learn the info, and it can be rather fast."
-	},
+    "name": "Barrage",
+    "credit": "Jondal'ar Silvertongue and Aicean",
+    "teams": "Free-for-all",
+    "respawn": "None",
+    "lives": "1",
+    "players": "3+",
+    "objective": "Quickly teach spell balls, incants and effects",
+    "refresh": "None",
+    "types": [
+      "ditch"
+    ],
+    "equipment": "Large number/variety of spell balls",
+    "description": "<br>A large number and variety of spell balls are scattered on the field. All players begin in a ring around the field. They can use any spell ball they can grab, after using the correct incant for it. States from spell balls only last 15sec for speed of play.<br>Before the game, go over what each spell ball is, what it does, and what the incant is. <br>This game is usually best to run 3-4 times in a row, as it helps players really learn the info, and it can be rather fast."
+  },
   "backtoback": {
     "name": "Back to Back",
     "credit": "Finola, Northern Empire",
@@ -53,35 +66,44 @@
     "players": "2 or 4",
     "objective": "Kill the other team, or survive against multiple waves",
     "refresh": "None",
-    "types": [ "ditch", "militia"],
+    "types": [
+      "ditch",
+      "militia"
+    ],
     "equipment": "",
     "description": "<br>Teams of two take turns defending against four attackers. At its simplest, the game is about learning to fight as a team against other teams, so who wins and who loses doesn't matter. However, a variation exists where two-man teams will fight continuous waves of four-man teams until the two- man team is defeated. If multiple two-man teams run this gauntlet, the team with the most wins, wins the day."
   },
   "bountyhunt": {
-  	"name": "Bounty Hunt",
-  	"credit": "Dor un Avathar / By Night They Dance",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To slay as many monsters as possible",
-  	"refresh": "None",
-  	"types": [ "class"],
-  	"description": "<br>Two (or more) small Teams begin play at a self-designated Respawn point, at least 50ft away from other Teams. Teams may fight one another as desired, but the goal of the game is to slay as many monsters as possible within a time limit (suggested 30 minutes).<p>The game requires a number of NPCs to roam the field playing Monster Classes. Each NPC is given a number of Life Tokens, which are given to Teams that successfully kill them. If Monsters of different difficulty ratings are used, score tokens from Monsters differently based on that rating (which requires designating which tokens belong to which Monster somehow)."
-	},
+    "name": "Bounty Hunt",
+    "credit": "Dor un Avathar / By Night They Dance",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To slay as many monsters as possible",
+    "refresh": "None",
+    "types": [
+      "class"
+    ],
+    "description": "<br>Two (or more) small Teams begin play at a self-designated Respawn point, at least 50ft away from other Teams. Teams may fight one another as desired, but the goal of the game is to slay as many monsters as possible within a time limit (suggested 30 minutes).<p>The game requires a number of NPCs to roam the field playing Monster Classes. Each NPC is given a number of Life Tokens, which are given to Teams that successfully kill them. If Monsters of different difficulty ratings are used, score tokens from Monsters differently based on that rating (which requires designating which tokens belong to which Monster somehow)."
+  },
   "bridgebattle": {
-  	"name": "Bridge Battle",
-  	"credit": "Amtgard standard",
-  	"teams": "2",
-  	"lives": "Life Pool, Infinite, as desired",
-  	"respawn": "Count, on Reset, as desired",
-  	"players": "2+ per team",
-  	"objective": "To kill the other team or reach the other side",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape or pylons",
-  	"description": "<br>The specifics of this game can vary depending on mood and desire. However, in every case there are at least two regions (one for each Team), joined together by at least one \"Bridge\". In most circumstances these areas are designated by flagging tape or pylons, but sometimes parks are able to otherwise designate a bridge.<p>Depending on design, players who step off the bridge (into the \"Water\"/\"Void\"/\"Pit\") are either forced to \"walk\" on their knees only, are dead, or suffer some other penalty. Death is usually thought to be the easiest to adjudicate, and therefore is the most common.<p><b>Pirate Battle</b> (Nautical Nights): Game is played between two regions representing Pirate Ships, which are connected by one or two boarding bridges. Bridges should be at least five feet across and twenty feet long.<p>All players are restricted to wearing light (non-metal) armour. No bows or crossbows are permitted, though thrown weapons and javelins are allowed. No large or medium shields are allowed.<p>As an additional benefit, any player who fights with no armour and only a single short sword or dagger will gain a free <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing against Wounds</a> every life."
-	},
+    "name": "Bridge Battle",
+    "credit": "Amtgard standard",
+    "teams": "2",
+    "lives": "Life Pool, Infinite, as desired",
+    "respawn": "Count, on Reset, as desired",
+    "players": "2+ per team",
+    "objective": "To kill the other team or reach the other side",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape or pylons",
+    "description": "<br>The specifics of this game can vary depending on mood and desire. However, in every case there are at least two regions (one for each Team), joined together by at least one \"Bridge\". In most circumstances these areas are designated by flagging tape or pylons, but sometimes parks are able to otherwise designate a bridge.<p>Depending on design, players who step off the bridge (into the \"Water\"/\"Void\"/\"Pit\") are either forced to \"walk\" on their knees only, are dead, or suffer some other penalty. Death is usually thought to be the easiest to adjudicate, and therefore is the most common.<p><b>Pirate Battle</b> (Nautical Nights): Game is played between two regions representing Pirate Ships, which are connected by one or two boarding bridges. Bridges should be at least five feet across and twenty feet long.<p>All players are restricted to wearing light (non-metal) armour. No bows or crossbows are permitted, though thrown weapons and javelins are allowed. No large or medium shields are allowed.<p>As an additional benefit, any player who fights with no armour and only a single short sword or dagger will gain a free <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing against Wounds</a> every life."
+  },
   "capturethecapturer": {
     "name": "Capture the Capturer",
     "credit": "Inspired by a random game somewhere on the internet",
@@ -91,23 +113,31 @@
     "players": "8+",
     "objective": "Put your opposing team(s) in jail",
     "refresh": "No more than 1 per 2 points scored",
-    "types": [ "class", "ditch", "militia"],
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
     "equipment": "Something to mark nirvana per team, something to mark jail per team",
     "description": "<br>When a player dies, they do not move until their count is complete.  During this time, a player from an opposing team may tag the player with a free hand and announce \"captured\".<br><br>The captured players spawn count is paused and must follow the capturer, the player may not intentionally move slow to attempt to break free from the captured status.  The player may not be summoned or resurrected, but for all other purposes, the player is considered dead.<br><br>To maintain the the captured status, the capturer must have a hand free, stay within 3 feet of the captured player, and may not run.  The capturer may also announce \"dropping\" to remove the captured status from the player they have captured.<br><br>The teams need to take their captured players to their prison, and once a captured player reaches it, their count stops, and they must remain in the prison until either the round is over or until rescued.  You may rescue your teammates by entering the prison while alive and saying \"prison break!\".  All captured players in that prison may return to their base and immediately come alive upon tagging it.  The captured players are out of game until they tag their base while the player that caused the prison break is still alive and in play.  The last team standing wins.  May play multiple rounds with teams earning points for each round they survived."
   },
   "capturetheflag": {
-  	"name": "Capture the Flag",
-  	"credit": "Amtgard standard",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "2+ per team",
-  	"objective": "To capture the opponent's flag",
-  	"refresh": "Optional (<i>see below</i>)",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flags for the teams",
-  	"description": "<br>Each Team is given a flag that is kept at their Base. Each Team should also have a Nirvana/Respawn Point which is separate from where their flag is stored.<p>The goal of the game is to retrieve an opposing Team's flag, and return it to their own Base. In order to score, the Team must have possession of their own flag.<p>Games are usually played for either a time duration, or until one Team earns a certain number of points. If the game is being played until one Team scores a certain number of points, it can sometimes be fun to give the \"loosing\" Team a Refresh when the \"Winning\" Team is one point away from winning the game.<p>Respawn counts should be adjust based on game size and type. In smaller (<10 players per Team) non-class games lower Respawn counts should be used, while larger (>30 players per Team) games should use longer counts.<p><b>Capture and Hold:</b> A variation of Capture the Flag requires Teams to successfully hold both flags before they score a point. This count should always be longer than a Death Count (for example, 120 seconds for a 60 second Respawn count game)."
-	},
+    "name": "Capture the Flag",
+    "credit": "Amtgard standard",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "2+ per team",
+    "objective": "To capture the opponent's flag",
+    "refresh": "Optional (<i>see below</i>)",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flags for the teams",
+    "description": "<br>Each Team is given a flag that is kept at their Base. Each Team should also have a Nirvana/Respawn Point which is separate from where their flag is stored.<p>The goal of the game is to retrieve an opposing Team's flag, and return it to their own Base. In order to score, the Team must have possession of their own flag.<p>Games are usually played for either a time duration, or until one Team earns a certain number of points. If the game is being played until one Team scores a certain number of points, it can sometimes be fun to give the \"loosing\" Team a Refresh when the \"Winning\" Team is one point away from winning the game.<p>Respawn counts should be adjust based on game size and type. In smaller (<10 players per Team) non-class games lower Respawn counts should be used, while larger (>30 players per Team) games should use longer counts.<p><b>Capture and Hold:</b> A variation of Capture the Flag requires Teams to successfully hold both flags before they score a point. This count should always be longer than a Death Count (for example, 120 seconds for a 60 second Respawn count game)."
+  },
   "capturetheflaghoardervariant": {
     "name": "Capture the Flag - Hoarder Variant",
     "credit": "Dorcas",
@@ -117,75 +147,98 @@
     "players": "8+",
     "objective": "Capture the flag, and the resources",
     "refresh": "No more than 1 per 2 points scored",
-    "types": [ "class", "ditch", "militia"],
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
     "equipment": "2 flags, about a dozen tennis balls/blocks/other similar sized things to represent resources, something for nirvana/start point, something to hold balls/blocks/ similar sized things to represent resources",
     "description": "<br>Runs as standard <a href=\"/battlegamesby/c#capturetheflag\" data-ajax=\"false\">Capture the Flag</a>, to score and end the round, both flags must be at your base.  In addition, there are resources scattered throughout the field that each team can collect and placed in a team's hoard.  Resources may be stolen out of a team's hoard.<br><br>The flag requires a free hand to carry, and may carry as many flags as desired.  Resources do not require a free hand, multiple may be carried.  If you willingly enter a state or die (willing or not) while carrying a game item(s), you must drop all of them. A team earns 3 points with a flag capture, and 1 point for each resource that is in their hoard."
   },
   "caravanbattle": {
-  	"name": "Caravan Battle",
-  	"credit": "Amtgard standard",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "Move the Caravan as far as possible",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Heavy Object",
-  	"description": "<br>This game is played in timed rounds - typically 10-15 minutes long. Each Round is designated by a Team taking a turn Defending a Caravan against Attacking opposing Team(s). The goal is to get the Caravan as far as possible as fast as possible (that is, the winning Team is the Team that moves the Caravan the furthest, or who reached the Caravan's Destination the fastest if more than one Team reached the end).<p>The Caravan is physically represented by a Heavy Object (i.e. an object that requires two players to carry it with at least one empty hand at a walk), which can only be moved by Defending players.<p>It is easiest if the Defending players begin play at the Caravan's Origin, and the Attacking players begin play at the Caravan's Destination. Both sides should use these locations as their Respawn points.<p>Variations on this game exist where the Attacking Team(s) do not play full Class, but are restricted to either Ditch or Militia Rules, Monster Classes (i.e. Goblins), or 1st level Classes."
-	},
+    "name": "Caravan Battle",
+    "credit": "Amtgard standard",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "Move the Caravan as far as possible",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Heavy Object",
+    "description": "<br>This game is played in timed rounds - typically 10-15 minutes long. Each Round is designated by a Team taking a turn Defending a Caravan against Attacking opposing Team(s). The goal is to get the Caravan as far as possible as fast as possible (that is, the winning Team is the Team that moves the Caravan the furthest, or who reached the Caravan's Destination the fastest if more than one Team reached the end).<p>The Caravan is physically represented by a Heavy Object (i.e. an object that requires two players to carry it with at least one empty hand at a walk), which can only be moved by Defending players.<p>It is easiest if the Defending players begin play at the Caravan's Origin, and the Attacking players begin play at the Caravan's Destination. Both sides should use these locations as their Respawn points.<p>Variations on this game exist where the Attacking Team(s) do not play full Class, but are restricted to either Ditch or Militia Rules, Monster Classes (i.e. Goblins), or 1st level Classes."
+  },
   "castledefense": {
-  	"name": "Castle Defense",
-  	"credit": "Amtgard standard",
-  	"teams": "2+",
-  	"lives": "Unlimited, Life Pool",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To defend the castle for as long as possible",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flag tape or real walls, build a castle",
-  	"description": "<br>A four-walled \"castle\" is required for this game. At its simplest, this can be a flag-tape construction, where walls are infinitely high, impassable, and block line of sight and line of effect (therefore an arrow fired through the \"wall\" would have no effect on a target hit on the other side, and players cannot be targeted by verbal spells through the \"wall\"). At its most complex, a real physical fort or castle would be ideal. Castle entrances should be at least 7-8ft wide for this game to be fair (more entrances can be added for additional difficulty).<p>Teams take turns playing \"Attack\" and \"Defense\".<p>The team currently Attacking has a Respawn point at least 200ft from the castle entrance. They have unlimited lives.<p>The team currently Defending has a Respawn point inside the castle. This works best if dead players are kept in a region of the castle that active players cannot enter. The Defending team has a cumulative Life Pool equal to twice the number of players on their team. Defending players may delay their return to the game if desired to return to the field in force.<p>The round ends when there are no Defenders left Alive within the Castle Walls (which is accomplished when the Defending team is shattered). The time is recorded, and is attributed to the Defending team.<p>The team with the longest time spent Defending wins.<p>Variations on this game can include splitting three teams, where each team takes turns Defending against two Attacking teams. Additionally, Attacking teams are sometimes asked to play Militia, or Ditch rules (or even as Monster Classes, such as Goblins and Orcs), while the Defending team plays full class."
-	},
+    "name": "Castle Defense",
+    "credit": "Amtgard standard",
+    "teams": "2+",
+    "lives": "Unlimited, Life Pool",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To defend the castle for as long as possible",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flag tape or real walls, build a castle",
+    "description": "<br>A four-walled \"castle\" is required for this game. At its simplest, this can be a flag-tape construction, where walls are infinitely high, impassable, and block line of sight and line of effect (therefore an arrow fired through the \"wall\" would have no effect on a target hit on the other side, and players cannot be targeted by verbal spells through the \"wall\"). At its most complex, a real physical fort or castle would be ideal. Castle entrances should be at least 7-8ft wide for this game to be fair (more entrances can be added for additional difficulty).<p>Teams take turns playing \"Attack\" and \"Defense\".<p>The team currently Attacking has a Respawn point at least 200ft from the castle entrance. They have unlimited lives.<p>The team currently Defending has a Respawn point inside the castle. This works best if dead players are kept in a region of the castle that active players cannot enter. The Defending team has a cumulative Life Pool equal to twice the number of players on their team. Defending players may delay their return to the game if desired to return to the field in force.<p>The round ends when there are no Defenders left Alive within the Castle Walls (which is accomplished when the Defending team is shattered). The time is recorded, and is attributed to the Defending team.<p>The team with the longest time spent Defending wins.<p>Variations on this game can include splitting three teams, where each team takes turns Defending against two Attacking teams. Additionally, Attacking teams are sometimes asked to play Militia, or Ditch rules (or even as Monster Classes, such as Goblins and Orcs), while the Defending team plays full class."
+  },
   "chess": {
-  	"name": "Chess",
-  	"credit": "Duke Sir Jabberwock, Iron Mountains",
-  	"teams": "2",
-  	"lives": "Infinite, 1",
-  	"respawn": "60 seconds where they died",
-  	"players": "5+ per team",
-  	"objective": "To kill the opposing King",
-  	"refresh": "None",
-  	"types": [ "ditch", "militia"],
-  	"equipment": "White strip for Stoneskin",
-  	"description": "<br>Divide players into two Teams. Teams then chose a \"King\". This player is armed with only two daggers, but is given a free Stoneskin enchantment. All other players can select any weapon and armour desired. One team wins when they have successfully shattered the opposing team's King.<p>Wounded players may heal by grounding their weapons for a 30 count.<p>The King of the Winning Team joins the Losing Team as a regular player, and both teams pick a new King. Repeat as necessary. The length of each round can be shortened or extended by giving the King more or less lives. A good suggested starting point would be four lives."
-	},
+    "name": "Chess",
+    "credit": "Duke Sir Jabberwock, Iron Mountains",
+    "teams": "2",
+    "lives": "Infinite, 1",
+    "respawn": "60 seconds where they died",
+    "players": "5+ per team",
+    "objective": "To kill the opposing King",
+    "refresh": "None",
+    "types": [
+      "ditch",
+      "militia"
+    ],
+    "equipment": "White strip for Stoneskin",
+    "description": "<br>Divide players into two Teams. Teams then chose a \"King\". This player is armed with only two daggers, but is given a free Stoneskin enchantment. All other players can select any weapon and armour desired. One team wins when they have successfully shattered the opposing team's King.<p>Wounded players may heal by grounding their weapons for a 30 count.<p>The King of the Winning Team joins the Losing Team as a regular player, and both teams pick a new King. Repeat as necessary. The length of each round can be shortened or extended by giving the King more or less lives. A good suggested starting point would be four lives."
+  },
   "coinhunt": {
-  	"name": "Coin Hunt",
-  	"credit": "Ausric, Northern Empire",
-  	"teams": "2+",
-  	"lives": "unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "Retrieve more coin/treasure tokens than the opposing team",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Bins at bases and bins or chests of tokens",
-  	"description": "<br>Two (or more) teams set up in an equidistant pattern around the edge of the field. Each team’s base has a bin or deposit point in front of it, and a bin or chest of treasure tokens should sit in the center of the field. The game works best with roughly two to three tokens available per player.<p>Players can grab treasure tokens from the center chest by carrying one in a free hand, and running it back to their deposit point or chest. Treasure can be retrieved from any opposing team’s deposit point as well.<p>The game ends after a predetermined time (suggested to be 20 minutes). The team with the most tokens in their chest at the end of the time limit wins."
-	},
+    "name": "Coin Hunt",
+    "credit": "Ausric, Northern Empire",
+    "teams": "2+",
+    "lives": "unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "Retrieve more coin/treasure tokens than the opposing team",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Bins at bases and bins or chests of tokens",
+    "description": "<br>Two (or more) teams set up in an equidistant pattern around the edge of the field. Each team’s base has a bin or deposit point in front of it, and a bin or chest of treasure tokens should sit in the center of the field. The game works best with roughly two to three tokens available per player.<p>Players can grab treasure tokens from the center chest by carrying one in a free hand, and running it back to their deposit point or chest. Treasure can be retrieved from any opposing team’s deposit point as well.<p>The game ends after a predetermined time (suggested to be 20 minutes). The team with the most tokens in their chest at the end of the time limit wins."
+  },
   "domination": {
-  	"name": "Domination",
-  	"credit": "Elm the Bold / Ursus MacGroighar / Wunjo, Twilight Peak",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "Turn all capture points to your colour, and hold for a predetermined time.",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Colored cloth to indicate team captures",
-  	"description": "<br>Two or three capture points should be interspersed throughout the field, each manned by a Reeve with some way of indicating which team currently controls that point (whether two pieces of cloth to hold aloft, or a staff with one colour at each end, etc.). A team can capture a point by touching it and stating “I capture this point” x5, at which point the Reeve for that point puts the colour of that team in the air to indicate it is controlled by that team.<p>When a controlled point is touched by the opposing team, and “I capture this point” is stated once, the point becomes neutral. It is not captured by the team until all five iterations of the incant have been completed.<p>If a team manages to control all of the points, a count-down begins. The size of the game and field should determine the count, but a standard for small games is 15 seconds, and 30 seconds for mid to large games.<p>When the count-down ends, a point is scored, and all players return to their starting points for the next round. Enchantments in play remain, but this is not a refresh of Spells or Abilities (though in very large games, this could be altered to include a Refresh).<p>Larger games can also include the addition of more capture points if necessary.<p><b>Eye of the Storm (Ethryn / Ducryus, Northern Empire):</b> A variation of Domination uses seven control points represented by flags standing in tubes or pylons. The flags are typically old sword cores or spare arrows with flags attached, and each control point has one of each team's colour. Capturing a control point simply requires removing the opposing team's flag, and adding your own.<p>The control points are set up in a circle, with the odd one in the center. Flags should be at least twenty feet from one another - though in larger games fifty feet may be more appropriate.<p>When one team holds the majority (four or more) of the control points, a 30 second count is started, after which a point is scored. Respawn counts are typically 30 seconds, with each Respawn point being at least twenty feet away from the cluster of control points."
-	},
+    "name": "Domination",
+    "credit": "Elm the Bold / Ursus MacGroighar / Wunjo, Twilight Peak",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "Turn all capture points to your colour, and hold for a predetermined time.",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Colored cloth to indicate team captures",
+    "description": "<br>Two or three capture points should be interspersed throughout the field, each manned by a Reeve with some way of indicating which team currently controls that point (whether two pieces of cloth to hold aloft, or a staff with one colour at each end, etc.). A team can capture a point by touching it and stating “I capture this point” x5, at which point the Reeve for that point puts the colour of that team in the air to indicate it is controlled by that team.<p>When a controlled point is touched by the opposing team, and “I capture this point” is stated once, the point becomes neutral. It is not captured by the team until all five iterations of the incant have been completed.<p>If a team manages to control all of the points, a count-down begins. The size of the game and field should determine the count, but a standard for small games is 15 seconds, and 30 seconds for mid to large games.<p>When the count-down ends, a point is scored, and all players return to their starting points for the next round. Enchantments in play remain, but this is not a refresh of Spells or Abilities (though in very large games, this could be altered to include a Refresh).<p>Larger games can also include the addition of more capture points if necessary.<p><b>Eye of the Storm (Ethryn / Ducryus, Northern Empire):</b> A variation of Domination uses seven control points represented by flags standing in tubes or pylons. The flags are typically old sword cores or spare arrows with flags attached, and each control point has one of each team's colour. Capturing a control point simply requires removing the opposing team's flag, and adding your own.<p>The control points are set up in a circle, with the odd one in the center. Flags should be at least twenty feet from one another - though in larger games fifty feet may be more appropriate.<p>When one team holds the majority (four or more) of the control points, a 30 second count is started, after which a point is scored. Respawn counts are typically 30 seconds, with each Respawn point being at least twenty feet away from the cluster of control points."
+  },
   "dontwakegrampa": {
     "name": "Don't Wake Grampa",
     "credit": "Darkcast (Neverwinter)",
@@ -195,40 +248,54 @@
     "players": "4 minimum",
     "objective": "Shatter the enemy team and make it across the line",
     "refresh": "Up to Reeve",
-    "types": [ "class", "ditch", "militia"],
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
     "equipment": "Cones to mark lines and side boundaries if you want to keep Grampa within an area",
     "description": "<br>This is a variation of <a href=\"/battlegamesby/f#foxtrotkrakensharksandminnowssnakesandrats\" data-ajax=\"false\">Sharks Vs Minows</a>. Have a reeve in the middle of the field. They are Grampa. Two teams line up across from each other. They must get to the other side safely.<br><br>As the teams cross they may fight. A player who is killed is out of the round until everyone has crossed. They then may enter the game at the start of a rew round unless shattered.<br><br>As the teams cross they can fight, cast spells, etc. <b>However</b> if a player is standing within 20 feet of the Reeve, speaking any words, or starting any incants wakes Grandpa. Upon being awake, Grampa yells <b>\"YOU WOKE GRAMPA\"</b>!. Grampa will then run around as per <a href=\"/spells/f#fightaftereeath\" data-ajax=\"false\">Fight After Death</a> for 15 seconds before falling back asleep. Grampa can kill players. Grampa's weapons are a siege weapon and getting struck acts like a siege weapon.<br><br>Grampa is immune to any wounds or magic.<br><br>Last team standing wins.<br><br><i>Note</i>: Any abilities that are per life that were used in a round do not come back if you survived the round as it's the same life. Enchantments do carry between rounds<br><i>Second Note</i>: Works even better when Grampa is being roleplayed really well<br><i>Third Note</i>: The game doesn't end until the round that the enemy team is shattered in ends. (Example: if only one person from each team are left with 1 life each and Grampa is woken up and shatters one of them the other player must still make it to the other side. If he dies then Grampa wins. A FAD Barbarian can also cause this to happen"
   },
   "duellingchargos": {
-  	"name": "Duelling Chargos",
-  	"credit": "Wunjo",
-  	"objective": "To Charge scoring zones more than the opposing Team",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Hula-hoops or something for zones",
-  	"description": "<br>Two zones are placed on the field between the two Teams. Hula-hoops work best for the zones, but anything comparable will work. To score points, Players enter these scoring zones and Charge x3.<p>Only one player may occupy and Charge a zone at a time. The most points after 20 minutes wins.<p>Note that Song of Power will reduce the repetitions of the Charge incant required to score points.<p>Originally, this game was intended to be played with every Player playing the Bard class. However, it will work just as well with all classes available to Players (however, keep in mind Bards while balancing, since Song of Power can swing the balance greatly)."
-	},
+    "name": "Duelling Chargos",
+    "credit": "Wunjo",
+    "objective": "To Charge scoring zones more than the opposing Team",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Hula-hoops or something for zones",
+    "description": "<br>Two zones are placed on the field between the two Teams. Hula-hoops work best for the zones, but anything comparable will work. To score points, Players enter these scoring zones and Charge x3.<p>Only one player may occupy and Charge a zone at a time. The most points after 20 minutes wins.<p>Note that Song of Power will reduce the repetitions of the Charge incant required to score points.<p>Originally, this game was intended to be played with every Player playing the Bard class. However, it will work just as well with all classes available to Players (however, keep in mind Bards while balancing, since Song of Power can swing the balance greatly)."
+  },
   "epicbattlegame": {
-  	"name": "EPIC Battlegame",
-  	"credit": "Thalese, Northern Empire",
-  	"objective": "Battlegame Modifier",
-  	"types": [ "class"],
-  	"equipment": "Lots of class sashes",
-  	"description": "<br>Adding this qualifier to a battlegame will create an epically long and tiring game, but one that is incredible to behold. During the course of the game, every player is capable of playing ten classes. Most players only have access to the ten standard classes, but Knights may substitute Anti-Paladin and/or Paladin for one of the other standard classes.<p>Typically, this is accomplished by each player playing four lives with each class - i.e. a player may begin by playing Warrior, be killed four times, then switch to Wizard, be killed four times, then switch to Scout, etc. When a player has been shattered out of each of their ten classes, they are allowed to return to the field as Peasants within infinite lives.<p>There is almost always a time limit placed on the game.<p><b>Mini-EPIC</b> (Felfrost, Northern Empire): A shorter version of the EPIC Battlegame gives players the opportunity to play four classes, instead of the full ten, and typically for two lives instead of four. All other considerations apply."
-	},
+    "name": "EPIC Battlegame",
+    "credit": "Thalese, Northern Empire",
+    "objective": "Battlegame Modifier",
+    "types": [
+      "class"
+    ],
+    "equipment": "Lots of class sashes",
+    "description": "<br>Adding this qualifier to a battlegame will create an epically long and tiring game, but one that is incredible to behold. During the course of the game, every player is capable of playing ten classes. Most players only have access to the ten standard classes, but Knights may substitute Anti-Paladin and/or Paladin for one of the other standard classes.<p>Typically, this is accomplished by each player playing four lives with each class - i.e. a player may begin by playing Warrior, be killed four times, then switch to Wizard, be killed four times, then switch to Scout, etc. When a player has been shattered out of each of their ten classes, they are allowed to return to the field as Peasants within infinite lives.<p>There is almost always a time limit placed on the game.<p><b>Mini-EPIC</b> (Felfrost, Northern Empire): A shorter version of the EPIC Battlegame gives players the opportunity to play four classes, instead of the full ten, and typically for two lives instead of four. All other considerations apply."
+  },
   "faeriecircles": {
-  	"name": "Faerie Circles",
-  	"credit": "Gratus Anvil-Thrower (Original, below is a modification), Goldenvale",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To close all opposing Faerie Circles",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape for 10ft Circles",
-  	"description": "<br>Each Team begins with two or more \"Faerie Circles\" (zones designated by flagging tape or equivalent - best results when they are at least 10ft squares), which act as their Respawn points and Bases. Players may Respawn at either of their Team's Circles freely, and change where the Respawn each life. Circles should be created at least 50ft away from one another.<p>An Opposing Team's Faerie Circle may be closed by entering the Circle and chanting \"<i>I don't believe in Faeries</i>\" x10. At this point, a Reeve begins a 30 second count-down. After that count, the circle closes. A closed Circle cannot be used to Respawn from.<p>A Circle can be re-opened by entering the Circle and chanting \"<i>I believe in Faeries</i>\" x10, after which a Reeve begins a 15 second count-down. After that count, the circle opens.<p>The game ends when one team has no viable Faerie Circles to Respawn from."
-	},
+    "name": "Faerie Circles",
+    "credit": "Gratus Anvil-Thrower (Original, below is a modification), Goldenvale",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To close all opposing Faerie Circles",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape for 10ft Circles",
+    "description": "<br>Each Team begins with two or more \"Faerie Circles\" (zones designated by flagging tape or equivalent - best results when they are at least 10ft squares), which act as their Respawn points and Bases. Players may Respawn at either of their Team's Circles freely, and change where the Respawn each life. Circles should be created at least 50ft away from one another.<p>An Opposing Team's Faerie Circle may be closed by entering the Circle and chanting \"<i>I don't believe in Faeries</i>\" x10. At this point, a Reeve begins a 30 second count-down. After that count, the circle closes. A closed Circle cannot be used to Respawn from.<p>A Circle can be re-opened by entering the Circle and chanting \"<i>I believe in Faeries</i>\" x10, after which a Reeve begins a 15 second count-down. After that count, the circle opens.<p>The game ends when one team has no viable Faerie Circles to Respawn from."
+  },
   "feedthetrolls": {
     "name": "Feed the Trolls",
     "objective": "Kill the Trolls!",
@@ -239,73 +306,89 @@
     "players": "10+ and 1 Troll per 5 players",
     "equipment": "Troll Bait, Troll Cave",
     "credit": "Wunjo",
-    "types": [ "class"],
+    "types": [
+      "class"
+    ],
     "description": "<br>Scattered throughout the field is Troll bait (5-7 pieces of something...).  The teams try to collect the bait so that they can put all the pieces in front of the entrance of the cave to get the Trolls to emerge.  Each time the Trolls are summoned, they may have a random ability determined by QM (optional).  After all the Trolls are killed, players return to their base, bait is redispersed, and the game continues.  Whichever team gets the first to a set number of Troll kills wins."
   },
   "foxtrotkrakensharksandminnowssnakesandrats": {
-  	"name": "Foxtrot / Kraken / Sharks and Minnows / Snakes and Rats",
-  	"credit": "Amtgard standard",
-  	"teams": "4+",
-  	"lives": "One per round",
-  	"respawn": "See below",
-  	"players": "One Predator, other Prey",
-  	"objective": "Predators: To convert all Prey; Prey: To survive as many rounds as possible",
-  	"refresh": "None",
-  	"types": [ "ditch"],
-  	"equipment": "Cones, Flagging tape",
-  	"description": "<br>One player is chosen to play the Predator (typically known as a Fox, Kraken, Shark, Snake, etc.), while all other players begin as the Prey (Rabbits, Sailors, Minnows, Rats, etc.).<p>Section off a laneway (either with ribbon or cones). The Predator begins play in this laneway, and all Prey begin outside of the laneway all on one side. Each round, the Prey must successfully reach the other side of the laneway without being killed by the Predator.<p>The Predator has a 10-second Respawn, and will return to the game where they were killed. Prey that are killed should remain where they died (so long as it remains safe) until the round has been reset.<p>In most variations, all players only are allowed Short Swords. However, in some variations, the original Predator is allowed additional weaponry depending on the game design.<p>In most variations (Shark, Fox, Snake, etc.), the first Prey killed in a round becomes a Predator, and roams the laneway with the original Predator attempting to kill more Prey each round. However, in some variations, all Prey killed become Predators - or, in the case of Kraken, all Prey killed become tentacles which are able to fight, but must keep their feet planted (as if Stopped) during rounds.<p>In any case, the last Prey left alive is typically the winner of the game. If multiple games are played, this survivor should become the first Predator in the next game."
-	},
+    "name": "Foxtrot / Kraken / Sharks and Minnows / Snakes and Rats",
+    "credit": "Amtgard standard",
+    "teams": "4+",
+    "lives": "One per round",
+    "respawn": "See below",
+    "players": "One Predator, other Prey",
+    "objective": "Predators: To convert all Prey; Prey: To survive as many rounds as possible",
+    "refresh": "None",
+    "types": [
+      "ditch"
+    ],
+    "equipment": "Cones, Flagging tape",
+    "description": "<br>One player is chosen to play the Predator (typically known as a Fox, Kraken, Shark, Snake, etc.), while all other players begin as the Prey (Rabbits, Sailors, Minnows, Rats, etc.).<p>Section off a laneway (either with ribbon or cones). The Predator begins play in this laneway, and all Prey begin outside of the laneway all on one side. Each round, the Prey must successfully reach the other side of the laneway without being killed by the Predator.<p>The Predator has a 10-second Respawn, and will return to the game where they were killed. Prey that are killed should remain where they died (so long as it remains safe) until the round has been reset.<p>In most variations, all players only are allowed Short Swords. However, in some variations, the original Predator is allowed additional weaponry depending on the game design.<p>In most variations (Shark, Fox, Snake, etc.), the first Prey killed in a round becomes a Predator, and roams the laneway with the original Predator attempting to kill more Prey each round. However, in some variations, all Prey killed become Predators - or, in the case of Kraken, all Prey killed become tentacles which are able to fight, but must keep their feet planted (as if Stopped) during rounds.<p>In any case, the last Prey left alive is typically the winner of the game. If multiple games are played, this survivor should become the first Predator in the next game."
+  },
   "goblinbomb": {
-  	"name": "Goblin Bomb",
-  	"credit": "Korderellin, Iron Mountains",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 second death count, start counting at death, and come alive at Respawn Point",
-  	"players": "3+ per team",
-  	"objective": "To destroy the opposing team's base with one of the provided Bombs",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging Tape, foam \"Bombs\"",
-  	"description": "<br>Each team has three circles or rooms in front of their Respawn Point, all of which constitutes their Base for the duration of this game. Two of the circles are considered \"Structural Points\" and the third (typically the center one if they are set up in a line) is the \"Safe Room\". Rooms/circles can be right next to one another, or a distance apart, as desired or dictated by game size. The Respawn Point should be kept at least ten to twenty feet away from any of the circle.<p>The center of the field has an additional circle which is called the \"Reload Point\".<p>Both teams start with one \"Bomb\" - this could be a foam representation or some other physical object. They can be carried in a free hand, and cannot be made inaccessible (i.e. Insubstantial, Frozen). A player can place a bomb in one of the opposing team's Structural Points, and say \"<i>Setting</i>\" x5. This arms the bomb, and sets the timer for 60 seconds. Once this timer is complete (should be counted by a Reeve), the bomb explodes.<p>A bomb that explodes within one of the Structural Points ends the game with a victory for the team that set the bomb (or, optionally scores them a point, and the game resets/refreshes). If the bomb explodes anywhere outside of a Structural Point or Safe Room, it instantly kills anyone within arm's reach.<p>If a bomb is moved to the Safe Room, and someone says \"<i>Defusing</i>\" x5, the bomb is successfully diffused and rendered inert.<p>Bombs that have exploded or rendered inert can be brought to the Reload Point. After saying \"<i>Reloading</i>\" x5, the bomb is considered active again and can be Set at a base again.<p>If a bomb is thrown or rolled, it instantly explodes."
-	},
+    "name": "Goblin Bomb",
+    "credit": "Korderellin, Iron Mountains",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 second death count, start counting at death, and come alive at Respawn Point",
+    "players": "3+ per team",
+    "objective": "To destroy the opposing team's base with one of the provided Bombs",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging Tape, foam \"Bombs\"",
+    "description": "<br>Each team has three circles or rooms in front of their Respawn Point, all of which constitutes their Base for the duration of this game. Two of the circles are considered \"Structural Points\" and the third (typically the center one if they are set up in a line) is the \"Safe Room\". Rooms/circles can be right next to one another, or a distance apart, as desired or dictated by game size. The Respawn Point should be kept at least ten to twenty feet away from any of the circle.<p>The center of the field has an additional circle which is called the \"Reload Point\".<p>Both teams start with one \"Bomb\" - this could be a foam representation or some other physical object. They can be carried in a free hand, and cannot be made inaccessible (i.e. Insubstantial, Frozen). A player can place a bomb in one of the opposing team's Structural Points, and say \"<i>Setting</i>\" x5. This arms the bomb, and sets the timer for 60 seconds. Once this timer is complete (should be counted by a Reeve), the bomb explodes.<p>A bomb that explodes within one of the Structural Points ends the game with a victory for the team that set the bomb (or, optionally scores them a point, and the game resets/refreshes). If the bomb explodes anywhere outside of a Structural Point or Safe Room, it instantly kills anyone within arm's reach.<p>If a bomb is moved to the Safe Room, and someone says \"<i>Defusing</i>\" x5, the bomb is successfully diffused and rendered inert.<p>Bombs that have exploded or rendered inert can be brought to the Reload Point. After saying \"<i>Reloading</i>\" x5, the bomb is considered active again and can be Set at a base again.<p>If a bomb is thrown or rolled, it instantly explodes."
+  },
   "healathon": {
-  	"name": "Heal-a-Thon",
-  	"credit": "Wunjo",
-  	"teams": "2",
-  	"lives": "Infinite",
-  	"respawn": "25 seconds",
-  	"players": "2+ per team",
-  	"objective": "To <i>heal</i> as many stuffed animals as possible",
-  	"refresh": "None",
-  	"types": [ "class"],
-  	"equipment": "Stuffed animals",
-  	"description": "<br>Scatter a large number of stuffed animals (or similar) around the field. Players earn points for their team by bringing stuffed animals back to their Base (which is also their Respawn point). In order to move a stuffed animal from its location, the stuffed animal must be successfully <i>healed</i>. Once <i>healed</i>, if the animal falls to the ground, it must be <i>healed</i> again. Stuffed animals may not be thrown, and must be dropped if the player carrying the animals is killed. Stuffed animals do not require a free hand. Once scored, the stuffed animals should be returned to the field on the opposing Team's side.<p>The most points scored after 20 minutes wins.<p>All players should play the Healer class during this game.<p>A variation of this game could be played where players may play any class - however, it would be difficult to balance, as only a few classes would be eligible to score points for a Team."
-	},
+    "name": "Heal-a-Thon",
+    "credit": "Wunjo",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": "25 seconds",
+    "players": "2+ per team",
+    "objective": "To <i>heal</i> as many stuffed animals as possible",
+    "refresh": "None",
+    "types": [
+      "class"
+    ],
+    "equipment": "Stuffed animals",
+    "description": "<br>Scatter a large number of stuffed animals (or similar) around the field. Players earn points for their team by bringing stuffed animals back to their Base (which is also their Respawn point). In order to move a stuffed animal from its location, the stuffed animal must be successfully <i>healed</i>. Once <i>healed</i>, if the animal falls to the ground, it must be <i>healed</i> again. Stuffed animals may not be thrown, and must be dropped if the player carrying the animals is killed. Stuffed animals do not require a free hand. Once scored, the stuffed animals should be returned to the field on the opposing Team's side.<p>The most points scored after 20 minutes wins.<p>All players should play the Healer class during this game.<p>A variation of this game could be played where players may play any class - however, it would be difficult to balance, as only a few classes would be eligible to score points for a Team."
+  },
   "healersmercyakaasclisnightmare": {
-  	"name": "Healer's Mercy (aka Ascli's Nightmare)",
-  	"credit": "Finola, Northern Empire",
-  	"teams": "3",
-  	"lives": "1 or Unlimited, see below",
-  	"respawn": "See below",
-  	"players": "See below",
-  	"objective": "For the Healer to save their Charges, or for the Soldiers to stop the Healer",
-  	"refresh": "None",
-  	"types": [ "class"],
-  	"description": "<br>To play this game, there must be five Victims and at least one Soldier for every one Healer. Victims are helpless Peasants who lay still in various locations throughout the field. They are \"injured\" until a Healer approaches them and successfully completes a Heal spell with them as the target. They remain in good health for a 45 count, at which point they become re-injured. Injured Peasants are encouraged to wail in agony.<p>Soldiers are slow moving and dimwitted - they continually move towards a Healer, but are only able to walk at a slow to moderate pace, and will only advance in the direction of an actively casting Healer (i.e. a Healer that is actively speaking a spell's incant). They will try to kill a Healer that gets within their range to the best of their ability. Soldiers are effectively Warriors with no class abilities. They have unlimited lives, and will respawn after a 60 count where they died. They may defend themselves at all times if attacked.<p>Healers are able to play their full class, with access to all spells. They must attempt to heal all victims, while not being killed by the Soldiers. They may defend themselves as necessary, and may choose to attack the Soldiers pre-emptively if they wish. Healers have 1 life each.<p>The game is over either when the Soldiers kill all Healers, or when all victims are in good Health.<p>Variations on the game, adjusting for difficultly, include adjusting the time when a Peasant becomes re-injured, or by adjusting the ratio of Soldiers to Healers.<p>Note that some high level Healer spells (such as Mass Healing) can make this game very easy to win for Healers. Take note of this when deciding who is playing what role in what game size."
-	},
+    "name": "Healer's Mercy (aka Ascli's Nightmare)",
+    "credit": "Finola, Northern Empire",
+    "teams": "3",
+    "lives": "1 or Unlimited, see below",
+    "respawn": "See below",
+    "players": "See below",
+    "objective": "For the Healer to save their Charges, or for the Soldiers to stop the Healer",
+    "refresh": "None",
+    "types": [
+      "class"
+    ],
+    "description": "<br>To play this game, there must be five Victims and at least one Soldier for every one Healer. Victims are helpless Peasants who lay still in various locations throughout the field. They are \"injured\" until a Healer approaches them and successfully completes a Heal spell with them as the target. They remain in good health for a 45 count, at which point they become re-injured. Injured Peasants are encouraged to wail in agony.<p>Soldiers are slow moving and dimwitted - they continually move towards a Healer, but are only able to walk at a slow to moderate pace, and will only advance in the direction of an actively casting Healer (i.e. a Healer that is actively speaking a spell's incant). They will try to kill a Healer that gets within their range to the best of their ability. Soldiers are effectively Warriors with no class abilities. They have unlimited lives, and will respawn after a 60 count where they died. They may defend themselves at all times if attacked.<p>Healers are able to play their full class, with access to all spells. They must attempt to heal all victims, while not being killed by the Soldiers. They may defend themselves as necessary, and may choose to attack the Soldiers pre-emptively if they wish. Healers have 1 life each.<p>The game is over either when the Soldiers kill all Healers, or when all victims are in good Health.<p>Variations on the game, adjusting for difficultly, include adjusting the time when a Peasant becomes re-injured, or by adjusting the ratio of Soldiers to Healers.<p>Note that some high level Healer spells (such as Mass Healing) can make this game very easy to win for Healers. Take note of this when deciding who is playing what role in what game size."
+  },
   "hoarders": {
-  	"name": "Hoarders",
-  	"credit": "Wunjo",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To hoard the most tokens",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Hula-hoops or equivalent, tokens (balls, coins, stuffed animals, etc.)",
-  	"description": "<br>Each Team has three scoring zones (hula hoops or equivalent) on their side of the field, one closer than the other (so that one zone is close to the opposing Team, one close to the friendly Respawn point, and one between them). A number of tokens (balls, coins, stuffed animals, etc.) are distributed between the zones.<p>In order to interact with a token, the player must cast <a href=\"/spells/t#tracking\" data-ajax=\"false\">Tracking</a> on it. A Token must be carried in a free hand, and if dropped (such as when a player dies or is removed from play, as they are Game Objects) must be <a href=\"/spells/t#tracking\" data-ajax=\"false\">Tracking'ed</a> again before being able to be picked up again.<p>At the end of the game, Teams score points for the number of Tokens in each zone (3 points for the zone closest to the opposing Team, 2 points for the middle zone, and 1 point for the zone closest to the friendly Respawn point). The Team with the most points at the end of the game wins.<p>All players should play Scout for this game.<p>A variation of the game could be played where players are allowed to play any class - however the requirement to Track the ball should be removed, or heavily considered when balancing Teams."
-	},
+    "name": "Hoarders",
+    "credit": "Wunjo",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To hoard the most tokens",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Hula-hoops or equivalent, tokens (balls, coins, stuffed animals, etc.)",
+    "description": "<br>Each Team has three scoring zones (hula hoops or equivalent) on their side of the field, one closer than the other (so that one zone is close to the opposing Team, one close to the friendly Respawn point, and one between them). A number of tokens (balls, coins, stuffed animals, etc.) are distributed between the zones.<p>In order to interact with a token, the player must cast <a href=\"/spells/t#tracking\" data-ajax=\"false\">Tracking</a> on it. A Token must be carried in a free hand, and if dropped (such as when a player dies or is removed from play, as they are Game Objects) must be <a href=\"/spells/t#tracking\" data-ajax=\"false\">Tracking'ed</a> again before being able to be picked up again.<p>At the end of the game, Teams score points for the number of Tokens in each zone (3 points for the zone closest to the opposing Team, 2 points for the middle zone, and 1 point for the zone closest to the friendly Respawn point). The Team with the most points at the end of the game wins.<p>All players should play Scout for this game.<p>A variation of the game could be played where players are allowed to play any class - however the requirement to Track the ball should be removed, or heavily considered when balancing Teams."
+  },
   "hoardofthehydra": {
     "name": "Hoard of the Hyrda",
     "objective": "Collect the Hydra's eggs",
@@ -316,7 +399,9 @@
     "players": "At least 2 for hydra, then 6-7 for teams",
     "equipment": "Hydra garb, something to mark the Hydra's nest, something to mark each teams' incubators",
     "credit": "Dorcas",
-    "types": [ "class"],
+    "types": [
+      "class"
+    ],
     "description": "<br>There is a nest of eggs, guarded by a neutral hydra tethered to it.  Rounds are 5 minutes, adjust as needed.  Whichever team has the most eggs in their incubator at the end of the round wins the round and the eggs are returned back to the center.  You may carry as many eggs as you wish, but if killed you must drop them all.  You may steal eggs from the enemy incubator.  The incubator should be near the spawn point for the team, but not the spawn point itself."
   },
   "holdtheclock": {
@@ -329,7 +414,11 @@
     "players": "7+",
     "equipment": "A Chess clock, if possible in a box, 50’ of rope",
     "credit": "DorcTristan Garnovichas",
-    "types": [ "class", "ditch", "militia"],
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
     "description": "<br>Two teams with a chess clock in the middle of the field, the goal is to hold the clock for as long as possible. There is to be a swamp zone around that game item which will be treated as waters/swamp that requires to be on your knees when in that zone. The swamp is to help players not to clump up around the game objective.<br>To maximize fun, set the clock in a wooden box, with holes on the top that won’t allow a strike surface to access.  Even better if it’s a weight that is held in place on the switch, giving a visual marker from far away to know who holds the time.<br>Time on the clock to be set by a reeve, between 10 to 25 minutes is good. Warning that some clocks might require some babysitting to start, as not everyone is familiar with how it works."
   },
   "hungerrush": {
@@ -342,7 +431,10 @@
     "players": "4+ Per Team",
     "equipment": "4-5 objects to represent food (Unused throwies work great)",
     "credit": "Darkcast - Neverwinter",
-    "types": ["class", "militia"],
+    "types": [
+      "class",
+      "militia"
+    ],
     "description": "<br>You need at least three reeves for this game.  Two scoring reeves that are by each base, and a field reeve that moves about the field.  At the start of the game the field reeves are carrying all the food and the two teams are just fighting.  Around 30 seconds in the reeve will announce \"Food as spawned\" and toss the food onto the field.  To score a point a player must pick up a piece of food and bring it back to base. Food requires a free hand to be carried but you may run while carrying the food.   The reeves will then toss the food out onto the field again periodically as the game continues.  The team to score the most points after 30 minutes wins."
   },
   "islandofdread": {
@@ -355,7 +447,9 @@
     "players": "Any",
     "equipment": "Area of water with island inside",
     "credit": "Pungkow, who got it from the internet",
-    "types": [ "class"],
+    "types": [
+      "class"
+    ],
     "description": "<br>The Defending team spawns at the center of the island and has a life pool as described.  The attacking team spawns on a base somewhere on the water and no offensive actions can be taken from this base.<p>Any participant must walk while in the water but when on the island that restriction is lifted.<p>The attacking team tries to wipe out the defending team on the island.  If the defending team has zero living players on the island at one time, hold is called, everyone returns to their respective base and comes back alive. This causes the defending team to lose 4 lives from their total live pool.<p>A max time should be set and after that has run out count the number of lives left in the defending team livepool.  This could be used to determine the winner if the life pools are never fully consumed."
   },
   "jugging": {
@@ -367,34 +461,42 @@
     "players": "5",
     "objective": "Score at least 3 points and win by 2 points",
     "refresh": "After every 100 count (counts are done in stones)",
-    "types": [ "ditch"],
+    "types": [
+      "ditch"
+    ],
     "equipment": "Rope or paint for field (100’ x 50’ with a 10’d circle in the middle).  Foam dogskull (or other similar representation), 2 foam poles or dishes for scoring, 2 daggers (quick), 2 sword and boards (shield), 2 Great weapons (heavy), 4 flails, 2 of which can be replaced with downswords (chain), 4 short swords (slash)",
     "description": "<br>Jugging is a sport best described as \"medieval-style football\" played using the rules of Amtgard safety. Two teams of five persons each (with one alternate allowed, for a total of six players) line up on opposite ends of the playing field, and attempt to place a ball, called the \"dog skull,\" in their respective goals by out maneuvering and/or killing the other team. One point is scored for each time a team places the dog skull in their goal. The game is played until one team has scored at least three points, and is ahead of the other team by two points or more.<p><img src='/images/jugging-field.jpg/'><p><p>The jugging field is a rectangle 100 feet by 50 feet, the lines being 1\" wide. Two goals are placed along the long middle axis of the field, five feet from the edges. The goals should be 1 foot in diameter, and 8\" to 10\" in height, and be Amtgard safe. In the center of the field is a circular area 10 feet in diameter, defined by a line 1\" wide, which is considered part of the circle. The dog skull is placed in the center of the circle at the beginning of play. When play begins, only the Quicks may step inside this circle until the dog skull is fully outside its perimeter. If any other player steps in the circle, or onto the line, before the skull is removed, they die immediately, and take position outside the circle where the player crossed the circle. Once the skull is removed, the circle does not affect the game until the skull is reset by the Reeve.<p><img src='/images/jugging-positions.jpg/'><p><p>There are five positions in jugging. <b>1</b> - The Quick is armed with only a dagger under 18\" in length, and is the only person on the team who can touch the dog skull. If a player other than the Quick picks up the dog skull, or intentionally moves it by touching it (including weapons or equipment), they immediately die. <b>2</b> - The Shield is armed with a short sword and shield. <b>3</b> - The Slash is armed with two short swords, <b>4</b> - the Chain carries one or two (Amtgard-legal) flails, or a flail and short sword, and <b>5</b> - the Heavy (AKA \"Drive\") has a single non-chain weapon at least 4 feet in length (if the weapon is a legal great weapon, as defined by the current edition Amtgard rules, it may break shields, otherwise it may not).<p><p>The Quicks line up on opposite sides, outside of the center circle, each facing their own goal. The Heavy starts just in front of the enemy's goal. The Shield lines up midway between the Quick and the Heavy, and is flanked by the Slash and the Chain, Slash to the right of the Shield, and Chain to the left side of the Shield, five feet from the sidelines. All players must remain in their starting positions until play begins. In the case of a false start, play is halted, teams are reset to starting positions, and the stone count is started again.<p><p>The game begins when the timekeeper casts the first \"stone.\" This is done by throwing a rock at another object to make a loud noise, by hitting an object with a stick, or some other way of producing a sound that all players can hear. The timekeeper proceeds to cast additional stones, once every two seconds, and calls their number after each one. The actual count is the sound of the stone, not the number being called out. This is done until a goal is scored by a Quick or the timekeeper reaches 100 stones. When a goal is scored, the timekeeper stops counting stones, the Reeve resets the dog skull, and all players who are not shattered return to their starting positions, alive and healed, for a new round of play. When all are ready (within 30 seconds), the timekeeper commences the stone count from where it was stoppped, and play resumes. If a count of 100 stones is reached, play is halted, all players regain their full complement of lives, and the game resumes at a count of 1 stone after a short rest break.<p><p>Substitutions may be made at the following times:<ul><li>after a score</li><li>at the end of a 100 stone count</li><li>in the case of an injury</li></ul><p><p>If a time-out or substitution is called for an injury, the injured player is required to leave the field until the next substitution opportunity. 100 stone breaks are for 60 seconds; injury breaks last for 30 seconds after the injured player is removed from the field. Play continues as outlined above until one team wins.<p><p>Normal rules of combat in Amtgard apply to jugging (head shots are illegal, torso shots kill, limb shots wound, two limb shots will kill, etc). However, there is no such thing as a subdual blow. If a limb is wounded, it is useless for a count of 7 stones. If a player is killed, the player must remain in place, \"dead\" for 15 stones. If they have lives remaining, they must yell \"Alive!\", get up, and continue fighting. \"Alive!\" must be yelled before resuming play.<p><p>Each player begins the game with 5 lives. If they are killed 5 times, they are considered \"shattered,\" and are out of the game. Shattered players must remove themselves from play at the earliest possible moment without affecting the game play. Shattered players may only rejoin if the stone count reaches 100 (in which case all players are restored to 5 lives). If the Quicks on both teams are shattered, play halts and the stone count advances to the next 100 count.<p><p>If, during the course of play, a player steps on or past the game boundaries, they are stunned for 5 stones. Stunned players are not able to affect game play, but being stunned does not count as a death. Stunned players may not be killed or wounded while stunned, but they may be pinned. Stunned players must remain on the field nearest the spot they were stunned, and must yell \"Unstunned!\" before resuming play.<p><p>Dead or stunned players may be either standing, sitting or crouched (but not laying down), as long as they have either a weapon or hand resting on top of their head. Dead or stunned players may not affect game play in any way (including verbally). After the count is finished for being either dead or stunned, a player must yell \"Alive!\" or \"Unstunned!\" immediately and resume playing. A yell of \"Alive!\" or \"Unstunned!\" should be able to be heard for 50 feet.<p><p>Dead players may be pinned. To pin someone, a living player must hold a weapon against the body of the dead player. The pinning weapon must be placed on the torso (including top of shoulders, but not the groin) of the player being pinned. Excessive force may never be used in pinning, or any other time during play. If the weapon is removed, the pin is lost, and may not be re-established. Once a player is unpinned, that player may not be re-pinned until stunned or killed again. A pinned player may not come back to life even if they have counted their required 15 stones. If a player becomes unpinned, they may not come alive for one full stone after the pin is broken and then only if they have been dead for 15 stones. The Slash may pin two people simultaneously; all other players may only pin one player at a time. The Chain may not use a flail to pin.<p><p>Fighting one player while pinning another is possible only if one weapon remains in constant contact with the pinned player. A pinning weapon may not be used in combat whatsoever, although breaking a pin to block or attack is permissible. If a pinned player has reached the end of their death count, and the weapon that is pinning them is removed (even for an instant) the pin is broken, and the player may come alive after the next stone is struck.<p><p>In order to score, the dog skull must be placed in the goal by the Quick. Dead Quicks cannot score, and if the skull falls out of the goal, it does not count as a goal. Stunned Quicks cannot score, either; if a quick has a hand on the skull in the goal and is also out of bounds, a goal cannot be scored. He is stunned and the skull must be placed nearest the spot where the Quick went out of bounds. Quicks only may move the dog skull towards the goal while they have possession of it either in hand or under arm or tucked in belt. It may not be kicked or thrown or transported by any other means, and there may not be any forward independent movement of the dog skull. The Quick may use the dog skull to block shots, but it may never be used as a weapon. Anytime a Quick must surrender the dog skull (dead or stunned), it must be placed on the ground, at the appropriate spot, immediately."
   },
   "killcount30minutebattleresurrectiongame": {
-  	"name": "Kill Count (30 Minute Battle / Resurrection Game)",
-  	"credit": "Iron Mountains",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To kill as many players on the opposing Team as possible",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"description": "<br>This is a timed scenario (typically 30 minutes, though longer is certainly possible), where each Team tries to kill as many members of the opposing Team as possible while staying alive.<p>As each player Respawns they report to a scorekeeper who tallies points for that players Team. At the end of the game, the team who died the fewest amount of times wins. Scores are added as players come alive (as opposed to when they die), to prevent any confusion with players being <a href=\"/spells/s#summondead\" data-ajax=\"false\">Summon Deaded</a> out of their Respawn point."
-	},
+    "name": "Kill Count (30 Minute Battle / Resurrection Game)",
+    "credit": "Iron Mountains",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To kill as many players on the opposing Team as possible",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "description": "<br>This is a timed scenario (typically 30 minutes, though longer is certainly possible), where each Team tries to kill as many members of the opposing Team as possible while staying alive.<p>As each player Respawns they report to a scorekeeper who tallies points for that players Team. At the end of the game, the team who died the fewest amount of times wins. Scores are added as players come alive (as opposed to when they die), to prevent any confusion with players being <a href=\"/spells/s#summondead\" data-ajax=\"false\">Summon Deaded</a> out of their Respawn point."
+  },
   "killyourkiller": {
-  	"name": "Kill Your Killer",
-  	"credit": "Amtgard standard",
-  	"teams": "3+",
-  	"lives": "Unlimited",
-  	"respawn": "See below",
-  	"players": "Free-for-all",
-  	"objective": "To be the last player standing",
-  	"refresh": "None",
-  	"types": [ "ditch" ],
-  	"description": "<br>All players begin the game equidistant apart. The game can be played with either Single Short restriction, or any Melee, depending on desire.<p>When a player is killed, they should remove themselves from play and take note of who killed them. If the player who killed them is in turn killed, they may return to play after calling \"<i>Alive</i>\" loudly.<p>The game only really ends when one player manages to kill all other players by them self, so that no other players come back to play when the last opponent is defeated.<p>Some variations exist where some throwies or spellballs are available on the field for use.<p>At a certain game size, this game will almost inevitably not end. It is usually best to set a time limit for the game."
-	},
+    "name": "Kill Your Killer",
+    "credit": "Amtgard standard",
+    "teams": "3+",
+    "lives": "Unlimited",
+    "respawn": "See below",
+    "players": "Free-for-all",
+    "objective": "To be the last player standing",
+    "refresh": "None",
+    "types": [
+      "ditch"
+    ],
+    "description": "<br>All players begin the game equidistant apart. The game can be played with either Single Short restriction, or any Melee, depending on desire.<p>When a player is killed, they should remove themselves from play and take note of who killed them. If the player who killed them is in turn killed, they may return to play after calling \"<i>Alive</i>\" loudly.<p>The game only really ends when one player manages to kill all other players by them self, so that no other players come back to play when the last opponent is defeated.<p>Some variations exist where some throwies or spellballs are available on the field for use.<p>At a certain game size, this game will almost inevitably not end. It is usually best to set a time limit for the game."
+  },
   "kingarthersquidditch": {
     "name": "King Arthur’s Quidditch",
     "credit": "Steven Leblanc (Aeon Wulfsbane)",
@@ -404,7 +506,11 @@
     "players": "8+",
     "objective": "Be the first team to score 50 points by throwing a ball through opposing team’s hoops",
     "refresh": "When a player puts the <i>\"snitch\"</i> through an opposing team’s hoops that player’s team refreshes. All players return to their respawn points and spellballs are retrieved",
-    "types": [ "class", "ditch", "militia"],
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
     "equipment": "Hoops (3 per side), 1 black spellball, 2 blue spellballs, red streamer, a ball (football, soccer ball, etc), field markers",
     "description": "<br><i>Field Size</i>: 100 ft long x 60 ft wide. Middle hoop is placed at the 30ft mark on the line, and the crease goes 10 ft forward from this point and 10 ft to each side, forming a rectangle.<br><br>Each of end of the field has 3 hoops held up in the air by posts. They are spaced 4-5 feet apart, with the middle hoop being taller and about 4-5 feet behind the other two hoops. There is a 10’ x 20’ crease around the hoops that should be marked out with field marker or chalk.<br><br>Players attempt to put the ball through the opposing team’s hoops on the opposite side of the field. The two outside hoops are worth 1 point each, the middle hoop is worth 2 points. A player carrying the ball must have one hand free. A player holding the ball inside the opposing enemy’s crease is volatile. The ball can be thrown or passed, but must be dropped in place when a player dies.<br><br>Whenever a team scores, all living players including insubstantial players on the scoring team are removed from the game until they return to their side of the field (think basketball, they must go back to their side of the field before they can interact in the game). Dead players may stay where they are if they have not moved (so they can be resurrected at that location if they desire).<br><br>Upon the scoring of a point, the reeve releases the <i>\"snitch\"</i> The <i>\"snitch\"</i> is a <a href=\"/spells/s#sphereofannihilation\" data-ajax=\"false\">Sphere of Annihilation</a> with a red streamer or some other form of identification attached for identifying purposes and has swift (unlimited) and unlimited uses while it is in play. Any player can use the <i>\"snitch\"</i>, so long as they know the incant (<i>Swift, The power of the void is mine to evoke</i>). After the <i>\"snitch\"</i> is released, if a team scores again or puts the <i>\"snitch\"</i> through an opposing team’s hoops, it is removed by the reeve until the next point is scored and rereleased by the reeve again. To release the <i>\"snitch\"</i>, the reeve simply throws the snitch straight up in the air in the spot he is standing.<br><br>At the beginning of the game and upon each refresh, each team is given 1 blue spellball (<a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Forcebolt</a>), which has Swift (unlimited) and unlimited uses, that has a red streamer or some other form of identification attached for identifying purposes. Like the <i>\"snitch\"</i> any player can use these 2 spellballs as long as they know the incant (swift forcebolt).<br><br><i>Notes</i>:<ul><li>Swift is only applicable to the specific game spellball incants</li><li>A player who goes outside the field dies</li></ul>"
   },
@@ -417,85 +523,111 @@
     "players": "Free-for-all",
     "objective": "To knock over your opponents cones",
     "refresh": "Every 3 points scored, the team with the least points gets a refresh",
-    "types": [ "class", "ditch", "militia"],
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
     "equipment": "Something to mark nirvana/starting point, 6+ cones (3+ for each team), things to mark terrain as desired",
     "description": "<br>Each team has cones set up in some formation (preferably 20-50 feet apart).  A point is scored when a team knocks over the opposing team's cones.  A cone may be knocked over with a melee weapon (not thrown), thrown weapon (thrown only), spellball (thrown only), arrow (only if shot), shield (not thrown), or with hands or feet if done in a safe manner.  Knocked over cones may be set back up if time allows.<br><br>Terrain such as water and bridges may be added as desired.<br><br>Variant: There is a hula hoop in the center of each teams' cones.  To score a point, the opposing team must knock over the cones and have a player inside the opponents' hula hoop."
   },
   "leagueoflegends": {
-  	"name": "League of Legends",
-  	"credit": "Eliah, Northern Empire",
-  	"teams": "2",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "5+ per team",
-  	"objective": "To collect more tokens in the time allotted",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape, Scoring tokens",
-  	"description": "<br>This game can be played with a number of objective variants, but was designed to best accommodate a specific field setup. The original objective is described below, after the field setup.<p>Use flagging tape (or something similar) to denote a square area, roughly a hundred feet per side. Turn this outline into \"tunnels\", seven to ten feet wide, with each corner also featuring a tunnel leading to the center of the square. When finished, the field should look like a square with an \"X\" in the middle - or the standard playing field in the video game League of Legends. If possible, also create a separate area for each team at opposite corners for Respawn, preferably at least twenty feet away from the Team's scoring corner (see below).<p>In standard play, eleven scoring tokens will be placed in the center of the field. Five in the center, and three on each of the corners not being used as a team's Base. Each team is given a Base Corner at opposite ends of the field, where they can drop tokens to score. Their Respawn Point should also be nearby to this, but not on top of the capture area.<p>The game is played in three ten minute rounds. The team with the most tokens in their capture area at the end of this count wins. Tokens can be taken from the opposing team's capture area."
-	},
+    "name": "League of Legends",
+    "credit": "Eliah, Northern Empire",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "5+ per team",
+    "objective": "To collect more tokens in the time allotted",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape, Scoring tokens",
+    "description": "<br>This game can be played with a number of objective variants, but was designed to best accommodate a specific field setup. The original objective is described below, after the field setup.<p>Use flagging tape (or something similar) to denote a square area, roughly a hundred feet per side. Turn this outline into \"tunnels\", seven to ten feet wide, with each corner also featuring a tunnel leading to the center of the square. When finished, the field should look like a square with an \"X\" in the middle - or the standard playing field in the video game League of Legends. If possible, also create a separate area for each team at opposite corners for Respawn, preferably at least twenty feet away from the Team's scoring corner (see below).<p>In standard play, eleven scoring tokens will be placed in the center of the field. Five in the center, and three on each of the corners not being used as a team's Base. Each team is given a Base Corner at opposite ends of the field, where they can drop tokens to score. Their Respawn Point should also be nearby to this, but not on top of the capture area.<p>The game is played in three ten minute rounds. The team with the most tokens in their capture area at the end of this count wins. Tokens can be taken from the opposing team's capture area."
+  },
   "lineditchakatwolines": {
-  	"name": "Line Ditch (aka \"<i>TWO LINES!</i>\")",
-  	"credit": "Amtgard standard",
-  	"teams": "2",
-  	"lives": "1 per round",
-  	"respawn": "Beginning of each round",
-  	"players": "Split between two teams, which change each round",
-  	"objective": "Suck less, have fun",
-  	"refresh": "None",
-  	"types": [ "ditch"],
-  	"description": "<br>Two teams fight after Lay-On is called. The round ends when one team has been completely killed (the Losing Team). The first dead player (or first wounded, if no dead player is available) from the Winning Team switches to the other team, and the next round can then begin.<p>Repeat as necessary.<p><p><b>Greed is Good Variant</b> (Credited to Lord Squire Spyder, Unknown): Each player begins play with one coin. When a player is killed, they remain in place (so long as it remains safe) and take note of who killed them.<p>A dead player may be looted by the player who killed them (and only the player who killed them), in which case they must hand over <b>all</b> coins currently carried. Looting does not render a player Out of Game or otherwise immune to being attacked. If the player who killed that player is killed before being able to claim his loot, the dead player may keep their loot for the next round.<p>Play continues until either a set number of rounds have been played, a time limit is reached, or if one player has all the coins. If the game ends before one player claims all coins, the winner is the player with the most coins."
-	},
+    "name": "Line Ditch (aka \"<i>TWO LINES!</i>\")",
+    "credit": "Amtgard standard",
+    "teams": "2",
+    "lives": "1 per round",
+    "respawn": "Beginning of each round",
+    "players": "Split between two teams, which change each round",
+    "objective": "Suck less, have fun",
+    "refresh": "None",
+    "types": [
+      "ditch"
+    ],
+    "description": "<br>Two teams fight after Lay-On is called. The round ends when one team has been completely killed (the Losing Team). The first dead player (or first wounded, if no dead player is available) from the Winning Team switches to the other team, and the next round can then begin.<p>Repeat as necessary.<p><p><b>Greed is Good Variant</b> (Credited to Lord Squire Spyder, Unknown): Each player begins play with one coin. When a player is killed, they remain in place (so long as it remains safe) and take note of who killed them.<p>A dead player may be looted by the player who killed them (and only the player who killed them), in which case they must hand over <b>all</b> coins currently carried. Looting does not render a player Out of Game or otherwise immune to being attacked. If the player who killed that player is killed before being able to claim his loot, the dead player may keep their loot for the next round.<p>Play continues until either a set number of rounds have been played, a time limit is reached, or if one player has all the coins. If the game ends before one player claims all coins, the winner is the player with the most coins."
+  },
   "lordsandladies": {
-  	"name": "Lords and Ladies",
-  	"credit": "Glen, Wetlands",
-  	"teams": "3+",
-  	"lives": "Unlimited, Special",
-  	"respawn": "60 seconds or instant at base",
-  	"players": "Special",
-  	"objective": "For one Lord or Lady to be the last standing",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"description": "<br><i>Ditch (typically called “Warlord” when played as a Ditch game)</i><p>Three or more (original incarnation involved four) players are chosen to be “Lords” or \"Ladies\".<p>They may not attack or injure one another (or impede in each other’s combat). They are always on their own team, and each has their own Base which acts as their Respawn Point. When a Lord or Lady dies, they return to their Base and instantly respawn. Each Lord and Lady has six lives.<p>In the center of the field is a large circle which denotes the Village. Lords and Ladies may enter and exit the Village at will. This circle should be just barely large enough to accommodate all of the Peasants (with enough room for combat, but a little cramped).<p>Everyone else participating in the game is a Peasant (not the Class, players may still use a full Class), and they begin in the Village. Peasants may not leave the circle under normal circumstances. When they are killed, they go to the Base of the team that killed them, switching to that team. They respawn after 60 seconds, or whenever their Lord or Lady respawns, whichever comes first. Any Peasant who has been killed and joined a team can enter and exit the Village at will. Peasants switch teams every time they are killed by a player.<p>Lords and Ladies are also given an additional Class Ability usable twice per game. By yelling “<i>Reinforcements!</i>” every player who is currently counting their death at their team’s base instantly comes alive, without the Lord or Lady having to die.<p>Additionally, each Lord and Lady is allowed to pick one “Secret Agent” who starts on their team, but fielding with the Peasants. This is usually done by spacing the Lords/Ladies far enough apart so that they can’t hear one another, and having the remaining players parade past each lord spaced out enough that they cannot overhear one another. Each Lord/Lady then says “<i>Yes</i>” to a single player of their choosing. This player is now secretly on their team in the village.<p>After this is done, the Reeve asks if anyone was chosen multiple times, and is a double/triple/etc. agent. If someone is, they cease to be a secret agent and become a Peasant. The Lords/Ladies who chose this player as their Secret Agent do not get to repick.<p>Once lay-on is called, Peasants try to not get backstabbed by the hidden agent in their midst, and not get killed by a Lord or Lady. Lords try to kill all the peasants they can to increase the size of their armies, while not getting killed by other Lords’/Ladies’ Peasants or Village Peasants. The game ends when only one Lord or Lady is left alive.<p>Lords and Ladies may surrender if all the players are on one Lord’s/Lady’s team, or they can try to steal back some peasants and rally to victory."
-	},
+    "name": "Lords and Ladies",
+    "credit": "Glen, Wetlands",
+    "teams": "3+",
+    "lives": "Unlimited, Special",
+    "respawn": "60 seconds or instant at base",
+    "players": "Special",
+    "objective": "For one Lord or Lady to be the last standing",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "description": "<br><i>Ditch (typically called “Warlord” when played as a Ditch game)</i><p>Three or more (original incarnation involved four) players are chosen to be “Lords” or \"Ladies\".<p>They may not attack or injure one another (or impede in each other’s combat). They are always on their own team, and each has their own Base which acts as their Respawn Point. When a Lord or Lady dies, they return to their Base and instantly respawn. Each Lord and Lady has six lives.<p>In the center of the field is a large circle which denotes the Village. Lords and Ladies may enter and exit the Village at will. This circle should be just barely large enough to accommodate all of the Peasants (with enough room for combat, but a little cramped).<p>Everyone else participating in the game is a Peasant (not the Class, players may still use a full Class), and they begin in the Village. Peasants may not leave the circle under normal circumstances. When they are killed, they go to the Base of the team that killed them, switching to that team. They respawn after 60 seconds, or whenever their Lord or Lady respawns, whichever comes first. Any Peasant who has been killed and joined a team can enter and exit the Village at will. Peasants switch teams every time they are killed by a player.<p>Lords and Ladies are also given an additional Class Ability usable twice per game. By yelling “<i>Reinforcements!</i>” every player who is currently counting their death at their team’s base instantly comes alive, without the Lord or Lady having to die.<p>Additionally, each Lord and Lady is allowed to pick one “Secret Agent” who starts on their team, but fielding with the Peasants. This is usually done by spacing the Lords/Ladies far enough apart so that they can’t hear one another, and having the remaining players parade past each lord spaced out enough that they cannot overhear one another. Each Lord/Lady then says “<i>Yes</i>” to a single player of their choosing. This player is now secretly on their team in the village.<p>After this is done, the Reeve asks if anyone was chosen multiple times, and is a double/triple/etc. agent. If someone is, they cease to be a secret agent and become a Peasant. The Lords/Ladies who chose this player as their Secret Agent do not get to repick.<p>Once lay-on is called, Peasants try to not get backstabbed by the hidden agent in their midst, and not get killed by a Lord or Lady. Lords try to kill all the peasants they can to increase the size of their armies, while not getting killed by other Lords’/Ladies’ Peasants or Village Peasants. The game ends when only one Lord or Lady is left alive.<p>Lords and Ladies may surrender if all the players are on one Lord’s/Lady’s team, or they can try to steal back some peasants and rally to victory."
+  },
   "magicarmada": {
-  	"name": "Magic Armada",
-  	"credit": "Indanago and Grin of Evermore Hollow (GP)",
-  	"teams": "2+",
-  	"lives": "Unlimited",
-  	"respawn": "20 Seconds at Death",
-  	"players": "4+ per team",
-  	"objective": "Destroy the enemy Armada!",
-  	"refresh": "Normal Refresh Rules",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Spellballs, Sashes matching spellball colours",
+    "name": "Magic Armada",
+    "credit": "Indanago and Grin of Evermore Hollow (GP)",
+    "teams": "2+",
+    "lives": "Unlimited",
+    "respawn": "20 Seconds at Death",
+    "players": "4+ per team",
+    "objective": "Destroy the enemy Armada!",
+    "refresh": "Normal Refresh Rules",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Spellballs, Sashes matching spellball colours",
     "description": "<br>Tanks are built out of a single turret with spellballs, <a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental barrage</a> and a body of one or more short and shield wielders. The components of the tanks must stay within arms reach of each other. The body acts as an extension of the turret. They may pick up spell balls and reload their turret, allowing them to continue the onslaught to try and destroy their opponents!<br><br><b>Infantry:</b> As Class<br><b>Light Tanks:</b> Blue Sashes, <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force bolt</a> only. 1 Turret, 1 Body. 3 Points magical armor<br><b>Medium Tanks:</b> Yellow Sashes, <a href=\"/spells/l#lightningbolt\" data-ajax=\"false\">Lightning bolt</a> and <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force bolt</a>. 1 Turret, 2 Body. Slow. 4 Points magical armor<br><b>Heavy Tanks:</b> Red Sashes, <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> and <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force bolt</a>. 2 Turrets, 3 Body. Slow. 6 points magical armor (<a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">ancestral</a>)<br><br>All Tanks are immune to <a href=\"/spells/verbal\" data-ajax=\"false\">Verbals</a>. Medium and Heavy tanks are vulnerable to <a href=\"/spells/e#entangle\" data-ajax=\"false\">Entangle</a>. If 2 or more Body players are under the effect of Entangle, they will collapse and be destroyed.<br><br>The number of tanks is flexible with the number of players. For balance’s sake, it’s recommended to play with more light tanks than medium, and more medium tanks than heavy. If the players making up a tank are scattered, the tank has ten seconds to regroup or be considered destroyed! (this allows for the body to gather spellballs nearby more effectively)."
-	},
+  },
   "merlinsball": {
-  	"name": "Merlin's Ball",
-  	"credit": "Steven Leblanc",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "45 Seconds",
-  	"players": "7 per side plus 1 Snitch",
-  	"objective": "Score the most points and catch the Snitch to earn an extra 50 points!",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "6 Baskets, a foam football, a yellow strap with Velcro for a tail",
+    "name": "Merlin's Ball",
+    "credit": "Steven Leblanc",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "45 Seconds",
+    "players": "7 per side plus 1 Snitch",
+    "objective": "Score the most points and catch the Snitch to earn an extra 50 points!",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "6 Baskets, a foam football, a yellow strap with Velcro for a tail",
     "description": "<br>Merlin’s Ball is a cross between Phoenix League, Jugging and Quidditch.<br><b>Team Structure:</b><br>Teams are made up of 7 players, positioned as follows: Seeker (1 player), Chaser (3 players), Beaters (2 players), Keeper (1 player). Each position is responsible for the following:<ul><li>Seeker- Catching the Snitch</li><li>Chasers- Scoring points with the Merlin’s Ball</li><li>Beaters- Cause mayhem, kill enemies</li><li>Keepers- Defend baskets. Restriction: Cannot touch ball outside crease</li><li>In addition, 1 player is the Snitch and is a game objective (no class)</li></ul><b>Field Setup:</b><br><ul><li>White Dots- Points Baskets</li><li>Green Dots- Keeper Starting Position</li><li>Blue Dots- Beater Starting Positions</li><li>Red Dots- Chaser Starting Positions</li><li>Yellow Dot- Seeker Starting Position</li></ul><b>Gameplay:</b><br>The Chasers on each team will attempt to score points in the opposing team’s baskets. Each point scored is worth 10 points. After each scored point, any players that are alive on the scoring team are considered out of game until they return to their side of the field. Dead players may stay in the location they died provided they have their hand or weapon on their head and have not moved from their location. The game ends when a player catches the Snitch by pulling the yellow flag off the player marked as the Snitch. Catching the Snitch earns the team an additional 50 points. The winning team is the team with the most points.<br><b>Deaths:</b><br>Dead players may either stay on the field and wait for a resurrection or exit the field on the closest edge. A player who dies and exits the field must return to the bench before a new player can take their place. Upon returning to the bench, they will tell the next player going in their position on the field. Before returning to the field, a player must count down the last 5 seconds of their respawn out loud. Any player may take a death at any time. Any player holding a ball when they die must drop it in place.<br><b>Notes on Chasers and Keepers:</b><br>Only Chasers may score the Merlin’s ball. Both Keepers and Chasers may move, grab, or throw the Merlin’s ball. Keepers cannot touch the ball outside their crease and must either throw it or drop it before exiting their crease. A Chaser holding the ball inside the crease IS VOLATILE. A Keeper who exits their crease while holding the ball DIES.<br><b>Notes on Beaters:</b><br>The only objective for a beater is to kill enemy players. They may not catch the Snitch or interact with the Merlin’s Ball.<br><b>Notes on the Snitch:</b><br>The Snitch is a game objective and is treated as an object like the Merlin’s Ball. The Snitch will have a yellow removable flag attached to them that the Seekers must pull off of them. ONLY SEEKERS MAY CATCH THE SNITCH. The objective of the Snitch is to run around the field and avoid being caught. Players may not hit the Snitch. The Snitch should be an unbiased person and actively avoid being caught. The Snitch enters the field and leaves the field as often as they wish, with the only caveat being they must exit the field along a side of the field they did not enter.<img src='/images/merlinsball.png'>"
   },
   "mooseball": {
-  	"name": "Mooseball",
-  	"credit": "Ausric, Northern Empire",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To bring both scoring balls into the opposing team's zone",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape, scoring items like stuffed animals, pylons, flags",
-  	"description": "<br>Teams start equidistant across the field with two Control Zones placed in the center of the field. Both Zones should be roughly 10ft x 20ft, placed right next to each other to create a 20ft x 20ft area. The Zone furthest from a team is considered their scoring area.<p>In the middle between the Control Zones and the Bases are two scoring items - these can be stuffed animals, pylons, flags, whatever is available - one for each team.<p>The goal of the game is to retrieve and place both items in your team's Scoring Zone. After a 60 second count, your team then scores one point. The game is typically played first-to-3, or the most points scored in a given time period."
+    "name": "Mooseball",
+    "credit": "Ausric, Northern Empire",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To bring both scoring balls into the opposing team's zone",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape, scoring items like stuffed animals, pylons, flags",
+    "description": "<br>Teams start equidistant across the field with two Control Zones placed in the center of the field. Both Zones should be roughly 10ft x 20ft, placed right next to each other to create a 20ft x 20ft area. The Zone furthest from a team is considered their scoring area.<p>In the middle between the Control Zones and the Bases are two scoring items - these can be stuffed animals, pylons, flags, whatever is available - one for each team.<p>The goal of the game is to retrieve and place both items in your team's Scoring Zone. After a 60 second count, your team then scores one point. The game is typically played first-to-3, or the most points scored in a given time period."
   },
   "mylifefortheswarm": {
     "name": "My Life For The Swarm",
@@ -507,7 +639,9 @@
     "players": "10+",
     "equipment": "None",
     "credit": "TJ",
-    "types": [ "class"],
+    "types": [
+      "class"
+    ],
     "description": "<br>Each team has a swarm mother, which is a standard class player with unlimited use of the enchantment <a href=\"/spells/h#heartoftheswarm\" data-ajax=\"false\">Heart of the Swarm</a>.  Teammates may only spawn at their mother when they have it active.  The Swarm Mothers each have a different respawn point determined ahead of the game.  A team wins by wiping the other team or putting them in a condition where they cannot respawn.  Large teams make this game more interesting."
   },
   "ogre": {
@@ -519,7 +653,9 @@
     "players": "3+",
     "objective": "Ditch rules game, be the last one standing",
     "refresh": "None",
-    "types": [ "ditch" ],
+    "types": [
+      "ditch"
+    ],
     "equipment": "Any melee",
     "description": "<br> Ogre is a combo Hunger Games vs an OGRE! One player is the ogre and has all the weapons around them (they can use whatever they want). Remaining players attempt to get the weapons, slay the ogre, and then vie for last one standing. There are some that PVP before getting ogre... that is okay! Enjoy! Modification for larger groups- ogre has 1 point of armor everywhere."
   },
@@ -532,7 +668,9 @@
     "players": "6",
     "objective": "Each team must work to secure the ball and place it into a goal basket on the opposing side of the field. The team with the most points at the end of the game is declared the winner.",
     "refresh": "At half time",
-    "types": [ "class" ],
+    "types": [
+      "class"
+    ],
     "equipment": "See full rules",
     "description": "<br>Phoenix Ball is a living and evolving game for competitive, class Amtgard. It's rules are maintained by the Phoenix League Team and are updated yearly. Visit <a href=\"http://phoenixleague.net\" data-ajax=\"false\">www.phoenixleague.net</a> or <a href=\"https://www.facebook.com/groups/amtgardphoenixleague/\">Amtgard: Phoenix League</a> on Facebook to download the full rules PDF and join the growing community!"
   },
@@ -545,113 +683,141 @@
     "players": "3+",
     "objective": "Offensive Team wins by planting a flag on a flag stand. Defensive team wins by killing the flag carrier and complete a 30 second count to destroy the flag.",
     "refresh": "After a point is scored",
-    "types": [ "class" ],
+    "types": [
+      "class"
+    ],
     "equipment": "Any melee",
     "description": "<br><i>Setup:</i><br>The Offensive team starts with the flag at their base, and the Defensive team starts at their base. 1/3 the distance from the defender's base to the attacker's base is the flag stand object (which should not be moved during game play).<br><i>Game Rules:</i><br>The flag is a game object and can not be destroyed by magic or weapons. If the Offensive team manages to touch any part of the flag to the flag stand object the Offensive team Wins. Only living members of the Offensive team may move the flag. If the member of the offensive team who currently holds the flag dies, they must drop the flag where they died. Members of the Defensive team may touch the flag to initiate a 30 second verbal count. If the defender completes the count without loosing contact with the flag, the flag is destroyed and the Defensive team wins. If the defender who is counting looses contact with the flag (by loosing the limb that was touching it, dying, going insubstantial, or stepping away) the count resents.<br><i>Balancing:</i><br>There are two ways of balancing this game. The team who wins looses the player who carried our the game winning action (ie the one who planted the flag or completed the destruction count). Alternatly the teams can stay the same and the flag stand can move 3 feet away from the winning team's base after every point."
   },
   "protectthereliquary": {
-  	"name": "Protect the Reliquary",
-  	"credit": "Celestial Codex",
-  	"teams": "2+",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To Defend or Attack the Reliquary",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape, a heavy object for the Reliquary",
-  	"description": "<br><i>Reliquary, noun, a container for holy relics.</i><p>One Team begins play 20ft outside of a region designated as a Holy Ground (typically defined by flagging tape), where their Respawn Point is (the Defenders). The other Team(s) begins play at least 200ft away from the edge of the Holy Ground where their Respawn Point is (the Attackers).<p>A Reliquary is placed inside the Holy Ground. The Reliquary acts as both a Base and a Game Object for game purposes (i.e. cannot be removed from play), and is a Heavy Object (i.e. must be carried by two players with at least one empty hand each at a walk).<p>The game is played in 10-15 minute Rounds (as desired), where the Attackers are seeking to move the Reliquary as far away from the Holy Ground as possible, and the Defenders are trying to stop them. Each Round is defined as a single Team taking a turn Defending the Reliquary against the opposing Team(s).<p>A Round is completed when time is up, or when the Attackers move the Reliquary 100ft away from the Holy Ground. Once all Teams have taken a turn Defending, the Team that kept the Reliquary in the Holy Ground the longest, or who let it move away from Holy Ground the least wins.<p>Holy Ground is defined in either the Dor un Avathar, or Beyond Battlegames. If those resources are not availabe, take Holy Ground to be a region where Undead (i.e. players bearing the Undead Minion, Greater Undead Minion, or Vampirism enchantment) cannot enter, and all eligible Spirit Magic is automatically affected by the Swift metamagic.<p>Alternatively, the Holy Ground could be replaced with Unholy Ground, where players bearing the Pheonix Tears enchantment cannot enter, and all Death Magic is automatically affected by the Swift metamagic."
-	},
+    "name": "Protect the Reliquary",
+    "credit": "Celestial Codex",
+    "teams": "2+",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To Defend or Attack the Reliquary",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape, a heavy object for the Reliquary",
+    "description": "<br><i>Reliquary, noun, a container for holy relics.</i><p>One Team begins play 20ft outside of a region designated as a Holy Ground (typically defined by flagging tape), where their Respawn Point is (the Defenders). The other Team(s) begins play at least 200ft away from the edge of the Holy Ground where their Respawn Point is (the Attackers).<p>A Reliquary is placed inside the Holy Ground. The Reliquary acts as both a Base and a Game Object for game purposes (i.e. cannot be removed from play), and is a Heavy Object (i.e. must be carried by two players with at least one empty hand each at a walk).<p>The game is played in 10-15 minute Rounds (as desired), where the Attackers are seeking to move the Reliquary as far away from the Holy Ground as possible, and the Defenders are trying to stop them. Each Round is defined as a single Team taking a turn Defending the Reliquary against the opposing Team(s).<p>A Round is completed when time is up, or when the Attackers move the Reliquary 100ft away from the Holy Ground. Once all Teams have taken a turn Defending, the Team that kept the Reliquary in the Holy Ground the longest, or who let it move away from Holy Ground the least wins.<p>Holy Ground is defined in either the Dor un Avathar, or Beyond Battlegames. If those resources are not availabe, take Holy Ground to be a region where Undead (i.e. players bearing the Undead Minion, Greater Undead Minion, or Vampirism enchantment) cannot enter, and all eligible Spirit Magic is automatically affected by the Swift metamagic.<p>Alternatively, the Holy Ground could be replaced with Unholy Ground, where players bearing the Pheonix Tears enchantment cannot enter, and all Death Magic is automatically affected by the Swift metamagic."
+  },
   "regicide": {
-  	"name": "Regicide",
-  	"credit": "Amtgard standard",
-  	"teams": "2",
-  	"lives": "Unlimited, life pool",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To kill the opposing team's Captain",
-  	"refresh": "None",
-  	"types": [ "class", "militia"],
-  	"description": "<br>Players are split into two teams, and each team picks a Captain or King/Queen. Each Captain has a set pool of lives (typically 5-10), while everyone else has unlimited lives. The game ends when one Captain has no more lives left.<p><b>NOTE: </b>This game can be very unbalanced if one team has the ability to repeatedly resurrect their King/Queen while the other doesn't. Common solutions to this is to give the King/Queen a suite of state and abilities - including Cursed. Monarchs being Cursed is not a perfect solution (as it prohibits simple Heals, and Greater Resurrects can still be unbalancing), but it at least can alleviate some issue.<p>Some variations also involve making the Monarch a Monster Class, or giving them special abilities beyond their normal class description."
-	},
+    "name": "Regicide",
+    "credit": "Amtgard standard",
+    "teams": "2",
+    "lives": "Unlimited, life pool",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To kill the opposing team's Captain",
+    "refresh": "None",
+    "types": [
+      "class",
+      "militia"
+    ],
+    "description": "<br>Players are split into two teams, and each team picks a Captain or King/Queen. Each Captain has a set pool of lives (typically 5-10), while everyone else has unlimited lives. The game ends when one Captain has no more lives left.<p><b>NOTE: </b>This game can be very unbalanced if one team has the ability to repeatedly resurrect their King/Queen while the other doesn't. Common solutions to this is to give the King/Queen a suite of state and abilities - including Cursed. Monarchs being Cursed is not a perfect solution (as it prohibits simple Heals, and Greater Resurrects can still be unbalancing), but it at least can alleviate some issue.<p>Some variations also involve making the Monarch a Monster Class, or giving them special abilities beyond their normal class description."
+  },
   "ringthebell": {
-  	"name": "Ring the Bell",
-  	"credit": "Amtgard standard",
-  	"teams": "2",
-  	"lives": "Infinite",
-  	"respawn": "15+ seconds",
-  	"players": "2+ per team",
-  	"objective": "To ring the opposing Team's bell",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Marker for the bell such as a shield",
-  	"description": "<br>Each Team begins play behind their \"Bell\", which can be a medium sized shield or similar marker (each Team's marker should be equal in size). Players can Respawn behind their Bell after the prescribed Respawn count.<p>Ringing a Bell is accomplished by striking the opposing Team's Bell with a Melee weapon. Doing so scores the Team a point, and resets all players (<b>not</b> a Refresh).<p>In Ditch and Militia games, using a short (i.e. 15 second) Respawn count creates a very fast-paced game. As always, in Class games, the Respawn count should be at least 60 seconds."
-	},
+    "name": "Ring the Bell",
+    "credit": "Amtgard standard",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": "15+ seconds",
+    "players": "2+ per team",
+    "objective": "To ring the opposing Team's bell",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Marker for the bell such as a shield",
+    "description": "<br>Each Team begins play behind their \"Bell\", which can be a medium sized shield or similar marker (each Team's marker should be equal in size). Players can Respawn behind their Bell after the prescribed Respawn count.<p>Ringing a Bell is accomplished by striking the opposing Team's Bell with a Melee weapon. Doing so scores the Team a point, and resets all players (<b>not</b> a Refresh).<p>In Ditch and Militia games, using a short (i.e. 15 second) Respawn count creates a very fast-paced game. As always, in Class games, the Respawn count should be at least 60 seconds."
+  },
   "seafoodfordinner": {
-  	"name": "Seafood for Dinner",
-  	"credit": "Korderellin, Iron Mountains",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To retrieve as much seafood as possible",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape, tokens for fish, bungee cord or rope",
-  	"description": "<br>In the center of the field, a rectangular area is created (sized based on the game, but examples include 20ft x 50ft and 50ft x 100ft), which represents the \"Fish Tank.\" One team is a raiding party trying to acquire some fresh seafood for their employer, while the other team represents the tank's owners who are defending their stock.<p>Players on either team can capture fish (signified by pylons, tokens, whatever is on hand in quantity), or fight and defeat a kraken tentacle, and return it to their Base. Players must enter the tank (signified by crawling on their knees as if in a Water Terrain Effect) to retrieve fish tokens, which can be carried in a free hand and cannot be made unavailable (i.e. through Insubstantial or Frozen).<p>Fighting and defeating the Kraken tentacle will allow the player who killed the tentacle to grab a piece of tentacle (denoted by a bandana or flag) which can be returned to their base for points as well. Statistics for the tentacle are below.<p>Fish and Kraken Tentacles are removed from play once they are returned to a Base and counted for points, however, they may be stolen by the opposing team by killing the player carrying them while they are in transit.<p>For counting points, Fish are worth 1 point, and Tentacles are worth 5. The team with the most points accumulated by the end of the game (suggested 30 minutes) wins.<p><p><b>Kraken Tentacles:</b><p>Signified by two NPCs connected by a bungee cord or rope.<p><i>Weapons:</i> Any melee; All weapons are considered Armour Breaking and Shield Crushing<p><i>Armour:</i> None; Protected by three stacked Blessing against Harm enchantments each (T)<p><i>Immunities:</i> None; Protected by an Enlightened Soul enchantment (T)<p><i>Aquatic:</i> May move without penalty through Water Terrain Effects. One player must remain inside the tank at all times.<p><i>Connected:</i> Both players must be defeated to earn a piece of Tentacle to score points."
-	},
+    "name": "Seafood for Dinner",
+    "credit": "Korderellin, Iron Mountains",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To retrieve as much seafood as possible",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape, tokens for fish, bungee cord or rope",
+    "description": "<br>In the center of the field, a rectangular area is created (sized based on the game, but examples include 20ft x 50ft and 50ft x 100ft), which represents the \"Fish Tank.\" One team is a raiding party trying to acquire some fresh seafood for their employer, while the other team represents the tank's owners who are defending their stock.<p>Players on either team can capture fish (signified by pylons, tokens, whatever is on hand in quantity), or fight and defeat a kraken tentacle, and return it to their Base. Players must enter the tank (signified by crawling on their knees as if in a Water Terrain Effect) to retrieve fish tokens, which can be carried in a free hand and cannot be made unavailable (i.e. through Insubstantial or Frozen).<p>Fighting and defeating the Kraken tentacle will allow the player who killed the tentacle to grab a piece of tentacle (denoted by a bandana or flag) which can be returned to their base for points as well. Statistics for the tentacle are below.<p>Fish and Kraken Tentacles are removed from play once they are returned to a Base and counted for points, however, they may be stolen by the opposing team by killing the player carrying them while they are in transit.<p>For counting points, Fish are worth 1 point, and Tentacles are worth 5. The team with the most points accumulated by the end of the game (suggested 30 minutes) wins.<p><p><b>Kraken Tentacles:</b><p>Signified by two NPCs connected by a bungee cord or rope.<p><i>Weapons:</i> Any melee; All weapons are considered Armour Breaking and Shield Crushing<p><i>Armour:</i> None; Protected by three stacked Blessing against Harm enchantments each (T)<p><i>Immunities:</i> None; Protected by an Enlightened Soul enchantment (T)<p><i>Aquatic:</i> May move without penalty through Water Terrain Effects. One player must remain inside the tank at all times.<p><i>Connected:</i> Both players must be defeated to earn a piece of Tentacle to score points."
+  },
   "theaxegame": {
-  	"name": "The Axe Game",
-  	"credit": "Celestial Kingdom",
-  	"teams": "4+",
-  	"lives": "1",
-  	"respawn": "None",
-  	"players": "2 players per team",
-  	"objective": "Be the last team standing",
-  	"refresh": "None",
-  	"types": [ "ditch" ],
-  	"equipment": "One Axe",
-  	"description": "<br>All players are split into two-man Teams, and all Teams begin the game equidistant apart in a circle. The game begins when the Axe tossed by a Reeve lands in the middle of the circle. The Axe is a Heavy Thrown weapon that may be used by any player.<p>The game is a free-for-all in Teams, and continues until only one Team (or player) is left alive (which are the winners). Scramble teams and repeat as necessary."
-	},
+    "name": "The Axe Game",
+    "credit": "Celestial Kingdom",
+    "teams": "4+",
+    "lives": "1",
+    "respawn": "None",
+    "players": "2 players per team",
+    "objective": "Be the last team standing",
+    "refresh": "None",
+    "types": [
+      "ditch"
+    ],
+    "equipment": "One Axe",
+    "description": "<br>All players are split into two-man Teams, and all Teams begin the game equidistant apart in a circle. The game begins when the Axe tossed by a Reeve lands in the middle of the circle. The Axe is a Heavy Thrown weapon that may be used by any player.<p>The game is a free-for-all in Teams, and continues until only one Team (or player) is left alive (which are the winners). Scramble teams and repeat as necessary."
+  },
   "thebattleforelfland": {
-  	"name": "The Battle for Elfland",
-  	"credit": "Sir Michael Hammer of God, Iron Mountains",
-  	"teams": "3",
-  	"lives": "Infinite",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To capture fortresses",
-  	"refresh": "None",
-  	"types": [ "class", "militia"],
-  	"equipment": "7 or 8 trees or markers for fortresses",
-  	"description": "<br>All players should be divided into three Teams. Each Team begins the game at a different edge of the field at their Respawn point. On the field between the Teams should be seven or eight trees or other markers that are designated as Elfish Fortresses.<p>Each Fortress counts as a Base for game purposes, and is \"controlled\" by a Team by having at least one player within 10ft of the marker while no opposing Team's player is that close to the marker. Any player who stays within a Fortress for a 300 count receives a nonmagical Blessing against Wounds (these can <b>not</b> be stacked).<p>Every nine to eleven minutes (known only to Reeves), a Hold is called. During the Hold, Reeves will check control of each of the Fortresses. Teams will receive one point for every Fortress they control. The Hold will then be lifted and game will resume, starting another Round. This is repeated as desired until either a predetermined number of Rounds have been completed, or until a predetermined Game Duration has been reached."
-	},
+    "name": "The Battle for Elfland",
+    "credit": "Sir Michael Hammer of God, Iron Mountains",
+    "teams": "3",
+    "lives": "Infinite",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To capture fortresses",
+    "refresh": "None",
+    "types": [
+      "class",
+      "militia"
+    ],
+    "equipment": "7 or 8 trees or markers for fortresses",
+    "description": "<br>All players should be divided into three Teams. Each Team begins the game at a different edge of the field at their Respawn point. On the field between the Teams should be seven or eight trees or other markers that are designated as Elfish Fortresses.<p>Each Fortress counts as a Base for game purposes, and is \"controlled\" by a Team by having at least one player within 10ft of the marker while no opposing Team's player is that close to the marker. Any player who stays within a Fortress for a 300 count receives a nonmagical Blessing against Wounds (these can <b>not</b> be stacked).<p>Every nine to eleven minutes (known only to Reeves), a Hold is called. During the Hold, Reeves will check control of each of the Fortresses. Teams will receive one point for every Fortress they control. The Hold will then be lifted and game will resume, starting another Round. This is repeated as desired until either a predetermined number of Rounds have been completed, or until a predetermined Game Duration has been reached."
+  },
   "thegreatgoblinmassacre": {
-  	"name": "The Great Goblin Massacre",
-  	"credit": "Duke Sir Jabberwork, Iron Mountains",
-  	"teams": "2+",
-  	"lives": "See below",
-  	"respawn": "20 or 60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To kill as many Goblins as possible",
-  	"refresh": "None",
-  	"types": [ "class", "militia"],
-  	"description": "<br>This game is a timed game, with rounds being 15 to 30 minutes long depending on game size. Each round, one Team takes a turn playing Humans (i.e. full Class, or Militia rules) against the opposing Team(s) playing Goblins.<p>The Human team has either a Player Life Pool (4 or 5 is suggested) or a Team Life Pool (2-5x the number of players is suggested), and Goblins have unlimited lives. Humans will Respawn at their Base after a 60 second count, and Goblins will Respawn at their Base after only 20 seconds.<p>Each time a Goblin is killed (i.e. returning to play via Respawn, not <i>Superior Numbers</i>), they must record their death with the Base Reeve. After each team has taken a turn playing Humans, the team with the most Goblin kills wins.<p>To add some complexity to the game, Human teams must select a \"Captain\", and the Goblin team may be asked to substitute any number of players for \"Orcs\".<p>Captains are worth 20 points when killed, and cannot be removed from play by any means (in that they are immune to the Frozen, Insubstantial, and Out of Game States). This will be the only way that the Team playing Goblins can score points during those rounds. (If there are multiple Teams playing Goblins at one time, points are attributed to all current Goblin Teams.)<p>Orcs are worth 4 points when killed. They may choose to either play the Orc Monster Class, or any player class that the player has access to at 1st level. They return to play after an 80 second Respawn count."
-	},
-	"thekingscrown": {
-		"name": "The Kings Crown",
-		"credit": "Valeria Ironscales",
-		"teams": "2",
-		"lives": "Unlimited",
-		"respawn": "30 seconds",
-		"players": "5+",
-		"objective": "Get as much treasure as possible",
-		"refresh": "2+",
-		"types": [ "class", "militia"],
-		"equipment": "Water markers, bridge markers, treasure",
-		"description": "<br>15 mins play time<br>2 points of armor or less slow walk through water anything above drowns and dies in the water<br>Looting 5 count for treasure in the water<br>One treasure can be held in any open hand. Crown can be worn as another treasure<br>Crown wearer has one extra point of armor everywhere (if no armor then 1 point natural armor while crown is worn)<br>Crown can be looted from players looting 3 count<br>When you are killed all treasure must be dropped<br>You can loot from the opponents treasure chest looting 5 count<br>Game items (treasure) can not be carried in any game altering State (insub, sanctuary, ect.)<br><br>One side will be protecting the treasure in the river, the other side will be trying to get to the treasure in the river and get the crown the crown is worth the most points after 15 minutes the two teams will switch sides the team that was getting the treasure will now be defending the treasure and vice versa. This game can be played  militia or class. The river is 25 ft wide there's a 10 ft wide bridge going over the river the river goes on infinitely past whatever marker. The defending team can loot from the offending teams treasure chest it's a looting 5 count. Crown is worth 5 Points any other treasure is worth 2 points will be tallied at the end of each round"
-	  },
-	"thepurge": {
+    "name": "The Great Goblin Massacre",
+    "credit": "Duke Sir Jabberwork, Iron Mountains",
+    "teams": "2+",
+    "lives": "See below",
+    "respawn": "20 or 60 seconds",
+    "players": "3+ per team",
+    "objective": "To kill as many Goblins as possible",
+    "refresh": "None",
+    "types": [
+      "class",
+      "militia"
+    ],
+    "description": "<br>This game is a timed game, with rounds being 15 to 30 minutes long depending on game size. Each round, one Team takes a turn playing Humans (i.e. full Class, or Militia rules) against the opposing Team(s) playing Goblins.<p>The Human team has either a Player Life Pool (4 or 5 is suggested) or a Team Life Pool (2-5x the number of players is suggested), and Goblins have unlimited lives. Humans will Respawn at their Base after a 60 second count, and Goblins will Respawn at their Base after only 20 seconds.<p>Each time a Goblin is killed (i.e. returning to play via Respawn, not <i>Superior Numbers</i>), they must record their death with the Base Reeve. After each team has taken a turn playing Humans, the team with the most Goblin kills wins.<p>To add some complexity to the game, Human teams must select a \"Captain\", and the Goblin team may be asked to substitute any number of players for \"Orcs\".<p>Captains are worth 20 points when killed, and cannot be removed from play by any means (in that they are immune to the Frozen, Insubstantial, and Out of Game States). This will be the only way that the Team playing Goblins can score points during those rounds. (If there are multiple Teams playing Goblins at one time, points are attributed to all current Goblin Teams.)<p>Orcs are worth 4 points when killed. They may choose to either play the Orc Monster Class, or any player class that the player has access to at 1st level. They return to play after an 80 second Respawn count."
+  },
+  "thekingscrown": {
+    "name": "The Kings Crown",
+    "credit": "Valeria Ironscales",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "30 seconds",
+    "players": "5+",
+    "objective": "Get as much treasure as possible",
+    "refresh": "2+",
+    "types": [
+      "class",
+      "militia"
+    ],
+    "equipment": "Water markers, bridge markers, treasure",
+    "description": "<br>15 mins play time<br>2 points of armor or less slow walk through water anything above drowns and dies in the water<br>Looting 5 count for treasure in the water<br>One treasure can be held in any open hand. Crown can be worn as another treasure<br>Crown wearer has one extra point of armor everywhere (if no armor then 1 point natural armor while crown is worn)<br>Crown can be looted from players looting 3 count<br>When you are killed all treasure must be dropped<br>You can loot from the opponents treasure chest looting 5 count<br>Game items (treasure) can not be carried in any game altering State (insub, sanctuary, ect.)<br><br>One side will be protecting the treasure in the river, the other side will be trying to get to the treasure in the river and get the crown the crown is worth the most points after 15 minutes the two teams will switch sides the team that was getting the treasure will now be defending the treasure and vice versa. This game can be played  militia or class. The river is 25 ft wide there's a 10 ft wide bridge going over the river the river goes on infinitely past whatever marker. The defending team can loot from the offending teams treasure chest it's a looting 5 count. Crown is worth 5 Points any other treasure is worth 2 points will be tallied at the end of each round"
+  },
+  "thepurge": {
     "name": "The Purge",
     "credit": "Dorcas",
     "teams": "2",
@@ -660,7 +826,9 @@
     "players": "5+ per team",
     "objective": "Destroy the Points",
     "refresh": "1/role switch",
-    "types": [ "militia"],
+    "types": [
+      "militia"
+    ],
     "equipment": "Tape helps to mark sites.  2 bases.",
     "description": "<br>Each team takes turns playing the cleansing team and the team to be purged.  The job of the purging team is simply to delay the cleansing team for as long as possible (generally 10-15 minutes depending on team sizes)<p>The cleansing team has a dedicated Purifier, who must travel to specifically marked sites, touch with a free hand and say \"I cleanse and purify this site\" five times.  This follows all incantation rules and requires 2 living teammates to be within 5 feet of the site.  Once all the sites are cleansed that team wins.<p><b>Variation:</b>  Does work with class and without dedicated purifiers, but it's a bit harder to keep track of when sites are purified.<p><b>Variation:</b>  Have the purged team's spawn point be at each cleansing site, when that site is purged, they can no longer spawn there."
   },
@@ -673,72 +841,91 @@
     "players": "4-5",
     "objective": "2 teams with metamagic items, shatter battle",
     "refresh": "Reeve's choice",
-    "types": [ "class"],
+    "types": [
+      "class"
+    ],
     "equipment": "1 \"hand\" item, 1 multicolored spell ball",
     "description": "<br>There should be 1 spell caster (preferably high level) on each team<br>Each team gets the use of one item below, and the designated caster who will play the bearer will have 5 minutes to write a new spell list to have at least 75% of their spells be Verbal or Touch as appropriate.<br><b>Monk's Bane</b> - a multicolored spell ball- While holding it the user may cast any Verbal spell into this ball. The ball may be thrown, while saying the name of the spell cast and will aﬀect the target with the spell cast. Swift may be used with this item.<br><b>Mage Hand</b>- a plastic hand worn as a pendant or necklace- While wearing it the user may cast any Touch range spell instead at a range of up to 20 feet. Swift may be used with this item."
   },
   "threemanforever": {
-  	"name": "Three Man Forever",
-  	"credit": "Amtgard standard",
-  	"teams": "12+",
-  	"lives": "Unlimited",
-  	"respawn": "See below",
-  	"players": "3 per team",
-  	"objective": "To kill all opponents",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"description": "<br>All players form Teams of three. Teams begin the game equidistant apart, and begin fighting when lay-on is called.<p>When a player is killed, they go to Nirvana. As soon as three dead players have arrived at Nirvana, they return to play as a newly formed team.<p>The game can end after a duration has been met. Alternately, each player can be given a Life Pool, and they are shattered out of the game when that pool has expired."
-	},
+    "name": "Three Man Forever",
+    "credit": "Amtgard standard",
+    "teams": "12+",
+    "lives": "Unlimited",
+    "respawn": "See below",
+    "players": "3 per team",
+    "objective": "To kill all opponents",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "description": "<br>All players form Teams of three. Teams begin the game equidistant apart, and begin fighting when lay-on is called.<p>When a player is killed, they go to Nirvana. As soon as three dead players have arrived at Nirvana, they return to play as a newly formed team.<p>The game can end after a duration has been met. Alternately, each player can be given a Life Pool, and they are shattered out of the game when that pool has expired."
+  },
   "thunderdome": {
-  	"name": "Thunderdome",
-  	"credit": "Twilight Peak, Northern Empire",
-  	"teams": "Free-for-all",
-  	"lives": "1",
-  	"respawn": "None",
-  	"players": "Free for all (3+)",
-  	"objective": "To be the last person standing",
-  	"refresh": "None",
-  	"types": [ "ditch"],
-  	"description": "<br>Every player is on their own during this game. Every player begins equidistant from the center of the field in a circle. The center of the field contains a pile of weapons that anyone can grab and use.<p>When Lay-On is called, players rush for the center, grab what weapons they can before being attacked, and then try their best to be the last man standing.<p>This game is best played as a Ditch game, but some effective variants do exist:<p><b>Thunger-Dome-Games</b> (Twilight Peak, Northern Empire): All players participating play the Assassin class, and begin the game armed with a Dagger. Thrown Weapons, Bows, and Arrows can be included in the center of the field.<p>Every three minutes, a whistle is blown that causes all Insubstantial effects to end. Play can be timed if necessary (suggested 20 minutes), when a winner is chosen from the remaining players based on who killed the most other Assassins."
-	},
+    "name": "Thunderdome",
+    "credit": "Twilight Peak, Northern Empire",
+    "teams": "Free-for-all",
+    "lives": "1",
+    "respawn": "None",
+    "players": "Free for all (3+)",
+    "objective": "To be the last person standing",
+    "refresh": "None",
+    "types": [
+      "ditch"
+    ],
+    "description": "<br>Every player is on their own during this game. Every player begins equidistant from the center of the field in a circle. The center of the field contains a pile of weapons that anyone can grab and use.<p>When Lay-On is called, players rush for the center, grab what weapons they can before being attacked, and then try their best to be the last man standing.<p>This game is best played as a Ditch game, but some effective variants do exist:<p><b>Thunger-Dome-Games</b> (Twilight Peak, Northern Empire): All players participating play the Assassin class, and begin the game armed with a Dagger. Thrown Weapons, Bows, and Arrows can be included in the center of the field.<p>Every three minutes, a whistle is blown that causes all Insubstantial effects to end. Play can be timed if necessary (suggested 20 minutes), when a winner is chosen from the remaining players based on who killed the most other Assassins."
+  },
   "ticker": {
-  	"name": "Ticker",
-  	"credit": "Ausric, Northern Empire",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "Capture Control Points which yield points",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Reeves or players for control points",
-  	"description": "<br>Two teams start opposite one another on field. Spaced equally around the field are two or more control points – typically signified by a Reeve or non-combat player.<p>The goal is for teams to capture the Control Points (which is accomplished by stating “I capture this point” x5 while a free hand is on the point), and hold them. Every five minutes of game time (games should be played for 30min at the minimum) a whistle is blown, and the Control Points take note of which team controls them at that time. Holding a Control Point when the whistle blows gains teams 1 point.<p>When a controlled point is touched by the opposing team, and “I capture this point” is stated once, the point becomes neutral. It is not captured by the team until all five iterations of the incant have been completed.<p>At the end of the game, the Control Points compare notes, and add points together to determine the overall winning team."
-	},
+    "name": "Ticker",
+    "credit": "Ausric, Northern Empire",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "Capture Control Points which yield points",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Reeves or players for control points",
+    "description": "<br>Two teams start opposite one another on field. Spaced equally around the field are two or more control points – typically signified by a Reeve or non-combat player.<p>The goal is for teams to capture the Control Points (which is accomplished by stating “I capture this point” x5 while a free hand is on the point), and hold them. Every five minutes of game time (games should be played for 30min at the minimum) a whistle is blown, and the Control Points take note of which team controls them at that time. Holding a Control Point when the whistle blows gains teams 1 point.<p>When a controlled point is touched by the opposing team, and “I capture this point” is stated once, the point becomes neutral. It is not captured by the team until all five iterations of the incant have been completed.<p>At the end of the game, the Control Points compare notes, and add points together to determine the overall winning team."
+  },
   "treeball": {
-  	"name": "Treeball",
-  	"credit": "Crimsonwood",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "To touch the Treeball to the opposing Team's tree",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Foam or other ball to be a Treeball",
-  	"description": "<br>Each Team has a Base Tree, where they begin play. Each Team's Respawn point is 20ft behind their Tree. Additionally, a foam ball (the Treeball) begins play each round in the center of the field.<p>The goal of the game is to retrieve the Treeball, and then touch it to the opposing Team's Base Tree. The Treeball can only be carried in a free hand, and is considered a Game Object (and therefore cannot be held by a player who is Insubstantial, etc.). Players who become Frozen, Dead, or similar must drop the Treeball immediately.<p>The Treeball may be thrown or batted in a safe manner, but is not considered a Thrown Weapon. It cannot be used to block attacks, and is considered Indestructible.<p>To effectively score a point, the Treeball must contact the trunk of the Base Tree - not the branches.<p>After each point, teams swap sides and start again."
-	},
+    "name": "Treeball",
+    "credit": "Crimsonwood",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "To touch the Treeball to the opposing Team's tree",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Foam or other ball to be a Treeball",
+    "description": "<br>Each Team has a Base Tree, where they begin play. Each Team's Respawn point is 20ft behind their Tree. Additionally, a foam ball (the Treeball) begins play each round in the center of the field.<p>The goal of the game is to retrieve the Treeball, and then touch it to the opposing Team's Base Tree. The Treeball can only be carried in a free hand, and is considered a Game Object (and therefore cannot be held by a player who is Insubstantial, etc.). Players who become Frozen, Dead, or similar must drop the Treeball immediately.<p>The Treeball may be thrown or batted in a safe manner, but is not considered a Thrown Weapon. It cannot be used to block attacks, and is considered Indestructible.<p>To effectively score a point, the Treeball must contact the trunk of the Base Tree - not the branches.<p>After each point, teams swap sides and start again."
+  },
   "treehugger": {
-  	"name": "Treehugger",
-  	"credit": "Akira \"Tonbo\" Kitsume / Olok Blackstar, Neverwinter",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "50 seconds",
-  	"players": "3+ per team",
-  	"objective": "To hug the other team's tree to death",
-  	"refresh": "None",
-  	"types": [ "ditch", "militia"],
-  	"description": "<br>The field should be played in a space where each team can have a tree that players can put their arms around.<p>Each Team begins play at its tree (which counts as a Base for game purposes). The goal is to fight to the opposing team's tree, and put two uninjured empty hands around the tree for a 100 count. If a player hugging a tree is killed or otherwise stops counting, the count must be restarted when a player once again hugs the tree.<p>Players killed should go to a Nirvana for their team, which should be far enough removed from their Base Tree that it does not impede play.<p>Variations exist where each team is allowed one \"Keeper\" which can Respawn after only 25 seconds without having to return to Nirvana - however, they Keeper is not allowed to move more than 20ft from their Base Tree."
-	},
+    "name": "Treehugger",
+    "credit": "Akira \"Tonbo\" Kitsume / Olok Blackstar, Neverwinter",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "50 seconds",
+    "players": "3+ per team",
+    "objective": "To hug the other team's tree to death",
+    "refresh": "None",
+    "types": [
+      "ditch",
+      "militia"
+    ],
+    "description": "<br>The field should be played in a space where each team can have a tree that players can put their arms around.<p>Each Team begins play at its tree (which counts as a Base for game purposes). The goal is to fight to the opposing team's tree, and put two uninjured empty hands around the tree for a 100 count. If a player hugging a tree is killed or otherwise stops counting, the count must be restarted when a player once again hugs the tree.<p>Players killed should go to a Nirvana for their team, which should be far enough removed from their Base Tree that it does not impede play.<p>Variations exist where each team is allowed one \"Keeper\" which can Respawn after only 25 seconds without having to return to Nirvana - however, they Keeper is not allowed to move more than 20ft from their Base Tree."
+  },
   "trollball": {
     "name": "Trollball",
     "credit": "Rules adapted from Bicolline, by AJJRO, edited for Amtgard by Odereus",
@@ -748,47 +935,61 @@
     "players": "10 players and 2 healer/team",
     "objective": "Scoring points with a trolls head",
     "refresh": "None",
-    "types": [ "ditch"],
+    "types": [
+      "ditch"
+    ],
     "equipment": "Troll's Head, markers for field, short swords",
     "description": "<br><b>Setting up</b><ul><li>A team is composed of a maximum of 10 players and 2 healer. The team must have a captain and minimum 9 players.</li><li>Matches last 20 minutes, with a 3 minute break at halftime to allow teams to switch sides.</li><li>The game field should be 90 feet (27 meters) by 50 feet (15 meters), surrounded by a 4 feet (1 meter) corridor for the healers.</li><li>The goal will consist of a 3 foot (1 meter) diameter ring 3 feet (1 meter) from the end line.</li><li>Every match must have a minimum 2 referees, and a maximum of 4. A main referee should be designated every match.</li></ul><p><img src='/images/trollball.png'><p><p><b>Flow of the game</b><p>The goal of the game is to drop the Troll Head into the opposing team's goal. The team with the most points wins the match.<ul><li>On the field, there can only be 5 players per team, and 2 healer.</li><li>Each player is equipped with single short sword; thus 5 swords per team.</li><li>Players are fragile (any wound kills)</li><li>Before each faceoff, the Trollball is placed in the middle of the field. Players must have both feet on their team's starting line.</li><li>Only the healers are allowed to pass between the goal line and the replacements line.</li><li>The Trollball can only be picked up with hands (not with your weapon, nor your feet) and cannot be thrown away. Players can pass the Trollball between them, using their hands.</li></ul><p>One hit from another player will inflict a wound. This player cannot hold anything or throw anything and must kneel on the floor immediately, dropping the Trollball if he-she had it.<ul><li>Players heads must never be a target of a hit and do not count.</li><li>A dead player must put his knees on the ground and put his blade in the air, upside down. The player cannot throw his weapon to a healer.</li><li>If a player is scoring a goal and he is killed in action, but at the end of his movement, the Trollball is in the goal, the point is granted.</li><li>After each point, the players come back to life and another round starts.</li></ul><p>The healer's role is to grab the dead player's swords and bring it to the replacement players.<ul><li>Once the dead player's sword has been picked up by the healer, he-she must exit the field as fast as possible, and return to his-her team's replacement line, without hindering the match (else a penalty will be attributed).</li><li>Healers can carry only one sword at a time.</li><li>The replacements cannot enter the playing field unless a healer has given the replacement player a sword. (no tossing of swords to players).</li><li>Replacements must stay in the predetermined zones.</li><li>Healers can run, enter and/or exit the whole playing field. They can only get hit while in the playing field.</li><li>Healers can <i>die</i>. If a healer dies, he is brought back to life for the next point.</li><li>A player that exits the playing field, dies. The player must kneel down on the field limits where he-she exited.</li></ul><p><b>Penalties</b><ul><li>A penality means one less sword during the following round.</li><li>Penalties are given by referees in the following situations: Rule breaking, violence, blows to the face (even if involuntary, don't forget to apologize!), arguing with referees, verbal violence, unsportsmanlike behavior, etc.</li><li>Healers can also receive penalties.</li><li>If a whole team is penalized at the same time, except the healers, that team loses the round.</li><li>It is useless to argue with referees.</li></ul><p><b>Weapons and protection</b><ul><li>The only authorized weapons are the provided one handed weapons.</li><li>Armor is not authorized</li><li>Shields are not authorized</li><li>Please do not rub the sword's tip on the floor, or set it down point-down.</li></ul>"
   },
   "tugofwar": {
-  	"name": "Tug-of-War",
-  	"credit": "Wunjo",
-  	"teams": "2",
-  	"lives": "Unlimited",
-  	"respawn": "60 seconds",
-  	"players": "3+ per team",
-  	"objective": "Hold all three Control Points for 30 seconds",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Flagging tape to create control points",
-  	"description": "<br>Two teams start the game opposite one another on field. Spaced equidistantly between the teams (creating a direct line between the bases) are three Control Points. Control Points are captured by placing a free hand on them and stating “I capture this point” x5.<p>When a controlled point is touched by the opposing team, and “I capture this point” is stated once, the point becomes neutral. It is not captured by the team until all five iterations of the incant have been completed.<p>The goal is for a team to control all three points for 30 seconds. Controlling the point closest to a team’s base is typically easy, but holding the center, and then also the point closes to the enemy team becomes more and more challenging.<p>Depending on game length, the game can end when one team manages to complete the objective. Alternately, completing the objective nets a team 1 point, and the game can be played to see which team scores more points within a certain period of time.<p>In very large games, it may be necessary to have a method of breaking ties. If it is possible to have an additional Reeve of non-combatant counting time, measure the amount of time each team controls the central Control Point. If no team manages to complete the objective, the team that controls the center point should be declared the winner."
-	},
+    "name": "Tug-of-War",
+    "credit": "Wunjo",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "60 seconds",
+    "players": "3+ per team",
+    "objective": "Hold all three Control Points for 30 seconds",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Flagging tape to create control points",
+    "description": "<br>Two teams start the game opposite one another on field. Spaced equidistantly between the teams (creating a direct line between the bases) are three Control Points. Control Points are captured by placing a free hand on them and stating “I capture this point” x5.<p>When a controlled point is touched by the opposing team, and “I capture this point” is stated once, the point becomes neutral. It is not captured by the team until all five iterations of the incant have been completed.<p>The goal is for a team to control all three points for 30 seconds. Controlling the point closest to a team’s base is typically easy, but holding the center, and then also the point closes to the enemy team becomes more and more challenging.<p>Depending on game length, the game can end when one team manages to complete the objective. Alternately, completing the objective nets a team 1 point, and the game can be played to see which team scores more points within a certain period of time.<p>In very large games, it may be necessary to have a method of breaking ties. If it is possible to have an additional Reeve of non-combatant counting time, measure the amount of time each team controls the central Control Point. If no team manages to complete the objective, the team that controls the center point should be declared the winner."
+  },
   "tugofwarrior": {
-  	"name": "Tug-of-Warrior",
-  	"credit": "Twilight Peak, Northern Empire",
-  	"teams": "2",
-  	"lives": "Infinite",
-  	"respawn": 60,
-  	"players": "2+ per team",
-  	"objective": "To move the Object to score points",
-  	"refresh": "None",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Heavy object, Hula hoops or equivalent",
-  	"description": "<br>A Heavy Object (requires two players with at least one free hand to move at a walk) is placed in the center of the field. Equidistant between the Object and each team's Respawn point are three Scoring Zones (hula hoops). Zones are controlled by the Team who's Respawn point is closest to the Zone.<p>When the Object is moved into a Scoring Zone, the Team who controls that Zone earns points for every full minute that it remains there. The Zone closest to the center of the field scores the Team 3 points, the middle Zone 2 points, and the Zone closest to their Respawn point scores them 1 point.<p>The Team with the most points at the end of the game duration (suggested 20-30 minutes), wins."
-	},
+    "name": "Tug-of-Warrior",
+    "credit": "Twilight Peak, Northern Empire",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": 60,
+    "players": "2+ per team",
+    "objective": "To move the Object to score points",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Heavy object, Hula hoops or equivalent",
+    "description": "<br>A Heavy Object (requires two players with at least one free hand to move at a walk) is placed in the center of the field. Equidistant between the Object and each team's Respawn point are three Scoring Zones (hula hoops). Zones are controlled by the Team who's Respawn point is closest to the Zone.<p>When the Object is moved into a Scoring Zone, the Team who controls that Zone earns points for every full minute that it remains there. The Zone closest to the center of the field scores the Team 3 points, the middle Zone 2 points, and the Zone closest to their Respawn point scores them 1 point.<p>The Team with the most points at the end of the game duration (suggested 20-30 minutes), wins."
+  },
   "ultimatechakram": {
-  	"name": "Ultimate Chakram",
-  	"credit": "Niall Rook, Felfrost",
-  	"teams": "2",
-  	"lives": "Infinite",
-  	"respawn": 15,
-  	"players": "5+ per team",
-  	"objective": "To move the Object to score points",
-  	"refresh": "Every Three Points (If playing with Class rules)",
-  	"types": [ "class", "ditch", "militia"],
-  	"equipment": "Timer or device to track time, One strike-legal throwie/spell ball 12\" in diameter, >50' flagging tape/rope for two endzones",
-		"description": "<br>Teams compete to score the most points within a time limit, to score a point a player must be holding the Chakram within opposing team's scoring zone. The Chakram is a game item and cannot be interacted with while <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Out of Game</a>, <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>, or <a href=\"/combat/#Deaths\" data-ajax=\"false\">Dead</a>.<br>The Chakram inflicts the <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> state on any player touched by it for 10 seconds this effect is <a href=\"/spells/definitions#engulfing\" data-ajax=\"false\">engulfing</a> and bypasses all traits, enchantments, and abilities. The Stopped state is ongoing while holding the Chakram and continues to last for 10 seconds after throwing or dropping the Chakram.<br>When a point is scored the timer pauses, teams return to their bases. The scoring team from the previous round takes the Chakram, and the time resumes when they throw the Chakram (Pull) to the other team. Only players on the non-scoring team may first touch the Chakram after the Pull, at which point the Chakram is in-play, and can be interacted with by both teams for the duration of that round. On team wins when they score the most points with Chakram in the opposing team's scoring zone before time runs out."
-	}
+    "name": "Ultimate Chakram",
+    "credit": "Niall Rook, Felfrost",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": 15,
+    "players": "5+ per team",
+    "objective": "To move the Object to score points",
+    "refresh": "Every Three Points (If playing with Class rules)",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Timer or device to track time, One strike-legal throwie/spell ball 12\" in diameter, >50' flagging tape/rope for two endzones",
+    "description": "<br>Teams compete to score the most points within a time limit, to score a point a player must be holding the Chakram within opposing team's scoring zone. The Chakram is a game item and cannot be interacted with while <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Out of Game</a>, <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>, or <a href=\"/combat/#Deaths\" data-ajax=\"false\">Dead</a>.<br>The Chakram inflicts the <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> state on any player touched by it for 10 seconds this effect is <a href=\"/spells/definitions#engulfing\" data-ajax=\"false\">engulfing</a> and bypasses all traits, enchantments, and abilities. The Stopped state is ongoing while holding the Chakram and continues to last for 10 seconds after throwing or dropping the Chakram.<br>When a point is scored the timer pauses, teams return to their bases. The scoring team from the previous round takes the Chakram, and the time resumes when they throw the Chakram (Pull) to the other team. Only players on the non-scoring team may first touch the Chakram after the Pull, at which point the Chakram is in-play, and can be interacted with by both teams for the duration of that round. On team wins when they score the most points with Chakram in the opposing team's scoring zone before time runs out."
+  }
 }

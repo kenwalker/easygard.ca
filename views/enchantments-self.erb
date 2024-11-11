@@ -2,10 +2,12 @@
 <%  enchantmentsSelf = @allSpells.reject {|k,v|
           if (v['t'].casecmp('Enchantment')) == 0 && (v['r'].include? "Self")
                false
+          elsif (v['t'].casecmp('Enchantment')) == 0 && (v['r'].include? "Touch")
+               false
           else
                true
           end
-               
+
      }%>
 
 <div data-role="page" class="jqm-demos jqm-home" id="enchantments-self">
@@ -28,4 +30,3 @@
          <!-- /content -->
 
 </div><!-- /page -->
-
