@@ -1,18 +1,10 @@
-require 'puma'
+require 'sinatra'
 
 require_relative 'spells'
 require_relative 'battlegames'
 
 spells = Spells.new()
 battlegames = Battlegames.new()
-
-set :bind, '0.0.0.0'
-set :port, 1337
-set :environment, :production
-
-configure do
-	mime_type :appcache, 'text/cache-manifest'
-end
 
 get '/' do 
 	erb :home
