@@ -1,4 +1,4 @@
-require 'sinatra' 
+require 'puma'
 
 require_relative 'spells'
 require_relative 'battlegames'
