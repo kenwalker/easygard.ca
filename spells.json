@@ -119,7 +119,7 @@
     "t": "Archetype",
     "s": "Neutral",
     "e": "Gain <a href=\"/spells/m#mutation\" data-ajax=\"false\">Mutation</a> (T) and <a href=\"/spells/a#adaptiveblessing\" data-ajax=\"false\">Adaptive Blessing</a> (Self) 1/Life Charge x5 (ex) (Swift).",
-    "l": "Lose all instances of Evolution, Hold Person, and Adaptive Protection."
+    "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, and <a href=\"/spells/a#adaptiveprotection\" data-ajax=\"false\">Adaptive Protection</a>"
   },
   "artificer": {
     "name": "Artificer",
@@ -129,9 +129,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield a Small Shield. Gain Greater Mend 2/Refresh Charge x10 (ex). Mend becomes 2/Life Charge x3.<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
-    "l": "Lose all arrow choices at 1st, 3rd, and 5th level. Gain Pinning Arrow 3 Arrows/Unlimited (ex). Look the Part becomes an additional Pinning Arrow.",
-    "n": "Player must still have a use of Mend remaining to cast on Weapons or Shields."
+    "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3.<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
+    "l": "Lose all arrow choices at 1st, 3rd, and 5th level. Gain <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows/Unlimited (ex). Look the Part becomes an additional Pinning Arrow.",
+    "n": "Player must still have a use of <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> remaining to cast on Weapons or Shields."
   },
   "assassinate": {
     "name": "Assassinate",
@@ -286,8 +286,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Player may choose to use Adrenaline for its usual effect or to instantly charge Rage.",
-    "l": "May not wear Armor, and loses all instances of Blood and Thunder."
+    "e": "Player may choose to use <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> for its usual effect or to instantly charge <a href=\"/spells/r#rage\" data-ajax=\"false\">Rage</a>",
+    "l": "May not wear Armor, and loses all instances of <a href=\"/spells/b#bloodandthunder\" data-ajax=\"false\">Blood and Thunder</a>"
   },
   "blessedaura": {
     "name": "Blessed Aura",
@@ -354,7 +354,7 @@
     "s": "Spirit",
     "r": "Self",
     "i": "\"Blood and Thunder!\"",
-    "e": "Player gains Blessing Against Wounds",
+    "e": "Player gains <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a>",
     "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>",
     "n": "Player must still wear a white strip to denote Blessing Against Wounds"
   },
@@ -468,8 +468,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain Void Touched (Touch) 2/Refresh (m). Terror becomes 1/Life Charge x10.",
-    "l": "May not wield Great Weapons or Javelins and lose all instances of Flame Blade"
+    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Touch) 2/Refresh (m). <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> becomes 1/Life Charge x10.",
+    "l": "May not wield Great Weapons or Javelins and lose all instances of <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a>"
   },
   "coupdegrace": {
     "name": "Coup de Grace",
@@ -725,7 +725,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Verbals purchased may only be of range Touch or Self. Elemental Barrage becomes Charge x10",
+    "e": "Verbals purchased may only be of range Touch or Self. <a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental Barrage</a> becomes Charge x10",
     "n": "Elemental Barrage must still be purchased"
   },
   "evolution": {
@@ -982,7 +982,7 @@
     "s": "Spirit",
     "r": "Touch",
     "i": "\"By the grace of the divine thou art resurrected\" x5",
-    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life. Enchantments on the player are retained. Any wounds on the player are healed. Works regardless of any States on the target, and removes Cursed if present."
+    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life. Enchantments on the player are retained. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present."
   },
   "guardian": {
     "name": "Guardian",
@@ -992,8 +992,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain Imbue Shield (Touch) 1/Life (m) and Martyr 2/Life Charge x3 (ex).",
-    "l": "Lose all instances of Protection from Magic and Extend Immunities. May only have one instance of Imbue Shield active at a time."
+    "e": "Gain <a href=\"/spells/i#imbueshield\" data-ajax=\"false\">Imbue Shield</a> (Touch) 1/Life (m) and <a href=\"/spells/m#martyr\" data-ajax=\"false\">Martyr</a> 2/Life Charge x3 (ex).",
+    "l": "Lose all instances of <a href=\"/spells/p#protectionfrommagic\" data-ajax=\"false\">Protection from Magic</a> and <a href=\"/spells/e#extendimmunities\" data-ajax=\"false\">Extend Immunities</a>. May only have one instance of Imbue Shield active at a time."
   },
   "harden": {
     "name": "Harden",
@@ -1077,8 +1077,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield Great Weapons and Javelins. Hold Person becomes 1/Life Charge x3",
-    "l": "May not wield Shields. Lose all instances of Release and Evolution"
+    "e": "May wield Great Weapons and Javelins. <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3",
+    "l": "May not wield Shields. Lose all instances of <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a> and <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>"
   },
   "iceball": {
     "name": "Iceball",
@@ -1157,8 +1157,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain Fireball 2 Balls/Unlimited.",
-    "l": "May not wield a Shield, and lose all instances of Steal Life Essence."
+    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls/Unlimited.",
+    "l": "May not wield a Shield, and lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>"
   },
   "innate": {
     "name": "Innate",
@@ -1210,8 +1210,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Replace Harden with Greater Harden at the same frequency. Gain Phoenix Tears (Self) 3/Refresh (ex) (Swift) and Imbue Armor (T).",
-    "l": "Lose all instances of Ancestral Armor and True Grit."
+    "e": "Replace <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> with <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a> at the same frequency. Gain <a href=\"/spells/p#phoenixtears\" data-ajax=\"false\">Phoenix Tears</a> (Self) 3/Refresh (ex) (Swift) and <a href=\"/spells/i#imbuearmor\" data-ajax=\"false\">Imbue Armor</a> (T).",
+    "l": "Lose all instances of <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a> and <a href=\"/spells/t#truegrit\" data-ajax=\"false\">True Grit</a>"
   },
   "justiciar": {
     "name": "Justiciar",
@@ -1221,8 +1221,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain Smite 1/Life Charge x10.",
-    "l": "May not wield Shields, and lose all instances of Greater Resurrect."
+    "e": "Gain <a href=\"/spells/s#smite\" data-ajax=\"false\">Smite</a> 1/Life Charge x10.",
+    "l": "May not wield Shields, and lose all instances of <a href=\"/spells/g#greaterresurrect\" data-ajax=\"false\">Greater Resurrect</a>"
   },
   "legend": {
     "name": "Legend",
@@ -1280,7 +1280,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May choose to use Scavenge for its usual effect or to instantly charge an ability. Insult becomes 1/Life Charge x5.",
+    "e": "May choose to use <a href=\"/spells/s#scavenge\" data-ajax=\"false\">Scavenge</a> for its usual effect or to instantly charge an ability. <a href=\"/spells/i#insult\" data-ajax=\"false\">Insult</a> becomes 1/Life Charge x5.",
     "l": "Maximum Armor becomes 4pts. May not wield Large Shields."
   },
   "martyr": {
@@ -1318,7 +1318,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain Blessing Against Wounds (Touch) 1/Life (ex), Sever Spirit 1/Life Charge x3 (ex), and Swift 2/Life. Abilities in the Spirit School become Charge x3.",
+    "e": "Gain <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a> (Touch) 1/Life (ex), <a href=\"/spells/s#severspirit\" data-ajax=\"false\">Sever Spirit</a> 1/Life Charge x3 (ex), and <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 2/Life. Abilities in the Spirit School become Charge x3.",
     "l": "May not wear armor and may not wield Great Weapons."
   },
   "mend": {
@@ -1368,7 +1368,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain Force Bolt 4 Balls/Unlimited and Suppression Bolt 1/Unlimited.",
+    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls/Unlimited and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 1/Unlimited.",
     "l": "May not wield Great Weapons or Heavy Thrown."
   },
   "naturalizemagic": {
@@ -1392,7 +1392,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "All magic purchased in the Death School becomes Charge x3. You may have five active Undead Minion Enchantments.",
+    "e": "All magic purchased in the Death School becomes Charge x3. You may have five active <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a> Enchantments.",
     "l": "You may not purchase any Enchantments from the Protection School"
   },
   "persistent": {
@@ -1537,7 +1537,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. Heal costs zero points"
+    "e": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> costs zero points"
   },
   "protectionfrommagic": {
     "name": "Protection from Magic",
@@ -1603,8 +1603,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Player may choose to use Adrenaline for its usual effect or to instantly charge Brutal Strike. Brutal Strike becomes 3/Life Charge x3. Gain Harden (Self) 1/Life (ex)",
-    "l": "May not wield Shields, and loses all instances of Rage"
+    "e": "Player may choose to use <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> for its usual effect or to instantly charge <a href=\"/spells/b#brutalstrike\" data-ajax=\"false\">Brutal Strike</a>. Brutal Strike becomes 3/Life Charge x3. Gain <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> (Self) 1/Life (ex)",
+    "l": "May not wield Shields, and loses all instances of <a href=\"/spells/r#rage\" data-ajax=\"false\">Rage</a>"
   },
   "raisedead": {
     "name": "Raise Dead",
@@ -1720,7 +1720,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Regain a use of Coup de Grace if you successfully cast Assassinate on a player after killing them with a Thrown Weapon. You do not gain the effect if the dead player is unaffected by Assassinate.",
+    "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> if you successfully cast <a href=\"/spells/a#assassinate\" data-ajax=\"false\">Assassinate</a> on a player after killing them with a Thrown Weapon. You do not gain the effect if the dead player is unaffected by Assassinate.",
     "l": "May not wield Long Weapons or Bows."
   },
   "sanctuary": {
@@ -2025,7 +2025,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Blink and Shadow Step become Charge x3.",
+    "e": "<a href=\"/spells/b#blink\" data-ajax=\"false\">Blink</a> and <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> become Charge x3.",
     "l": "May not wear Armor."
   },
   "steallifeessence": {
@@ -2141,7 +2141,7 @@
     "s": "Subdual",
     "i": "\"The strength of suppression is mine to evoke\" x3",
     "m": "Purple Magic Ball",
-    "e": "Target is Suppressed for 60 seconds. Engulfing"
+    "e": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 60 seconds. Engulfing"
   },
   "swift": {
     "name": "Swift",

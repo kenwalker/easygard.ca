@@ -1,0 +1,31 @@
+<% @loaded = 'false' %>
+<%  spellsArchetype = @allSpells.reject {|k,v|
+          if (v['t'].casecmp('Archetype') != 0)
+               true
+          else
+               false
+          end
+               
+     }%>
+
+<div data-role="page" class="jqm-demos jqm-home" id="spells-archetype">
+
+<%= erb :'sections/updated' %>
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+         <div role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-autodividers="true" data-filter-placeholder="Search Spells (Archetype)" data-inset="true" data-icon="false">
+
+<% spellsArchetype.each {|key, value| %>
+
+               <li><a href=<%="/spells/#{key[0]}##{key}"%> data-ajax="false"><%="#{value['name']}"%></a></li>
+<% } %>
+            </ul>
+         </div>
+         <!-- /content -->
+
+</div><!-- /page -->
+

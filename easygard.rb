@@ -73,6 +73,11 @@ get '/spells/verbal' do
 	erb :"spells-verbal"
 end
 
+get '/spells/archetype' do
+	@allSpells = spells.allSpells()
+	erb :"spells-archetype"
+end
+
 get '/spells/:letter' do
 	@reducedHash = spells.allSpells().reject {|k,v| k[0] != params[:letter]}
 	erb :"spell-byletter"
