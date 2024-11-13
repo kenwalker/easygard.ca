@@ -1604,8 +1604,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Player may choose to use Adrenaline for its usual effect or to instantly charge Rage.",
-    "l": "May not wear Armor, and lose all instances of Blood and Thunder."
+    "e": "Player may choose to use Adrenaline for its usual effect or to instantly charge Brutal Strike. Brutal Strike becomes 3/Life Charge x3. Gain Harden (Self) 1/Life (ex)",
+    "l": "May not wield Shields, and loses all instances of Rage"
   },
   "raisedead": {
     "name": "Raise Dead",
