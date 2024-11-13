@@ -318,7 +318,8 @@
     "name": "Blessing Against Wounds",
     "keywords": "healer enchantment protection",
     "classes": {
-      "Healer": "1"
+      "Healer": "1",
+      "Monk": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
@@ -1171,6 +1172,7 @@
       "Bard": "2",
       "Druid": "2",
       "Healer": "2",
+      "Monk": "6",
       "Wizard": "2"
     },
     "t": "Meta-Magic",
