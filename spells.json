@@ -15,7 +15,8 @@
     "name": "Adaptive Blessing",
     "keywords": "enchantment white healer scout",
     "classes": {
-      "Healer": "2"
+      "Healer": "2",
+      "Scout": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
@@ -27,7 +28,7 @@
   },
   "adaptiveprotection": {
     "name": "Adaptive Protection",
-    "keywords": "enchantment white healer",
+    "keywords": "enchantment white healer scout",
     "classes": {
       "Healer": "3",
       "Scout": "6"
@@ -122,7 +123,7 @@
   },
   "artificer": {
     "name": "Artificer",
-    "keywords": "scout archetype",
+    "keywords": "archer archetype",
     "classes": {
       "Archer": "6"
     },
@@ -201,7 +202,7 @@
   },
   "banish": {
     "name": "Banish",
-    "keywords": "banish healer wizard insubstantial spirit",
+    "keywords": "banish healer monk wizard insubstantial spirit",
     "classes": {
       "Healer": "1",
       "Monk": "2",
@@ -316,7 +317,7 @@
   },
   "blessingagainstwounds": {
     "name": "Blessing Against Wounds",
-    "keywords": "healer enchantment protection",
+    "keywords": "healer monk enchantment protection",
     "classes": {
       "Healer": "1",
       "Monk": "6"
@@ -549,7 +550,7 @@
     "keywords": "druid healer scout wizard verbal sorcery",
     "classes": {
       "Druid": "3",
-      "Healer": "5",
+      "Healer": "4",
       "Scout": "3",
       "Wizard": "3"
     },
@@ -781,18 +782,6 @@
     "i": "\"Extension\"",
     "e": "Verbal becomes 50'. Only works on verbals with a range of 20'"
   },
-  "fightafterdeath": {
-    "name": "Fight After Death",
-    "keywords": "barbarian sorcery",
-    "classes": {},
-    "t": "Verbal",
-    "s": "Sorcery",
-    "r": "Self",
-    "i": "\"Fight after death\" immediately after dying",
-    "e": "Player continues to fight for seven seconds after being killed. Players must Chant this time out loud. As per Chanting, failure to count immediately ends the effect. Players ignore further Wounds during Fight After Death. Players melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>",
-    "l": "Players may not activate Abilities or Magic during Fight After Death. Players may not activate Fight After Death if they died while Suppressed, Stunned, Insubstantial, or Frozen. States on the player (Such as Stopped) persist until Fight After Death has ended and are then removed as per the rules for player death. Players may not achieve game objectives nor carry game items while affected by Fight After Death, though they may still kill other players even if that player is a game objective",
-    "n": "Reeves are encouraged to remove this ability from those who use it in an unsafe manner. Also note that it was clarified online that if a player moves during fight after death they must be <a href=\"/spells/s#summondead\" data-ajax=\"false\">summon resurrected</a> from their respawn location since they have moved from where they died"
-  },
   "fingerofdeath": {
     "name": "Finger of Death",
     "keywords": "wizard verbal death",
@@ -807,8 +796,9 @@
   },
   "fireball": {
     "name": "Fireball",
-    "keywords": "wizard ball flame",
+    "keywords": "wizard anti paladin ball flame",
     "classes": {
+      "AntiPaladin": "6",
       "Wizard": "4"
     },
     "t": "Magic Ball",
@@ -819,7 +809,7 @@
   },
   "flameblade": {
     "name": "Flame Blade",
-    "keywords": "druid enchantment flame",
+    "keywords": "druid anti paladin enchantment flame",
     "classes": {
       "AntiPaladin": "6",
       "Druid": "4"
@@ -845,9 +835,10 @@
   },
   "forcebolt": {
     "name": "Force Bolt",
-    "keywords": "druid wizard bolt ball sorcery",
+    "keywords": "druid wizard monk bolt ball sorcery",
     "classes": {
       "Druid": "2",
+      "Monk": "6",
       "Wizard": "1"
     },
     "t": "Magic Ball",
@@ -927,9 +918,10 @@
   },
   "greaterharden": {
     "name": "Greater Harden",
-    "keywords": "healer enchantment protection",
+    "keywords": "healer warrior enchantment protection",
     "classes": {
-      "Healer": "3"
+      "Healer": "3",
+      "Warrior": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
@@ -953,8 +945,9 @@
   },
   "greatermend": {
     "name": "Greater Mend",
-    "keywords": "druid wizard verbal sorcery",
+    "keywords": "archer druid wizard verbal sorcery",
     "classes": {
+      "Archer": "6",
       "Druid": "3",
       "Wizard": "3"
     },
@@ -1023,7 +1016,7 @@
     "classes": {
       "Druid": "2",
       "Healer": "1",
-      "Monk": "4",
+      "Monk": "1",
       "Scout": "1"
     },
     "t": "Verbal",
@@ -1091,7 +1084,7 @@
     "name": "Iceball",
     "keywords": "druid healer wizard ball subdual",
     "classes": {
-      "Druid": "4",
+      "Druid": "2",
       "Healer": "3",
       "Wizard": "3"
     },
@@ -1116,9 +1109,10 @@
   },
   "imbuearmor": {
     "name": "Imbue Armor",
-    "keywords": "druid enchantment protection armor white",
+    "keywords": "druid warrior enchantment protection armor white",
     "classes": {
-      "Druid": "1"
+      "Druid": "1",
+      "Warrior": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
@@ -1130,9 +1124,10 @@
   },
   "imbueshield": {
     "name": "Imbue Shield",
-    "keywords": "healer enchantment protection white shield",
+    "keywords": "healer paladin enchantment protection white shield",
     "classes": {
-      "Healer": "4"
+      "Healer": "4",
+      "Paladin": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
@@ -1440,9 +1435,10 @@
   },
   "phoenixtears": {
     "name": "Phoenix Tears",
-    "keywords": "healer enchantment spirit white",
+    "keywords": "healer warrior enchantment spirit white",
     "classes": {
-      "Healer": "6"
+      "Healer": "6",
+      "Warrior": "6"
     },
     "t": "Enchantment",
     "s": "Spirit",
@@ -1483,7 +1479,7 @@
     "keywords": "anti paladin assassin druid enchantment death",
     "classes": {
       "AntiPaladin": "2",
-      "Assassin": "2",
+      "Assassin": "1",
       "Druid": "2"
     },
     "t": "Enchantment",
@@ -1544,7 +1540,7 @@
   },
   "protectionfrommagic": {
     "name": "Protection from Magic",
-    "keywords": "healer wizard enchantment protection white magic",
+    "keywords": "healer wizard paladin enchantment protection white magic",
     "classes": {
       "Healer": "6",
       "Paladin": "6",
@@ -1590,7 +1586,7 @@
     "name": "Rage",
     "keywords": "barbarian verbal sorcery",
     "classes": {
-      "Barbarian": "2"
+      "Barbarian": "1"
     },
     "t": "Verbal",
     "s": "Sorcery",
@@ -1755,9 +1751,10 @@
   },
   "severspirit": {
     "name": "Sever Spirit",
-    "keywords": "healer verbal spirit",
+    "keywords": "healer monk verbal spirit",
     "classes": {
-      "Healer": "2"
+      "Healer": "2",
+      "Monk": "6"
     },
     "t": "Verbal",
     "s": "Spirit",
@@ -2134,8 +2131,9 @@
   },
   "suppressionbolt": {
     "name": "Suppression Bolt",
-    "keywords": "wizard ball subdual suppression",
+    "keywords": "wizard monk ball subdual suppression",
     "classes": {
+      "Monk": "6",
       "Wizard": "2"
     },
     "t": "Magic Ball",
@@ -2146,10 +2144,11 @@
   },
   "swift": {
     "name": "Swift",
-    "keywords": "bard druid healer wizard meta magic",
+    "keywords": "bard druid healer wizard monk meta magic",
     "classes": {
       "Bard": "4",
       "Druid": "4",
+      "Monk": "6",
       "Healer": "4",
       "Wizard": "4"
     },
@@ -2252,7 +2251,7 @@
   },
   "undeadminion": {
     "name": "Undead Minion",
-    "keywords": "anti paladin healer enchantment death",
+    "keywords": "healer enchantment death",
     "classes": {
       "Healer": "5"
     },
@@ -2279,8 +2278,9 @@
   },
   "voidtouched": {
     "name": "Void Touched",
-    "keywords": "wizard enchantment sorcery",
+    "keywords": "wizard anti paladin enchantment sorcery",
     "classes": {
+      "AntiPaladin": "6",
       "Wizard": "5"
     },
     "t": "Enchantment",
