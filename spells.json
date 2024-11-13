@@ -1292,8 +1292,9 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Other",
-    "e": "A single State is removed from target willing player. The caster gains the removed State with a new duration of 10 seconds.",
-    "l": "Cannot be cast while Cursed."
+    "i": "\"Thy burdens are mine to bear\"",
+    "e": "A single State is removed from target willing player. The caster gains the removed State with a new duration of 10 seconds",
+    "l": "Cannot be cast while Cursed"
   },
   "masshealing": {
     "name": "Mass Healing",
@@ -1591,7 +1592,7 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "I am filled with rage!",
+    "i": "\"I am filled with rage!\"",
     "e": "Caster is unaffected by Verbal abilities and their weapons are Shield Crushing and Armor Breaking for seven seconds. Caster must chant this time out loud, as per Chanting; failure to count ends the effect."
   },
   "raider": {
