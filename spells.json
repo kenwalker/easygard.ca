@@ -1891,7 +1891,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain Precision Unlimited (ex) (Ambulant).",
+    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain <a href=\"/spells/p#precision\" data-ajax=\"false\">Precision</a> (Ambulant)(Unlimited)(ex)",
     "l": "May not fire normal arrows."
   },
   "songofbattle": {
