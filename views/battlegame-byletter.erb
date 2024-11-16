@@ -1,6 +1,6 @@
 <% @loaded = 'false' %>
 <% @reducedBattlegames.each do |uniqueName, battlegameData| %>
-<div data-role="page" class="jqm-demos jqm-home" id="battlegames-by-letter">
+<div data-role="page" class="jqm-demos jqm-home" id="<%= uniqueName %>" data-url="<%= uniqueName %>">
   <%= erb :'sections/header' %>
   <%= erb :'sections/nav-panel' %>
   <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
