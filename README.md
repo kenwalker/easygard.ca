@@ -7,6 +7,6 @@ This site is hosted at [Easygard.ca Mobile Amtgard](https://www.easygard.ca "Eas
 
 Information and most of the textual content is derived from the Amtgard Rules of Play V8.
 
-The mobile implementation is done by [Lord Kismet](http://amtgard.com/ork/orkui/?Route=Player/index/43232) of the [Felfrost Duchy in Ottawa](http://felfrost.ca) with help from <a href="https://ork.amtgard.com/orkui/?Route=Player/index/171316">The Wizard of Hats</a>.
+The mobile implementation is done by [Lord Kismet](http://ork.amtgard.com/orkui/?Route=Player/index/43232) of the [Felfrost Duchy in Ottawa](http://felfrost.ca) with help from <a href="https://ork.amtgard.com/orkui/?Route=Player/index/171316">The Wizard of Hats</a>.
 
 
