@@ -1132,9 +1132,9 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"This shield shall neither break or bend\" x3",
+    "i": "\"This shield shall neither bend nor break\" x3",
     "m": "White Strip",
-    "e": "Shield wielded by the player cannot be destroyed or damaged. Engulfing effects hitting the shield are ignored"
+    "e": "Shield wielded by the player cannot be destroyed nor damaged. Engulfing effects hitting the shield are ignored"
   },
   "imbueweapon": {
     "name": "Imbue Weapon",
