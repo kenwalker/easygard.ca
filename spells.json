@@ -239,7 +239,7 @@
     "r": "Touch",
     "i": "\“Be a bastion of healing\” x3",
     "m": "3 Yellow strips",
-    "e": "Bearer may cast Heal by announcing \“<Player> thou art made whole\”. Bearer must remove an Enchantment strip after each use of Heal",
+    "e": "Bearer may cast Heal by announcing \“< Player > thou art made whole\”. Bearer must remove an Enchantment strip after each use of Heal",
     "n": "Battlefield Triage is removed when the last strip is removed"
   },
   "battlemage": {
