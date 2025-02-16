@@ -119,7 +119,7 @@
     "t": "Archetype",
     "s": "Neutral",
     "e": "Gain <a href=\"/spells/m#mutation\" data-ajax=\"false\">Mutation</a> (T) and <a href=\"/spells/a#adaptiveblessing\" data-ajax=\"false\">Adaptive Blessing</a> (Self) 1/Life Charge x5 (ex) (Swift).",
-    "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, and <a href=\"/spells/a#adaptiveprotection\" data-ajax=\"false\">Adaptive Protection</a>"
+    "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a>, and <a href=\"/spells/a#adaptiveprotection\" data-ajax=\"false\">Adaptive Protection</a>"
   },
   "artificer": {
     "name": "Artificer",
@@ -399,15 +399,16 @@
   },
   "circleofprotection": {
     "name": "Circle of Protection",
-    "keywords": "healer enchantment protection insubstantial",
+    "keywords": "healer verbal protection insubstantial",
     "classes": {
       "Healer": "4"
     },
-    "t": "Enchantment",
+    "t": "Verbal",
     "s": "Protection",
     "r": "Self",
     "i": "\"Circle of Protection\" x3",
-    "e": "The caster and up to five willing players within Touch range of the caster become Insubstantial. The caster may end Circle of Protection for all targets at any time by ending their Insubstantial State with the standard Incantation.<br>All targets:<ul><li>Lose all other States and Ongoing Effects.</li><li>May not move from their starting location.</li><li>Are unaffected by abilities that require the player to move.</li><li>May use magic and abilities on players under the effect of the same Circle of Protection as though they were not Insubstantial.</li><li>May end the effects of Circle of Protection on themselves at any time with the standard Incantation."
+    "e": "The caster and up to five willing players within Touch range of the caster immediately have all States and Ongoing Effects removed and then become Insubstantial.<br>All targets:<ul><li>May not move from their starting location, and are unaffected by abilities that allow or require the player to move</li><li>May use abilities on players and their carried equipment who became Insubstantial due to the same casting of Circle of Protection as though they were not Insubstantial</li><li>May end this Insubstantial State at any time by using the exit incantation for Insubstantial</li></ul>The caster may end Circle of Protection for all targets at any time by using the exit incantation for Insubstantial. If the Insubstantial State is ended for a target, the Ongoing Effects of Circle of Protection no longer apply to that player",
+    "n": "If a player is prevented from becoming Insubstantial, they are unaffected by Circle of Protection"
   },
   "combatcaster": {
     "name": "Combat Caster",
@@ -466,8 +467,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Self) 2/Refresh (m). <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> becomes 1/Life Charge x10.",
-    "l": "May not wield Great Weapons or Javelins and lose all instances of <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a>"
+    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Self) 2/Refresh (m). All uses of <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> become 1/Life Charge x10 (m).",
+    "l": "May not wield Great Weapons or Javelins and loses all instances of <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a>"
   },
   "coupdegrace": {
     "name": "Coup de Grace",
@@ -953,7 +954,7 @@
     "s": "Sorcery",
     "r": "Touch",
     "i": "\"Return this [object name] to its former glory\" x5",
-    "e": "Will repair a destroyed or damaged item or restore all armor points in one location"
+    "e": "Will restore all armor points in one location or repair a damaged or broken item"
   },
   "greaterrelease": {
     "name": "Greater Release",
@@ -978,9 +979,10 @@
     },
     "t": "Verbal",
     "s": "Spirit",
-    "r": "Touch",
+    "r": "Other",
     "i": "\"By the grace of the divine thou art resurrected\" x5",
-    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life. Enchantments on the player are retained. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present."
+    "e": "Target dead player who has not moved more than 5' from where they died is returned to life. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present",
+    "n": "Enchantments on the player are retained"
   },
   "guardian": {
     "name": "Guardian",
@@ -1075,7 +1077,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3.</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>",
+    "e": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3 (ex).</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>",
     "l": "May not wield Shields. Loses all instances of <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a> and <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>",
     "n": "You only gain the benefit of an option if you already have that ability."
   },
@@ -1155,7 +1157,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited(m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes 2/Refresh Charge x5.",
+    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited(m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes 2/Refresh Charge x5 (self).",
     "l": "May not wield Shields. Lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>."
   },
   "innate": {
@@ -1171,7 +1173,7 @@
     "t": "Meta-Magic",
     "s": "Neutral",
     "i": "\"Innate\"",
-    "e": "May be used to instantly Charge a single magic by stating the name of the magic"
+    "e": "May be used to instantly Charge a single ability by stating its name"
   },
   "inquisitor": {
     "name": "Inquisitor",
@@ -1268,7 +1270,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Lycanthopy.\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer gains two points of magic armor. Bearer's melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
+    "e": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
   },
   "marauder": {
     "name": "Marauder",
@@ -1292,7 +1294,7 @@
     "r": "Other",
     "i": "\"Thy burdens are mine to bear\"",
     "e": "A single State is removed from target willing player. The caster gains the removed State with a new duration of 10 seconds",
-    "l": "Cannot be cast while Cursed"
+    "l": "Cannot be cast while Cursed. Caster may not remove themselves from Insubstantial states gained this way"
   },
   "masshealing": {
     "name": "Mass Healing",
@@ -1316,7 +1318,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a> (Touch) 1/Life (ex), <a href=\"/spells/s#severspirit\" data-ajax=\"false\">Sever Spirit</a> 1/Life Charge x3 (ex), and <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 2/Life. Abilities in the Spirit School become Charge x3.",
+    "e": "Gain <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a> (Touch) 1/Life (ex), <a href=\"/spells/s#severspirit\" data-ajax=\"false\">Sever Spirit</a> 1/Life Charge x3 (ex), and <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 2/Life (ex). Abilities in the Spirit School become Charge x3.",
     "l": "May not wear armor and may not wield Great Weapons."
   },
   "mend": {
@@ -1333,7 +1335,7 @@
     "s": "Sorcery",
     "r": "Touch",
     "i": "\"I make this item whole again\" x5",
-    "e": "Destroyed or damaged item is repaired. One point of armor in one location is repaired."
+    "e": "Destroyed or damaged item is repaired, or one point of armor in one location is repaired"
   },
   "missileblock": {
     "name": "Missile Block",
@@ -1356,7 +1358,7 @@
     },
     "t": "Vebal",
     "s": "Sorcery",
-    "i": "Momentum",
+    "i": "\"Momentum\"",
     "e": "May be used to instantly Charge a single ability by stating its name.",
     "l": "Kill Trigger"
   },
@@ -1403,8 +1405,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "All magic purchased in the Death School becomes Charge x3. You may have five active <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a> Enchantments.",
-    "l": "You may not purchase any Enchantments from the Protection School"
+    "e": "All abilities purchased in the Death School become Charge x3. You may have a combined total of five <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a> Enchantments",
+    "l": "You may not purchase any abilities from the Protection School"
   },
   "persistent": {
     "name": "Persistent",
@@ -1650,8 +1652,9 @@
     "r": "Other",
     "i": "\"I grant thee the power of regeneration\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer gains unlimited use of <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self-only) Unlimited (Swift)",
-    "l": "The Heal granted by Regeneration may not be used within 10' of a living enemy"
+    "e": "Bearer gains <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (Self) Unlimited (m) (<a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a>)",
+    "l": "The Heal granted by Regeneration may not be used within 10' of a living enemy",
+    "n": "Bearer must state Swift normally"
   },
   "release": {
     "name": "Release",
@@ -1730,10 +1733,10 @@
     },
     "t": "Enchantment",
     "s": "Sorcery",
-    "r": "Self'",
+    "r": "Self",
     "i": "\"I sanctify these weapons to smite the wicked\" x2",
-    "e": "Caster's wielded weapons are Shield Crushing, Armor Breaking, and Wounds Kill against the target.",
-    "l": "If the caster attacks a player other than the target, begins casting another ability, or the caster or target dies; this ability's effect ends."
+    "m": "White strip and Red strip",
+    "e": "Bearer's wielded weapons are affected as per Harden. Bearer's wielded melee weapons ignore magic armor and resistances that prevent wounds"
   },
   "sanctuary": {
     "name": "Sanctuary",
@@ -1746,8 +1749,8 @@
     "r": "Self",
     "i": "\"Sanctuary\"",
     "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\". Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
-    "l": "Player may not activate this ability while they have any weapons in hand and cannot carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20' of a non-friendly base",
-    "n": "The exit declaration must be audible out to 20'"
+    "l": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20' of a friendly base, and must continue chanting until there. Player may not cast this ability while they have any weapons in hand. Cannot interact with game items nor game objectives, nor impede the play of other people in any manner, and must immediately move to avoid such situations. May not come within 20' of a non-friendly base",
+    "n": "The exit declaration must be audible out to 20 feet"
   },
   "scavenge": {
     "name": "Scavenge",
@@ -1800,7 +1803,7 @@
     "s": "Spirit",
     "r": "Self",
     "i": "\"I shall overcome\"",
-    "e": "10 seconds after activating Shake It Off the player may remove from themselves any number of States or effects of their choice. Shake It Off may be activated at any time the player is alive, even while the player would otherwise be prevented from activating abilities by Stunned, Suppressed, or similar."
+    "e": "10 seconds after casting Shake It Off the player may remove from themselves any number of States or Ongoing Effects of their choice. Shake It Off may be cast at any time the player is alive, even while the player would otherwise be prevented from casting abilities by Stunned, Suppressed, or similar"
   },
   "shatter": {
     "name": "Shatter",
@@ -1916,7 +1919,7 @@
     "r": "Self",
     "i": "\"I sing of my nimble acrobatics\"",
     "m": "No strip required",
-    "e": "Bearer is unaffected by <a href=\"/weapons/#Amunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player. Bearer must Chant \"Song of Deflection\" or sing a song regarding their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">thrown weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player. Bearer must Chant “Song of Deflection” or sing a song of their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
     "n": "Does not protect the bearer against Magic Balls."
   },
   "songofdetermination": {
@@ -2023,7 +2026,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "<a href=\"/spells/b#blink\" data-ajax=\"false\">Blink</a> and <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> become Charge x3.",
+    "e": "<a href=\"/spells/b#blink\" data-ajax=\"false\">Blink</a> and <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> become Charge x3 (ex).",
     "l": "May not wear Armor."
   },
   "steallifeessence": {
@@ -2090,7 +2093,8 @@
     "s": "Spirit",
     "r": "50",
     "i": "\"I summon thy corpse\" x5",
-    "e": "Target dead player may choose to go to the caster and then counts as though they had not moved from where they died. May be used on a dead player who has not moved more than 5' from where they died or who is at their respawn"
+    "e": "Target willing dead player must go directly to the caster. Upon reaching the caster, Summon Dead immediately ends. Wherever the player is when Summon Dead ends is treated as where the player died",
+    "l": "May be used on a dead player who has not moved more than 5' from where they died or who is at their respawn"
   },
   "summoner": {
     "name": "Summoner",
@@ -2220,7 +2224,7 @@
     "t": "Trait",
     "s": "Sorcery",
     "r": "Self",
-    "e": "Bearer may cast Blink, Shadow Step, and Teleport on themselves while they are already Insubstantial, provided that they were the cause of the initial Insubstantial State and entered it voluntarily. Doing so removes the original FInsubstantial effect."
+    "e": "Bearer may cast Blink, Shadow Step, and Teleport on themselves while they are already Insubstantial, provided that they were the cause of the initial Insubstantial State and entered it voluntarily. Doing so removes the original Insubstantial effect."
   },
   "trollblood": {
     "name": "Troll Blood",
@@ -2246,7 +2250,8 @@
     "s": "Spirit",
     "r": "Self",
     "i": "\"The wicked flee when I pursue\" immediately after dying",
-    "e": "Player returns to life with their Wounds healed and is immediately Frozen for 30 seconds."
+    "e": "Player returns to life with their Wounds healed and is immediately Frozen for 30 seconds",
+    "n": "Enchantments on the player are retained"
   },
   "undeadminion": {
     "name": "Undead Minion",
