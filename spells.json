@@ -63,7 +63,7 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee to be alone\" x3",
-    "e": "Target must remain at least 20’ away from all other living players unless forced there by another Magic or Ability. Lasts 30 seconds."
+    "e": "Target must remain at least 20' away from all other living players unless forced there by another Magic or Ability. Lasts 30 seconds."
   },
   "amplification": {
     "name": "Amplification",
@@ -129,9 +129,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3.<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
-    "l": "Lose all arrow choices at 1st, 3rd, and 5th level. Gain <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows/Unlimited (ex). Look the Part becomes an additional Pinning Arrow.",
-    "n": "Player must still have a use of <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> remaining to cast on Weapons or Shields."
+    "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3 (ex).<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
+    "l": "Rather than the normal amount of Specialty Arrows for an Archer, gain:<ul><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows / Unlimited (ex)</li><li><a href=\"/spells/p#phasearrow\" data-ajax=\"false\">Phase Arrow</a> 1 Arrow / Unlimited (ex)</li><li><a href=\"/spells/s#suppressionarrow\" data-ajax=\"false\">Suppression Arrow</a> 1 Arrow / Unlimited (ex)</li></ul>Look the Part becomes a fourth Pinning Arrow.",
+    "n": "Player must still have a use of <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> remaining to cast on weapons or shields."
   },
   "assassinate": {
     "name": "Assassinate",
@@ -172,7 +172,7 @@
     "r": "Other",
     "i": "\"I enchant thee with attune\" x3",
     "m": "Yellow strip",
-    "e": "May wear an additional Enchantment. Attuned does not count towards the bearer’s Enchantment limit",
+    "e": "May wear an additional Enchantment. Attuned does not count towards the bearer's Enchantment limit",
     "l": "This ability may not be used in conjunction with any other similar ability or magic",
     "n": "If Attuned is removed, the bearer chooses which (m) Enchantments to lose to meet their new Enchantment limit, if necessary"
   },
@@ -197,8 +197,8 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee awed\" x3",
-    "e": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 20’ away from the caster unless forced there by another ability. Lasts 30 seconds.",
-    "n": "If the caster attacks the target, begins casting another Magical abilities at the target or their carried equipment, or dies, this ability’s effect is negated."
+    "e": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 20' away from the caster unless forced there by another ability. Lasts 30 seconds.",
+    "n": "If the caster attacks the target, begins casting another Magical abilities at the target or their carried equipment, or dies, this ability's effect is negated."
   },
   "banish": {
     "name": "Banish",
@@ -263,7 +263,7 @@
     "r": "Other",
     "i": "\"I enchant thee with the strength of the bear\" x3",
     "m": "Red Strip",
-    "e": "Bearer’s wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
   },
   "berserk": {
     "name": "Berserk",
@@ -285,7 +285,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Player may choose to use <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> for its usual effect or to instantly charge <a href=\"/spells/r#rage\" data-ajax=\"false\">Rage</a>",
+    "e": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant).",
     "l": "May not wear Armor, and loses all instances of <a href=\"/spells/b#bloodandthunder\" data-ajax=\"false\">Blood and Thunder</a>"
   },
   "blessedaura": {
@@ -339,8 +339,8 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I vanish from sight\"",
-    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. While Insubstantial in this way, player can move as they wish as long as they remain within 50’ from their starting point",
-    "l": "Caster may not end State within 10’ of a living enemy",
+    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. While Insubstantial in this way, player can move as they wish as long as they remain within 50' from their starting point",
+    "l": "Caster may not end State within 10' of a living enemy",
     "n": "If the Insubstantial State is ended, the rest of the effect is ended as well. Caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "bloodandthunder": {
@@ -394,7 +394,7 @@
     "t": "Verbal",
     "s": "Flame",
     "r": "20'",
-    "i": "\"I call lightning’s flame to strike thee\" x3",
+    "i": "\"I call lightning's flame to strike thee\" x3",
     "e": "Target player dies"
   },
   "circleofprotection": {
@@ -430,7 +430,7 @@
     "r": "Other",
     "i": "\"My power grants thee confidence\"",
     "e": "Target player may instantly Charge a single Magic or Ability.",
-    "l": "May not be used within 20’ of a living enemy."
+    "l": "May not be used within 20' of a living enemy."
   },
   "contagion": {
     "name": "Contagion",
@@ -557,7 +557,7 @@
     "r": "20'",
     "i": "\"By my power I dispel that magic\" x3",
     "e": "All Enchantments on target are removed",
-    "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player’s Traits, States, Immunities, Ongoing Effects, or Enchantments (except Sleight of Mind)"
+    "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player's Traits, States, Immunities, Ongoing Effects, or Enchantments (except Sleight of Mind)"
   },
   "draggedbelow": {
     "name": "Dragged Below",
@@ -583,7 +583,7 @@
     "i": "\"I am filled with the power of magic\"",
     "e": "Caster may use Magic Balls they are currently carrying by stating the name of the Magic Ball immediately prior to throwing the ball in place of the incantation",
     "l": "This magic ends if the caster picks up any additional Magic Balls or begins casting any new Magical abilities.",
-    "n": "The effect is not an incantation, and so is not stopped by Suppression, and may be used while moving, etc."
+    "n": "The effect is not an incantation, and so is not stopped by being Suppressed, and may be used while moving, etc."
   },
   "empower": {
     "name": "Empower",
@@ -711,7 +711,7 @@
     "r": "Other",
     "i": "\"I enchant thee with essence graft\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer’s Enchantment limit",
+    "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer's Enchantment limit",
     "l": "Bearer may only wear (m) Enchantments from the caster of Essence Graft. This ability may not be used in conjunction with any other similar ability or magic",
     "n": "If Essence Graft is removed, the bearer chooses which (m) Enchantments to lose to meet their new Enchantment limit, if necessary"
   },
@@ -735,7 +735,7 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Self",
-    "e": "May wear an additional Enchantment. Evolution does not count towards the bearer’s Enchantment limit",
+    "e": "May wear an additional Enchantment. Evolution does not count towards the bearer's Enchantment limit",
     "n": "This ability does work in conjunction with Attuned, Essence Graft, or Phoenix Tears so long as the other limitations of those Enchantments are followed"
   },
   "experienced": {
@@ -817,7 +817,7 @@
     "r": "Other",
     "i": "\"The element of fire shall infuse your weapons\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer’s wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their wielded weapons are Immune to Flame."
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their wielded weapons are Immune to Flame."
   },
   "forcebarrier": {
     "name": "Force Barrier",
@@ -1005,7 +1005,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Harden\" x3",
     "m": "White Strip",
-    "e": "Bearer's weapons or shield may only be destroyed or damaged by Magic Balls/Verbals which affect objects e.g. Fireball or Pyrotechnics",
+    "e": "Bearer's wielded weapons or shield may only be destroyed or damaged by Magic Balls/Verbals which affect objects e.g. Fireball or Pyrotechnics",
     "l": "Will only affect either the weapons or the shield of the bearer, not both"
   },
   "heal": {
@@ -1035,8 +1035,8 @@
     "r": "Self",
     "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer is Stopped. Any player on the bearer’s team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer’s team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
-    "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20’ of the bearer"
+    "e": "Bearer is Stopped. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
+    "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20' of the bearer"
   },
   "heatweapon": {
     "name": "Heat Weapon",
@@ -1117,7 +1117,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Imbued Armor\" x3",
     "m": "White Strip",
-    "e": "All armor worn by the bearer gains a +1 modifier. This modifier may allow the armor to exceed the maximum value for its type, up to the bearer’s class maximum",
+    "e": "All armor worn by the bearer gains a +1 modifier. This modifier may allow the armor to exceed the maximum value for its type, up to the bearer's class maximum",
     "n": "Does not apply to magic armor. A player may only benefit from one instance of Imbue Armor, or similar magic and abilities that increase Armor Points, at a time"
   },
   "imbueshield": {
@@ -1172,6 +1172,17 @@
     "i": "\"Innate\"",
     "e": "May be used to instantly Charge a single magic by stating the name of the magic"
   },
+  "inquisitor": {
+    "name": "Inquisitor",
+    "keywords": "paladin archetype",
+    "classes": {
+      "Paladin": "6"
+    },
+    "t": "Archetype",
+    "s": "Neutral",
+    "e": "Gain <a href=\"/spells/s#sacredblades\" data-ajax=\"false\">Sacred Blades</a> (Self) 1/Life (ex).",
+    "l": "Player loses all instances of <a href=\"/spells/g#greaterresurrect\" data-ajax=\"false\">Greater Resurrect</a> and <a href=\"/spells/a#awe\" data-ajax=\"false\">Awe</a>"
+  },
   "insult": {
     "name": "Insult",
     "keywords": "bard warrior verbal command",
@@ -1184,7 +1195,7 @@
     "r": "20'",
     "i": "\"I command thy attention\" x3",
     "e": "Target is unable to attack or cast Magical abilities at anyone other than the caster or their carried equipment for 30 seconds, or until either party dies. If the target of Insult is attacked or has Magical abilities cast on them or their carried equipment by someone other than the caster, the target of Insult becomes able to choose to attack the offending party as well.",
-    "n": "If the caster of Insult dies, the victim’s effect is negated."
+    "n": "If the caster of Insult dies, the victim's effect is negated."
   },
   "ironskin": {
     "name": "Ironskin",
@@ -1209,17 +1220,6 @@
     "s": "Neutral",
     "e": "Replace <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> with <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a> at the same frequency. Gain <a href=\"/spells/p#phoenixtears\" data-ajax=\"false\">Phoenix Tears</a> (Self) 3/Refresh (ex) (Swift) and <a href=\"/spells/i#imbuearmor\" data-ajax=\"false\">Imbue Armor</a> (T).",
     "l": "Lose all instances of <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a> and <a href=\"/spells/t#truegrit\" data-ajax=\"false\">True Grit</a>"
-  },
-  "justiciar": {
-    "name": "Justiciar",
-    "keywords": "paladin archetype",
-    "classes": {
-      "Paladin": "6"
-    },
-    "t": "Archetype",
-    "s": "Neutral",
-    "e": "Gain <a href=\"/spells/s#smite\" data-ajax=\"false\">Smite</a> 1/Life Charge x10.",
-    "l": "May not wield Shields, and lose all instances of <a href=\"/spells/g#greaterresurrect\" data-ajax=\"false\">Greater Resurrect</a>"
   },
   "legend": {
     "name": "Legend",
@@ -1265,9 +1265,9 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"Stalked in the forest, too close to hide, I’ll be upon thee by the moonlight side\" x3",
+    "i": "\"Stalked in the forest, too close to hide, I'll be upon thee by the moonlight side\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer gains two points of magic armor. Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
+    "e": "Bearer gains two points of magic armor. Bearer's melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
   },
   "marauder": {
     "name": "Marauder",
@@ -1305,7 +1305,7 @@
     "i": "\"Let the powers of healing flow through me\" x3",
     "m": "Five Yellow Strips",
     "e": "Caster may Heal (m) a player at Touch range, by stating \"<i>I grant thee healing</i>\". and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
-    "n": "The effect is not an incantation, and so is not stopped by suppression, and may be used while moving, etc."
+    "n": "The effect is not an incantation, and so is not stopped by being Suppressed, and may be used while moving, etc."
   },
   "medium": {
     "name": "Medium",
@@ -1332,7 +1332,7 @@
     "s": "Sorcery",
     "r": "Touch",
     "i": "\"I make this item whole again\" x5",
-    "e": "Destroyed or damaged item is repaired, or one point of armor in one location is repaired"
+    "e": "Destroyed or damaged item is repaired. One point of armor in one location is repaired."
   },
   "missileblock": {
     "name": "Missile Block",
@@ -1344,6 +1344,18 @@
     "s": "Protection",
     "r": "Self",
     "e": "Player may block arrows, projectile weapons, and Magic Balls with their hands and wielded melee or thrown weapons. Any arrow, projectile weapon or magic ball blocked is nullified."
+  },
+  "momentum": {
+    "name": "Momentum",
+    "keywords": "archer verbal sniper sorcery",
+    "classes": {
+      "Archer": "6"
+    },
+    "t": "Vebal",
+    "s": "Sorcery",
+    "i": "Momentum",
+    "e": "May be used to instantly Charge a single ability by stating its name.",
+    "l": "Kill Trigger"
   },
   "mutation": {
     "name": "Mutation",
@@ -1364,8 +1376,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls/Unlimited and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 1/Unlimited.",
-    "l": "May not wield Great Weapons or Heavy Thrown."
+    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m). Gain <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
+    "l": "May not wield Great Weapons nor Heavy Thrown."
   },
   "naturalizemagic": {
     "name": "Naturalize Magic",
@@ -1413,7 +1425,7 @@
     "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Phase Arrow\"",
-    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with grey cover labeled ‘Phase’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with grey cover labeled ‘Phase'",
     "e": "This arrow does not interact with ongoing Magic or Abilities. Example: This arrow is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Missile Block, or similar Magic or Abilities",
     "n": "This arrow does not supercede the Frozen, Insubstantial, or Invulnerable States"
   },
@@ -1455,7 +1467,7 @@
     "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Pinning Arrow\"",
-    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with yellow head cover labeled ‘Pinning’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with yellow head cover labeled ‘Pinning'",
     "e": "A player struck by this <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrow</a> is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 30 seconds. Engulfing"
   },
   "planargrounding": {
@@ -1497,7 +1509,7 @@
     "t": "Specialty Arrow",
     "s": "Death",
     "i": "\"Poison Arrow\"",
-    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with green head cover labeled ‘Poison’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with green head cover labeled ‘Poison'",
     "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
   "poisonglands": {
@@ -1512,18 +1524,6 @@
     "i": "\"Thou shalt secrete poison from thy venemous glands\" x3",
     "m": "Red Strip",
     "e": "Bearer gains self-only <a href=\"/spells/p#poison\" data-ajax=\"false\">Poison</a> (ex) 1/Refresh Charge x3"
-  },
-  "precision": {
-    "name": "Precision",
-    "keywords": "archer verbal sniper sorcery",
-    "classes": {
-      "Archer": "6"
-    },
-    "t": "Vebal",
-    "s": "Sorcery",
-    "i": "Precision",
-    "e": "Caster may instantly Charge a Specialty Arrow.",
-    "l": "Kill Trigger"
   },
   "priest": {
     "name": "Priest",
@@ -1648,7 +1648,7 @@
     "i": "\"I grant thee the power of regeneration\" x3",
     "m": "Yellow Strip",
     "e": "Bearer gains unlimited use of <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self-only) Unlimited (Swift)",
-    "l": "The Heal granted by Regeneration may not be used within 10’ of a living enemy"
+    "l": "The Heal granted by Regeneration may not be used within 10' of a living enemy"
   },
   "release": {
     "name": "Release",
@@ -1678,8 +1678,8 @@
     "r": "Self",
     "i": "\"I nocked my arrows to my bow, I let them fly, my quiver is low. Now I pause to go reload.\" x3",
     "e": "Player becomes <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Invulnerable</a> and may move about the field retrieving their arrows. The player may remove their Invulnerable state in the location they started or at base by stating, \"I return with a full quiver\" x3",
-    "l": "Must stay at least 10’ away from other players at all times <br>A player may not exit Reload at an alternate base location, such as Heart of the Swarm, in this way.",
-    "n": "May ask reeve for assistance in retrieving arrows that are within 10’ of other players"
+    "l": "Must stay at least 10' away from other players at all times <br>A player may not exit Reload at an alternate base location, such as Heart of the Swarm, in this way.",
+    "n": "May ask reeve for assistance in retrieving arrows that are within 10' of other players"
   },
   "restoration": {
     "name": "Restoration",
@@ -1719,6 +1719,19 @@
     "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> if you successfully cast <a href=\"/spells/a#assassinate\" data-ajax=\"false\">Assassinate</a> on a player after killing them with a Thrown Weapon. You do not gain the effect if the dead player is unaffected by Assassinate.",
     "l": "May not wield Long Weapons or Bows."
   },
+  "sacredblades": {
+    "name": "Sacred Blades",
+    "keywords": "paladin inquisitor enchantment sorcery",
+    "classes": {
+      "Paladin": "6"
+    },
+    "t": "Enchantment",
+    "s": "Sorcery",
+    "r": "Self'",
+    "i": "\"I sanctify these weapons to smite the wicked\" x2",
+    "e": "Caster's wielded weapons are Shield Crushing, Armor Breaking, and Wounds Kill against the target.",
+    "l": "If the caster attacks a player other than the target, begins casting another ability, or the caster or target dies; this ability's effect ends."
+  },
   "sanctuary": {
     "name": "Sanctuary",
     "keywords": "monk verbal protection",
@@ -1729,9 +1742,9 @@
     "s": "Protection",
     "r": "Self",
     "i": "\"Sanctuary\"",
-    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20’. Must Chant \"Sanctuary\". Player may end Sanctuary at any time by picking up a weapon with their hand or ceasing to chant and declaring \"No longer in Sanctuary\". (This must be audible out to 20 feet.)",
-    "l": "Player may not activate this ability while they have any weapons in hand and cannot carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20’ of a non-friendly base",
-    "n": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20’ of a friendly base, and must continue chanting until there. Player is still susceptible to Phase Bolt and Phase Arrow"
+    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\". Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
+    "l": "Player may not activate this ability while they have any weapons in hand and cannot carry any weapons in hand during Sanctuary. Cannot carry nor affect game items or game objectives while in Sanctuary. Players in Sanctuary may not impede the play of other people in any manner, and must immediately remove themselves from any such situations they find themselves in. May not come within 20' of a non-friendly base",
+    "n": "The exit declaration must be audible out to 20'"
   },
   "scavenge": {
     "name": "Scavenge",
@@ -1758,7 +1771,7 @@
     "r": "20'",
     "i": "\"The spirits lay a curse on thee.\" x3",
     "e": "May only target dead players. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Any Enchantments on the player are removed",
-    "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player’s Traits, States, Immunities, Ongoing Effects, or Enchantments"
+    "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player's Traits, States, Immunities, Ongoing Effects, or Enchantments"
   },
   "shadowstep": {
     "name": "Shadow Step",
@@ -1771,7 +1784,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I step into the shadows\"",
-    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>",
+    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. Shadow Step may be cast while moving.",
     "n": "Caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "shakeitoff": {
@@ -1850,20 +1863,7 @@
     "r": "Other",
     "i": "\"May thy power remain\" x3",
     "m": "Yellow Strip",
-    "e": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer’s Enchantment Limit"
-  },
-  "smite": {
-    "name": "Smite",
-    "keywords": "paladin justiciar verbal sorcery",
-    "classes": {
-      "Paladin": "6"
-    },
-    "t": "Verbal",
-    "s": "Sorcery",
-    "r": "20'",
-    "i": "\"The power of the divine smites thee!\" x3",
-    "e": "Caster's wielded weapons are Shield Crushing, Armor Breaking, and Wounds Kill against the target.",
-    "l": "If the caster attacks a player other than the target, begins casting another ability, or the caster or target dies; this ability's effect ends."
+    "e": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer's Enchantment Limit"
   },
   "snaringvines": {
     "name": "Snaring Vines",
@@ -1886,7 +1886,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain <a href=\"/spells/p#precision\" data-ajax=\"false\">Precision</a> (Ambulant)(Unlimited)(ex)",
+    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant).",
     "l": "May not fire normal arrows."
   },
   "songofbattle": {
@@ -1900,7 +1900,7 @@
     "r": "Self",
     "i": "\"I sing of my legendary prowess\"",
     "m": "No strip required",
-    "e": "Bearer’s wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },
   "songofdeflection": {
     "name": "Song of Deflection",
@@ -1966,7 +1966,7 @@
     "r": "Self",
     "i": "\"I sing to inspire my comrades-in-arms\"",
     "m": "No strip required",
-    "e": "Friendly players within 20’ of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is Stopped. Bearer must Chant “Song of Power” or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is Stopped. Bearer must Chant “Song of Power” or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
     "l": "Players can only benefit from one instance of Song of Power at a time"
   },
   "songofsurvival": {
@@ -2119,10 +2119,10 @@
     "classes": {
       "Archer": "4"
     },
-    "t": "Specialty￼Arrow",
+    "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Suppression Arrow\"",
-    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with purple head cover labeled ‘Suppression’",
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with purple head cover labeled ‘Suppression'",
     "e": "A player struck by this arrow is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Engulfing"
   },
   "suppressionbolt": {
@@ -2168,7 +2168,7 @@
     "r": "Touch",
     "i": "\"I travel through the aether\" x5",
     "e": "Target willing player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and moves directly to a chosen location chosen by the caster at the time of casting. This must be a fixed location (not relative to a player or to a moveable object). Upon arrival, they must immediately end the effect as per Insubstantial",
-    "n": "If the player’s Insubstantial state is removed before they have reached their destination, the effects of Teleport end. If Teleport is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
+    "n": "If the player's Insubstantial state is removed before they have reached their destination, the effects of Teleport end. If Teleport is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "terror": {
     "name": "Terror",
@@ -2194,7 +2194,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"My power throws thee\" x3",
-    "e": "Target player is moved back 50’ in a straight line away from the caster. Works on Stopped players"
+    "e": "Target player is moved back 50' in a straight line away from the caster. Works on Stopped players"
   },
   "tracking": {
     "name": "Tracking",
@@ -2217,7 +2217,7 @@
     "t": "Trait",
     "s": "Sorcery",
     "r": "Self",
-    "e": "Player may use Shadow Step, Teleport, and Blink as if they were not Insubstantial, if they are already willingly Insubstantial. Doing so removes the original Insubstantial effect."
+    "e": "Bearer may cast Blink, Shadow Step, and Teleport on themselves while they are already Insubstantial, provided that they were the cause of the initial Insubstantial State and entered it voluntarily. Doing so removes the original FInsubstantial effect."
   },
   "trollblood": {
     "name": "Troll Blood",
@@ -2270,7 +2270,7 @@
     "r": "Other",
     "i": "\"Thy hunger can never be sated\" x3",
     "m": "Yellow Strip and White Strip",
-    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is Immune to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer’s Adrenaline ability will work through their Cursed State"
+    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is Immune to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
   },
   "voidtouched": {
     "name": "Void Touched",
@@ -2334,7 +2334,7 @@
     "r": "Touch",
     "i": "\"Spedoinkle\"",
     "e": "All equipment carried by target player is repaired. All armor worn by target player is restored to full value",
-    "l": "May not be cast within 20’ of a living enemy"
+    "l": "May not be cast within 20' of a living enemy"
   },
   "wounding": {
     "name": "Wounding",

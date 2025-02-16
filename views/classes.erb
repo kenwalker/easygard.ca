@@ -8,7 +8,7 @@
   <div role="main" class="ui-content">
     <ul data-role="listview" data-inset="true" data-icon="false">
       <li><a href="#ClassesMadeEasy">Classes Made Easy</a></li>
-      <li><a href="#ClassLevels">Class Levels</a></li>
+      <li><a href="#ClassLevels">Credits and Levels</a></li>
       <li data-role="list-divider">Melee</li>
       <li><a href="#AntiPaladin">Anti-Paladin</a></li>
       <li><a href="#Archer">Archer</a></li>
@@ -48,21 +48,21 @@
       <p>Magic Users have access to a broad array of Magical abilities, which are listed along with their class description. Martial classes have fewer, but more focused, abilities to go along with their expanded equipment availability.</p>
       <p>Abilities for martial classes are listed like this: <b>Name</b> [<b>Frequency</b>] ([<b>Category</b>]) ([<b>Notes</b>])</p>
       <p><b>Name</b>: The name of the ability</p>
-      <p><b>Uses</b>: How often the ability can be used. Possible options are:</p>
+      <p><b>Frequency</b>: How often the ability can be used. Possible options are:</p>
       <ul>
         <li><b>Unlimited</b>: This ability may be used any number of times</li>
         <li><b>‘X’/Life</b>: This ability may be used X number of times each life. Each time you respawn you have a fresh set of these ‘per life’ Abilities</li>
         <li><b>‘X’/Refresh</b>: This ability may be used X number of times per Refresh. You start the game with a full set of these ‘per Refresh’ abilities, but they are only refilled when a Reeve announces a Refresh</li>
-        <li><b>Charge</b>: May be used in conjunction with per life or per Refresh, or on its own. Charge abilities can be used any number of times, but must be Charged after the initial uses are expended. See the definition of Charge under the section ‘Magic, Abilities, States, and Special Effects Defined’ for a full explanation of how Charge works</li>
-        <li><b>Not listed</b>: This Ability isn’t a cast ability</li>
+        <li><b>Charge</b>: May be used in conjunction with per life or per Refresh, or on its own. Charge abilities can be used any number of times, but must be Charged after the initial uses are expended. See the definition of Charge under the section ‘Abilities, States, and Special Effects Defined’ for a full explanation of how Charge works.</li>
+        <li><b>Not listed</b>: This ability isn’t a cast ability</li>
       </ul>
-      <p><b>Category</b>: What kind of Ability it is. Possible options are:</p>
+      <p><b>Category</b>: What kind of ability it is. Possible options are:</p>
       <ul>
         <li><b>(T)</b>: for Trait: This is an always-on ability which cannot be removed from the bearer in any way and never requires an incantation of any sort to start and does not require an Enchantment Strip or count towards the bearer's Enchantment limit.</li>
         <li><b>(ex)</b>: for Extraordinary: This ability is not Magical in nature. It could represent poison from a vial or using a piece of twine to fix a broken arrow. An ability listed as (ex) which is defined as being an Enchantment in its ability definition generally behaves as an Enchantment but does not count towards the limit of Enchantments that may be worn by a player. See the definition of Enchantment under the section ‘Magic, Abilities, States, and Special Effects Defined' for more information.</li>
         <li><b>(m)</b>: for Magical: This ability is Magical in nature. If the definition of this ability lists it as an Enchantment then it follows all the rules for Enchantments and counts towards the limit of Enchantments that may be worn by a player.</li>
       </ul>
-      <p><b>Notes</b>: Anything non-standard about the ability. Typical examples might be Ambulant or Persistent</p>
+      <p><b>Notes</b>: Anything non-standard about the ability. Typical examples might be Ambulant or Persistent.</p>
     </div>
     <!-- /footer -->
   </div>
@@ -77,9 +77,9 @@
   <% @loaded = 'true' %>
   <div role="main" class="ui-content">
     <div class="jqm-block-content">
-      <h3>Class Levels</h3>
+      <h3>Credits and Levels</h3>
       <p>Only one attendance credit may be given on a single day, in any class. Following their corpora, Kingdoms are allowed to award a maximum of 12 total bonus credits (credits above and beyond attendance credits) to any player in a single month and no more than 3 bonus credits may be issued per 1 attendance credit.</p>
-      <p>If you wish to fight or participate in a battlegame, you must conform to one class for each game. A person must have the requisite credits in order to play higher class level, though you may take credits in any class. All classes gain new abilities and levels at the following rate:</p>
+      <p> If you wish to fight or participate in a battlegame, you must conform to one class for each game. A person must have the requisite credits in order to play higher class level, though you may take credits in any class. All classes gain new abilities and levels at the following rate:</p>
       <table data-role="table" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-popup-theme="a">
         <thead>
           <tr class="ui-bar-d">
@@ -333,9 +333,9 @@
     <h3 class="ui-bar ui-bar-a ui-corner-all">Anti-Paladin</h3>
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
-        <b>Garb:</b> Metallic slilver sash and medieval/sword and sorcery looking garb. Knights may wear a white belt and a black phoenix Class Symbol instead<br>
+        <b>Garb:</b> Metallic silver sash and medieval/sword and sorcery-looking garb. Knights may wear a white belt and a black phoenix Class Symbol instead.<br>
+        <b>Requirements:</b> Must be 6th level in at least one class.<br>
         <b>Look The Part:</b> <a href="/spells/t#terror" data-ajax="false">Terror</a> 1/Life (m)<br>
-        <b>Requirements:</b> Must be 6th level in at least one class<br>
         <b>Armor:</b> 4 Points<br>
         <b>Shields:</b> Large<br>
         <b>Weapons:</b> All Melee, Javelins<br>
@@ -691,7 +691,7 @@
           <tr>
             <th>6</th>
             <th><a href="/spells/i#innate" data-ajax="false">Innate</a></th>
-            <td>2/Refresh</td>
+            <td>1/Life</td>
             <td>(ex)</td>
             <td>-</td>
           </tr>
@@ -749,14 +749,14 @@
           </tr>
           <tr>
             <th>1</th>
-            <th>Immune to Subdual</th>
+            <th>Immune to Command</th>
             <td>-</td>
             <td>Trait</td>
             <td>-</td>
           </tr>
           <tr>
             <th>1</th>
-            <th>Immune to Command</th>
+            <th>Immune to Subdual</th>
             <td>-</td>
             <td>Trait</td>
             <td>-</td>
