@@ -730,7 +730,7 @@
     "name": "Evolution",
     "keywords": "scout enchantment sorcery",
     "classes": {
-      "Scout": "4"
+      "Scout": "5"
     },
     "t": "Enchantment",
     "s": "Sorcery",
@@ -829,7 +829,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I shall not be harmed\"",
-    "e": "Player is Frozen for 30 seconds"
+    "e": "Player is Frozen for 10 seconds"
   },
   "forcebolt": {
     "name": "Force Bolt",
@@ -1058,7 +1058,7 @@
     "classes": {
       "Assassin": "4",
       "Healer": "2",
-      "Scout": "5",
+      "Scout": "4",
       "Wizard": "3"
     },
     "t": "Verbal",
@@ -1075,8 +1075,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield Great Weapons and Javelins. <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3",
-    "l": "May not wield Shields. Lose all instances of <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a> and <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>"
+    "e": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3.</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>",
+    "l": "May not wield Shields. Loses all instances of <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a> and <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>",
+    "n": "You only gain the benefit of an option if you already have that ability."
   },
   "iceball": {
     "name": "Iceball",
@@ -1265,7 +1266,7 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"Stalked in the forest, too close to hide, I'll be upon thee by the moonlight side\" x3",
+    "i": "\"I enchant thee with Lycanthopy.\" x3",
     "m": "White Strip and Red Strip",
     "e": "Bearer gains two points of magic armor. Bearer's melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is Immune to Command"
   },
@@ -1277,8 +1278,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May choose to use <a href=\"/spells/s#scavenge\" data-ajax=\"false\">Scavenge</a> for its usual effect or to instantly charge an ability. <a href=\"/spells/i#insult\" data-ajax=\"false\">Insult</a> becomes 1/Life Charge x5.",
-    "l": "Maximum Armor becomes 4pts. May not wield Large Shields."
+    "e": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). <a href=\"/spells/i#insult\" data-ajax=\"false\">Insult</a> becomes 1/Life Charge x5 (m) (Ambulant).",
+    "l": "Maximum Armor becomes 4pts. May not wield Large Shields. Ancestral Armor is no longer chargeable."
   },
   "martyr": {
     "name": "Martyr",
@@ -1349,7 +1350,9 @@
     "name": "Momentum",
     "keywords": "archer verbal sniper sorcery",
     "classes": {
-      "Archer": "6"
+      "Archer": "6",
+      "Barbarian": "6",
+      "Warrior": "6"
     },
     "t": "Vebal",
     "s": "Sorcery",
@@ -1389,7 +1392,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I shall restore the balance\" x3",
-    "m": "Five Red Strips",
+    "m": "Three Red Strips",
     "e": "Bearer may cast Dispel Magic (m) by incanting \"<i>&lt;Player&gt; thou art dispelled.</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "necromancer": {
@@ -1462,7 +1465,7 @@
     "keywords": "archer arrow sorcery stopped",
     "classes": {
       "Archer": "1",
-      "Scout": "5"
+      "Scout": "4"
     },
     "t": "Specialty Arrow",
     "s": "Sorcery",
@@ -2256,7 +2259,7 @@
     "r": "Other",
     "i": "<br>Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my minion!",
     "m": "Yellow Strip",
-    "e": "When the bearer dies, they must return to the caster. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is persistent, and remains active while the bearer is dead.",
+    "e": "Bearer is Cursed. When the bearer dies, they must return to the caster. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is persistent, and remains active while the bearer is dead.",
     "l": "The caster may not have more than three active Undead Minion Enchantments."
   },
   "vampirism": {
