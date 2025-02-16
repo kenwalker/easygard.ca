@@ -24,7 +24,7 @@
     "i": "\"I enchant thee with this blessing\" x3",
     "m": "White Strip",
     "e": "Bearer becomes <a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit.",
-    "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
+    "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)."
   },
   "adaptiveprotection": {
     "name": "Adaptive Protection",
@@ -38,7 +38,7 @@
     "r": "Other",
     "i": "\"I enchant thee with this protection\" x3",
     "m": "White Strip",
-    "e": "Bearer becomes Immune to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting"
+    "e": "Bearer becomes Immune to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
   },
   "adrenaline": {
     "name": "Adrenaline",
@@ -50,8 +50,8 @@
     "s": "Spirit",
     "r": "Self",
     "i": "\"Adrenaline\"",
-    "e": "Player heals a wound",
-    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>"
+    "e": "Player heals a wound.",
+    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>."
   },
   "agoraphobia": {
     "name": "Agoraphobia",
@@ -76,8 +76,8 @@
     "r": "Touch",
     "i": "\"My power amplifies thy voice\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer gains <a href=\"/spells/e#extension\" data-ajax=\"false\">Extension</a> 1/refresh Charge x3. Other sources of Extension may not be utilized while Amplification is worn",
-    "n": "Does not use up any purchased instances of Extension"
+    "e": "Bearer gains <a href=\"/spells/e#extension\" data-ajax=\"false\">Extension</a> 1/refresh Charge x3. Other sources of Extension may not be utilized while Amplification is worn.",
+    "n": "Does not use up any purchased instances of Extension."
   },
   "ambulant": {
     "name": "Ambulant",
@@ -91,8 +91,8 @@
     "t": "Meta-Magic",
     "s": "Neutral",
     "i": "\"Ambulant\"",
-    "e": "An incantation may be said while moving. May be cast while moving",
-    "l": "May not be used on the Charge incantation"
+    "e": "An incantation may be said while moving. May be cast while moving.",
+    "l": "May not be used on the Charge incantation."
   },
   "ancestralarmor": {
     "name": "Ancestral Armor",
@@ -106,9 +106,9 @@
     "r": "Other",
     "i": "<br>\"May this armor protect thee from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect thee from all forms of harm\"",
     "m": "White Strip",
-    "e": "The effects of a <a href=\"/spells/balls\" data-ajax=\"false\">Magic Ball</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> weapon, or melee weapon which just struck armor worn by the player are ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities",
-    "l": "Phase Arrow and Phase Bolt interact with armor worn by the bearer as though Ancestral Armor was not present",
-    "n": "Engulfing Effects that do not strike the bearer's armor and abilities that ignore armor entirely do not trigger Ancestral Armor"
+    "e": "The effects of a <a href=\"/spells/balls\" data-ajax=\"false\">Magic Ball</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> weapon, or melee weapon which just struck armor worn by the player are ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities.",
+    "l": "Phase Arrow and Phase Bolt interact with armor worn by the bearer as though Ancestral Armor was not present.",
+    "n": "Engulfing Effects that do not strike the bearer's armor and abilities that ignore armor entirely do not trigger Ancestral Armor."
   },
   "apex": {
     "name": "Apex",
@@ -143,9 +143,9 @@
     "s": "Death",
     "r": "50'",
     "i": "\"Assassinate\"",
-    "e": "The victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
-    "l": "May only be used immediately upon killing an enemy",
-    "n": "Assassinate targets the killed enemy and does not require verbal targeting"
+    "e": "The target is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "l": "May only be used immediately upon killing an enemy.",
+    "n": "Assassinate targets the killed enemy and does not require verbal targeting."
   },
   "astralintervention": {
     "name": "Astral Intervention",
@@ -158,8 +158,8 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee to retreat into the aether\" x 3",
-    "e": "Target player becomes Insubstantial for 30 seconds",
-    "n": "If cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
+    "e": "Target player becomes Insubstantial for 30 seconds.",
+    "n": "If cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial."
   },
   "attuned": {
     "name": "Attuned",
@@ -197,8 +197,8 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee awed\" x3",
-    "e": "Target may not attack or cast magic at the caster or their carried equipment. Target must remain at least 20’ away from the caster unless forced there by another Magic or Ability. Lasts 30 seconds",
-    "n": "If the caster attacks the target, begins casting another magic at the target or their carried equipment, or dies, this spell’s effect is negated"
+    "e": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 20’ away from the caster unless forced there by another ability. Lasts 30 seconds.",
+    "n": "If the caster attacks the target, begins casting another Magical abilities at the target or their carried equipment, or dies, this ability’s effect is negated."
   },
   "banish": {
     "name": "Banish",
@@ -239,8 +239,7 @@
     "r": "Touch",
     "i": "\“Be a bastion of healing\” x3",
     "m": "3 Yellow strips",
-    "e": "Bearer may cast Heal by announcing \“< Player > thou art made whole\”. Bearer must remove an Enchantment strip after each use of Heal",
-    "n": "Battlefield Triage is removed when the last strip is removed"
+    "e": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "battlemage": {
     "name": "Battlemage",
@@ -264,7 +263,7 @@
     "r": "Other",
     "i": "\"I enchant thee with the strength of the bear\" x3",
     "m": "Red Strip",
-    "e": "Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
+    "e": "Bearer’s wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
   },
   "berserk": {
     "name": "Berserk",
@@ -276,7 +275,7 @@
     "s": "Sorcery",
     "r": "Self",
     "m": "Red Strip",
-    "e": "Bearer's melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
   },
   "berserker": {
     "name": "Berserker",
@@ -457,8 +456,7 @@
     "r": "Touch",
     "i": "\"The mists of corrosion surround thee\" x3",
     "m": "Three Red Strips",
-    "e": "Bearer may cast Destroy Armor by announcing \"<i>[Player] the mists of corrosion destroy your [armor location] armor</i>\". Bearer must remove a strip after each use of Destroy Armor",
-    "n": "Corrosive Mist is removed when the last strip is removed"
+    "e": "Bearer may cast Destroy Armor (m) by incanting \"<i>&lt;Player&gt; the mists of corrosion destroy your &lt:armor location&gt: armor</i>\". Bearer must remove a strip after each use of Destroy Armor. Enchantment is removed when the last strip is removed."
   },
   "corruptor": {
     "name": "Corruptor",
@@ -468,7 +466,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Touch) 2/Refresh (m). <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> becomes 1/Life Charge x10.",
+    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Self) 2/Refresh (m). <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> becomes 1/Life Charge x10.",
     "l": "May not wield Great Weapons or Javelins and lose all instances of <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a>"
   },
   "coupdegrace": {
@@ -530,7 +528,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"The power of the aether consumes thee\" x3",
-    "e": "Target Insubstantial player dies"
+    "e": "Target Insubstantial player dies."
   },
   "discordia": {
     "name": "Discordia",
@@ -542,8 +540,8 @@
     "s": "Command",
     "r": "Self",
     "i": "\"My discordant melodies shall stymie my foes\" x3",
-    "m": "Red Strip",
-    "e": "Tie on five enchantment strips. Bearer may cast Break Concentration by announcing \"[Player] thou art suppressed\" and removing an enchantment strip. Enchantment is removed when the last strip is removed"
+    "m": "Five red strips",
+    "e": "Bearer may cast Break Concentration (m) by incanting \"<i>&gt:Player&lt; thou art suppressed</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "dispelmagic": {
     "name": "Dispel Magic",
@@ -584,8 +582,8 @@
     "r": "Self",
     "i": "\"I am filled with the power of magic\"",
     "e": "Caster may use Magic Balls they are currently carrying by stating the name of the Magic Ball immediately prior to throwing the ball in place of the incantation",
-    "l": "This magic ends if the caster picks up any additional Magic Balls or begins casting any new magic",
-    "n": "The effect is not an incantation, and so is not stopped by suppression, and may be used while moving, etc."
+    "l": "This magic ends if the caster picks up any additional Magic Balls or begins casting any new Magical abilities.",
+    "n": "The effect is not an incantation, and so is not stopped by Suppression, and may be used while moving, etc."
   },
   "empower": {
     "name": "Empower",
@@ -613,9 +611,9 @@
     "r": "Other",
     "i": "\"A distant magic has no hold upon thy now enlightened soul\" x3",
     "m": "White Strip",
-    "e": "Player is unaffected by Verbal magic used at a Range greater than Touch",
-    "l": "Affects beneficial magic as well as harmful magic. Does not affect (ex) abilities",
-    "n": "Does not affect (ex) abilities, abilities with a Range of Touch, or abilities whose Range is greater than Touch but are used at a Range of Touch anyway"
+    "e": "Player is unaffected by Verbal Magical abilities used at a Range greater than Touch.",
+    "l": "Affects beneficial as well as harmful Magical abilities.",
+    "n": "Does not affect (ex) abilities, abilities with a Range of Touch, or abilities whose Range is greater than Touch but are used at a Range of Touch anyway."
   },
   "entangle": {
     "name": "Entangle",
@@ -819,7 +817,7 @@
     "r": "Other",
     "i": "\"The element of fire shall infuse your weapons\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer’s melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and weapons they hold are Immune to Flame"
+    "e": "Bearer’s wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their wielded weapons are Immune to Flame."
   },
   "forcebarrier": {
     "name": "Force Barrier",
@@ -1052,7 +1050,7 @@
     "r": "20'",
     "i": "\"I call upon flame to heat that [type of weapon]\" x3",
     "e": "Target weapon may not be wielded for 30 seconds. Players who are Immune to Flame may continue to wield the weapon",
-    "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this spell to affect it"
+    "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this ability to affect it"
   },
   "holdperson": {
     "name": "Hold Person",
@@ -1134,7 +1132,7 @@
     "r": "Other",
     "i": "\"This shield shall neither bend nor break\" x3",
     "m": "White Strip",
-    "e": "Shield wielded by the player cannot be destroyed nor damaged. Engulfing effects hitting the shield are ignored"
+    "e": "Shield wielded by the player cannot be destroyed nor damaged. Engulfing effects hitting the wielded shield are ignored"
   },
   "imbueweapon": {
     "name": "Imbue Weapon",
@@ -1146,8 +1144,7 @@
     "s": "Death",
     "r": "Touch",
     "i": "\"I enchant thee to slay all foes\" x3",
-    "m": "Red Strip",
-    "e": "Melee weapons wielded by the bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
+    "m": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>."
   },
   "infernal": {
     "name": "Infernal",
@@ -1157,8 +1154,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls/Unlimited.",
-    "l": "May not wield a Shield, and lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>"
+    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited(m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes 2/Refresh Charge x5.",
+    "l": "May not wield Shields. Lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>."
   },
   "innate": {
     "name": "Innate",
@@ -1186,8 +1183,8 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thy attention\" x3",
-    "e": "Victim is unable to attack or cast magic at anyone other than the caster or their carried equipment for 30 seconds. If the victim of insult is attacked or has magic cast on them or their carried equipment by someone other than the caster, the victim of Insult becomes able to choose to attack the offending party as well",
-    "n": "If the caster of Insult dies, the victim’s effect is negated"
+    "e": "Target is unable to attack or cast Magical abilities at anyone other than the caster or their carried equipment for 30 seconds, or until either party dies. If the target of Insult is attacked or has Magical abilities cast on them or their carried equipment by someone other than the caster, the target of Insult becomes able to choose to attack the offending party as well.",
+    "n": "If the caster of Insult dies, the victim’s effect is negated."
   },
   "ironskin": {
     "name": "Ironskin",
@@ -1307,8 +1304,8 @@
     "r": "Self",
     "i": "\"Let the powers of healing flow through me\" x3",
     "m": "Five Yellow Strips",
-    "e": "Caster may Heal a player at Touch range, stating \"I grant thee healing\". Bearer must remove an Enchantment strip after each use of Heal",
-    "n": "Mass Healing is removed when the last strip is removed. The effect is not an incantation, and so is not stopped by suppression, and may be used while moving, etc."
+    "e": "Caster may Heal (m) a player at Touch range, by stating \"<i>I grant thee healing</i>\". and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+    "n": "The effect is not an incantation, and so is not stopped by suppression, and may be used while moving, etc."
   },
   "medium": {
     "name": "Medium",
@@ -1346,8 +1343,7 @@
     "t": "Granted as Trait",
     "s": "Protection",
     "r": "Self",
-    "e": "Player is allowed to block arrows, projectile weapons, and magic balls with their wielded weapons and hands without penalty. Any arrow, projectile weapon, or magic ball touched by their wielded weapon or hand is nullified",
-    "n": "Engulfing effects from blocked arrows, projectile weapons, and magic balls do not activate"
+    "e": "Player may block arrows, projectile weapons, and Magic Balls with their hands and wielded melee or thrown weapons. Any arrow, projectile weapon or magic ball blocked is nullified."
   },
   "mutation": {
     "name": "Mutation",
@@ -1382,7 +1378,7 @@
     "r": "Self",
     "i": "\"I shall restore the balance\" x3",
     "m": "Five Red Strips",
-    "e": "Bearer may cast Dispel Magic by announcing \"[Player] thou art dispelled.\" Bearer must remove an Enchantment strip after each use of Dispel Magic and the Enchantment is removed when the last strip is removed"
+    "e": "Bearer may cast Dispel Magic (m) by incanting \"<i>&lt;Player&gt; thou art dispelled.</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "necromancer": {
     "name": "Necromancer",
@@ -1487,9 +1483,9 @@
     "s": "Death",
     "m": "Red Strip",
     "r": "Other",
-    "i": "\"I coat these weapons with a deadly poison\" x 2",
-    "e": "The next Wound dealt by the bearer in melee is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>",
-    "n": "If the target does not actually receive a Wound, e.g. by a Resistance, Poison is not expended."
+    "i": "\"I coat these weapons with a deadly poison\" x2",
+    "e": "The next wound dealt by the bearer with a wielded melee weapon is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>",
+    "n": "If the target does not actually receive a wound, e.g. by a Resistance, Poison is not expended."
   },
   "poisonarrow": {
     "name": "Poison Arrow",
@@ -1552,7 +1548,7 @@
     "r": "Other (Paladin: Touch)",
     "i": "\"I enchant thee with protection from magic\" x3",
     "m": "White Strip",
-    "e": "Bearer is unaffected by magic from any school. Upon death the player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "e": "Bearer is unaffected by Magical abilities from any school. Upon death the player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
     "n": "This effect does not interact with other Enchantments worn by the bearer."
   },
   "protectionfromprojectiles": {
@@ -1593,7 +1589,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I am filled with rage!\"",
-    "e": "Caster is unaffected by Verbal abilities and their weapons are Shield Crushing and Armor Breaking for seven seconds. Caster must chant this time out loud, as per Chanting; failure to count ends the effect."
+    "e": "Caster is unaffected by Verbal abilities and their wielded melee weapons are Shield Crushing and Armor Breaking for seven seconds. Caster must count this time out loud, audible to 50'; failure to count ends the effect."
   },
   "raider": {
     "name": "Raider",
@@ -1866,8 +1862,8 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"The power of the divine smites thee!\" x3",
-    "e": "Caster's Weapons are Shield Crushing, Armor Breaking, and Wounds Kill against the target.",
-    "l": "If the caster attacks a player other than the target, begins casting another spell, or the caster or target dies; this spell's effect ends."
+    "e": "Caster's wielded weapons are Shield Crushing, Armor Breaking, and Wounds Kill against the target.",
+    "l": "If the caster attacks a player other than the target, begins casting another ability, or the caster or target dies; this ability's effect ends."
   },
   "snaringvines": {
     "name": "Snaring Vines",
@@ -1880,8 +1876,7 @@
     "r": "Self",
     "i": "\"The hands of the earth rise to your bidding\" x3",
     "m": "Three Red Strips",
-    "e": "Bearer may cast <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> by announcing \"[Player] stop at my command.\" Bearer must remove an Enchantment strip after each use of Hold Person",
-    "n": "Snaring Vines is removed when the last strip is removed"
+    "e": "Bearer may cast <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> (m) by incanting \"&lt;Player&gt; stop at my command.\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "sniper": {
     "name": "Sniper",
@@ -1905,7 +1900,7 @@
     "r": "Self",
     "i": "\"I sing of my legendary prowess\"",
     "m": "No strip required",
-    "e": "Bearer’s weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": "Bearer’s wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },
   "songofdeflection": {
     "name": "Song of Deflection",
@@ -2186,8 +2181,8 @@
     "s": "Death",
     "r": "20'",
     "i": "\"Death makes thee terrified\" x3",
-    "e": "Target may not attack or cast magic at the caster or their carried equipment. Target must remain at least 50’ away from the caster unless forced there by another Magic or Ability. Lasts 30 seconds",
-    "n": "If the caster attacks the target, begins casting another magic at the target or their carried equipment, or dies, this spell’s effect is negated"
+    "e": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 50' away from the caster unless forced there by another ability. Lasts 30 seconds.",
+    "n": "If the caster attacks the target, begins casting another Magical ability at the target or their carried equipment, or dies, this ability's effect is negated."
   },
   "throw": {
     "name": "Throw",
@@ -2289,7 +2284,7 @@
     "r": "Other",
     "i": "\"Embrace the old ones and surrender thyself\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Melee weapons wielded by bearer are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is unaffected by magic from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is unaffected by Magical Abilities from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
     "n": "This effect does not interact with other Enchantments worn by the bearer"
   },
   "warder": {

@@ -10,7 +10,7 @@
       <li><a href="#ArmorRatingAndSafety">Armor Rating and Safety</a></li>
       <li><a href="#ArmorTypesAndModifiers">Armor Types and Modifiers</a></li>
       <li><a href="#ArmorMaterialThicknessRequirements">Armor Material Thickness Requirements</a></li>
-      <li><a href="#ConstructionRequirementsByType">Construction Requirements by Type</a></li>
+      <li><a href="#ConstructionRequirements">Construction Requirements</a></li>
     </ul>
   </div>
   <!-- /content -->
@@ -97,16 +97,16 @@
       </table>
       <br>
       <h3>Appearance</h3>
-      <p>Exceptionally aesthetically pleasing armor may be awarded a bonus point. Armor that is well below standard in appearance may be given an armor penalty</p>
+      <p>Exceptionally aesthetically pleasing armor may be awarded a bonus. Armor that is well below standard in appearance may be given a penalty.</p>
       <h3>Construction</h3>
-      <p>Exceptionally durable or well-crafted armor may be given an armor bonus. Some examples of this would be being made from at least 75% steel, being made of significantly thicker material than standard, riveted or welded chainmail rings, and so on. An armor penalty may be given if armor is in poor repair, is made of thinner materials than standard, and so forth</p>
-      <h3>Layered Armor Bonus</h3>
-      <p>Where multiple layers of armor overlap, such as chainmail over cloth or leather over chainmail, the overlapping area is rated at one point higher than the highest rated armor’s usual rating</p>
+      <p>Exceptionally durable or well-crafted armor may be given a bonus. Some examples of this would be being made from at least 75% steel, being made of significantly thicker material than standard, riveted or welded chainmail rings, and so on. A penalty may be given if armor is in poor repair, is made of thinner materials than standard, and so forth.</p>
+      <h3>Layered Armor</h3>
+      <p>Where multiple layers of armor overlap, such as chainmail over cloth or leather over chainmail, the overlapping area is given a bonus over the highest rated armor's usual rating.</p>
       <h3>Helm Bonus</h3>
-      <p>Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms</p>
+      <p>Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms. The helm must cover at least 50% of the area from the base of the neck upwards</p>
       <ul>
-        <li>Light Helms must meet the requirements of at least a Tier 2 armor type. The torso armor bonus received for a Light Helm may not exceed the maximum value for the armor type</li>
-        <li>Heavy Helms must meet the requirements of at least a Tier 4 armor type. The torso armor bonus received from a Heavy Helm may allow the wearer to exceed the maximum value for the armor type</li>
+        <li>Light Helms must meet the requirements of at least a Tier 2 armor type. The torso bonus received for a Light Helm may not exceed the maximum value for the armor type.</li>
+        <li>Heavy Helms must meet the requirements of at least a Tier 4 armor type. The torso bonus received from a Heavy Helm may allow the wearer to exceed the maximum value for the armor type.</li>
       </ul>
     </div>
     <!-- /footer -->
@@ -221,7 +221,7 @@
 </div>
 <!-- Armor Material Thickness Requirements /page -->
 <!-- Construction Requirements by Type -->
-<div data-role="page" class="jqm-demos jqm-home" id="ConstructionRequirementsByType">
+<div data-role="page" class="jqm-demos jqm-home" id="ConstructionRequirements">
   <%= erb :'sections/header' %>
   <%= erb :'sections/nav-panel' %>
   <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
@@ -229,13 +229,13 @@
   <div role="main" class="ui-content">
     <div class="jqm-block-content">
       <h3>Construction Requirements by Type</h3>
-      <p>All armor must meet certain construction requirements according to its type</p>
+      <p>All armor must meet certain construction requirements according to its type.</p>
       <ol>
-        <li>Armor that is made from materials thinner than the minimum thickness is not allowed</li>
-        <li>Armor that is made from materials significantly above the standard may qualify for the Superior Construction bonus</li>
-        <li>All Tier 4-6 armor is assumed to be made of metal, as well as butcher’s mail</li>
+        <li>Armor that is made from materials thinner than the minimum thickness is not allowed.</li>
+        <li>Armor that is made from materials significantly above the standard may qualify for the Superior Construction bonus.</li>
+        <li>All Tier 4-6 armor is assumed to be made of metal, as well as butcher’s mail.</li>
       </ol>
-      <p>If an armor type is not listed here, it has no special construction requirements beyond material thickness</p>
+      <p>If an armor type is not listed here, it has no special construction requirements beyond material thickness.</p>
       <h3>Cloth</h3>
       <p>Must be visually distinct from garb.</p>
       <h3>Butcher’s Mail/Sharkmail</h3>
