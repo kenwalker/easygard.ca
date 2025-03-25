@@ -237,7 +237,7 @@
     "t": "Enchantment",
     "s": "Spirit",
     "r": "Touch",
-    "i": "\“Be a bastion of healing\” x3",
+    "i": "\"Be a bastion of healing\" x3",
     "m": "3 Yellow strips",
     "e": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
@@ -857,7 +857,7 @@
     "r": "Other",
     "i": "\"I grant thee a gift of the air\" x3",
     "m": "White Strip",
-    "e": "The effects of a melee weapon or <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> which just struck the bearer are ignored, instead the bearer announces \“Gift of Air\” and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air.",
+    "e": "The effects of a melee weapon or <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> which just struck the bearer are ignored, instead the bearer announces \"Gift of Air\" and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates. Melee weapons with the <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air.",
     "l": "Bearer may not wield weapons or shields",
     "n": "Bearer may end the Insubstantial state caused by Gift of Air at any time with the standard Incantation"
   },
