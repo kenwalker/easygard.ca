@@ -1184,7 +1184,7 @@
     "t": "Archetype",
     "s": "Neutral",
     "e": "Gain <a href=\"/spells/s#sacredblades\" data-ajax=\"false\">Sacred Blades</a> (Self) 1/Life (ex).",
-    "l": "Player loses all instances of <a href=\"/spells/g#greaterresurrect\" data-ajax=\"false\">Greater Resurrect</a> and <a href=\"/spells/a#awe\" data-ajax=\"false\">Awe</a>"
+    "l": "Player loses all instances of <a href=\"/spells/g#greaterresurrect\" data-ajax=\"false\">Greater Resurrect</a>."
   },
   "insult": {
     "name": "Insult",
@@ -1382,7 +1382,7 @@
     "t": "Archetype",
     "s": "Neutral",
     "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m). Gain <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
-    "l": "May not wield Great Weapons nor Heavy Thrown."
+    "l": "May not wield Heavy Thrown. Lose all instances of Resurrect."
   },
   "naturalizemagic": {
     "name": "Naturalize Magic",
@@ -1604,8 +1604,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Player may choose to use <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> for its usual effect or to instantly charge <a href=\"/spells/b#brutalstrike\" data-ajax=\"false\">Brutal Strike</a>. Brutal Strike becomes 3/Life Charge x3. Gain <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> (Self) 1/Life (ex)",
-    "l": "May not wield Shields, and loses all instances of <a href=\"/spells/r#rage\" data-ajax=\"false\">Rage</a>"
+    "e": "Gain <a href=\"/spells/b#bearstrength\" data-ajax=\"false\">Bear Strength</a> (Self) 1/Life (ex). Look the Part becomes an additional use of <a href=\"/spells/b#brutalstrike\" data-ajax=\"false\">Brutal Strike</a>.",
+    "l": "Lose all instances of <a href=\"/spells/r#rage\" data-ajax=\"false\">Rage</a>"
   },
   "raisedead": {
     "name": "Raise Dead",
@@ -1714,15 +1714,15 @@
     "i": "<br>Sword Cut, spear stab, mace smash, arrow jab,<br>Let the white light of healing descend on thee<br>Let the white light of healing stop thy spilling blood<br>Let the white light of healing mend thy bones<br>Let the white light of healing close thy wounds.<br>Let the white light of healing restore thy vigor.<br>The white light of healing hath resurrected thee.",
     "e": "Target Dead player who has not moved from where they died is returned to life. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed"
   },
-  "ruffian": {
-    "name": "Ruffian",
-    "keywords": "assassin archetype",
+  "rogue": {
+    "name": "Rogue",
+    "keywords": "assassin archetype ruffian",
     "classes": {
       "Assassin": "6"
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> if you successfully cast <a href=\"/spells/a#assassinate\" data-ajax=\"false\">Assassinate</a> on a player after killing them with a Thrown Weapon. You do not gain the effect if the dead player is unaffected by Assassinate.",
+    "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> upon killing a player with a thrown weapon.",
     "l": "May not wield Long Weapons or Bows."
   },
   "sacredblades": {
@@ -1892,7 +1892,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant).",
+    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life.",
     "l": "May not fire normal arrows."
   },
   "songofbattle": {
@@ -2262,9 +2262,9 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "<br>Flesh rots, bones break, skulls sigh, spirits take let the power of my will descend on thee<br>let the power of my will restore thy spirit<br>let the power of my will knit thy corpse<br>let the power of my will give thee direction<br>let the power of my will cheat thy death<br>by the power of my will, arise my minion!",
+    "i": "\"By the power of my will, arise my minion!\" x5",
     "m": "Yellow Strip",
-    "e": "Bearer is Cursed. When the bearer dies, they must return to the caster. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is persistent, and remains active while the bearer is dead.",
+    "e": "Bearer is Cursed and cannot Respawn. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is Persistent, and remains active while the bearer is dead.",
     "l": "The caster may not have more than three active Undead Minion Enchantments."
   },
   "vampirism": {
