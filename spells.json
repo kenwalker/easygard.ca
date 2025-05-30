@@ -256,6 +256,7 @@
     "name": "Bear Strength",
     "keywords": "druid enchantment sorcery",
     "classes": {
+      "Barbarian": "6",
       "Druid": "3"
     },
     "t": "Enchantment",
