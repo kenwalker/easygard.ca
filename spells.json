@@ -108,7 +108,7 @@
     "m": "White Strip",
     "e": "The effects of a <a href=\"/spells/balls\" data-ajax=\"false\">Magic Ball</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> weapon, or melee weapon which just struck armor worn by the player are ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities.",
     "l": "Phase Arrow and Phase Bolt interact with armor worn by the bearer as though Ancestral Armor was not present.",
-    "n": "Engulfing Effects that do not strike the bearer's armor and abilities that ignore armor entirely do not trigger Ancestral Armor."
+    "n": "Engulfing Effects that do not strike the bearer's armor and abilities that ignore armor entirely do not trigger Ancestral Armor. <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> equipment interacts with armor worn by the bearer as though Ancestral Armor was not present."
   },
   "apex": {
     "name": "Apex",
@@ -118,8 +118,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#mutation\" data-ajax=\"false\">Mutation</a> (T) and <a href=\"/spells/a#adaptiveblessing\" data-ajax=\"false\">Adaptive Blessing</a> (Self) 1/Life Charge x5 (ex) (Swift).",
-    "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a>, and <a href=\"/spells/a#adaptiveprotection\" data-ajax=\"false\">Adaptive Protection</a>"
+    "e": "Gain <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life (ex) and <a href=\"/spells/s#slightofmind\" data-ajax=\"false\">Sleight of Mind</a> (Self) 1/Life (ex)",
+    "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, and <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a>"
   },
   "artificer": {
     "name": "Artificer",
@@ -1078,9 +1078,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3 (ex).</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>",
-    "l": "May not wield Shields. Loses all instances of <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a> and <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>",
-    "n": "You only gain the benefit of an option if you already have that ability."
+    "e": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3 (m).</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>",
+    "l": "May not wield Shields. Loses all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a> and <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a>",
+    "n": "Gain the benefit of an option only if that ability was chosen at level 4"
   },
   "iceball": {
     "name": "Iceball",
@@ -1158,8 +1158,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited(m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes 2/Refresh Charge x5 (self).",
-    "l": "May not wield Shields. Lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>."
+    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited (m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes (Self) 2/Refresh Charge x5.",
+    "l": "May not wield Shields and lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>."
   },
   "innate": {
     "name": "Innate",
@@ -1357,11 +1357,12 @@
       "Barbarian": "6",
       "Warrior": "6"
     },
-    "t": "Vebal",
+    "t": "Verbal",
     "s": "Sorcery",
+    "r": "Self",
     "i": "\"Momentum\"",
     "e": "May be used to instantly Charge a single ability by stating its name.",
-    "l": "Kill Trigger"
+    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>."
   },
   "mutation": {
     "name": "Mutation",
@@ -1382,7 +1383,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m). Gain <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
+    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m) and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
     "l": "May not wield Heavy Thrown. Lose all instances of Resurrect."
   },
   "naturalizemagic": {
@@ -1424,29 +1425,27 @@
   },
   "phasearrow": {
     "name": "Phase Arrow",
-    "keywords": "archer arrow sorcery",
+    "keywords": "archer arrow sorcery gray",
     "classes": {
       "Archer": "6"
     },
     "t": "Specialty Arrow",
     "s": "Sorcery",
     "i": "\"Phase Arrow\"",
-    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with grey cover labeled ‘Phase'",
-    "e": "This arrow does not interact with ongoing Magic or Abilities. Example: This arrow is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Missile Block, or similar Magic or Abilities",
-    "n": "This arrow does not supercede the Frozen, Insubstantial, or Invulnerable States"
+    "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with gray cover labeled ‘Phase'",
+    "e": "This arrow is Phasing"
   },
   "phasebolt": {
     "name": "Phase Bolt",
-    "keywords": "wizard ball sorcery grey",
+    "keywords": "wizard ball sorcery gray",
     "classes": {
       "Wizard": "5"
     },
     "t": "Magic Ball",
     "s": "Sorcery",
     "i": "\"The power of sorcery is mine to evoke\" x3",
-    "m": "Grey Magic Ball",
-    "e": "This Magic Ball does not interact with other ongoing Magic or Abilities. Example: This Magic Ball is not stopped by Stoneskin, Protection from Projectiles, and does not trigger the effects of Troll Blood, Undead Minion, Missile Block, or similar Magic or Abilities. Will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location",
-    "n": "Does not supercede the Frozen, Insubstantial, or Invulnerable States"
+    "m": "Gray Magic Ball",
+    "e": "This Magic Ball is Phasing. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
   },
   "phoenixtears": {
     "name": "Phoenix Tears",
@@ -1595,7 +1594,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I am filled with rage!\"",
-    "e": "Caster is unaffected by Verbal abilities and their wielded melee weapons are Shield Crushing and Armor Breaking for seven seconds. Caster must count this time out loud, audible to 50'; failure to count ends the effect."
+    "e": "Caster is unaffected by Verbal abilities and their wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> for seven seconds. Caster must count this time out loud, audible to 50'; failure to count ends the effect."
   },
   "raider": {
     "name": "Raider",
@@ -1893,7 +1892,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow Ability becomes 1/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life.",
+    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow ability becomes 1 Arrow/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life.",
     "l": "May not fire normal arrows."
   },
   "songofbattle": {
@@ -2016,8 +2015,8 @@
     "s": "Sorcery",
     "i": "\"The power of void is mine to evoke\" x3",
     "m": "Black Magic Ball",
-    "e": "Sphere of Annihilation ignores armor and enchanments and will have one of the following effects on the object first struck:<br>1. A weapon struck is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>.",
-    "n": "Does not ignore Traits, such as Missile Block."
+    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> and ignores armor. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>.",
+    "l": "Unlike most Phasing effects, Sphere of Annihilation does not ignore Traits, such as Missile Block"
   },
   "spy": {
     "name": "Spy",
@@ -2056,7 +2055,7 @@
     "s": "Protection",
     "r": "Self",
     "i": "\"I take the form of stone\"",
-    "e": "Caster is Frozen. May end this State at any time by saying \"the earth release me\" x2"
+    "e": "Caster is <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>. May end this State at any time by saying \"The earth release me\" x2"
   },
   "stoneskin": {
     "name": "Stoneskin",
@@ -2266,7 +2265,7 @@
     "i": "\"By the power of my will, arise my minion!\" x5",
     "m": "Yellow Strip",
     "e": "Bearer is Cursed and cannot Respawn. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is Persistent, and remains active while the bearer is dead.",
-    "l": "The caster may not have more than three active Undead Minion Enchantments."
+    "l": "The caster may not have more than three Undead Minion Enchantments."
   },
   "vampirism": {
     "name": "Vampirism",
