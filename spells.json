@@ -1199,7 +1199,7 @@
     "r": "20'",
     "i": "\"I command thy attention\" x3",
     "e": "Target is unable to attack or cast Magical abilities at anyone other than the caster or their carried equipment for 30 seconds, or until either party dies. If the target of Insult is attacked or has Magical abilities cast on them or their carried equipment by someone other than the caster, the target of Insult becomes able to choose to attack the offending party as well.",
-    "n": "If the caster of Insult dies, the victim's effect is negated."
+    "n": "The target may still charge and throw Magic Balls at the caster."
   },
   "ironskin": {
     "name": "Ironskin",
