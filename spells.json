@@ -118,7 +118,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life (ex) and <a href=\"/spells/s#slightofmind\" data-ajax=\"false\">Sleight of Mind</a> (Self) 1/Life (ex)",
+    "e": "Gain <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life (ex) and <a href=\"/spells/s#sleightofmind\" data-ajax=\"false\">Sleight of Mind</a> (Self) 1/Life (ex)",
     "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, and <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a>"
   },
   "artificer": {
