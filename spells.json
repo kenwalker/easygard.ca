@@ -15,7 +15,8 @@
     "name": "Adaptive Blessing",
     "keywords": "enchantment white healer scout",
     "classes": {
-      "Healer": "2"
+      "Healer": "2",
+      "Scout": "6"
     },
     "t": "Enchantment",
     "s": "Protection",
