@@ -156,8 +156,8 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee to retreat into the aether\" x 3",
-    "e": "Target player becomes Insubstantial for 30 seconds.",
-    "n": "If cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial."
+    "e": "Target player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> for 30 seconds.",
+    "n": "If cast on self, the caster may end this <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state at any time by using the exit incantation for Insubstantial."
   },
   "attuned": {
     "name": "Attuned",
@@ -211,7 +211,7 @@
     "r": "20'",
     "i": "\"The Spirits banish thee from this place\" x3",
     "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player must return to their base where their Insubstantial State immediately ends",
-    "n": "The target's Insubstantial State is replaced with a new insubstantial state from Banish. If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well. If Banish is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial."
+    "n": "The target's <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is replaced with a new insubstantial state from Banish. If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well. If Banish is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial."
   },
   "barkskin": {
     "name": "Barkskin",
@@ -340,7 +340,7 @@
     "i": "\"I vanish from sight\"",
     "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. While Insubstantial in this way, player can move as they wish as long as they remain within 50' from their starting point",
     "l": "Caster may not end State within 10' of a living enemy",
-    "n": "If the Insubstantial State is ended, the rest of the effect is ended as well. Caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
+    "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended, the rest of the effect is ended as well. Caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "bloodandthunder": {
     "name": "Blood and Thunder",
@@ -407,7 +407,7 @@
     "r": "Self",
     "i": "\"Circle of Protection\" x3",
     "e": "The caster and up to five willing players within Touch range of the caster immediately have all States and Ongoing Effects removed and then become Insubstantial.<br>All targets:<ul><li>May not move from their starting location, and are unaffected by abilities that allow or require the player to move</li><li>May use abilities on players and their carried equipment who became Insubstantial due to the same casting of Circle of Protection as though they were not Insubstantial</li><li>May end this Insubstantial State at any time by using the exit incantation for Insubstantial</li></ul>The caster may end Circle of Protection for all targets at any time by using the exit incantation for Insubstantial. If the Insubstantial State is ended for a target, the Ongoing Effects of Circle of Protection no longer apply to that player",
-    "n": "If a player is prevented from becoming Insubstantial, they are unaffected by Circle of Protection"
+    "n": "If a player is prevented from becoming <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, they are unaffected by Circle of Protection"
   },
   "combatcaster": {
     "name": "Combat Caster",
@@ -528,7 +528,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"The power of the aether consumes thee\" x3",
-    "e": "Target Insubstantial player dies."
+    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player dies."
   },
   "discordia": {
     "name": "Discordia",
@@ -858,7 +858,7 @@
     "m": "White Strip",
     "e": "The effects of any weapon or ammunition which just struck the bearer are ignored, instead the bearer declares \"Gift of Air\" and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect. Melee weapons with the <a href=\"/weapons/#Siege\" data-ajax=\"false\">Siege</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air",
     "l": "Bearer may not wield weapons or shields",
-    "n": "If the Insubstantial State is ended, the player is not required to continue returning to base. Bearer may end this Insubstantial State at any time by using the exit incantation for Insubstantial"
+    "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended, the player is not required to continue returning to base. Bearer may end this Insubstantial State at any time by using the exit incantation for Insubstantial"
   },
   "giftofearth": {
     "name": "Gift of Earth",
@@ -1255,8 +1255,8 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee to be lost\" x3",
-    "e": "Player becomes Insubstantial and must move directly to their base. Player must end their Insubstantial State as per normal once they reach their base",
-    "n": "If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well. If Lost is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
+    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must move directly to their base. Player must end their Insubstantial State as per normal once they reach their base",
+    "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended before reaching the base, the rest of the effect is ended as well. If Lost is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "lycanthropy": {
     "name": "Lycanthropy",
@@ -1293,7 +1293,7 @@
     "r": "Other",
     "i": "\"Thy burdens are mine to bear\"",
     "e": "A single State is removed from target willing player. The caster gains the removed State with a new duration of 10 seconds",
-    "l": "Cannot be cast while Cursed. Caster may not remove themselves from Insubstantial states gained this way"
+    "l": "Cannot be cast while Cursed. Caster may not remove themselves from <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> states gained this way"
   },
   "masshealing": {
     "name": "Mass Healing",
@@ -1483,8 +1483,8 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"My power closes the aether to you\" x3",
-    "e": "Target player has their Insubstantial State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial",
-    "n": "Planar Grounding causes Enchantments that automatically render their bearer Insubstantial, such as Undead Minion, to fail and be removed if they activate while Planar Grounding is in effect"
+    "e": "Target player has their <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial",
+    "n": "Planar Grounding causes Enchantments that automatically render their bearer <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, such as Undead Minion, to fail and be removed if they activate while Planar Grounding is in effect"
   },
   "poison": {
     "name": "Poison",
@@ -1789,7 +1789,7 @@
     "r": "Self",
     "i": "\"I step into the shadows\"",
     "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. Shadow Step may be cast while moving.",
-    "n": "Caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
+    "n": "Caster may end this <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state at any time by using the exit incantation for Insubstantial"
   },
   "shakeitoff": {
     "name": "Shake It Off",
@@ -1944,7 +1944,7 @@
     "r": "Self",
     "i": "\"I sing of my unquenchable wanderlust\"",
     "m": "No strip required",
-    "e": "Bearer can not receive the States Stopped, Frozen, or Insubstantial unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\" or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": "Bearer can not receive the States Stopped, Frozen, or <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\" or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },
   "songofinterference": {
     "name": "Song of Interference",
@@ -1986,7 +1986,7 @@
     "m": "No strip required",
     "e": "When the bearer would otherwise die, they instead announce “Song of Survival” and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their Chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant “Song of Survival” or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
     "l": "Once Song of Survival has activated to protect the bearer it may not activate again on the same life",
-    "n": "Bearer may end the Insubstantial state caused by Song of Survival at any time with the standard Incantation. If the Insubstantial State is ended by any means before reaching the base, the rest of the effect is ended as well"
+    "n": "Bearer may end the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state caused by Song of Survival at any time with the standard Incantation. If the Insubstantial State is ended by any means before reaching the base, the rest of the effect is ended as well"
   },
   "songofvisit": {
     "name": "Song of Visit",
@@ -1999,7 +1999,7 @@
     "r": "Self",
     "i": "\"I sing to entertain friend and foe\" x3",
     "m": "No strip required",
-    "e": "Bearer cannot be Wounded and is Immune to all schools. Bearer is Stopped. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes Insubstantial and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
+    "e": "Bearer cannot be Wounded and is Immune to all schools. Bearer is Stopped. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
     "l": "Bearer may not wield weapons, interact with game objects, impede play, gain further Enchantments, or target any player",
     "n": "This Enchantment can be removed by Dispel Magic and similar Magic and Abilities"
   },
@@ -2173,7 +2173,7 @@
     "r": "Touch",
     "i": "\"I travel through the aether\" x5",
     "e": "Target willing player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and moves directly to a chosen location chosen by the caster at the time of casting. This must be a fixed location (not relative to a player or to a moveable object). Upon arrival, they must immediately end the effect as per Insubstantial",
-    "n": "If the player's Insubstantial state is removed before they have reached their destination, the effects of Teleport end. If Teleport is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
+    "n": "If the player's <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state is removed before they have reached their destination, the effects of Teleport end. If Teleport is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "terror": {
     "name": "Terror",
@@ -2211,7 +2211,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"Tracking\" x3",
-    "e": "Target Insubstantial player immediately has their Insubstantial effect ended"
+    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player immediately has their Insubstantial effect ended"
   },
   "trickery": {
     "name": "Trickery",
