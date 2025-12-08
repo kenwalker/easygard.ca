@@ -15,6 +15,7 @@
                <li><a href="#charge">Charge and Incantation</a></li>
                <li><a href="/enchantments/#enchantments-overview" data-ajax="false">Enchantments</a></li>
                <li><a href="#engulfing">Engulfing</a></li>
+               <li><a href="#forcedmovement">Forced Movement</a></li>
                <li><a href="#incantation">Incantation</a></li>
                <li><a href="#killtrigger">Kill Trigger</a></li>
                <li><a href="#armor">Magic Armor</a></li>
@@ -167,6 +168,35 @@
 
 </div>
 <!-- Engulfing /page -->
+<!-- Forced Movement Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="forcedmovement">
+
+<%= erb :'sections/header' %>
+<%= erb :'sections/nav-panel' %>
+<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+<% @loaded = 'true' %>
+
+    <div role="main" class="ui-content">
+            <div class="jqm-block-content">
+                <h3>Forced Movement</h3>
+                <p>Forced Movement effects require a player to move, or place limitations on where they may move</p>
+                <ol>
+                    <li>Forced Movement effects fail when cast upon a Stopped player
+                        <ol type="a">
+                            <li>A player affected by a Forced Movement effect who becomes Stopped is affected normally. For example: a player affected by Awe may not move away from the caster, but still may not attack the caster</li>
+                        </ol>
+                    </li>
+                    <li>Players with a wounded leg who are affected by Forced Movement abilities may choose to ignore the requirement for dead legs to have the knee on the ground (or, if "posting," to not voluntarily move the foot of the wounded leg) for the purposes of completing the movement. While moving in this manner, the wounded player may not attack or cast abilities, but may defend themselves. Once the player has completed the movement, they must once again place their knee in contact with the ground, or re-declare "posting". This is known as the "Forced Movement accommodation."</li>
+                </ol>
+                <p><i><a href="#magic-definitions">All Magic Definitions</a></i></p>
+            </div>
+
+    </div><!-- /footer -->
+
+    </div><!-- /content -->
+
+</div>
+<!-- Forced Movement /page -->
 
 <!-- Incantation Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="incantation">
