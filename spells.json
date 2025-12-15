@@ -910,7 +910,7 @@
     "r": "Other",
     "i": "\"From earth and clay I form thee\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
+    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
     "l": "A caster may only have a single Golem Enchantment active at a time",
     "n": "Greater Mend and Word of Mending will not remove a wound"
   },
@@ -1036,7 +1036,7 @@
     "r": "Self",
     "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
+    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
     "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20' of the bearer"
   },
   "heatweapon": {
