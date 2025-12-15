@@ -3,7 +3,7 @@
     "classes": {
       "Healer": "5"
     },
-    "e": "Target is <a href=\"/states/#Stunned\" data-ajax=\"false\">Insubstantial</a> for 60 seconds. Ignores armor",
+    "e": "Target is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 60 seconds. Ignores armor",
     "i": "\"The strength of aether is mine to evoke\" x3",
     "keywords": "abeyance ball green subdual healer",
     "m": "Green Magic Ball",
@@ -37,7 +37,7 @@
     "r": "Other",
     "i": "\"I enchant thee with this protection\" x3",
     "m": "White Strip",
-    "e": "Bearer becomes <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
+    "e": "Bearer becomes <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
   },
   "adrenaline": {
     "name": "Adrenaline",
@@ -569,7 +569,7 @@
     "s": "Death",
     "r": "20'",
     "i": "\"Death comes for thee from below\" x3",
-    "e": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a> player dies"
+    "e": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> player dies"
   },
   "elementalbarrage": {
     "name": "Elemental Barrage",
@@ -583,7 +583,7 @@
     "i": "\"I am filled with the power of magic\"",
     "e": "Caster may use Magic Balls they are currently carrying by stating the name of the Magic Ball immediately prior to throwing the ball in place of the incantation",
     "l": "This magic ends if the caster picks up any additional Magic Balls or begins casting any new Magical abilities.",
-    "n": "The effect is not an incantation, and so is not stopped by being <a href=\"/states/#Suppressed\" data-ajax=\"false\">Insubstantial</a>, and may be used while moving, etc."
+    "n": "The effect is not an incantation, and so is not stopped by being <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, and may be used while moving, etc."
   },
   "empower": {
     "name": "Empower",
@@ -627,7 +627,7 @@
     "s": "Subdual",
     "i": "\"The strength of earth is mine to evoke\" x3",
     "m": "Brown Magic Ball",
-    "e": "Target is <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a> for 60 seconds. Engulfing"
+    "e": "Target is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 60 seconds. Engulfing"
   },
   "equipmentarmor1point": {
     "name": "Equipment: Armor, 1 Point",
@@ -884,7 +884,7 @@
     "r": "Other",
     "i": "\"I grant thee a gift of the fire\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
+    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
   },
   "giftofwater": {
     "name": "Gift of Water",
@@ -1050,7 +1050,7 @@
     "s": "Flame",
     "r": "20'",
     "i": "\"I call upon flame to heat that [type of weapon]\" x3",
-    "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Flame may continue to wield the weapon",
+    "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon",
     "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this ability to affect it"
   },
   "holdperson": {
@@ -1066,7 +1066,7 @@
     "s": "Command",
     "r": "20'",
     "i": "\"I command thee to stop\" x3",
-    "e": "Target player becomes <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a> for 30 seconds"
+    "e": "Target player becomes <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 30 seconds"
   },
   "hunter": {
     "name": "Hunter",
@@ -1210,7 +1210,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Ironskin\" x3",
     "m": "White Strip",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
   },
   "juggernaut": {
     "name": "Juggernaut",
@@ -1243,7 +1243,7 @@
     "s": "Flame",
     "i": "\"The flame of storms is mine to evoke\" x3",
     "m": "Yellow Magic Ball",
-    "e": "A player struck is subject to an Engulfing <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a> effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+    "e": "A player struck is subject to an Engulfing <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
   },
   "lost": {
     "name": "Lost",
@@ -1269,7 +1269,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Lycanthopy.\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Command"
+    "e": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Command"
   },
   "marauder": {
     "name": "Marauder",
@@ -1307,7 +1307,7 @@
     "i": "\"Let the powers of healing flow through me\" x3",
     "m": "Five Yellow Strips",
     "e": "Caster may Heal (m) a player at Touch range, by stating \"<i>I grant thee healing</i>\". and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
-    "n": "The effect is not an incantation, and so is not stopped by being <a href=\"/states/#Suppressed\" data-ajax=\"false\">Insubstantial</a>, and may be used while moving, etc."
+    "n": "The effect is not an incantation, and so is not stopped by being <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, and may be used while moving, etc."
   },
   "medium": {
     "name": "Medium",
@@ -1615,7 +1615,7 @@
     "s": "Death",
     "r": "Touch*",
     "i": "\"Rise and fight again\" x5",
-    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Target is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Insubstantial</a> for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed."
+    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Target is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed."
   },
   "ranger": {
     "name": "Ranger",
@@ -1801,7 +1801,7 @@
     "s": "Spirit",
     "r": "Self",
     "i": "\"I shall overcome\"",
-    "e": "10 seconds after casting Shake It Off the player may remove from themselves any number of States or Ongoing Effects of their choice. Shake It Off may be cast at any time the player is alive, even while the player would otherwise be prevented from casting abilities by <a href=\"/states/#Stunned\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Suppressed\" data-ajax=\"false\">Insubstantial</a>, or similar"
+    "e": "10 seconds after casting Shake It Off the player may remove from themselves any number of States or Ongoing Effects of their choice. Shake It Off may be cast at any time the player is alive, even while the player would otherwise be prevented from casting abilities by <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>, <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, or similar"
   },
   "shatter": {
     "name": "Shatter",
@@ -1813,7 +1813,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"My power shatters thy body\" x3",
-    "e": "Target <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> player dies"
+    "e": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> player dies"
   },
   "shatterweapon": {
     "name": "Shatter Weapon",
@@ -1931,7 +1931,7 @@
     "r": "Self",
     "i": "\"I sing of my unwavering determination\"",
     "m": "No strip required",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Command. Bearer must Chant \"Song of Determination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
+    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Command. Bearer must Chant \"Song of Determination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
   },
   "songoffreedom": {
     "name": "Song of Freedom",
@@ -1944,7 +1944,7 @@
     "r": "Self",
     "i": "\"I sing of my unquenchable wanderlust\"",
     "m": "No strip required",
-    "e": "Bearer can not receive the States <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, or <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\" or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": "Bearer can not receive the States <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, or <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\" or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
   },
   "songofinterference": {
     "name": "Song of Interference",
@@ -1970,7 +1970,7 @@
     "r": "Self",
     "i": "\"I sing to inspire my comrades-in-arms\"",
     "m": "No strip required",
-    "e": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a>. Bearer must Chant “Song of Power” or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant “Song of Power” or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
     "l": "Players can only benefit from one instance of Song of Power at a time"
   },
   "songofsurvival": {
@@ -1999,7 +1999,7 @@
     "r": "Self",
     "i": "\"I sing to entertain friend and foe\" x3",
     "m": "No strip required",
-    "e": "Bearer cannot be Wounded and is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a>. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
+    "e": "Bearer cannot be Wounded and is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
     "l": "Bearer may not wield weapons, interact with game objects, impede play, gain further Enchantments, or target any player",
     "n": "This Enchantment can be removed by Dispel Magic and similar Magic and Abilities"
   },
@@ -2079,7 +2079,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"By the power of white light I stun thee\" x3",
-    "e": "Target player is <a href=\"/states/#Stunned\" data-ajax=\"false\">Insubstantial</a> for 30 seconds"
+    "e": "Target player is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 30 seconds"
   },
   "summondead": {
     "name": "Summon Dead",
@@ -2116,7 +2116,7 @@
     "s": "Command",
     "r": "50",
     "i": "\"I command thee powerless\" x3",
-    "e": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Insubstantial</a> for 30 seconds"
+    "e": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds"
   },
   "suppressionarrow": {
     "name": "Suppression Arrow",
@@ -2199,7 +2199,7 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"My power throws thee\" x3",
-    "e": "Target player is moved back 50' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Insubstantial</a> players"
+    "e": "Target player is moved back 50' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
   },
   "tracking": {
     "name": "Tracking",
@@ -2276,7 +2276,7 @@
     "r": "Other",
     "i": "\"Thy hunger can never be sated\" x3",
     "m": "Yellow Strip and White Strip",
-    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is <a href=\"/states/#Immune\" data-ajax=\"false\">Frozen</a> to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
+    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
   },
   "voidtouched": {
     "name": "Void Touched",
