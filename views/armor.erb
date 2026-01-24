@@ -7,6 +7,8 @@
   <% @loaded = 'true' %>
   <div role="main" class="ui-content">
     <ul data-role="listview" data-inset="true" data-icon="false">
+      <li><a href="#ArmorMadeEasy">Armor Made Easy</a></li>
+      <li><a href="#ArmorCombatRules">Armor Combat Rules</a></li>
       <li><a href="#ArmorRatingAndSafety">Armor Rating and Safety</a></li>
       <li><a href="#ArmorTypesAndModifiers">Armor Types and Modifiers</a></li>
       <li><a href="#ArmorMaterialThicknessRequirements">Armor Material Thickness Requirements</a></li>
@@ -16,6 +18,75 @@
   <!-- /content -->
 </div>
 <!-- /page -->
+<!-- Armor Made Easy -->
+<div data-role="page" class="jqm-demos jqm-home" id="ArmorMadeEasy">
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <div class="jqm-block-content">
+      <h3>Armor Made Easy</h3>
+      <p>The armor rules can look intimidating at first glance but it can be boiled down to a few simple rules that allow you to
+interact with the armor system in combat.</p>
+<p>Armor stops hits by losing points in the location it is hit. Once a location is out of points the armor doesn't stop hits
+anymore and the player is hit. All hits remove a single point from the armor in the location struck unless the strike is
+Armor-Breaking or Armor-Destroying. The three most common Armor-Breaking strikes are from an arrow, a great
+weapon swung two-handed, or a strike from a Barbarian. Armor-Destroying strikes are much rarer.</p>
+<p>Armor-Breaking strikes will reduce the armor to zero in the location struck unless the player struck is wearing more
+than three points of armor in that location. That can only happen if they are playing Warrior, Paladin, or Anti-Paladin.
+If the player struck has more than three points of armor in the location struck, then all hits to their armor remove a
+single point until they are at three points or less and then it behaves as stated earlier.</p>
+<p>Armor-Destroying strikes will reduce armor to zero in the location struck regardless of how much armor remains.</p>
+<p>Keeping track of your own armor is simple. If you are playing any class other than Warrior, Paladin, or Anti-Paladin
+then each hit removes a single point of armor unless it's one of the above types of strikes, which reduces your armor
+to zero. If you are playing a Warrior, Paladin, or Anti-Paladin and wearing more than three points of armor then all
+Armor Breaking strikes do one point in the location struck until you get to three points, and then it behaves
+as above. An Armor-Destroying strike gets rid of all of the armor, period.</p>
+<p>There are a few more abilities that interact in different ways with armor, but this
+covers the vast majority of the situations encountered on the field of play. If you
+want more information read the Abilities section. If you run into a situation you
+are not sure of you can always ask a reeve or the player who affected you.
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /content -->
+</div>
+<!-- Armor Made Easy /page -->
+<!-- Armor Combat Rules -->
+<div data-role="page" class="jqm-demos jqm-home" id="ArmorCombatRules">
+  <%= erb :'sections/header' %>
+  <%= erb :'sections/nav-panel' %>
+  <%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
+  <% @loaded = 'true' %>
+  <div role="main" class="ui-content">
+    <div class="jqm-block-content">
+      <h3>Armor Combat Rules</h3>
+      Armor is rated by its ability to stop wounds and is referred to as Armor Points. Armor with an Armor Point value rating higher than allowed to a Player Class may be worn for the highest value allowed to the Player Class.
+      <ol>
+        <li>Hits to armor in a hit location affect that hit location, regardless of if a physical piece of armor covers multiple hit locations. Example: Hitting the sleeve of a chainmail shirt will only affect that arm, and not the torso
+          <ol type="a">
+            <li>Damage to worn armor is tracked by hit location. Damage will be retained if worn armor is altered, replaced, or exchanged</li>
+            <li>Armor cannot be reduced to less than 0 points in a location by any means</li>
+          </ol>
+        </li>
+        <li>A hit to armor from any weapon will remove one Armor Point from the location hit
+          <ol type="a">
+            <li>Blows to armor can be modified by the following three Special Effects: Armor Breaking, Armor Destroying, and Siege. See Special Effects Defined for more information on these effects</li>
+          </ol>
+        </li>
+        <li>Armor with no remaining Armor Points no longer interacts with hits from weapons, ammunition, Magic Balls, etc.</li>
+        <li>Armor only protects the area that it covers. Example: You have armor on the front of your leg, but a gap on your thigh, and are struck in the area left open by the gap. You are wounded and the armor itself takes no damage</li>
+        <li>Armor present on a wounded hit location will continue to function and stop blows as per normal. This does not exempt wounded arms from the requirement to be kept out of combat</li>
+        <li>Hits to armor covering a foot that strike below the ankle while that foot is on the ground have no effect on the armor or hit location</li>
+        <li>Armor worn under garb or other armor must be partially visible, and must be declared if asked</li>
+      </ol>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /content -->
+</div>
+<!-- Armor Combat Rules /page -->
 <!-- Armor Rating and Safety -->
 <div data-role="page" class="jqm-demos jqm-home" id="ArmorRatingAndSafety">
   <%= erb :'sections/header' %>
@@ -26,12 +97,12 @@
     <div class="jqm-block-content">
       <h3>Armor Rating and Safety</h3>
       <ol>
-        <li>The Monarch, Champion, Guildmaster of Reeves, and Game Reeves rate armor.</li>
-        <li>Armor that is of mixed values across the same area will be averaged based on the percentage of each type of coverage of the area, rounding fractions to the nearest whole number. Example: An arm with a Plate bracer (6 Armor Points) covering 50% of the arm and a Cloth/Padded sleeve (1 Armor Point) covering 50% of the arm will result in an armor value of (6 x 0.5) + (1 x 0.5) = 3.5, which rounds up to 4 Armor Points across the entire location.</li>
-        <li>Straps and other such material that hold your armor on do not count as part of the armor, for either coverage or averaging purposes, unless they are specifically built as such. Example: the leather strap across your back holding on your steel breastplate does not protect you from hits.</li>
-        <li>Armor that is initially rated as zero points does not count as armor. Armor that has been depleted continues to be considered armor, but does not continue to stop wounds until restored.</li>
-        <li>Obviously modern materials and obviously modern protective gear such as sports shin pads and hockey chest pads may never be considered as armor; such materials and items may be used as a base for armor, but the final product must have the appearance of actual armor rather than modern protective gear. Wholly inappropriate materials such as cardboard, tinfoil, and foam may never be considered as armor.</li>
-        <li>All armor must be safe, with no protruding edges that could injure someone. All corners on any armor that will not deform under contact must come to a point no sharper than the radius of a penny (3/8").</li>
+        <li>The Monarch, Champion, Guildmaster of Reeves, and Game Reeves rate armor</li>
+        <li>Armor that is of mixed values across the same area will be averaged based on the percentage of each type of coverage of the area, rounding fractions to the nearest whole number. Example: An arm with a Plate bracer (6 Armor Points) covering 50% of the arm and a Cloth/ Padded sleeve (1 Armor Point) covering 50% of the arm will result in an armor value of (6 x 0.5) + (1 x 0.5) = 3.5, which rounds up to 4 Armor Points across the entire location</li>
+        <li>Straps and other such material that hold your armor on do not count as part of the armor, for either coverage or averaging purposes, unless they are specifically built as such. Example: the leather strap across your back holding on your steel breastplate does not protect you from hits</li>
+        <li>Armor that is initially rated as zero points does not count as armor. Armor that has been depleted continues to be considered armor, but does not continue to stop wounds until restored</li>
+        <li>Obviously modern materials and obviously modern protective gear such as sports shin pads and hockey chest pads may never be considered as armor; such materials and items may be used as a base for armor, but the final product must have the appearance of actual armor rather than modern protective gear. Wholly inappropriate materials such as cardboard, tinfoil, and foam may never be considered as armor</li>
+        <li>All armor must be safe, with no protruding edges that could injure someone. All corners on any armor that will not deform under contact must come to a point no sharper than the radius of a penny (3/8")</li>
       </ol>
     </div>
     <!-- /footer -->
@@ -48,7 +119,7 @@
   <div role="main" class="ui-content">
     <div class="jqm-block-content">
       <h3>Armor Types and Modifiers</h3>
-      <p>Each Armor Type is rated with base points equal to its tier. Armor may also receive Armor Point bonuses and penalties. These modifiers may not result in the armor type receiving more than its maximum rating, except for Heavy Helms.</p>
+      <p>Each Armor Type is rated with base points equal to its tier. Armor may also receive bonuses and penalties, which change its rating by one Armor Point. These modifiers may not result in the armor type receiving more than its maximum rating, except for Heavy Helms.</p>
       <table data-role="table" id="table-custom-armor-types" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
         <caption style="text-align:center;">Armor Types</caption>
         <thead>
@@ -103,7 +174,7 @@
       <h3>Layered Armor</h3>
       <p>Where multiple layers of armor overlap, such as chainmail over cloth or leather over chainmail, the overlapping area is given a bonus over the highest rated armor's usual rating.</p>
       <h3>Helm Bonus</h3>
-      <p>Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms. The helm must cover at least 50% of the area from the base of the neck upwards</p>
+      <p>Helms provide a bonus to the Torso location, and are divided into two categories: Light Helms, and Heavy Helms. The helm must cover at least 50% of the area from the base of the neck upwards.</p>
       <ul>
         <li>Light Helms must meet the requirements of at least a Tier 2 armor type. The torso bonus received for a Light Helm may not exceed the maximum value for the armor type.</li>
         <li>Heavy Helms must meet the requirements of at least a Tier 4 armor type. The torso bonus received from a Heavy Helm may allow the wearer to exceed the maximum value for the armor type.</li>
