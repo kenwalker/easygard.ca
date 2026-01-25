@@ -37,7 +37,7 @@
     "r": "Other",
     "i": "\"I enchant thee with this protection\" x3",
     "m": "White Strip",
-    "e": "Bearer becomes <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
+    "e": "Bearer becomes <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
   },
   "adrenaline": {
     "name": "Adrenaline",
@@ -763,7 +763,7 @@
     "r": "Other",
     "i": "\"May the blessing of my god protect thee\" x3",
     "m": "White Strip",
-    "e": "The target player gains either <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immune to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
+    "e": "The target player gains either <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immune to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
     "l": "Type of Ability must be chosen at the time of casting and may not be changed. The caster may only have one instance of Extend Immunities active at a time"
   },
   "extension": {
@@ -884,7 +884,7 @@
     "r": "Other",
     "i": "\"I grant thee a gift of the fire\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
+    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
   },
   "giftofwater": {
     "name": "Gift of Water",
@@ -910,7 +910,7 @@
     "r": "Other",
     "i": "\"From earth and clay I form thee\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
+    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
     "l": "A caster may only have a single Golem Enchantment active at a time",
     "n": "Greater Mend and Word of Mending will not remove a wound"
   },
@@ -1050,7 +1050,7 @@
     "s": "Flame",
     "r": "20'",
     "i": "\"I call upon flame to heat that [type of weapon]\" x3",
-    "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon",
+    "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon",
     "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this ability to affect it"
   },
   "holdperson": {
@@ -1210,7 +1210,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Ironskin\" x3",
     "m": "White Strip",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
   },
   "juggernaut": {
     "name": "Juggernaut",
@@ -1269,7 +1269,7 @@
     "r": "Other",
     "i": "\"I enchant thee with Lycanthopy.\" x3",
     "m": "White Strip and Red Strip",
-    "e": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Command"
+    "e": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command"
   },
   "marauder": {
     "name": "Marauder",
@@ -1931,7 +1931,7 @@
     "r": "Self",
     "i": "\"I sing of my unwavering determination\"",
     "m": "No strip required",
-    "e": "Bearer is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Command. Bearer must Chant \"Song of Determination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
+    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command. Bearer must Chant \"Song of Determination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
   },
   "songoffreedom": {
     "name": "Song of Freedom",
@@ -1999,7 +1999,7 @@
     "r": "Self",
     "i": "\"I sing to entertain friend and foe\" x3",
     "m": "No strip required",
-    "e": "Bearer cannot be Wounded and is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
+    "e": "Bearer cannot be Wounded and is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
     "l": "Bearer may not wield weapons, interact with game objects, impede play, gain further Enchantments, or target any player",
     "n": "This Enchantment can be removed by Dispel Magic and similar Magic and Abilities"
   },
@@ -2276,7 +2276,7 @@
     "r": "Other",
     "i": "\"Thy hunger can never be sated\" x3",
     "m": "Yellow Strip and White Strip",
-    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is <a href=\"/states/#Immune\" data-ajax=\"false\">Immune</a> to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
+    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
   },
   "voidtouched": {
     "name": "Void Touched",

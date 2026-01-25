@@ -12,9 +12,9 @@
                <li><a href="#HitLocations">Hit Locations</a></li>
                <li><a href="#CombatContact">Combat Contact</a></li>
                <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
-               <li><a href="#Deaths">Deaths</a></li>
+               <li><a href="#Death">Death</a></li>
                <li><a href="#CombatNotes">Combat Notes</a></li>
-               <li><a href="#CommonMisconceptions">Common Misconceptions</a></li>
+               <li><a href="#CombatEtiquette">Combat Etiquette</a></li>
             </ul>
 
 	
@@ -43,17 +43,16 @@
 				<h3>Notes:</h3>
 				<ol>
 				<li>Players may not be struck in the neck or head. A strike to the head is invalid, and will not count as a hit.</li>
-				<li>Players may not block shots with their neck or head. Intentional head blocking can result in being called dead by a Reeve</li>
+				<li>Players may not block shots with their neck or head. Intentional head blocking can result in being called dead by a reeve.</li>
 				<li>A wounded arm may carry equipment, but may not wield equipment or cast abilities, and must be kept out of combat. A wounded arm is capable of receiving an additional wound.</li>
-				<li>Players who receive a leg wound must decide if they are going to kneel or post with that leg. A player can switch between kneeling and posting by declaring as such with no living enemies within 20ft, or when instructed by a reeve.
-          <ol>
-            <li>If a player chooses to kneel, their wounded leg must have the knee in contact with the ground. The knee of the Wounded leg may be lifted from the ground briefly to enable movement so long as the unwounded leg has a knee on the ground.</li>
+				<li>layers who receive a leg wound must decide if they are going to kneel or post with that leg. A player can switch between kneeling and posting by declaring as such with no living enemies within 20', or when instructed by a reeve.
+          <ol type="a">
+            <li>If a player chooses to kneel, their wounded leg must have the knee in contact with the ground. The knee of the wounded leg may be lifted from the ground briefly to enable movement so long as the unwounded leg has a knee on the ground.</li>
             <li>If a player chooses to post, the player must immediately notify their opponent(s) of this by stating “posting”. While posting, the player may not voluntarily move the foot of the wounded leg, although it may be used to pivot.</li>
           </ol>
         </li>
-				<li>Players with a Wounded leg who are affected by abilities which allow or require movement may choose to ignore the requirement for dead legs to have the knee on the ground (or, if "posting," to not voluntarily move the foot of the wounded leg) for the purposes of completing the movement. While moving in this manner, the Wounded player may not attack, cast magic, or activate abilities, but may defend themselves. Once the player has completed the movement, they must once again place their knee in contact with the ground, or re-declare "posting". This ‘forced movement accommodation’ may not be used for the ability Blink.</li>
-				<li>A Wounded Leg is capable of receiving an additional Wound (even if “posting”), except when the knee is on the ground or during the initial placement of the knee on the ground a er receiving a Wound</li>
-                <li>A player with a wounded leg may ‘hobble’ by declaring "hobbling" and then moving slowly, taking no more than one step per second, and dragging a leg as long as there are no living enemies within 20ft. While moving in this manner, the Wounded player must chant “hobbling” and may not attack,cast magic, or activate abilities, but may defend themselves. Afterwards, the player must either kneel or re-declare "posting".</li>
+				<li>A wounded leg is capable of receiving an additional wound (even if “posting”), except when the knee is on the ground or during the initial placement of the knee on the ground after receiving a wound.</li>
+                <li>A player with a wounded leg may ‘hobble‘ by declaring "hobbling" and then moving slowly, taking no more than one step per second, and dragging a leg as long as there are no living enemies within 20'. While moving in this manner, the wounded player must chant “hobbling” and may not attack or cast abilities, but may defend themselves. Afterwards, the player must either kneel or re-declare "posting".</li>
 				</ol>
            
 
@@ -133,8 +132,8 @@
 </div>
 <!-- Inflicting Wounds /page -->
 
-<!-- Deaths Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="Deaths">
+<!-- Death Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="Death">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -143,25 +142,21 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Deaths</h3>
+    			<h3>Death</h3>
     			<p>Any two Wounds, or a Wound to the Torso, results in a Death</p>
-    			
+    			Dead players:
     			<ol>
-    			<li>Unless otherwise noted a Dead player may not speak to living players or interact with game play in any manner</li>
-    			<li>Unless otherwise noted in the battlegame description a Dead player may choose to return to his respawn point or remain where he died but may not otherwise move about</li>
-				<li>Dead players may move to avoid mundane danger or interfering with living players<br>
-				a. This does not count as moving for the purposes of Magic or Abilities so long as no game advantage was derived</li>
-				<li>Dead players may retrieve their own equipment from the field while dead, but may not interfere with play in any way and must stay at least 10 ft from any living opposing players while doing so</li>
-				<li>When Dead, immediately move yourself the minimum distance necessary to avoid interfering with ongoing combat. Visually indicate that you are dead by placing your hand or weapon on or above your head.</li>
-				<li>Unless otherwise noted Dead players may not be the target of Magic or Abilities</li>
-        </ol>
-
+					<li>May not speak to living players or interact with game play in any manner</li>
+					<li>May move to avoid mundane danger or interfering with living players. This does not count as moving for the purposes of abilities so long as no game advantage was derived</li>
+					<li>May retrieve their own equipment from the field while dead, but may not interfere with play in any way and must stay at least 10' from any living opposing players while doing so</li>
+					<li>May only be affected by mechanics that work on dead players in specific, such as Resurrect or Raise Dead. Otherwise the player and their carried equipment are not affected by combat, abilities, etc.</li>
+		        </ol>
 	</div><!-- /footer -->
 
 	</div><!-- /content -->
 
 </div>
-<!-- Deaths /page -->
+<!-- Death /page -->
 
 <!-- Combat Notes Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="CombatNotes">
@@ -203,8 +198,8 @@
 </div>
 <!-- Combat Notes /page -->
 
-<!-- Common Misconceptions Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="CommonMisconceptions">
+<!-- Combat Etiquette Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="CombatEtiquette">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -213,14 +208,44 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Common Misconceptions</h3>
-    			<p>This section has been removed. It's contents have been rolled into the relevant rule entries throughout the Rules of Play</p>
-          
+    			<h3>Combat Etiquette</h3>
+				<p>Combat is fast-paced and highly competitive. In order to minimize misunderstandings and confusion on the field it is important to observe the following rules</p>
+				<b>Handling Equipment</b>
+				<ol>
+					<li>Never handle anyone’s personal property without first having their permission</li>
+				</ol>
+				<b>Calling Your Shots</b>
+				<ol>
+					<li>When you are dead announce it immediately and clearly. A player who does not declare their death promptly will likely be struck again</li>
+					<li>Communicate early and often with your opponents. If you made a close block or feel your opponent’s shot was invalid, communicate it immediately</li>
+					<li>If you are unsure if your opponent’s shot was good enough, it was. Only shots which are clearly invalid should be treated as such. If you have to think about it, take it</li>
+					<li>If an opponent hits you with a shot you think is late, ask them if they think it was in time. If they believe it was in time or are unsure if it was in time, take the shot</li>
+					<li>When dead, immediately move yourself the minimum distance necessary to avoid interfering with ongoing combat. Visually indicate that you are dead by placing your hand or weapon on or above your head</li>
+					<li>If asked you must promptly declare your current wounded status</li>
+				</ol>
+				<b>Delivering Shots</b>
+				<ol>
+					<li>Do not call shots on other players unless you are reeving or the player in question asks your opinion</li>
+					<li>If you have an issue with a player not taking a shot you believe connected, ask them about it politely and directly in the form of a question. If you are not satisfied with their response then bring the issue to a reeve</li>
+					<li>If an opponent takes a wound from you which you do not believe was from a valid shot, tell them not to take it. If they insist, let it go</li>
+					<li>If you hit an opponent with a shot that was late, immediately let them know not to take it</li>
+					<li>If you strike an opponent in the head or neck and derive a combat advantage from it, stop fighting and allow them to recover. If necessary back up to the point of the shot and resume the fight</li>
+				</ol>
+				<b>Safety</b>
+				<ol>
+					<li>If you become upset or angry go take a break. Come back when you're ready to continue</li>
+					<li>If you believe a weapon on the field is unsafe, or being used in an unsafe manner, then immediately address it politely with the wielder. If the issue persists then address it with the Champion, reeve, or a park official</li>
+					<li>If you become injured on the field immediately inform any player engaged with you and remove yourself from the field of play. If you need assistance in removing yourself from play notify a nearby player or reeve</li>
+					<li>If a player becomes injured in your immediate vicinity move yourself a short distance away and continue play. If the injured player appears unable to leave the field or otherwise requires assistance then remove yourself from play to offer assistance. Under no circumstances should a player attempt to stop the field of play because one person has become injured unless it is necessary to provide for the safety of the injured player</li>
+					<li>If it is necessary to notify nearby players of a safety situation which requires them to stop play, then the player recognizing the situation should announce loudly “safety” to get the attention of nearby players and direct them away from the situation. If it is necessary to stop play for the entire field a player should announce loudly “emergency”. All players must avoid safety incidents while continuing play. All players must immediately stop play and cease moving until an emergency incident has been resolved</li>
+				</ol>
+            </div>
 
 	</div><!-- /footer -->
 
 	</div><!-- /content -->
 
 </div>
-<!-- Common Misconceptions /page -->
+<!-- Combat Etiquette /page -->
+
 

@@ -10,13 +10,12 @@
     <div role="main" class="ui-content">
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li><a href="#StatesDefined">States Defined</a></li>
-               <li><a href="#StatesMadeEasy">States Made Easy</a></li>
+               <li><a href="#StatesMadeEasy">Abilities, States, and Special Effects Made Easy</a></li>
                <li><a href="#SpecialEffects">Special Effects</a></li>
                <li data-role="list-divider">States</li>
                <li><a href="#Cursed">Cursed</a></li>
                <li><a href="#Fragile">Fragile</a></li>
                <li><a href="#Frozen">Frozen</a></li>
-               <li><a href="#Immune">Immune</a></li>
                <li><a href="#Insubstantial">Insubstantial</a></li>
                <li><a href="#Invulnerable">Invulnerable</a></li>
                <li><a href="#Stopped">Stopped</a></li>
@@ -41,7 +40,11 @@
     <div role="main" class="ui-content">
             <div class="jqm-block-content">
                 <h3>States Defined</h3>
-                <p>All abilities and magics (with a few exceptions) make use of a small set of common terms to explain the result they have on the player. These results are referred to as a ‘State’ or ‘States’. A player can have any number of different States simultaneously. A State may have a duration, after which it expires. If a player would gain a State they are already affected by, the State’s duration will simply be adjusted to the new duration if it is longer than the current duration. A State without a duration continues until it is removed by some outside force or until a condition is met. Unless otherwise noted, States cannot apply to dead players and are removed when a player dies or has an effect activate which allows the player struck to avoid death (Undead Minion, Greater Undead Minion, Troll Blood, Phoenix Tears, Song of Survival). A State conferred by a class Trait, such as Immunity to Subdual, is always on and may not be removed by respawn, death, or any other means. States imparted at the same time as a killing blow are considered to have taken effect prior to death. If a State which prevented a player from moving expires due to its duration ending, the player it affected must declare, “No longer [State that ended]”. This must be audible out to 20 feet<p>
+                <p>All abilities (with a few exceptions) make use of a small set of common terms to explain the result they have on the player. These results are referred to as a ‘State' or ‘States'. A player can have any number of different States simultaneously. A State conferred by a class Trait, such as Immunity to Subdual, is always on and may not be removed by respawn, death, or any other means.<p>
+                <p>A State may have a duration, after which it expires. If a player would gain a State they are already affected by, the State's duration will simply be adjusted to the new duration if it is longer than the current duration. A State without a duration continues until it is removed by some outside force or until a condition is met. Unless otherwise noted, States cannot apply to dead players and are removed when a player dies or has an ability activate which allows the player struck to avoid death (Troll Blood, Phoenix Tears, Song of Survival).</p>
+                <p>States imparted at the same time as a killing blow are considered to have taken effect prior to death. If a State which prevented a player from moving expires due to its duration ending, the player it affected must declare, “No longer [State that ended]”. This must be audible out to 20 feet.</p>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
+
             </div>
 
     </div><!-- /footer -->
@@ -51,7 +54,7 @@
 </div>
 <!-- States Defined /page -->
 
-<!-- States Made Easy Page -->
+<!-- Abilities, States, and Special Effects Made Easy Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="StatesMadeEasy">
 
 <%= erb :'sections/header' %>
@@ -61,16 +64,21 @@
 
     <div role="main" class="ui-content">
             <div class="jqm-block-content">
-                <h3>States Made Easy</h3>
-                <p>The number and variety of Magic, Abilities, States, and Special Effects can seem overwhelming, but it doesn’t have to be. Here are a few quick steps to help you learn what you need to know to play on the field with magic and abilities.</p>
-                <p>Only three things can adversely affect you: Weapons, Magic Balls, and Verbals.</p>
-                <p>Weapons and Magic Balls have to physically hit you or your equipment to have an effect. No hit, no effect, no problem.</p>
-                <p>Engulfing Magic Balls (Iceball, etc) and weapons (Pinning Arrow, etc) can affect you by hitting your equipment or garb. Everything else has to hit your body. Engulfing isn’t terribly common.</p>
-                <p>Verbal Magic and Abilities all follow the same format: They state your name, point at you, and say an incantation of three repetitions of a phrase that activates the Verbal.</p>
-                <p>All offensive Verbals have very descriptive incantations. The incantation typically contains the School and the State of the Magic or Ability being used. Example: The incantation for Hold Person is “I command thee to stop” three times; The School is ‘Command’ and the State it inflicts is ‘Stopped’.</p>
-                <p>No Verbal has a range greater than 50’. If you can get further away from the caster than that you won’t be affected.</p>
-                <p>There are lots of Magic and Abilities, but only a few results. If you read through and understand the States Defined and Special Effects Defined sections you will understand the result of any Magic or Ability used against you in combat on the field. All offensive combat abilities (with very few exceptions) result in one of those States or Special Effects. If you don’t know what a magic or ability does by its incantation don’t worry; ask the caster to explain and they can communicate to you in just a couple of words exactly what happened using States and Special Effects.</p>
-                <p>Immunities are also very simple: If the Magic or Ability targeting you is of a given School (which is always part of the incantation) and you have Immunity to that School, then the magic or ability has no effect on you. The only exception is if they are targeting equipment you are carrying instead of you yourself, but the player will have to indicate that as part of using the Magic or Ability. If you are unaffected by a Magic or Ability, you must announce it when the Magic or Ability is complete. You can also let them know before hand if you’re feeling generous</p>
+                <h3>Abilities, States, and Special Effects Made Easy</h3>
+                <p>The number and variety of Abilities, States, and Special Effects can seem overwhelming, but it doesn't have to be. Here are a few quick steps to help you learn what you need to know to play on the field with magic and abilities.</p>
+                <p>Only three things can adversely affect you: Weapons, Ammunition, Magic Balls, and Verbals.</p>
+                <p>Most weapons and Magic Balls have to physically hit you or your equipment to have an effect. No hit, no effect, no problem.</p>
+                <p>Certain Magic Balls and Specialty Arrows are Engulfing (Iceball, Pinning Arrow, etc), meaning that they can also affect you by hitting your carried equipment or garb. Everything else has to hit your body.</p>
+                <p>Verbal abilities generally follow the same format: They state your name, point at you, and say an incantation of three repetitions of a phrase that casts the Verbal.
+                <ul style="list-style-type: none;">
+                    <li>All offensive Verbals have very descriptive incantations. The incantation typically contains the School and the State of the ability being used. Example: The incantation for Hold Person is “I command thee to stop” three times; the School is ‘Command' and the State it inflicts is ‘Stopped'.</li>
+                    <li>No Verbal has a range greater than 50'. If you can get further away from the caster than that you won't be affected.</li>
+                </ul>
+                </p>
+                <p>There are lots of abilities, but only a few results. If you read through and understand the States Defined and Special Effects Defined sections below you will understand the result of any ability used against you in combat on the field. All offensive combat abilities (with very few exceptions) result in one of those States or Special Effects. If you don't know what an ability does by its incantation don't worry; ask the caster to explain and they can communicate to you in just a couple of words exactly what happened using States and Special Effects.</p>
+                <p>Immunities are also very simple: If the ability targeting you is of a given School (which is always part of the incantation) and you have Immunity to that School, then the ability has no effect on you. The only exceptions are if they affect your equipment or your Enchantments instead of you yourself, but there are only a few abilities that do that. If you are unaffected by an ability, you must declare so when the ability is complete. You can also let them know beforehand if you're feeling generous.</p>
+                <p>Declaring means to give information of the game state verbally. Some abilities and mechanics require declaration. Other things, such as your States, Ongoing Effects, armor points, safety information, etc can be declared at any time. You may make declarations even if you otherwise would not be able to speak, such as by being Frozen or Stunned.</p>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -78,7 +86,7 @@
     </div><!-- /content -->
 
 </div>
-<!-- States Made Easy /page -->
+<!-- Abilities, States, and Special Effects Made Easy /page -->
 
 <!-- Cursed Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Cursed">
@@ -92,7 +100,7 @@
             <div class="jqm-block-content">
                 <h3>Cursed</h3>
                 <p>Player becomes Immune to Spirit. Has no effect on magic or abilities already cast or ongoing. Cursed persists after death but is removed on Respawn. Cursed imparted by an Enchantment cannot be removed in any way while the Enchantment is worn, whether it is active or inactive. If the Enchantment is removed, Cursed is not removed unless otherwise noted</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -114,7 +122,7 @@
             <div class="jqm-block-content">
                 <h3>Fragile</h3>
                 <p>Player dies on the next Wound</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -136,7 +144,7 @@
             <div class="jqm-block-content">
                 <h3>Frozen</h3>
                 <p>Player may not move, speak, or take any action. Can only be affected by mechanics that work on States in general (such as Release) or Frozen in specific (such as Shatter). Otherwise the player and their carried or worn equipment is not affected by combat, magic, etc</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -145,39 +153,6 @@
 
 </div>
 <!-- Frozen /page -->
-
-<!-- Immune Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="Immune">
-
-<%= erb :'sections/header' %>
-<%= erb :'sections/nav-panel' %>
-<%= erb :'sections/search-panel', locals: {loaded: @loaded} %>
-<% @loaded = 'true' %>
-
-    <div role="main" class="ui-content">
-            <div class="jqm-block-content">
-                <h3>Immune</h3>
-                <p>The bearing player or object is not affected by Magic or Abilities from a given School.<br>
-                Unless otherwise noted:
-                </p>
-                <ol>
-                    <li>Immunities always take effect after Traits but before Resistances and any other effects</li>
-                    <li>Immunity granted as a Trait does not prevent players from making use of their own class Abilities</li>
-                    <li>Unless otherwise noted, Immunities do not extend beyond the player or object that has them. Example: A player with Immunity to Flame can still have their armor destroyed by a Fireball</li>
-                    <li>If a player is Immune to an effect which would remove a State or ongoing effect, the State/ongoing effect is not removed. Example: A player who is Immune to Sorcery cannot be Released from Frozen, as they cannot be affected by Release, a Sorcery school ability</li>
-                    <li>Players with Immunities may still be targeted by Magic and Abilities of the given School. Example: A player with Immunity to Flame can still be the target of Pyrotechnics which would still destroy their equipment (as Immunities do not extend to equipment unless noted)</li>
-                    <li>Immunities do not interact with Enchantments worn by the player. Example One: An Anti-paladin may wear the Flame Blade Enchantment. Example Two: A player with Protection From Magic still gains Stopped if Heart of the Swarm is later cast on them. Example Three: A player may still benefit from the Heal from Regeneration, even if they are Cursed. Example Four: A player with Greater Undead Minion and Enlightened Soul would still have their enchantment removed when Banish is cast on them while insubstantial</li>
-                    <li>A target becoming Immune to the source of an ongoing effect or State while it is applied does not remove ongoing effects or States currently affecting the target. Example: If a player who is Stopped by Hold Person casts Song of Determination on themselves, that player remains Stopped</li>
-                </ol>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
-            </div>
-
-    </div><!-- /footer -->
-
-    </div><!-- /content -->
-
-</div>
-<!-- Immune /page -->
 
 <!-- Insubstantial Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Insubstantial">
@@ -207,7 +182,7 @@
                         <li>May not delay the game excessively. For instance, you may not use the Insubstantial State to avoid being killed if you are the last player alive in a Mutual Annihiliation battlegame. The reeves decision in these situations is final</li>
                     </ol>
                 </p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -229,7 +204,7 @@
             <div class="jqm-block-content">
                 <h3>Invulnerable</h3>
                 <p>The player and their carried or worn equipment are not affected by combat, magic, etc that do not specifically work on Invulnerable players. The player is incapable of physically interacting with game items, objectives, or other players in any way other than abilities that specifically allow them to. This does not prevent you from retrieving equipment.</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -251,7 +226,7 @@
             <div class="jqm-block-content">
                 <h3>Stopped</h3>
                 <p>Player may not move their feet. Abilities that allow or require movement fail only if they are cast while the target is Stopped. If an Enchantment effect triggers while a player is Stopped, the activated effect is still applied but cannot be completed until the Stopped state ends. Example: A player is enchanted with Gift of Air and is later Stopped, then hit with a melee weapon. They remain Stopped for the duration of the Stopped effect, then may choose to return to base</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
             </div>
 
     </div><!-- /footer -->
@@ -273,7 +248,8 @@
             <div class="jqm-block-content">
                 <h3>Stunned</h3>
                 <p>Player is unable to act in any manner. May still be affected as per normal</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
+
             </div>
 
     </div><!-- /footer -->
@@ -295,7 +271,8 @@
             <div class="jqm-block-content">
                 <h3>Suppressed</h3>
                 <p>Player unable to cast magic or activate abilities. Has no effect on abilities already activated, magic already cast, Chants already in progress, or enchantments activating such as Phoenix Tears</p>
-                <p><a href="/states/" data-ajax="false">Return to all States</>
+                <p><i><a href="#states">Back to States Overview</a></i></p>
+
             </div>
 
     </div><!-- /footer -->
