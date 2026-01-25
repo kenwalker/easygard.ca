@@ -1484,7 +1484,7 @@
     "r": "20'",
     "i": "\"My power closes the aether to you\" x3",
     "e": "Target player has their <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial",
-    "n": "Planar Grounding causes Enchantments that automatically render their bearer <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, such as Undead Minion, to fail and be removed if they activate while Planar Grounding is in effect"
+    "n": "Planar Grounding causes Enchantments that automatically render their bearer <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, such as <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a>, to fail and be removed if they activate while Planar Grounding is in effect"
   },
   "poison": {
     "name": "Poison",
