@@ -5,6 +5,7 @@
     },
     "e": "Target is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 60 seconds. Ignores armor",
     "i": "\"The strength of aether is mine to evoke\" x3",
+    "if": "\"J'invoque la force sybilline de l'éther\" x3",
     "keywords": "abeyance ball green subdual healer",
     "m": "Green Magic Ball",
     "name": "Abeyance",
