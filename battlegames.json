@@ -73,6 +73,23 @@
     "equipment": "",
     "description": "<br>Teams of two take turns defending against four attackers. At its simplest, the game is about learning to fight as a team against other teams, so who wins and who loses doesn't matter. However, a variation exists where two-man teams will fight continuous waves of four-man teams until the two- man team is defeated. If multiple two-man teams run this gauntlet, the team with the most wins, wins the day."
   },
+  "bossboomscramble": {
+    "name": "Boss Room Scramble",
+    "credit": "Ilkay",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": "15 seconds from last party member death",
+    "players": "3-4 per team",
+    "objective": "Be the first team to teleport out of the dungeon with an artifact",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "A park weapon, shield, and/or staff (Recommend only one for park games, two for larger games), one teleport crystal per team",
+    "description": "<br>After having slain the boss monster in the dungeon, you and your party collect your prize - a legendary artifact! But as you’re beginning the incant to activate your teleportation crystal, other adventurers stumble upon you and seek to fight you for your prize!<br><b>Artifact Examples:</b><br><ul><li><b>All</b> If the wielder is killed, the artifact is dropped in place. Artifacts may be wielded regardless of class. Any effect that would heat or destroy the artifact instead forces it to be dropped for 10 seconds for everyone - player immunities do not apply to Heat Weapon, though protective enchantments do if they would affect equipment (eg, Blessed Aura). In games with multiple artifacts, only one artifact may be held at a time. The artifact must be wielded when carried.</li><li><b>Vorpal Weapon</b> The weapon is SCAB and Wounds Kill. Wielder may use Brutal Strike (Unlimited). The wielder is Cursed so long as they hold the weapon</li><li><b>Adamantine Shield</b> The shield is affected as per Imbue Shield. The wielder gains Enlightened Soul. The wielder is Suppressed so long as they hold the shield</li><li><b>Arcmage’s Staff</b> The wielder gains Instant (Unlimited). The wielder is Fragile so long as they hold the weapon</li></ul><b>The Teleportation Crystals:</b> A crystal requires an open hand to activate. To be activated the wielder must chant (audible to 50ft!) “Teleporting 1, Teleporting 2, … Teleporting 30.” While chanting, the wielder may walk, but is slowed. Only people within ten feet of the wielder are teleported with them. If the teleport crystal goes off without an artifact nearby, the bearer is simply sent to base, as per Lost.<br><b>Map:</b> No specific requirements are needed for a map, other than that players should all start equidistant from the artifact at the beginning of the game.<br><b>Scenario Additions:</b> This can make for a fun way to hand out artifacts at the end of a large scenario game. In that case consider instead handing out a weapon that confers some of the abilities (actual or thematic) of the slain boss monster, such as a lich’s staff that grants Charge x3 on Death abilities.<br><b>Notes:</b> The reeve should generally follow the artifact while staying distant enough to avoid impeding combat. This also allows players a visual indicator of the approximate location of the artifact. "
+  },
   "bountyhunt": {
     "name": "Bounty Hunt",
     "credit": "Dor un Avathar / By Night They Dance",
@@ -222,6 +239,23 @@
     "equipment": "Bins at bases and bins or chests of tokens",
     "description": "<br>Two (or more) teams set up in an equidistant pattern around the edge of the field. Each team’s base has a bin or deposit point in front of it, and a bin or chest of treasure tokens should sit in the center of the field. The game works best with roughly two to three tokens available per player.<p>Players can grab treasure tokens from the center chest by carrying one in a free hand, and running it back to their deposit point or chest. Treasure can be retrieved from any opposing team’s deposit point as well.<p>The game ends after a predetermined time (suggested to be 20 minutes). The team with the most tokens in their chest at the end of the time limit wins."
   },
+  "defendtheforge": {
+    "name": "Defend the Forge",
+    "credit": "Ilkay",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": "30 seconds. Raiders spawn in the red zone. Guards spawn in the blue zone.",
+    "players": "4+ per team",
+    "objective": "Raiders want to bomb the forge. Guards want to defend the forge.",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "A bin (the forge) and a small object (the bomb)",
+    "description": "<br>Raiders are attacking the town forge. If they can plant or throw their bomb into the forge, the bomb will go off, ending the game.<br><b>The Bomb</b><br>The bomb is a small object, roughly dagger sized. The raider team may have only one bomb in their possession at a time. A bomb takes one free hand to carry and is considered a weapon for the purpose of any effects. If a player is killed, frozen, or stunned while carrying a bomb, it falls harmlessly on the ground. A bomb may also be placed or dropped safely. If a bomb is damaged, thrown and lands on the ground, or is subjected to a Flame school effect, it will explode. Any player caught in the explosion is killed. A player is considered caught in the explosion if they are carrying the bomb when it explodes, strike the bomb with a melee weapon, or make contact with it during a throw but after failing to secure it the bomb strikes the ground. The guards may also disarm the bomb on a five count (but may not otherwise move the bomb). When a bomb explodes or is disarmed, it may be returned to base by a dead member of the raider team, or a nearby live member may declare themselves out of game to return the bomb. If the latter, they resume play as soon as the bomb has been placed in their base.<br><b>The Forge</b><br>The mouth of the forge is roughly 2ftx2ft (ideally use a bin shaped container), situated on the opposite side from where the guards are entering the battlefield, near-ish the doorway. It cannot be moved, and the magic and heat within makes it too dangerous to place one’s body or equipment over it (even for those immune to flame). The bomb may be placed or thrown into the forge to destroy it. The game ends in the raiders’ victory if the forge is destroyed.<br><br><b>Map</b><br><img src='/images/defendtheforge.png'>"
+  },
   "domination": {
     "name": "Domination",
     "credit": "Elm the Bold / Ursus MacGroighar / Wunjo, Twilight Peak",
@@ -268,6 +302,23 @@
     ],
     "equipment": "Hula-hoops or something for zones",
     "description": "<br>Two zones are placed on the field between the two Teams. Hula-hoops work best for the zones, but anything comparable will work. To score points, Players enter these scoring zones and Charge x3.<p>Only one player may occupy and Charge a zone at a time. The most points after 20 minutes wins.<p>Note that Song of Power will reduce the repetitions of the Charge incant required to score points.<p>Originally, this game was intended to be played with every Player playing the Bard class. However, it will work just as well with all classes available to Players (however, keep in mind Bards while balancing, since Song of Power can swing the balance greatly)."
+  },
+  "elementalpyre": {
+    "name": "Elemental Pyre",
+    "credit": "Ilkay",
+    "teams": "4",
+    "lives": "Infinite",
+    "respawn": "30 seconds from death",
+    "players": "8+",
+    "objective": "Steal fuel from competing teams to build your elemental pyre",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Four elementals, one of each type, Buckets, Balls",
+    "description": "<br>Competing groups are seeking to make their respective elementals the local patron and protector. To empower them, each group is trying to collect fuel for an offering pyre to strengthen their respective elementals.<br><b>Fuel:</b> Only one piece of fuel may be carried at a time, but it does not require a free hand to carry. Fuel starts play in the center of the field. Fuel may be handed off. If a player is killed while stealing a piece of fuel, it drops and may be picked up by anyone else. Fuel may be stolen from another team’s pyre.<br><b>Elementals:</b> Each surviving team’s Elemental gains strength as the game goes on. In round one they will be standard Elementals. In round 2 they will be Greater Elementals. In round 3 they will be Primal Elementals. Elemental players should take some time between rounds to remind themselves of what they gain with each tier. Elementals on a losing team will become subservient to whichever team takes them. After round 2, the losing Greater Elemental is lowered down to a standard elemental.<br><b>Rounds:</b> After 7 minutes, play will be halted. The team with the lowest amount of fuel will be split up among the winning teams. Fuel from the losing team will be placed in the center of the field.<br><b>Map:</b> Pyres should be placed equidistant in a roughly square shape. Fire and Water should be opposite from each other, as should Earth and Air."
   },
   "epicbattlegame": {
     "name": "EPIC Battlegame",
@@ -754,6 +805,21 @@
     ],
     "equipment": "Flagging tape, tokens for fish, bungee cord or rope",
     "description": "<br>In the center of the field, a rectangular area is created (sized based on the game, but examples include 20ft x 50ft and 50ft x 100ft), which represents the \"Fish Tank.\" One team is a raiding party trying to acquire some fresh seafood for their employer, while the other team represents the tank's owners who are defending their stock.<p>Players on either team can capture fish (signified by pylons, tokens, whatever is on hand in quantity), or fight and defeat a kraken tentacle, and return it to their Base. Players must enter the tank (signified by crawling on their knees as if in a Water Terrain Effect) to retrieve fish tokens, which can be carried in a free hand and cannot be made unavailable (i.e. through Insubstantial or Frozen).<p>Fighting and defeating the Kraken tentacle will allow the player who killed the tentacle to grab a piece of tentacle (denoted by a bandana or flag) which can be returned to their base for points as well. Statistics for the tentacle are below.<p>Fish and Kraken Tentacles are removed from play once they are returned to a Base and counted for points, however, they may be stolen by the opposing team by killing the player carrying them while they are in transit.<p>For counting points, Fish are worth 1 point, and Tentacles are worth 5. The team with the most points accumulated by the end of the game (suggested 30 minutes) wins.<p><p><b>Kraken Tentacles:</b><p>Signified by two NPCs connected by a bungee cord or rope.<p><i>Weapons:</i> Any melee; All weapons are considered Armour Breaking and Shield Crushing<p><i>Armour:</i> None; Protected by three stacked Blessing against Harm enchantments each (T)<p><i>Immunities:</i> None; Protected by an Enlightened Soul enchantment (T)<p><i>Aquatic:</i> May move without penalty through Water Terrain Effects. One player must remain inside the tank at all times.<p><i>Connected:</i> Both players must be defeated to earn a piece of Tentacle to score points."
+  },
+  "shovepayload": {
+    "name": "Shove Payload",
+    "credit": "Sidney Phipps",
+    "teams": "2",
+    "lives": "Unlimited",
+    "respawn": "30-60 seconds (depending on player c",
+    "players": "3+ per team",
+    "objective": "Shove the payload into the opposing team's base",
+    "refresh": "Every 30 minutes",
+    "types": [
+      "class"
+    ],
+    "equipment": "Suppression Bolts, Heavy Objects for Payloads",
+    "description": "There will be A heavy 2 payload placed on either far side of the playing field directly across from one another. In order to score a point one team needs Both payloads on their side of the field. They are captured by capturing count 1-11 and if they are set down at any point for any reason it must be captured again to move it. They may only be moved in a straight line as to not circumvent the monster. Between these payloads there will be a monster, this monster is stopped in the center of the 2 payloads, has unlimited shoves, is immune to all magic, and players may not hit this monster with mele weapons. In order to Bypass this monster there will be 2-4 (depending on number of players) suppression bolts laid out for the players anyone may use these they are light one game objects. Players may not go insubstantial with them and must drop them upon death. The suppression bolts laid out by the Reeve for the game are the ONLY thing able to affect the monster. First team to 2 points wins. Or whatever your players want :)"
   },
   "theaxegame": {
     "name": "The Axe Game",
