@@ -252,7 +252,7 @@
     "i": "\"Be a bastion of healing\" x3",
     "if": "\"Sois une citadelle de soins“ x3",
     "m": "3 Yellow strips",
-    "e": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\" / \"<i>&lt;Joueur&gt; tu es rétabli</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\" (fr: \"<i>&lt;Joueur&gt; tu es rétabli</i>\") and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "battlemage": {
     "name": "Battlemage",
