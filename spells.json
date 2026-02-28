@@ -468,7 +468,7 @@
     "s": "Death",
     "r": "Other",
     "i": "\"May thou bear this plague to all\" x3",
-    "if": "\"Les miasmes de la corrosion t'enveloppent\" x3",
+    "if": "\"Porte ce fléau à tous\" x3",
     "m": "Red Strip",
     "e": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
   },
@@ -574,7 +574,7 @@
     "i": "\"My discordant melodies shall stymie my foes\" x3",
     "if": "\"Que mon remue-ménage déconcentre mes ennemis\" x3",
     "m": "Five red strips",
-    "e": "Bearer may cast Break Concentration (m) by incanting \"<i>&gt:Player&lt; thou art suppressed</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": "Bearer may cast Break Concentration (m) by incanting \"<i>&gt:Player&lt; thou art suppressed</i>\" (fr: \"<i>&gt:Joueur&lt; tu es bâillonné</i>\") and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "dispelmagic": {
     "name": "Dispel Magic",
@@ -1096,7 +1096,7 @@
     "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
     "if": "\"Qui s'oppose à la ruche subit le venin de l'essaim\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
+    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" (fr: \"Ma vie pour l'essaim.\") Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
     "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20' of the bearer"
   },
   "heatweapon": {
@@ -1110,7 +1110,7 @@
     "s": "Flame",
     "r": "20'",
     "i": "\"I call upon flame to heat that [type of weapon]\" x3",
-    "if": "\"J'invoque les flammes pour brûler ce [type d'arme]\" x3",
+    "if": "\"J'invoque les flammes pour chauffer ce [type d'arme]\" x3",
     "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon",
     "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this ability to affect it"
   },
@@ -1846,7 +1846,7 @@
     "r": "Self",
     "i": "\"Sanctuary\"",
     "if": "\"Asile\"",
-    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\". Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
+    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\" (fr: \"asile\"). Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
     "l": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20' of a friendly base, and must continue chanting until there. Player may not cast this ability while they have any weapons in hand. Cannot interact with game items nor game objectives, nor impede the play of other people in any manner, and must immediately move to avoid such situations. May not come within 20' of a non-friendly base",
     "n": "The exit declaration must be audible out to 20 feet"
   },
