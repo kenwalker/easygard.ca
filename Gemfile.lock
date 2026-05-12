@@ -15,6 +15,8 @@ GEM
       rack (>= 3.0.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
+    rackup (2.3.1)
+      rack (>= 3)
     ruby2_keywords (0.0.5)
     sinatra (4.0.0)
       mustermann (~> 3.0)
@@ -32,6 +34,7 @@ DEPENDENCIES
   json
   openssl (~> 3.1)
   puma
+  rackup (~> 2.3)
   sinatra
   webrick
 

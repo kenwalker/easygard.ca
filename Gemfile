@@ -7,3 +7,5 @@ ruby '3.3.8'
 
 
 gem "openssl", "~> 3.1"
+
+gem "rackup", "~> 2.3"

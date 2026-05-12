@@ -1,10 +1,20 @@
 require 'sinatra'
+require 'json'
 
 require_relative 'spells'
 require_relative 'battlegames'
 
 spells = Spells.new()
 battlegames = Battlegames.new()
+
+helpers do
+	def cache_version
+		File.read(File.expand_path('public/service-worker.js', __dir__))
+			.match(/CACHE_VERSION\s*=\s*'([^']+)'/)[1]
+	rescue
+		'unknown'
+	end
+end
 
 get '/' do 
 	erb :home

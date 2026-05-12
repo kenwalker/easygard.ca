@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git log *)",
+      "Bash(xargs -I {} git show --stat {})",
+      "Bash(ruby -v)",
+      "Bash(bundle install *)",
+      "Bash(bundle exec *)",
+      "Bash(curl -sI http://localhost:4567/)",
+      "Bash(bundle add *)",
+      "Bash(curl -sI http://localhost:4567/service-worker.js)",
+      "Bash(kill bt6tmharm *)",
+      "Bash(pkill -f \"ruby easygard.rb\")",
+      "Bash(curl -s http://localhost:4567/)",
+      "Bash(lsof -ti:4567)",
+      "Bash(xargs -r kill -9)"
+    ]
+  }
+}
