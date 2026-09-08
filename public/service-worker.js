@@ -3,7 +3,7 @@
 // comment). Browsers re-fetch this file on each navigation; if any byte
 // here changes, the SW is treated as a new version, runs install/activate,
 // and deletes old caches before serving requests from the new one.
-const CACHE_VERSION = 'easygard-v1.0.73';
+const CACHE_VERSION = 'easygard-v1.0.74';
 
 const PRECACHE_URLS = [
   '/',
