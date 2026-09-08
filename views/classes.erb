@@ -78,7 +78,7 @@
   <div role="main" class="ui-content">
     <div class="jqm-block-content">
       <h3>Credits and Levels</h3>
-      <p>Only one attendance credit may be given on a single day, in any class. Following their corpora, Kingdoms are allowed to award a maximum of 12 total bonus credits (credits above and beyond attendance credits) to any player in a single month and no more than 3 bonus credits may be issued per 1 attendance credit.</p>
+      <p>Only one attendance credit may be given on a single day, in any class. Following their corpora, Kingdoms are allowed to award a maximum of 16 total bonus credits (credits above and beyond attendance credits) to any player in a single month and no more than 3 bonus credits may be issued per 1 attendance credit.</p>
       <p> If you wish to fight or participate in a battlegame, you must conform to one class for each game. A person must have the requisite credits in order to play higher class level, though you may take credits in any class. All classes gain new abilities and levels at the following rate:</p>
       <table data-role="table" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-popup-theme="a">
         <thead>
@@ -137,7 +137,7 @@
         </ul>
         <b>Armor:</b> 2 Points<br>
         <b>Shields:</b> None<br>
-        <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#Short" data-ajax="false">Short</a>, <a href="/weapons/#Long" data-ajax="false">Long</a>, <a href="/weapons/#Projectiles" data-ajax="false">Light Throwing</a>, <a href="/weapons/#Projectiles" data-ajax="false">Heavy Throwing</a>, <a href="/weapons/#Bow" data-ajax="false">Bow</a><br>
+        <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#Short" data-ajax="false">Short</a>, <a href="/weapons/#Long" data-ajax="false">Long</a>, <a href="/weapons/#Projectiles" data-ajax="false">Light Thrown</a>, <a href="/weapons/#Projectiles" data-ajax="false">Heavy Thrown</a>, <a href="/weapons/#Bow" data-ajax="false">Bow</a><br>
       </p>
       <h3>Abilities by Level</h3>
       <table data-role="table" id="table-custom-lvl1-assassin" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
@@ -170,7 +170,7 @@
             <th><a href="/spells/s#shadowstep" data-ajax="false">Shadow Step</a></th>
             <td>2/Life</td>
             <td>(ex)</td>
-            <td>Ambulant</td>
+            <td>-</td>
           </tr>
           <tr>
             <th>2</th>
@@ -284,7 +284,7 @@
           </tr>
           <tr>
             <th>3</th>
-            <th><a href="/spells/e#extendimmunities" data-ajax="false">Extend Immunities</a></th>
+            <th><a href="/spells/p#protectionfromevil" data-ajax="false">Protection from Evil</a></th>
             <td>1/Refresh Charge x5</td>
             <td>(ex)</td>
             <td>-</td>
@@ -481,7 +481,7 @@
           <tr>
             <th>5</th>
             <th><a href="/spells/s#shakeitoff" data-ajax="false">Shake It Off</a></th>
-            <td>1/Refresh Charge x3</td>
+            <td>1/Life Charge x3</td>
             <td>(ex)</td>
             <td>-</td>
           </tr>
@@ -520,7 +520,7 @@
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
         <b>Garb:</b> Green sash and medieval/sword and sorcery looking garb<br>
-        <b>Look The Part:</b> <a href="/spells/h#heal" data-ajax="false">Heal</a> 1/Life (ex)<br>
+        <b>Look The Part:</b> <a href="/spells/h#heal" data-ajax="false">Heal</a> 1/Life Charge x5 (ex)<br>
         <b>Armor:</b> 3 Points<br>
         <b>Shields:</b> Small<br>
         <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#Short" data-ajax="false">Short</a>, <a href="/weapons/#Long" data-ajax="false">Long</a>, <a href="/weapons/#Projectiles" data-ajax="false">Heavy Thrown</a>, <a href="/weapons/#Bow" data-ajax="false">Bow</a><br>
@@ -545,9 +545,16 @@
             <td>Ambulant</td>
           </tr>
           <tr>
+            <th>1</th>
+            <th><a href="/spells/e#evolution" data-ajax="false">Evolution</a></th>
+            <td>-</td>
+            <td>Trait</td>
+            <td>-</td>
+          </tr>
+          <tr>
             <th>2</th>
             <th><a href="/spells/h#heal" data-ajax="false">Heal</a></th>
-            <td>1/Life</td>
+            <td>1/Life Charge x5</td>
             <td>(ex)</td>
             <td>-</td>
           </tr>
@@ -593,9 +600,16 @@
           </tr>
           <tr>
             <th>5</th>
-            <th><a href="/spells/e#evolution" data-ajax="false">Evolution</a></th>
+            <th><a href="/spells/h#heal" data-ajax="false">Heal</a></th>
+            <td>1/Life Charge x5</td>
+            <td>(ex)</td>
             <td>-</td>
-            <td>Trait</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <th><a href="/spells/r#release" data-ajax="false">Release</a></th>
+            <td>1/Life Charge x3</td>
+            <td>(ex)</td>
             <td>-</td>
           </tr>
           <tr>
@@ -632,7 +646,7 @@
     <h3 class="ui-bar ui-bar-a ui-corner-all">Monk - Melee</h3>
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
-        <b>Garb:</b> Grey sash and medieval/sword and sorcery looking garb<br>
+        <b>Garb:</b> Gray sash and medieval/sword and sorcery looking garb<br>
         <b>Look The Part:</b> <a href="/spells/h#heal" data-ajax="false">Heal</a> 1/Life (ex)<br>
         <b>Armor:</b> 1 Point<br>
         <b>Shields:</b> None<br>
@@ -659,7 +673,7 @@
           </tr>
           <tr>
             <th>1</th>
-            <th><a href="/spells/m#missileblock" data-ajax="false">Missle Block</a></th>
+            <th><a href="/spells/m#missileblock" data-ajax="false">Missile Block</a></th>
             <td>-</td>
             <td>Trait</td>
             <td>-</td>
@@ -668,7 +682,7 @@
             <th>2</th>
             <th><a href="/spells/b#banish" data-ajax="false">Banish</a></th>
             <td>1/Life Charge x5</td>
-            <td>(ex)</td>
+            <td>(m)</td>
             <td>-</td>
           </tr>
           <tr>
@@ -695,7 +709,7 @@
           <tr>
             <th>6</th>
             <th><a href="/spells/i#innate" data-ajax="false">Innate</a></th>
-            <td>1/Life</td>
+            <td>2/Life</td>
             <td>(ex)</td>
             <td>-</td>
           </tr>
@@ -897,7 +911,7 @@
           <tr>
             <th>4</th>
             <th><a href="/spells/s#suppressionarrow" data-ajax="false">Suppression Arrow</a></th>
-            <td>Unlimited</td>
+            <td>2 Arrows / Unlimited</td>
             <td>(ex)</td>
             <td>-</td>
           </tr>
@@ -921,7 +935,7 @@
           <tr>
             <th>6</th>
             <th><a href="/spells/p#phasearrow" data-ajax="false">Phase Arrow</a></th>
-            <td>1 Arrow / Unlimited</td>
+            <td>2 Arrows / Unlimited</td>
             <td>(ex)</td>
             <td>-</td>
           </tr>
@@ -953,11 +967,11 @@
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
         <b>Garb:</b> Red sash and medieval/sword and sorcery looking garb<br>
-        <b>Look The Part:</b> 1 extra point of magic at the Healers highest level<br>
+        <b>Look The Part:</b> 1 extra magic point at the Healer's highest level<br>
         <b>Armor:</b> None<br>
         <b>Shields:</b> None<br>
         <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#MagicStaff" data-ajax="false">Magic Staff</a><br>
-        <b>Magic User:</b> Healers may purchase five magic points from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities.<br>
+        <b>Magic User:</b> Healers may purchase five magic points from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities. Magic Users must have an empty hand to cast their abilities.<br>
       </p>
       <h3>1st Level Spells</h3>
       <table data-role="table" id="table-custom-lvl1-healer" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
@@ -1237,7 +1251,7 @@
             <td>1/Refresh Charge x5</td>
             <td>Verbal</td>
             <td>Spirit</td>
-            <td>Touch</td>
+            <td>Other</td>
           </tr>
         </tbody>
       </table>
@@ -1258,8 +1272,8 @@
           <tr>
             <th><a href="/spells/b#blessingagainstharm" data-ajax="false">Blessing Against Harm</a></th>
             <td>1</td>
-            <td>-</td>
-            <td>1/Refresh</td>
+            <td>2</td>
+            <td>1/Life</td>
             <td>Enchantment</td>
             <td>Protection</td>
             <td>Other</td>
@@ -1271,7 +1285,7 @@
             <td>1/Refresh Charge x10</td>
             <td>Verbal</td>
             <td>Protection</td>
-            <td>Self</td>
+            <td>Touch</td>
           </tr>
           <tr>
             <th><a href="/spells/d#dispelmagic" data-ajax="false">Dispel Magic</a></th>
@@ -1292,7 +1306,7 @@
             <td>Touch</td>
           </tr>
           <tr>
-            <th><a href="/spells/i#imbueshield" data-ajax="false">Imbue Shield</a></th>
+            <th><a href="/spells/i#imbue" data-ajax="false">Imbue</a></th>
             <td>1</td>
             <td>2</td>
             <td>2/Refresh</td>
@@ -1364,8 +1378,8 @@
           <tr>
             <th><a href="/spells/b#blessedaura" data-ajax="false">Blessed Aura</a></th>
             <td>1</td>
-            <td>-</td>
-            <td>1/Refresh</td>
+            <td>2</td>
+            <td>1/Life</td>
             <td>Enchantment</td>
             <td>Protection</td>
             <td>Other</td>
@@ -1386,7 +1400,7 @@
             <td>1/Refresh</td>
             <td>Verbal</td>
             <td>Spirit</td>
-            <td>Touch</td>
+            <td>Other</td>
           </tr>
           <tr>
             <th><a href="/spells/s#steallifeessence" data-ajax="false">Steal Life Essence</a></th>
@@ -1442,7 +1456,7 @@
           </tr>
           <tr>
             <th><a href="/spells/n#necromancer" data-ajax="false">Necromancer</a></th>
-            <td>1</td>
+            <td>2</td>
             <td>1</td>
             <td>-</td>
             <td>Archetype</td>
@@ -1520,11 +1534,11 @@
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
         <b>Garb:</b> Brown sash and medieval/sword and sorcery looking garb<br>
-        <b>Look The Part:</b> 1 extra point of magic at the Druids highest level<br>
+        <b>Look The Part:</b> 1 extra magic point at the Druid's highest level<br>
         <b>Armor:</b> None<br>
         <b>Shields:</b> None<br>
         <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#MagicStaff" data-ajax="false">Magic Staff</a><br>
-        <b>Magic User:</b> Druids may purchase five magic points from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities.<br>
+        <b>Magic User:</b> Druids may purchase five magic points from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities. Magic Users must have an empty hand to cast their abilities.<br>
       </p>
       <h3>1st Level Spells</h3>
       <table data-role="table" id="table-custom-lvl1-druid" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
@@ -1586,7 +1600,7 @@
             <td>20'</td>
           </tr>
           <tr>
-            <th><a href="/spells/i#imbuearmor" data-ajax="false">Imbue Armor</a></th>
+            <th><a href="/spells/h#hardenarmor" data-ajax="false">Harden Armor</a></th>
             <td>1</td>
             <td>-</td>
             <td>1/Life</td>
@@ -1971,7 +1985,7 @@
             <td>1/Refresh</td>
             <td>Verbal</td>
             <td>Spirit</td>
-            <td>Touch</td>
+            <td>Other</td>
           </tr>
           <tr>
             <th><a href="/spells/t#trollblood" data-ajax="false">Troll Blood</a></th>
@@ -2000,7 +2014,7 @@
         <tbody>
           <tr>
             <th><a href="/spells/a#avatarofnature" data-ajax="false">Avatar of Nature</a></th>
-            <td>1</td>
+            <td>2</td>
             <td>1</td>
             <td>-</td>
             <td>Archetype</td>
@@ -2017,7 +2031,7 @@
             <td>20'</td>
           </tr>
           <tr>
-            <th><a href="/spells/i#imbueweapon" data-ajax="false">Imbue Weapon</a></th>
+            <th><a href="/spells/t#toxicblades" data-ajax="false">Toxic Blades</a></th>
             <td>1</td>
             <td>-</td>
             <td>1/Refresh</td>
@@ -2087,11 +2101,11 @@
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
         <b>Garb:</b> Light blue sash and medieval/sword and sorcery looking garb<br>
-        <b>Look The Part:</b> 1 extra point of magic at the Bards highest level<br>
+        <b>Look The Part:</b> 1 extra magic point at the Bard's highest level<br>
         <b>Armor:</b> None<br>
         <b>Shields:</b> None<br>
         <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#MagicStaff" data-ajax="false">Magic Staff</a><br>
-        <b>Magic User:</b> Bards may purchase five magic points from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities.<br>
+        <b>Magic User:</b> Bards may purchase five magic points from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities. Magic Users must have an empty hand to cast their abilities.<br>
       </p>
       <h3>1st Level Spells</h3>
       <table data-role="table" id="table-custom-lvl1-bard" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
@@ -2591,11 +2605,11 @@
     <div class="ui-body ui-body-a ui-corner-all">
       <p>
         <b>Garb:</b> Yellow sash and medieval/sword and sorcery looking garb<br>
-        <b>Look The Part:</b> 1 extra point of magic at the Wizards highest level<br>
+        <b>Look The Part:</b> 1 extra magic point at the Wizard's highest level<br>
         <b>Armor:</b> None<br>
         <b>Shields:</b> None<br>
         <b>Weapons:</b> <a href="/weapons/#Dagger" data-ajax="false">Dagger</a>, <a href="/weapons/#MagicStaff" data-ajax="false">Magic Staff</a><br>
-        <b>Magic User:</b> Wizards may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times.<br>
+        <b>Magic User:</b> Wizards may purchase five points of magic from each level. Unused points from higher levels can be rolled down to lower levels. A list of all magic purchased must be carried at all times. All abilities purchased by Magic Users are Magical abilities. Magic Users must have an empty hand to cast their abilities.<br>
       </p>
       <h3>1st Level Spells</h3>
       <table data-role="table" id="table-custom-lvl1-wizard" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
@@ -2923,7 +2937,7 @@
           <tr>
             <th><a href="/spells/i#icyblast" data-ajax="false">Icy Blast</a></th>
             <td>1</td>
-            <td>-</td>
+            <td>4</td>
             <td>1/Refresh</td>
             <td>Verbal</td>
             <td>Sorcery</td>
@@ -2932,7 +2946,7 @@
           <tr>
             <th><a href="/spells/s#shatter" data-ajax="false">Shatter</a></th>
             <td>1</td>
-            <td>-</td>
+            <td>4</td>
             <td>1/Refresh</td>
             <td>Verbal</td>
             <td>Sorcery</td>
@@ -3054,7 +3068,7 @@
             <td>Other</td>
           </tr>
           <tr>
-            <th><a href="/spells/w#wardself" data-ajax="false">Ward Self</a></th>
+            <th><a href="/spells/b#blessingagainstharm" data-ajax="false">Blessing Against Harm</a></th>
             <td>1</td>
             <td>2</td>
             <td>1/Refresh</td>

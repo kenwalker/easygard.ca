@@ -11,9 +11,9 @@
             <ul data-role="listview" data-inset="true" data-icon="false">
                <li><a href="#HitLocations">Hit Locations</a></li>
                <li><a href="#CombatContact">Combat Contact</a></li>
-               <li><a href="#InflictingWounds">Inflicting Wounds</a></li>
+               <li><a href="#ValidStrikes">Valid Strikes</a></li>
                <li><a href="#Death">Death</a></li>
-               <li><a href="#CombatNotes">Combat Notes</a></li>
+               <li><a href="#UsingEquipment">Using Equipment</a></li>
                <li><a href="#CombatEtiquette">Combat Etiquette</a></li>
             </ul>
 
@@ -80,7 +80,7 @@
     			<ol>
 				<li>Weapon to Weapon contact is allowed</li>
 				<li>Weapon to body contact is allowed on valid Hit Locations using Strike-Legal portions</li>
-				<li>Body to Weapon contact: Weapons may be pushed, swept, and otherwise manipulated with your body so long as the Weapon is not trapped or grabbed. Pushing or sweeping a Strike-Legal surface results in a valid hit to the location used for contact</li>
+				<li>Body to Weapon contact: an enemy's weapons may be pushed, swept, and otherwise manipulated with your body so long as the weapon is not trapped or grabbed.  Pushing or sweeping a Strike-Legal surface on an enemy's weapon results in a valid hit to the location used for contact.</li>
 				<li>Weapon to Shield contact is allowed</li>
 				<li>Shield to Weapon contact: Shields may be used to deflect, move or pin an opponents Weapon</li>
 				<li>Shield to Shield contact: Shields may be used to deflect, turn, or pin an opponents Shield so long as the wielder of the struck Shield is not moved. Bashing a shield is prohibited</li>
@@ -102,8 +102,8 @@
 </div>
 <!-- Combat Contact /page -->
 
-<!-- Inflicting Wounds Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="InflictingWounds">
+<!-- Valid Strikes Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="ValidStrikes">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -112,25 +112,27 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Inflicting Wounds</h3>
-    			<p>Wounds may be inflicted by contacting a Hit Location with the Strike-Legal portion of a Weapon. Shots from Melee Weapons fall into two broad categories:<br>
+    			<h3>Valid Strikes</h3>
+    			<p>In order for a hit to count, certain requirements must be met. Most hits must hit a player or their armor to count. Hits to garb or a player’s other carried equipment won’t count unless the hit is Engulfing, or if the hit otherwise would have struck the player. In this case, it counts as hitting both the player and whatever it actually struck. For example, an arrow striking a sword on a player’s hip might both break the sword and injure the leg behind the blade.</p>
+    			<p><b>Melee Weapons:</b> Melee weapons inflict wounds by contacting a Hit Location with the Strike-Legal portion of the weapon, and can be used to slash or stab depending on their construction.<br>
     			<b>Slash:</b> A valid slash must be percussive (contact with an audible pop) and stop on or deflect off the victim.<br>
 				<b>Stab:</b> A valid stab must strike with the tip and stop on or deflect off the victim.</p>
-				<p>These requirements do not apply to projectile weapons. Any contact from the Strike-Legal portion of a projectile 	will cause a Wound unless otherwise noted.</p>
-				<p>Some contacts which partially fulfill the above criteria are listed here as examples of invalid shots</p>
-				<p>
-				<b>Examples of Invalid Shots:</b><br>
+				<p>For melee weapons, these are some examples of what would constitute an invalid shot:<br>
 				<b>Grazes:</b> Slashes that are neither percussive nor stop/deflect<br>
-				<b>Draw Cuts:</b> Stabs which fail to strike with thetip. These contacts slide against a victim instead of impacting cleanly<br>
-				<b>Pushes:</b> These contacts are pushed into or slid against a victim after the initial motion was completely blocked and the initial motion had stopped<br></p>
-            
+				<b>Draw Cuts:</b> Stabs which fail to strike with the tip. These contacts slide against a victim instead of impacting cleanly<br>
+				<b>Pushes:</b> These contacts are pushed into or slid against a victim after the initial motion was completely blocked and the initial motion had stopped</p>
+				<p><b>Thrown Weapons:</b> Contact from any part of most thrown weapons will count as a valid hit. For Javelins, contact must be made by the Strike-Legal portion of the weapon.<br>
+				<b>Arrows:</b> Contact from any part of the arrow in front of the arrow blunt will constitute a valid hit.<br>
+				<b>Magic Balls:</b> Contact from any part of the Magic Ball, including the tail, will count as a valid hit.</p>
+				<p><b>Shot in Motion:</b> If a person is killed or wounded in an arm that is throwing a shot, the hit may still count if it lands within an acceptable timeframe. For melee weapons, this is half a second. For projectiles, the projectile must already be in flight. This should be a clear case of finishing an already thrown shot, meaning that it requires no change of direction and the last action required to finish the shot has already been started prior to being struck. In the case of a two-handed weapon, the wielder must remove their wounded hand from the weapon within a half second for the shot to count. If you have any questions, ask your kingdom/group level Guildmaster of Reeves. A reeve’s call is always final in determining if a shot is in time or late.</p>
+            </div>
 
 	</div><!-- /footer -->
 
 	</div><!-- /content -->
 
 </div>
-<!-- Inflicting Wounds /page -->
+<!-- Valid Strikes /page -->
 
 <!-- Death Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="Death">
@@ -146,10 +148,19 @@
     			<p>Any two Wounds, or a Wound to the Torso, results in a Death</p>
     			Dead players:
     			<ol>
+					<li>Should visually indicate that they are dead by placing their hand or weapon on or above their head</li>
 					<li>May not speak to living players or interact with game play in any manner</li>
 					<li>May move to avoid mundane danger or interfering with living players. This does not count as moving for the purposes of abilities so long as no game advantage was derived</li>
 					<li>May retrieve their own equipment from the field while dead, but may not interfere with play in any way and must stay at least 10' from any living opposing players while doing so</li>
 					<li>May only be affected by mechanics that work on dead players in specific, such as Resurrect or Raise Dead. Otherwise the player and their carried equipment are not affected by combat, abilities, etc.</li>
+		        </ol>
+    			<p>Players may also always choose to take a death. Intentionally causing your own death is the same as taking a death. Examples include purposefully striking yourself with a weapon, casting Finger of Death on yourself, and jumping into lava or off a bridge.</p>
+    			Players who take a death:
+    			<ol>
+					<li>May not return to play except by respawning</li>
+					<li>May not cast any ‘on death’ abilities such as True Grit</li>
+					<li>Have all Enchantments removed (including Persistent ones)</li>
+					<li>Do not benefit from any abilities that prevent death such as Phoenix Tears</li>
 		        </ol>
 	</div><!-- /footer -->
 
@@ -158,8 +169,8 @@
 </div>
 <!-- Death /page -->
 
-<!-- Combat Notes Page -->
-<div data-role="page" class="jqm-demos jqm-home" id="CombatNotes">
+<!-- Using Equipment Page -->
+<div data-role="page" class="jqm-demos jqm-home" id="UsingEquipment">
 
 <%= erb :'sections/header' %>
 <%= erb :'sections/nav-panel' %>
@@ -168,35 +179,24 @@
 
 	<div role="main" class="ui-content">
     		<div class="jqm-block-content">
-    			<h3>Combat Notes</h3>
-    			<p>Miscellaneous rules necessary for the smooth operation of combat</p>
-    			<p>
+    			<h3>Using Equipment</h3>
+    			<p>All equipment carried upon a player’s person counts as carried equipment, whether carried in hand like a sword or otherwise attached to their body, like armor or a bag of thrown weapons. A player may carry any amount of equipment, but is limited in the amount of equipment they can wield (use) at a given time.</p>
     			<ol>
-	    			<li>Shots that only strike garb, armor, or carried equipment do not count as a hit unless:</li>
-	    			<ol type="a">
-	    				<li>Said items blocked a blow that would have struck a combatant (i.e. garb, carried equipment, etc. are not shields and do not count as armor). Strikes to unwielded equipment are treated as having struck that equipment as well as whatever they would have made contact with were the equipment not there.</li>
-						<li>The shot is Engulfing. Engulfing effects do trigger on garb and equipment hits</li>
-					</ol>
-					<li>If a person is wounded in an arm throwing a shot, or killed, shots they threw into motion before being struck still count as a hit, if they land within a half second of being struck. In the case of a two-handed weapon, the wielder must remove their wounded hand from the weapon within a half second for the shot to count. This should be a clear case of finishing an already thrown shot, meaning that it requires no change of direction and the last action required to finish the shot has already been started prior to being struck. If you have any questions, ask your kingdom/ group level Guildmaster of Reeves. A reeve‘s call is always final in determining if a shot is in time or late</li>
-	    		<li>Carried equipment includes both wielded and unwielded equipment in hand, as well as any equipment held or worn on the player's person in any way.</li>
-					<ol type="a">
-						<li>A player may hold more than one weapon in a single hand, but may not wield more than one weapon in a single hand at the same time.</li>
-						<li>It must be visually clear at all times which weapons are wielded and which weapons are unwielded. If this is not the case, all of the player's weapons are considered unwielded. Example: A player may hold a Dagger in one of the two hands wielding a Great weapon, but could not hold two Shorts in the same hand and only consider one of them wielded.</li>
-						<li>A player may fire multiple arrows simultaneously but may not throw multiple thrown weapons, Javelins, or Magic Balls at once from a single hand</li>
-					</ol>
-					<li>Players may always choose to take a death. Players who take a death may not return to play except by respawning, may not cast any ‘on death’ abilities such as True Grit, have all Enchantments removed (including Persistent ones), and do not benefit from any abilities that prevent death such as Pheonix Tears.</li>
-					<ol type="a">
-						<li> Unless otherwise noted by the game designer, intentionally causing your own death is the same as taking a death. Examples include striking yourself with a weapon, casting Finger of Death on yourself, and jumping into lava or off a bridge</li>
-					</ol>
+					<li>A player may hold more than one melee weapon in a single hand, but may not wield more than one weapon in a single hand at the same time</li>
+					<li>A player may carry multiple Magic Balls or thrown weapons in the same hand, but may only throw one at a time</li>
+					<li>A player may fire multiple non-Specialty arrows simultaneously</li>
+					<li>A player may wield only one shield at any time</li>
+					<li>A player may wield both a shield and a weapon in the same hand. (A Madu counts as both a shield and a weapon.)</li>
+					<li>It must be visually clear at all times which weapons are wielded and which weapons are unwielded. If this is not the case, all of the player's weapons are considered unwielded. Example: A player may hold a Dagger in one of the two hands wielding a Great weapon, but could not hold two Shorts in the same hand and only consider one of them wielded</li>
 				</ol>
-            
+            </div>
 
 	</div><!-- /footer -->
 
 	</div><!-- /content -->
 
 </div>
-<!-- Combat Notes /page -->
+<!-- Using Equipment /page -->
 
 <!-- Combat Etiquette Page -->
 <div data-role="page" class="jqm-demos jqm-home" id="CombatEtiquette">
@@ -220,8 +220,7 @@
 					<li>Communicate early and often with your opponents. If you made a close block or feel your opponent’s shot was invalid, communicate it immediately</li>
 					<li>If you are unsure if your opponent’s shot was good enough, it was. Only shots which are clearly invalid should be treated as such. If you have to think about it, take it</li>
 					<li>If an opponent hits you with a shot you think is late, ask them if they think it was in time. If they believe it was in time or are unsure if it was in time, take the shot</li>
-					<li>When dead, immediately move yourself the minimum distance necessary to avoid interfering with ongoing combat. Visually indicate that you are dead by placing your hand or weapon on or above your head</li>
-					<li>If asked you must promptly declare your current wounded status</li>
+					<li>When dead, immediately move yourself the minimum distance necessary to avoid interfering with ongoing combat</li>
 				</ol>
 				<b>Delivering Shots</b>
 				<ol>

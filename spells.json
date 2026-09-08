@@ -3,7 +3,7 @@
     "classes": {
       "Healer": "5"
     },
-    "e": "Target is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 60 seconds. Ignores armor",
+    "e": "This Magic Ball ignores armor. Player hit is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 60 seconds",
     "i": "\"The strength of aether is mine to evoke\" x3",
     "keywords": "abeyance ball green subdual healer",
     "m": "Green Magic Ball",
@@ -90,8 +90,8 @@
     "t": "Meta-Magic",
     "s": "Neutral",
     "i": "\"Ambulant\"",
-    "e": "An incantation may be said while moving. May be cast while moving.",
-    "l": "May not be used on the Charge incantation."
+    "e": "The next Enchantment, Magic Ball, or Verbal may be cast while moving",
+    "n": "Using Ambulant allows both the target indication and Ambulant to be said while moving, but not other Meta-Magics"
   },
   "ancestralarmor": {
     "name": "Ancestral Armor",
@@ -103,7 +103,7 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "<br>\"May this armor protect thee from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect thee from all forms of harm\"",
+    "i": "\"May this armor protect thee from all forms of harm\" x3",
     "m": "White Strip",
     "e": "The effects of a <a href=\"/spells/balls\" data-ajax=\"false\">Magic Ball</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> weapon, or melee weapon which just struck armor worn by the player are ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities.",
     "n": "Engulfing Effects that do not strike the bearer's armor and abilities that ignore armor entirely do not trigger Ancestral Armor. <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> equipment interacts with armor worn by the bearer as though Ancestral Armor was not present."
@@ -128,7 +128,7 @@
     "t": "Archetype",
     "s": "Neutral",
     "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3 (ex).<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
-    "l": "Rather than the normal amount of Specialty Arrows for an Archer, gain:<ul><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows / Unlimited (ex)</li><li><a href=\"/spells/p#phasearrow\" data-ajax=\"false\">Phase Arrow</a> 1 Arrow / Unlimited (ex)</li><li><a href=\"/spells/s#suppressionarrow\" data-ajax=\"false\">Suppression Arrow</a> 1 Arrow / Unlimited (ex)</li></ul>Look the Part becomes a fourth Pinning Arrow.",
+    "l": "Rather than the normal amount of Specialty Arrows for an Archer, gain:<ul><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows / Unlimited (ex)</li><li><a href=\"/spells/p#phasearrow\" data-ajax=\"false\">Phase Arrow</a> 2 Arrows / Unlimited (ex)</li><li><a href=\"/spells/s#suppressionarrow\" data-ajax=\"false\">Suppression Arrow</a> 2 Arrows / Unlimited (ex)</li></ul>Look the Part becomes a fourth Pinning Arrow.",
     "n": "Player must still have a use of <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> remaining to cast on weapons or shields."
   },
   "assassinate": {
@@ -171,7 +171,7 @@
     "i": "\"I enchant thee with attune\" x3",
     "m": "Yellow strip",
     "e": "May wear an additional Enchantment. Attuned does not count towards the bearer's Enchantment limit",
-    "l": "This ability may not be used in conjunction with any other similar ability or magic",
+    "l": "This ability may not be used in conjunction with itself or any other similar abilities",
     "n": "If Attuned is removed, the bearer chooses which (m) Enchantments to lose to meet their new Enchantment limit, if necessary"
   },
   "avatarofnature": {
@@ -210,8 +210,8 @@
     "s": "Spirit",
     "r": "20'",
     "i": "\"The Spirits banish thee from this place\" x3",
-    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player must return to their base where their Insubstantial State immediately ends",
-    "n": "The target's <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is replaced with a new insubstantial state from Banish. If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well. If Banish is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial."
+    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player must return to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
+    "n": "The target's <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is replaced with a new insubstantial state from Banish. If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well. If Banish is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial. This is a Forced Movement effect"
   },
   "barkskin": {
     "name": "Barkskin",
@@ -237,7 +237,7 @@
     "r": "Touch",
     "i": "\"Be a bastion of healing\" x3",
     "m": "3 Yellow strips",
-    "e": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": "Bearer may cast Heal (m) by incanting \"<i>Thou art made whole</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "battlemage": {
     "name": "Battlemage",
@@ -302,16 +302,17 @@
   },
   "blessingagainstharm": {
     "name": "Blessing Against Harm",
-    "keywords": "healer enchantment protection",
+    "keywords": "healer wizard enchantment protection resistant",
     "classes": {
-      "Healer": "4"
+      "Healer": "4",
+      "Wizard": "5"
     },
     "t": "Enchantment",
     "s": "Protection",
-    "r": "Other",
+    "r": "Other (Wizard: Self)",
     "i": "\"I enchant thee against all harm\" x3",
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
+    "e": "Bearer is <a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a wound, death, State, or other negative effect. Does not trigger against effects cast by the bearer"
   },
   "blessingagainstwounds": {
     "name": "Blessing Against Wounds",
@@ -380,7 +381,7 @@
     "s": "Death",
     "r": "Unlimited",
     "i": "\"And stay down!\"",
-    "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds",
+    "e": "Target player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> indefinitely. Target player is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds",
     "l": "<a href=\"/spells/definitions#woundtrigger\" data-ajax=\"false\">Wound Trigger</a>",
     "n": "Brutal Strike targets the wounded or dead player and does not require verbal targeting"
   },
@@ -404,9 +405,9 @@
     },
     "t": "Verbal",
     "s": "Protection",
-    "r": "Self",
+    "r": "Touch",
     "i": "\"Circle of Protection\" x3",
-    "e": "The caster and up to five willing players within Touch range of the caster immediately have all States and Ongoing Effects removed and then become Insubstantial.<br>All targets:<ul><li>May not move from their starting location, and are unaffected by abilities that allow or require the player to move</li><li>May use abilities on players and their carried equipment who became Insubstantial due to the same casting of Circle of Protection as though they were not Insubstantial</li><li>May end this Insubstantial State at any time by using the exit incantation for Insubstantial</li></ul>The caster may end Circle of Protection for all targets at any time by using the exit incantation for Insubstantial. If the Insubstantial State is ended for a target, the Ongoing Effects of Circle of Protection no longer apply to that player",
+    "e": "The caster and up to five willing players within Touch range of the caster immediately have all States and Ongoing Effects removed and then become Insubstantial.<br>All targets:<ul><li>May not move from their starting location, and are unaffected by Blink and by Forced Movement effects other than Banish</li><li>May use abilities on players and their carried equipment who became Insubstantial due to the same casting of Circle of Protection as though they were not Insubstantial</li><li>May end this Insubstantial State at any time by using the exit incantation for Insubstantial</li></ul>The caster may end Circle of Protection for all targets at any time by using the exit incantation for Insubstantial. If the Insubstantial State is ended for a target, the Ongoing Effects of Circle of Protection no longer apply to that player",
     "n": "If a player is prevented from becoming <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, they are unaffected by Circle of Protection"
   },
   "combatcaster": {
@@ -456,7 +457,7 @@
     "r": "Touch",
     "i": "\"The mists of corrosion surround thee\" x3",
     "m": "Three Red Strips",
-    "e": "Bearer may cast Destroy Armor (m) by incanting \"<i>&lt;Player&gt; the mists of corrosion destroy your &lt:armor location&gt: armor</i>\". Bearer must remove a strip after each use of Destroy Armor. Enchantment is removed when the last strip is removed."
+    "e": "Bearer may cast Destroy Armor (m) by incanting \"<i>&lt;Player&gt; the mists of corrosion destroy thine &lt;armor location&gt; armor</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
   "corruptor": {
     "name": "Corruptor",
@@ -555,9 +556,9 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"By my power I dispel that magic\" x3",
-    "e": "All Enchantments on target are removed",
-    "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player's Traits, States, Immunities, Ongoing Effects, or Enchantments (except Sleight of Mind)"
+    "i": "\"By my power I dispel thy magic\" x3",
+    "e": "All Enchantments on target are removed. Will always remove Enchantments if successfully cast on a valid target, regardless of the player's Traits, States, Immunities, Ongoing Effects, or Enchantments (except Sleight of Mind)",
+    "n": "Does not affect <a href=\"/states/#Invulnerable\" data-ajax=\"false\">Invulnerable</a> players"
   },
   "draggedbelow": {
     "name": "Dragged Below",
@@ -627,15 +628,15 @@
     "s": "Subdual",
     "i": "\"The strength of earth is mine to evoke\" x3",
     "m": "Brown Magic Ball",
-    "e": "Target is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 60 seconds. Engulfing"
+    "e": "Player struck is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 60 seconds. Engulfing"
   },
   "equipmentarmor1point": {
     "name": "Equipment: Armor, 1 Point",
     "keywords": "bard",
     "classes": {
-      "Bard": "2"
+      "Bard": "2, 6"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "Your class maximum armor limit increases one additional point"
   },
   "equipmentshieldmedium": {
@@ -645,7 +646,7 @@
       "Bard": "5",
       "Healer": "3"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "May wield up to a medium shield"
   },
   "equipmentshieldsmall": {
@@ -656,7 +657,7 @@
       "Druid": "2",
       "Healer": "1"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "May wield a small shield"
   },
   "equipmentweapongreat": {
@@ -665,7 +666,7 @@
     "classes": {
       "Druid": "5"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "May wield one <a href=\"/weapons/#Great\" data-ajax=\"false\">great weapon</a> at a time for each instance purchased (but may carry extras)"
   },
   "equipmentweaponhinged": {
@@ -674,7 +675,7 @@
     "classes": {
       "Healer": "2"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "May wield one <a href=\"/weapons/#Hinged\" data-ajax=\"false\">hinged weapon</a> at a time for each instance purchased (but may carry extras)"
   },
   "equipmentweaponlong": {
@@ -685,7 +686,7 @@
       "Druid": "4",
       "Wizard": "5"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "May wield one <a href=\"/weapons/#Long\" data-ajax=\"false\">long weapon</a> at a time for each instance purchased (but may carry extras)"
   },
   "equipmentweaponshort": {
@@ -697,7 +698,7 @@
       "Healer": "1",
       "Wizard": "1"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "e": "May wield one <a href=\"/weapons/#Short\" data-ajax=\"false\">short weapon</a> at a time for each instance purchased (but may carry extras)"
   },
   "essencegraft": {
@@ -723,14 +724,15 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Verbals purchased may only be of range Touch or Self. <a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental Barrage</a> becomes Charge x10",
-    "n": "Elemental Barrage must still be purchased"
+    "e": "<a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental Barrage</a> becomes Charge x10",
+    "n": "Elemental Barrage must still be purchased",
+    "l": "May not purchase Verbals with a range of 20' or 50'"
   },
   "evolution": {
     "name": "Evolution",
     "keywords": "scout enchantment sorcery",
     "classes": {
-      "Scout": "5"
+      "Scout": "1"
     },
     "t": "Enchantment",
     "s": "Sorcery",
@@ -747,24 +749,10 @@
       "Healer": "1",
       "Wizard": "1"
     },
-    "t": "Neutral",
+    "t": "Trait",
     "s": "Neutral",
     "e": "A single per-life Verbal purchased becomes Charge x5 in addition to the normal frequency OR a single per- refresh Verbal purchased becomes Charge x10 in addition to the normal frequency. This Verbal must be determined before the game begins and cannot be changed",
     "l": "Verbal must be 4th level or lower"
-  },
-  "extendimmunities": {
-    "name": "Extend Immunities",
-    "keywords": "paladin enchantment protection",
-    "classes": {
-      "Paladin": "3"
-    },
-    "t": "Enchantment",
-    "s": "Protection",
-    "r": "Other",
-    "i": "\"May the blessing of my god protect thee\" x3",
-    "m": "White Strip",
-    "e": "The target player gains either <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immune to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
-    "l": "Type of Ability must be chosen at the time of casting and may not be changed. The caster may only have one instance of Extend Immunities active at a time"
   },
   "extension": {
     "name": "Extension",
@@ -803,7 +791,7 @@
     "s": "Flame",
     "i": "\"The flame of fire is mine to evoke\" x3",
     "m": "Red Magic Ball",
-    "e": "Fireball will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a><br>4. A player hit dies."
+    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Weapon Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a>. Player hit dies"
   },
   "flameblade": {
     "name": "Flame Blade",
@@ -815,7 +803,7 @@
     "t": "Enchantment",
     "s": "Flame",
     "r": "Other",
-    "i": "\"The element of fire shall infuse your weapons\" x3",
+    "i": "\"The element of fire shall infuse thy weapons\" x3",
     "m": "Red Strip and White Strip",
     "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their wielded weapons are Immune to Flame."
   },
@@ -843,7 +831,7 @@
     "s": "Sorcery",
     "i": "\"Forcebolt\" x3",
     "m": "Blue Magic Ball",
-    "e": "Force Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound to that hit location"
+    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Weapon Destroying</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Player hit receives a Wound to that hit location"
   },
   "giftofair": {
     "name": "Gift of Air",
@@ -856,7 +844,7 @@
     "r": "Other",
     "i": "\"I grant thee a gift of the air\" x3",
     "m": "White Strip",
-    "e": "The effects of any weapon or ammunition which just struck the bearer are ignored, instead the bearer declares \"Gift of Air\" and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect. Melee weapons with the <a href=\"/weapons/#Siege\" data-ajax=\"false\">Siege</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air",
+    "e": "The effects of any weapon or arrow which just struck the bearer are ignored, instead the bearer declares \"Gift of Air\" and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Immediately after Gift of Air activates, bearer must choose one of the following:<br>1. Bearer becomes Insubstantial in place, but may exit Insubstantial at any time using the exit incantation for Insubstantial<br>2. Bearer becomes Insubstantial and must return to their base as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect, but may not exit early. They must exit Insubstantial immediately upon reaching their base<br>Melee weapons with the <a href=\"/weapons/#Siege\" data-ajax=\"false\">Siege</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air",
     "l": "Bearer may not wield weapons or shields",
     "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended, the player is not required to continue returning to base. Bearer may end this Insubstantial State at any time by using the exit incantation for Insubstantial"
   },
@@ -909,9 +897,9 @@
     "s": "Sorcery",
     "r": "Other",
     "i": "\"From earth and clay I form thee\" x3",
-    "m": "White Strip and Red Strip",
-    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
-    "l": "A caster may only have a single Golem Enchantment active at a time",
+    "m": "White Strip and Yellow Strip",
+    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as an Alternate Base. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn. Golem remains active while the bearer is dead",
+    "l": "A caster may only have a single Golem Enchantment active at a time and may not use Alternate Bases. Bearer may not be treated as an Alternate Base",
     "n": "Greater Mend and Word of Mending will not remove a wound"
   },
   "greaterharden": {
@@ -953,7 +941,7 @@
     "s": "Sorcery",
     "r": "Touch",
     "i": "\"Return this [object name] to its former glory\" x5",
-    "e": "Will restore all armor points in one location or repair a damaged or broken item"
+    "e": "Will restore all armor points in one location, repair one armor point in each location, or repair a damaged or broken item"
   },
   "greaterrelease": {
     "name": "Greater Release",
@@ -980,7 +968,7 @@
     "s": "Spirit",
     "r": "Other",
     "i": "\"By the grace of the divine thou art resurrected\" x5",
-    "e": "Target dead player who has not moved more than 5' from where they died is returned to life. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present",
+    "e": "Target willing dead player who has not moved more than 5' from where they died is returned to life. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present",
     "n": "Enchantments on the player are retained"
   },
   "guardian": {
@@ -991,8 +979,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/i#imbueshield\" data-ajax=\"false\">Imbue Shield</a> (Touch) 1/Life (m) and <a href=\"/spells/m#martyr\" data-ajax=\"false\">Martyr</a> 2/Life Charge x3 (ex).",
-    "l": "Lose all instances of <a href=\"/spells/p#protectionfrommagic\" data-ajax=\"false\">Protection from Magic</a> and <a href=\"/spells/e#extendimmunities\" data-ajax=\"false\">Extend Immunities</a>. May only have one instance of Imbue Shield active at a time."
+    "e": "Gain <a href=\"/spells/i#imbue\" data-ajax=\"false\">Imbue</a> (Touch) 1/Life (m) and <a href=\"/spells/m#martyr\" data-ajax=\"false\">Martyr</a> 2/Life Charge x3 (ex).",
+    "l": "Lose all instances of <a href=\"/spells/p#protectionfromevil\" data-ajax=\"false\">Protection from Evil</a> and <a href=\"/spells/p#protectionfrommagic\" data-ajax=\"false\">Protection from Magic</a>. May only have one instance of Imbue active at a time."
   },
   "harden": {
     "name": "Harden",
@@ -1008,6 +996,21 @@
     "m": "White Strip",
     "e": "Bearer's wielded weapons or shield may only be destroyed or damaged by Magic Balls/Verbals which affect objects e.g. Fireball or Pyrotechnics",
     "l": "Will only affect either the weapons or the shield of the bearer, not both"
+  },
+  "hardenarmor": {
+    "name": "Harden Armor",
+    "keywords": "druid warrior enchantment protection armor white",
+    "classes": {
+      "Druid": "1",
+      "Warrior": "6"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Other (Warrior: Self)",
+    "i": "\"I enchant thee with harden armor\" x3",
+    "m": "White Strip",
+    "e": "Armor Breaking strikes to the bearer's armor are treated as regular strikes",
+    "l": "Does not apply to Magic Armor"
   },
   "heal": {
     "name": "Heal",
@@ -1036,8 +1039,8 @@
     "r": "Self",
     "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
-    "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20' of the bearer"
+    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Friendly players may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" Friendly players may treat the caster as an Alternate Base",
+    "l": "Players can not respawn at the bearer if there are living enemy players or game objectives within 20' of the bearer"
   },
   "heatweapon": {
     "name": "Heat Weapon",
@@ -1049,7 +1052,7 @@
     "t": "Verbal",
     "s": "Flame",
     "r": "20'",
-    "i": "\"I call upon flame to heat that [type of weapon]\" x3",
+    "i": "\"I call upon flame to heat thy weapon\" x3",
     "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon",
     "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this ability to affect it"
   },
@@ -1084,7 +1087,7 @@
     "name": "Iceball",
     "keywords": "druid healer wizard ball subdual",
     "classes": {
-      "Druid": "2",
+      "Druid": "4",
       "Healer": "3",
       "Wizard": "3"
     },
@@ -1092,7 +1095,7 @@
     "s": "Subdual",
     "i": "\"The strength of ice is mine to evoke\" x3",
     "m": "White Magic Ball",
-    "e": "Target player becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 60 seconds. Engulfing"
+    "e": "Player struck is <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 60 seconds. Engulfing"
   },
   "icyblast": {
     "name": "Icy Blast",
@@ -1107,23 +1110,8 @@
     "i": "\"My power makes thee frozen\" x3",
     "e": "Target player becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds"
   },
-  "imbuearmor": {
-    "name": "Imbue Armor",
-    "keywords": "druid warrior enchantment protection armor white",
-    "classes": {
-      "Druid": "1",
-      "Warrior": "6"
-    },
-    "t": "Enchantment",
-    "s": "Protection",
-    "r": "Other",
-    "i": "\"I enchant thee with Imbued Armor\" x3",
-    "m": "White Strip",
-    "e": "All armor worn by the bearer gains a +1 modifier. This modifier may allow the armor to exceed the maximum value for its type, up to the bearer's class maximum",
-    "n": "Does not apply to magic armor. A player may only benefit from one instance of Imbue Armor, or similar magic and abilities that increase Armor Points, at a time"
-  },
-  "imbueshield": {
-    "name": "Imbue Shield",
+  "imbue": {
+    "name": "Imbue",
     "keywords": "healer paladin enchantment protection white shield",
     "classes": {
       "Healer": "4",
@@ -1132,21 +1120,9 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"This shield shall neither bend nor break\" x3",
+    "i": "\"This item shall neither bend nor break\" x3",
     "m": "White Strip",
-    "e": "Shield wielded by the player cannot be destroyed nor damaged. Engulfing effects hitting the wielded shield are ignored"
-  },
-  "imbueweapon": {
-    "name": "Imbue Weapon",
-    "keywords": "druid enchantment death red weapon",
-    "classes": {
-      "Druid": "6"
-    },
-    "t": "Enchantment",
-    "s": "Death",
-    "r": "Touch",
-    "i": "\"I enchant thee to slay all foes\" x3",
-    "m": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>."
+    "e": "Bearer chooses either shield or weapons. Wielded equipment of the chosen type cannot be destroyed nor damaged.  Engulfing effects hitting wielded equipment of the chosen type are ignored"
   },
   "infernal": {
     "name": "Infernal",
@@ -1220,7 +1196,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Replace <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> with <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a> at the same frequency. Gain <a href=\"/spells/p#phoenixtears\" data-ajax=\"false\">Phoenix Tears</a> (Self) 3/Refresh (ex) (Swift) and <a href=\"/spells/i#imbuearmor\" data-ajax=\"false\">Imbue Armor</a> (T).",
+    "e": "Gain <a href=\"/spells/h#hardenarmor\" data-ajax=\"false\">Harden Armor</a> (Self) 1/Life (ex) and <a href=\"/spells/p#phoenixtears\" data-ajax=\"false\">Phoenix Tears</a> (Self) 3/Refresh (ex) (Swift). Replace <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> with <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a> (Self) (ex) at the same frequency.",
     "l": "Lose all instances of <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a> and <a href=\"/spells/t#truegrit\" data-ajax=\"false\">True Grit</a>"
   },
   "legend": {
@@ -1243,7 +1219,7 @@
     "s": "Flame",
     "i": "\"The flame of storms is mine to evoke\" x3",
     "m": "Yellow Magic Ball",
-    "e": "A player struck is subject to an Engulfing <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Weapon Destroying</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Player hit receives a Wound to that hit location. Player struck is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 60 seconds. Engulfing"
   },
   "lost": {
     "name": "Lost",
@@ -1345,7 +1321,7 @@
     "t": "Granted as Trait",
     "s": "Protection",
     "r": "Self",
-    "e": "Player may block arrows, projectile weapons, and Magic Balls with their hands and wielded melee or thrown weapons. Any arrow, projectile weapon or magic ball blocked is nullified."
+    "e": "Bearer may block projectiles, including Magic Balls, with their hands and with wielded melee or thrown weapons. Any projectile touched in this way is nullified"
   },
   "momentum": {
     "name": "Momentum",
@@ -1362,17 +1338,6 @@
     "e": "May be used to instantly Charge a single ability by stating its name.",
     "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>."
   },
-  "mutation": {
-    "name": "Mutation",
-    "keywords": "scout trait apex",
-    "classes": {
-      "Scout": "6"
-    },
-    "t": "Trait",
-    "s": "Sorcery",
-    "r": "Self",
-    "e": "Enchantments worn by the player are Persistent."
-  },
   "mystic": {
     "name": "Mystic",
     "keywords": "monk archetype",
@@ -1381,7 +1346,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m) and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
+    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 3 Balls / Unlimited (m), <a href=\"/spells/p#phasebolt\" data-ajax=\"false\">Phase Bolt</a> 1 Ball / Unlimited (m), and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
     "l": "May not wield Heavy Thrown. Lose all instances of Resurrect."
   },
   "naturalizemagic": {
@@ -1443,7 +1408,7 @@
     "s": "Sorcery",
     "i": "\"The power of sorcery is mine to evoke\" x3",
     "m": "Gray Magic Ball",
-    "e": "This Magic Ball is Phasing. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Weapon Destroying</a>, and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Player hit receives a Wound to that hit location"
   },
   "phoenixtears": {
     "name": "Phoenix Tears",
@@ -1457,8 +1422,9 @@
     "r": "Other",
     "i": "\"May the tears of the phoenix wash over thee\" x3",
     "m": "Two White Strips",
-    "e": "Enchanted player does not die as normal. When the player would otherwise die they instead remove a strip and become <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds. When the Frozen State is ended the bearer has:<br>1. All Wounds removed<br>2. All States removed that are removed by Death or Respawning<br>3. All ongoing effects with a timer are expired<br>4. All of their carried or worn equipment is fully repaired<br>5. All other enchantments, except those which are Persistent, are removed<br>Additionally Phoenix Tears allows you to wear an extra Enchantment from the Protection School. This extra enchantment is considered Persistent as long as Phoenix Tears is present. The additional Enchantment is not removed once Phoenix Tears is removed",
-    "n": "Phoenix Tears is removed when the last strip is removed"
+    "e": "Bearer does not die as normal. When the player would otherwise die they instead remove all wounds and become <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds. If the bearer is still enchanted when the Frozen state elapses or is removed:<br>1. Remove the <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> state, if Cursed<br>2. Repair all carried equipment<br>3. Remove all non-persistent enchantments other than Phoenix Tears<br>4. Remove a strip<br>Additionally Phoenix Tears allows you to wear an extra Enchantment from the Protection School. This extra enchantment is considered Persistent as long as Phoenix Tears is present. The additional Enchantment is not removed once Phoenix Tears is removed",
+    "l": "May not be worn with Attuned or Essence Graft",
+    "n": "Phoenix Tears is removed when the last strip is removed.  If Phoenix Tears is removed, the bearer chooses which (m) Enchantments to lose to meet their new Enchantment limit, if necessary"
   },
   "pinningarrow": {
     "name": "Pinning Arrow",
@@ -1482,7 +1448,7 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power closes the aether to you\" x3",
+    "i": "\"My power closes the aether to thee\" x3",
     "e": "Target player has their <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial",
     "n": "Planar Grounding causes Enchantments that automatically render their bearer <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, such as <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a>, to fail and be removed if they activate while Planar Grounding is in effect"
   },
@@ -1538,6 +1504,20 @@
     "s": "Neutral",
     "e": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> costs zero points"
   },
+  "protectionfromevil": {
+    "name": "Protection from Evil",
+    "keywords": "paladin enchantment protection",
+    "classes": {
+      "Paladin": "3"
+    },
+    "t": "Enchantment",
+    "s": "Protection",
+    "r": "Other",
+    "i": "\"May the blessing of my god protect thee\" x3",
+    "m": "White Strip",
+    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to the <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a> school.  This enchantment is Persistent and remains active while the bearer is dead",
+    "l": "The caster may only have one instance of Protection from Evil active at a time"
+  },
   "protectionfrommagic": {
     "name": "Protection from Magic",
     "keywords": "healer wizard paladin enchantment protection white magic",
@@ -1565,8 +1545,8 @@
     "r": "Other",
     "i": "\"I enchant thee with Protection from Projectiles\" x3",
     "m": "White Strip",
-    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player",
-    "n": "Equipment can still be affected by the above. Does not protect bearer against Magic Balls"
+    "e": "Bearer is unaffected by <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectiles</a> other than Magic Balls. Engulfing effects from those projectiles, such as Pinning Arrow, do not affect the bearer",
+    "n": "Equipment can still be affected by the above"
   },
   "pyrotechnics": {
     "name": "Pyrotechnics",
@@ -1592,7 +1572,7 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I am filled with rage!\"",
-    "e": "Caster is unaffected by Verbal abilities and their wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> for seven seconds. Caster must count this time out loud, audible to 50'; failure to count ends the effect."
+    "e": "Caster is unaffected by Verbal abilities and their wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> for seven seconds. Caster must count this time out loud, audible to 50'. Failure to count or starting an Incantation ends the effect"
   },
   "raider": {
     "name": "Raider",
@@ -1615,7 +1595,7 @@
     "s": "Death",
     "r": "Touch*",
     "i": "\"Rise and fight again\" x5",
-    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Target is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed."
+    "e": "Target willing Dead player who has not moved more than 5' from where they died is returned to life and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Target is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed."
   },
   "ranger": {
     "name": "Ranger",
@@ -1681,9 +1661,9 @@
     "s": "Sorcery",
     "r": "Self",
     "i": "\"I nocked my arrows to my bow, I let them fly, my quiver is low. Now I pause to go reload.\" x3",
-    "e": "Player becomes <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Invulnerable</a> and may move about the field retrieving their arrows. The player may remove their Invulnerable state in the location they started or at base by stating, \"I return with a full quiver\" x3",
-    "l": "Must stay at least 10' away from other players at all times <br>A player may not exit Reload at an alternate base location, such as Heart of the Swarm, in this way.",
-    "n": "May ask reeve for assistance in retrieving arrows that are within 10' of other players"
+    "e": "Player becomes <a href=\"/states/#Invulnerable\" data-ajax=\"false\">Invulnerable</a> and may move about the field retrieving their arrows. The player may remove their Invulnerable state in the location they started or at base by stating, \"I return with a full quiver\" x3",
+    "l": "Must stay at least 10' away from combat at all times",
+    "n": "A player may not exit Reload at an Alternate Base.  May ask reeve for assistance in retrieving arrows that are within 10' of other players"
   },
   "restoration": {
     "name": "Restoration",
@@ -1708,9 +1688,9 @@
     },
     "t": "Verbal",
     "s": "Spirit",
-    "r": "Touch",
+    "r": "Other",
     "i": "<br>Sword Cut, spear stab, mace smash, arrow jab,<br>Let the white light of healing descend on thee<br>Let the white light of healing stop thy spilling blood<br>Let the white light of healing mend thy bones<br>Let the white light of healing close thy wounds.<br>Let the white light of healing restore thy vigor.<br>The white light of healing hath resurrected thee.",
-    "e": "Target Dead player who has not moved from where they died is returned to life. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed"
+    "e": "Target willing Dead player who has not moved more than 5' from where they died is returned to life. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed"
   },
   "rogue": {
     "name": "Rogue",
@@ -1720,7 +1700,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> upon killing a player with a thrown weapon.",
+    "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> upon killing an enemy with a thrown weapon.",
     "l": "May not wield Long Weapons or Bows."
   },
   "sacredblades": {
@@ -1746,8 +1726,8 @@
     "s": "Protection",
     "r": "Self",
     "i": "\"Sanctuary\"",
-    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\". Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
-    "l": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20' of a friendly base, and must continue chanting until there. Player may not cast this ability while they have any weapons in hand. Cannot interact with game items nor game objectives, nor impede the play of other people in any manner, and must immediately move to avoid such situations. May not come within 20' of a non-friendly base",
+    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\". Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\"",
+    "l": "Caster may not come within 20' of an unfriendly base, interact with game items not game objectives, not impede the play of other people in any manner, and must immediately move to avoid such situations. If the caster voluntarily carries or touches a weapon in any fashion (other than blocking) at any point during Sanctuary, they may only voluntarily end Sanctuary at base and must continue chanting until there",
     "n": "The exit declaration must be audible out to 20 feet"
   },
   "scavenge": {
@@ -1824,7 +1804,7 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power destroys thy [type of weapon]\" x3",
+    "i": "\"My power destroys thy weapon\" x3",
     "e": "Target weapon is destroyed",
     "n": "The equipment, not the person, is the target of Shatter Weapon. The equipment is the only thing required to be within range and visible for this spell to affect it"
   },
@@ -1840,7 +1820,8 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"My power shoves thee\" x3",
-    "e": "Target player is moved back 20' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
+    "e": "Target player is moved back 20' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> and <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> players.  If the caster is the target, the caster may choose the direction they move",
+    "n": "This is a Forced Movement effect.  This effect is ended if the target is affected by another Forced Movement effect or becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Invulnerable\" data-ajax=\"false\">Invulnerable</a>, or <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>"
   },
   "silvertongue": {
     "name": "Silver Tongue",
@@ -1878,7 +1859,7 @@
     "t": "Enchantment",
     "s": "Command",
     "r": "Self",
-    "i": "\"The hands of the earth rise to your bidding\" x3",
+    "i": "\"The hands of the earth rise to thy bidding\" x3",
     "m": "Three Red Strips",
     "e": "Bearer may cast <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> (m) by incanting \"&lt;Player&gt; stop at my command.\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
   },
@@ -1890,7 +1871,7 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow ability becomes 1 Arrow/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life.",
+    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow ability becomes 1 Arrow / Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life (ex).",
     "l": "May not fire normal arrows."
   },
   "songofbattle": {
@@ -1917,8 +1898,8 @@
     "r": "Self",
     "i": "\"I sing of my nimble acrobatics\"",
     "m": "No strip required",
-    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">thrown weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player. Bearer must Chant “Song of Deflection” or sing a song of their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
-    "n": "Does not protect the bearer against Magic Balls."
+    "e": "Bearer is unaffected by <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectiles</a> other than Magic Balls. Engulfing effects from those projectiles, such as Pinning Arrow, do not affect the bearer. Bearer must Chant “Song of Deflection” or sing a song of their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "n": "Equipment can still be affected by the above"
   },
   "songofdetermination": {
     "name": "Song of Determination",
@@ -1971,7 +1952,7 @@
     "i": "\"I sing to inspire my comrades-in-arms\"",
     "m": "No strip required",
     "e": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant “Song of Power” or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
-    "l": "Players can only benefit from one instance of Song of Power at a time"
+    "l": "Players can only benefit from one instance of Song of Power at a time.  Song of Power ends if the bearer moves from their starting location"
   },
   "songofsurvival": {
     "name": "Song of Survival",
@@ -1984,8 +1965,8 @@
     "r": "Self",
     "i": "\"I sing of my numerous close calls\"",
     "m": "No strip required",
-    "e": "When the bearer would otherwise die, they instead announce “Song of Survival” and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their Chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant “Song of Survival” or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
-    "l": "Once Song of Survival has activated to protect the bearer it may not activate again on the same life",
+    "e": "When the bearer would otherwise die, they instead declare “Song of Survival” and become <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their Chant. Immediately after Song of Survival activates, bearer must choose one of the following:<br>1. Bearer becomes Insubstantial in place, but may exit Insubstantial at any time using the exit incantation for Insubstantial<br>2. Bearer becomes Insubstantial and must return to their base as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect, but may not exit early. They must exit Insubstantial immediately upon reaching their base<br>Bearer must Chant “Song of Survival” or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "l": "Once Song of Survival has activated to protect the bearer it may not be cast nor activated again on the same life",
     "n": "Bearer may end the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state caused by Song of Survival at any time with the standard Incantation. If the Insubstantial State is ended by any means before reaching the base, the rest of the effect is ended as well"
   },
   "songofvisit": {
@@ -1999,9 +1980,8 @@
     "r": "Self",
     "i": "\"I sing to entertain friend and foe\" x3",
     "m": "No strip required",
-    "e": "Bearer cannot be Wounded and is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
-    "l": "Bearer may not wield weapons, interact with game objects, impede play, gain further Enchantments, or target any player",
-    "n": "This Enchantment can be removed by Dispel Magic and similar Magic and Abilities"
+    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> and <a href=\"/states/#Invulnerable\" data-ajax=\"false\">Invulnerable</a>.  Bearer must Chant “Song of Visit” or sing a song regarding their general good nature and friendly disposition.  Singing in place of the normal Chant is still a Chant and must follow all Chant rules.  Immediately when Song of Visit is removed, the bearer becomes Invulnerable and must move directly to their base as a Forced Movement effect.  Upon arrival, bearer must declare “I return from my visit,” at which point the Invulnerable state is removed and the Forced Movement effect ends.",
+    "l": "Bearer may not impede play"
   },
   "sphereofannihilation": {
     "name": "Sphere of Annihilation",
@@ -2013,8 +1993,8 @@
     "s": "Sorcery",
     "i": "\"The power of void is mine to evoke\" x3",
     "m": "Black Magic Ball",
-    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> and ignores armor. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>.",
-    "l": "Unlike most Phasing effects, Sphere of Annihilation does not ignore Traits, such as Missile Block"
+    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Weapon Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a>, and ignores armor and Enchantments. Player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "n": "Because Sphere of Annihilation ignores Enchantments, a player enchanted with Phoenix Tears would remain dead after being killed, and an Imbued Shield would still be destroyed"
   },
   "spy": {
     "name": "Spy",
@@ -2039,9 +2019,9 @@
     "s": "Death",
     "r": "Touch",
     "i": "\"Steal Life\"",
-    "e": "Caster may heal a Wound or instantly Charge an ability",
-    "l": "May only be used on a dead player. That player is Cursed. Does not work on <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> players. The caster does not gain the effect if the dead player is unaffected",
-    "n": "In order to charge an ability, the name of the ability being charged must still be stated immediately after the incantation."
+    "e": "Target dead player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Caster may heal a Wound or instantly Charge an ability",
+    "l": "Does not work on <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> players",
+    "n": "Caster will always benefit if successfully cast on a valid target, regardless of the caster's Traits, States, Immunities, Ongoing Effects, or Enchantments. In order to charge an ability, the name of the ability being charged must still be stated immediately after the incantation."
   },
   "stoneform": {
     "name": "Stoneform",
@@ -2102,8 +2082,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Each Enchantment purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/ life becomes 4/life",
-    "l": "May not purchase Verbals with a range other than Touch or Self. May not purchase equipment beyond 2nd level"
+    "e": "Each Enchantment purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/Life Charge x3, 2/Life becomes 4/Life",
+    "l": "May not purchase Verbals with a range of 20' or 50'. May not purchase equipment beyond 2nd level"
   },
   "suppressaura": {
     "name": "Suppress Aura",
@@ -2141,7 +2121,7 @@
     "s": "Subdual",
     "i": "\"The strength of suppression is mine to evoke\" x3",
     "m": "Purple Magic Ball",
-    "e": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 60 seconds. Engulfing"
+    "e": "Player struck is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 60 seconds. Engulfing"
   },
   "swift": {
     "name": "Swift",
@@ -2199,7 +2179,21 @@
     "s": "Sorcery",
     "r": "20'",
     "i": "\"My power throws thee\" x3",
-    "e": "Target player is moved back 50' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
+    "e": "Target player is moved back 50' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> and <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> players.  If the caster is the target, the caster may choose the direction they move",
+    "n": "This is a Forced Movement effect.  This effect is ended if the target is affected by another Forced Movement effect or becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, <a href=\"/states/#Invulnerable\" data-ajax=\"false\">Invulnerable</a>, or <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>"
+  },
+  "toxicblades": {
+    "name": "Toxic Blades",
+    "keywords": "druid enchantment death red weapon",
+    "classes": {
+      "Druid": "6"
+    },
+    "t": "Enchantment",
+    "s": "Death",
+    "r": "Other",
+    "i": "\"I enchant thee to slay all foes\" x3",
+    "m": "Red Strip",
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
   },
   "tracking": {
     "name": "Tracking",
@@ -2260,10 +2254,10 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"By the power of my will, arise my minion!\" x5",
+    "i": "\"Cheat thy death and arise, my undead minion!\" x5",
     "m": "Yellow Strip",
-    "e": "Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and cannot Respawn. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is Persistent, and remains active while the bearer is dead.",
-    "l": "The caster may not have more than three Undead Minion Enchantments."
+    "e": "Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and cannot Respawn. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. Bearer may treat the caster as an Alternate Base. This enchantment is Persistent, and remains active while the bearer is dead.",
+    "l": "The caster may not have more than three Undead Minion Enchantments and may not use Alternate Bases.  Bearer may not be treated as an Alternate Base"
   },
   "vampirism": {
     "name": "Vampirism",
@@ -2290,7 +2284,7 @@
     "r": "Other",
     "i": "\"Embrace the old ones and surrender thyself\" x3",
     "m": "Red Strip and White Strip",
-    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is unaffected by Magical Abilities from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer gains <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence Unlimited (ex), and is unaffected by Magical abilities from the Sorcery, Spirit, and Death Schools. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
     "n": "This effect does not interact with other Enchantments worn by the bearer"
   },
   "warder": {
@@ -2304,19 +2298,6 @@
     "e": "All abilities purchased in the Protection School give double the uses. Example: 1/Life Charge x3 becomes 2/Life Charge x3, 2/Life becomes 4/Life.",
     "l": "Player may not purchase any magic from the Death, Command, or Subdual Schools"
   },
-  "wardself": {
-    "name": "Ward Self",
-    "keywords": "wizard enchantment protection",
-    "classes": {
-      "Wizard": "5"
-    },
-    "t": "Enchantment",
-    "s": "Protection",
-    "r": "Self",
-    "i": "\"The power of magic defends me\" x3",
-    "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, or State. Does not trigger against effects cast by the player"
-  },
   "warlock": {
     "name": "Warlock",
     "keywords": "wizard",
@@ -2325,8 +2306,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Each Verbal purchased in the Death and Flame Schools gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life",
-    "l": "Player may not purchase Verbals from any School other than the Death and Flame Schools"
+    "e": "Verbals and Magic Balls purchased in the Death and Flame Schools gives double the uses. Example: 1/Life Charge x3 becomes 2/Life Charge x3, 2/Life becomes 4/Life",
+    "l": "Player may not purchase Verbals or Magic Balls from any School other than the Death and Flame Schools"
   },
   "wordofmending": {
     "name": "Word of Mending",
