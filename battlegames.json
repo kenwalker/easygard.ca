@@ -189,6 +189,23 @@
     "equipment": "Heavy Object",
     "description": "<br>This game is played in timed rounds - typically 10-15 minutes long. Each Round is designated by a Team taking a turn Defending a Caravan against Attacking opposing Team(s). The goal is to get the Caravan as far as possible as fast as possible (that is, the winning Team is the Team that moves the Caravan the furthest, or who reached the Caravan's Destination the fastest if more than one Team reached the end).<p>The Caravan is physically represented by a Heavy Object (i.e. an object that requires two players to carry it with at least one empty hand at a walk), which can only be moved by Defending players.<p>It is easiest if the Defending players begin play at the Caravan's Origin, and the Attacking players begin play at the Caravan's Destination. Both sides should use these locations as their Respawn points.<p>Variations on this game exist where the Attacking Team(s) do not play full Class, but are restricted to either Ditch or Militia Rules, Monster Classes (i.e. Goblins), or 1st level Classes."
   },
+  "carrythecrate": {
+    "name": "Carry The Crate",
+    "credit": "Victor Bronze, Champion of Everspring Hollow. Inspired by Cub Brightflame, The Champion of Sylvan Glade",
+    "teams": "2",
+    "lives": "Infinite",
+    "respawn": "20 seconds at spawn",
+    "players": "4+",
+    "objective": "Carry the Crate to the end point and defend it from the opposing team",
+    "refresh": "None",
+    "types": [
+      "class",
+      "ditch",
+      "militia"
+    ],
+    "equipment": "Box or crate (Heavy Object, Slow)",
+    "description": "<br>Timed event of 15 minutes. Each team will get a chance to move the Crate to the end point. The winning team is whoever gets the Crate to the end point the fastest. The Crate needs to be on the ground at the end point to stop the time.<p>The Crate is classified as a Heavy Object. One player with two empty hands, or two players each with one empty hand, can lift and carry the Crate.<p>The Crate's starting point, the end point, and the Respawn points are all at the Champion's discretion.<p>The opposing team is allowed to move and carry the Crate.<p>If the Crate is put in a pit or out of bounds, it respawns back at the starting point.<p>Add different terrain like water or pits for the teams to fight around.<p><b>Reeves:</b> Focus on the fighting, on when the Crate is moved, and on when it makes it to the end point.<br><b>Game Support:</b> Focus on Reeve tasks and time tracking.<p>At the game runner's discretion, choose what is inside the Crate:<br><ul><li><b>Mimic</b> When opened, all players around the Crate get eaten.</li><li><b>Death magic item</b> When opened, all players around the Crate turn into skeletons with <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>.</li></ul>"
+  },
   "castledefense": {
     "name": "Castle Defense",
     "credit": "Amtgard standard",
